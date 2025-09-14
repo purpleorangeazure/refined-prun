@@ -1,11 +1,13 @@
 import $style from './threshold-transfer.module.css';
 import { showBuffer } from '@src/infrastructure/prun-ui/buffers.ts';
-import { companyStore } from '@src/infrastructure/prun-api/data/company.ts';
 
 function init() {
   applyCssRule(`.${C.MaterialIcon.indicatorContainer}`, $style.quantity);
-  subscribe($$(document, C.MaterialIcon.indicatorContainer), indicator => {
-    indicator.addEventListener('click', () => showBuffer(`CO ${companyStore.value?.code}`));
+  subscribe($$(document, C.MaterialIcon.container), container => {
+    container.querySelector(C.MaterialIcon.indicator)!.addEventListener('click', () => {
+      const invId: string = container.closest(C.TileFrame.cmd)?.textContent.split(' ')[1] ?? '';
+      return showBuffer(`XIT THRESHOLD ${invId}`);
+    });
   });
 }
 
