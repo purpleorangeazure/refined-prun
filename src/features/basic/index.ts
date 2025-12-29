@@ -78,3 +78,4 @@ import './table-rows-alternating-colors';
 import './tile-controls-background';
 import './usr-subscription-level';
 import './slider-improvements/slider-improvements';
+import './prunstats-shortcut/prunstats-shortcut.ts';
