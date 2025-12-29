@@ -1,6 +1,6 @@
 import { userData } from '@src/store/user-data';
 import { createId } from '@src/store/create-id';
-import { materialsStore } from '@src/infrastructure/prun-api/data/materials.ts';
+import { materialsStore } from '@src/infrastructure/prun-api/data/materials';
 
 export function createUpkeep(name: string, siteId: string) {
   if (userData.upkeeps[siteId] == undefined) {

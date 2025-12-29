@@ -13,7 +13,7 @@ import {
   getEntityNameFromAddress,
   getEntityNaturalIdFromAddress,
 } from '@src/infrastructure/prun-api/data/addresses';
-import { userData } from '@src/store/user-data.ts';
+import { userData } from '@src/store/user-data';
 
 act.addMaterialGroup<Config>({
   type: 'Resupply',

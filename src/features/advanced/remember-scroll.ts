@@ -1,5 +1,5 @@
-import { userData } from '@src/store/user-data.ts';
-import { screenHash } from '@src/infrastructure/prun-api/data/screens.ts';
+import { userData } from '@src/store/user-data';
+import { screenHash } from '@src/infrastructure/prun-api/data/screens';
 
 function onTileReady(tile: PrunTile) {
   subscribe($$(tile.anchor, C.ScrollView.view), scrollView => {

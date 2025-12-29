@@ -8,7 +8,7 @@ import {
 } from '@src/infrastructure/prun-api/data/addresses';
 import { sumBy } from '@src/utils/sum-by';
 import { getRecurringOrders } from '@src/core/orders';
-import { userData } from '@src/store/user-data.ts';
+import { userData } from '@src/store/user-data';
 
 export interface MaterialBurn {
   input: number;

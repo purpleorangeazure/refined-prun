@@ -1,5 +1,5 @@
-import { sitesStore } from '@src/infrastructure/prun-api/data/sites.ts';
-import { getEntityNameFromAddress } from '@src/infrastructure/prun-api/data/addresses.ts';
+import { sitesStore } from '@src/infrastructure/prun-api/data/sites';
+import { getEntityNameFromAddress } from '@src/infrastructure/prun-api/data/addresses';
 import UPKEEP from '@src/features/XIT/UPKEEP/UPKEEP.vue';
 
 xit.add({
