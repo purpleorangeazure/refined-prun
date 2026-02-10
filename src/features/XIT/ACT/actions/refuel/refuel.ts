@@ -2,8 +2,8 @@ import { act } from '@src/features/XIT/ACT/act-registry';
 import Edit from '@src/features/XIT/ACT/actions/refuel/Edit.vue';
 import Configure from '@src/features/XIT/ACT/actions/refuel/Configure.vue';
 import { Config } from '@src/features/XIT/ACT/actions/refuel/config';
-import { CXPO_BUY } from '@src/features/XIT/ACT/action-steps/CXPO_BUY.ts';
-import { MTRA_TRANSFER } from '@src/features/XIT/ACT/action-steps/MTRA_TRANSFER.ts';
+import { CXPO_BUY } from '@src/features/XIT/ACT/action-steps/CXPO_BUY';
+import { MTRA_TRANSFER } from '@src/features/XIT/ACT/action-steps/MTRA_TRANSFER';
 import { AssertFn, configurableValue } from '@src/features/XIT/ACT/shared-types';
 import { atSameLocation, deserializeStorage } from '@src/features/XIT/ACT/actions/utils';
 import { storagesStore } from '@src/infrastructure/prun-api/data/storage';
@@ -37,13 +37,11 @@ act.addAction<Config>({
     const exchangeCode = getExchangeCode(origin);
     const isCX = exchangeCode !== undefined;
 
-    const dockedStl = (storagesStore.all.value ?? []).filter(
-      x => x.type === 'STL_FUEL_STORE' && atSameLocation(x, origin),
-    );
+    const dockedStl =
+      storagesStore.getByType('STL_FUEL_STORE')?.filter(x => atSameLocation(x, origin)) ?? [];
 
-    const dockedFtl = (storagesStore.all.value ?? []).filter(
-      x => x.type === 'FTL_FUEL_STORE' && atSameLocation(x, origin),
-    );
+    const dockedFtl =
+      storagesStore.getByType('FTL_FUEL_STORE')?.filter(x => atSameLocation(x, origin)) ?? [];
 
     if (dockedStl.length === 0 && dockedFtl.length === 0) {
       log.warning('No ships are docked near the origin');
