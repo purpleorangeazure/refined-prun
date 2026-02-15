@@ -1,4 +1,4 @@
-import { Translation as TranslationResponse } from '@src/features/advanced/chat-translate/backend/handler.ts';
+import { Translation as TranslationResponse } from '@src/features/advanced/chat-translate/backend/handler';
 
 interface Translation {
   original: string;
@@ -100,7 +100,11 @@ function translateMessage(text: string): Translation {
       to: translation.to,
     })
       .then(res => {
-        translation.status = 'TRANSLATED';
+        if (translation.from == toLang || res == translation.original) {
+          translation.status = 'TRANSLATION_NOT_NEEDED';
+        } else {
+          translation.status = 'TRANSLATED';
+        }
         return res;
       })
       .catch(() => {
