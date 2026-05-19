@@ -1,7 +1,7 @@
 import { refAttributeValue, refTextContent } from '@src/utils/reactive-dom';
 import FlightStats from '@src/features/basic/flight-optimization/FlightStats.vue';
 
-const STL_TYPES = ['DEP', 'APP'];
+const STL_TYPES = ['DEP', 'APP', 'TRA'];
 const FTL_TYPES = ['JMP'];
 
 async function onTileReady(tile: PrunTile) {
