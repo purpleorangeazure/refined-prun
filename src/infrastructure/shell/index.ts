@@ -6,5 +6,6 @@ import '@src/infrastructure/shell/deserialize-prun-app';
 import '@src/infrastructure/shell/config';
 import '@src/infrastructure/shell/request-hooks';
 import '@src/infrastructure/shell/extension-update';
+import '@src/infrastructure/shell/localization';
 
 document.documentElement.classList.add('refined-prun');
