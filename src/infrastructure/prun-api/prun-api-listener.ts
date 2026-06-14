@@ -5,7 +5,7 @@ import { startMeasure, stopMeasure } from '@src/utils/performance-measure';
 import { context } from '@src/infrastructure/prun-api/data/screens';
 import { watchUntil } from '@src/utils/watch';
 
-interface Message {
+export interface Message {
   messageType?: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   payload?: { message: Message } | any;
@@ -34,6 +34,25 @@ export function listenPrunApi() {
   socketIOMiddleware<Message>(middleware);
 }
 
+const messageListeners = new Map<string, Set<(message: Message) => void>>();
+
+export function listenForPrunMessage(
+  listener: (message: Message) => void,
+  ...messageTypes: string[]
+): () => void {
+  for (const messageType of messageTypes) {
+    messageListeners.set(
+      messageType,
+      (messageListeners.get(messageType) ?? new Set()).add(listener),
+    );
+  }
+  return () => {
+    for (const messageType of messageTypes) {
+      messageListeners.get(messageType)?.delete(listener);
+    }
+  };
+}
+
 export const isRecordingPrunLog = ref(false);
 export const prunLog = ref([] as Message[]);
 
@@ -45,6 +64,10 @@ async function processEvent(message: Message | undefined) {
   startMeasure(message.messageType);
 
   try {
+    const listeners = messageListeners.get(message.messageType);
+    for (const listener of listeners ?? []) {
+      listener(message);
+    }
     if (message.messageType === 'ACTION_COMPLETED') {
       return processEvent(message.payload.message);
     } else {
