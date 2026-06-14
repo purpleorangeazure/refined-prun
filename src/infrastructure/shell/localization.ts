@@ -17,7 +17,7 @@ type MessageFormatElement = ConstructorParameters<typeof IntlMessageFormat>[0] e
   ? U
   : never;
 
-export const localization = new Map<string, MessageFormatElement[]>();
+export const localization = new Map<string, IntlMessageFormat>();
 
 const scripts = document.head.getElementsByTagName('script');
 
@@ -39,7 +39,7 @@ async function extractLocalization(url: string) {
     .filter(hasIntlKeys)
     .map(x => toObject(x) as { id: string; defaultMessage: MessageFormatElement[] });
   for (const obj of objects) {
-    localization.set(obj.id, obj.defaultMessage);
+    localization.set(obj.id, new IntlMessageFormat(obj.defaultMessage));
   }
   console.log(generateTypes(localization));
 }

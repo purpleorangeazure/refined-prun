@@ -7,1023 +7,1023 @@ export namespace a {
 export namespace Command {
   export namespace ACTIONS {
     export const key = 'Command.ACTIONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADM {
     export const key = 'Command.ADM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.ADM.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace ADMT {
     export const key = 'Command.ADMT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.ADMT.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace termId {
         export const key = 'Command.ADMT.parameter.termId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace APEXM {
     export const key = 'Command.APEXM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ARC {
     export const key = 'Command.ARC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ASTS {
     export const key = 'Command.ASTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BBC {
     export const key = 'Command.BBC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.BBC.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace blueprintIdInput {
         export const key = 'Command.BBC.parameter.blueprintIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BBL {
     export const key = 'Command.BBL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.BBL.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BDGS {
     export const key = 'Command.BDGS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BLU {
     export const key = 'Command.BLU';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace blueprintIdInput {
         export const key = 'Command.BLU.parameter.blueprintIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BRA {
     export const key = 'Command.BRA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.BRA.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BS {
     export const key = 'Command.BS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.BS.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BSC {
     export const key = 'Command.BSC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.BSC.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace BTF {
     export const key = 'Command.BTF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BUI {
     export const key = 'Command.BUI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace buildingTicker {
         export const key = 'Command.BUI.parameter.buildingTicker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CMDS {
     export const key = 'Command.CMDS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CO {
     export const key = 'Command.CO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.CO.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COGC {
     export const key = 'Command.COGC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.COGC.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COGCPD {
     export const key = 'Command.COGCPD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.COGCPD.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace program {
         export const key = 'Command.COGCPD.parameter.program';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COGCPEX {
     export const key = 'Command.COGCPEX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.COGCPEX.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COGCU {
     export const key = 'Command.COGCU';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.COGCU.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COLIQ {
     export const key = 'Command.COLIQ';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COM {
     export const key = 'Command.COM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMC {
     export const key = 'Command.COMC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMF {
     export const key = 'Command.COMF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMG {
     export const key = 'Command.COMG';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace channelIdentifier {
         export const key = 'Command.COMG.parameter.channelIdentifier';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COMP {
     export const key = 'Command.COMP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace channelIdentifier {
         export const key = 'Command.COMP.parameter.channelIdentifier';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace COMU {
     export const key = 'Command.COMU';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace channelIdentifier {
         export const key = 'Command.COMU.parameter.channelIdentifier';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CONS {
     export const key = 'Command.CONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONT {
     export const key = 'Command.CONT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace contractId {
         export const key = 'Command.CONT.parameter.contractId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CONTD {
     export const key = 'Command.CONTD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace draftIdInput {
         export const key = 'Command.CONTD.parameter.draftIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CONTS {
     export const key = 'Command.CONTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORP {
     export const key = 'Command.CORP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPARC {
     export const key = 'Command.CORPARC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPFIN {
     export const key = 'Command.CORPFIN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPIVS {
     export const key = 'Command.CORPIVS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace companyIdInput {
         export const key = 'Command.CORPIVS.parameter.companyIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CORPNP {
     export const key = 'Command.CORPNP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPP {
     export const key = 'Command.CORPP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialProjectId {
         export const key = 'Command.CORPP.parameter.partialProjectId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CORPS {
     export const key = 'Command.CORPS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace corporationIdInput {
         export const key = 'Command.CORPS.parameter.corporationIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CS {
     export const key = 'Command.CS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CX {
     export const key = 'Command.CX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace idInput {
         export const key = 'Command.CX.parameter.idInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXL {
     export const key = 'Command.CXL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CXM {
     export const key = 'Command.CXM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace materialTicker {
         export const key = 'Command.CXM.parameter.materialTicker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace planetIdInput {
         export const key = 'Command.CXM.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXO {
     export const key = 'Command.CXO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.CXO.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXOB {
     export const key = 'Command.CXOB';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.CXOB.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXOS {
     export const key = 'Command.CXOS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace pagesize {
         export const key = 'Command.CXOS.parameter.pagesize';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXP {
     export const key = 'Command.CXP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.CXP.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXPC {
     export const key = 'Command.CXPC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.CXPC.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace CXPO {
     export const key = 'Command.CXPO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.CXPO.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace EXP {
     export const key = 'Command.EXP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.EXP.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace EXTLNK {
     export const key = 'Command.EXTLNK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FA {
     export const key = 'Command.FA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.FA.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FIN {
     export const key = 'Command.FIN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FINBS {
     export const key = 'Command.FINBS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FINIS {
     export const key = 'Command.FINIS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FINLA {
     export const key = 'Command.FINLA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FLT {
     export const key = 'Command.FLT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FTL {
     export namespace parameter {
       export namespace addressInput {
         export const key = 'Command.FTL.parameter.addressInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FLTP {
     export const key = 'Command.FLTP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialPlanetId {
         export const key = 'Command.FLTP.parameter.partialPlanetId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FLTS {
     export const key = 'Command.FLTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialSystemId {
         export const key = 'Command.FLTS.parameter.partialSystemId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FX {
     export const key = 'Command.FX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FXO {
     export const key = 'Command.FXO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.FXO.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FXOB {
     export const key = 'Command.FXOB';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.FXOB.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FXOS {
     export const key = 'Command.FXOS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FXP {
     export const key = 'Command.FXP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.FXP.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FXPC {
     export const key = 'Command.FXPC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.FXPC.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace FXPO {
     export const key = 'Command.FXPO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace ticker {
         export const key = 'Command.FXPO.parameter.ticker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace GIFT {
     export const key = 'Command.GIFT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GTW {
     export const key = 'Command.GTW';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace locationIdInput {
         export const key = 'Command.GTW.parameter.locationIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace GTWI {
     export const key = 'Command.GTWI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GTWT {
     export const key = 'Command.GTWT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace gatewayNaturalId {
         export const key = 'Command.GTWT.parameter.gatewayNaturalId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace GOV {
     export const key = 'Command.GOV';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.GOV.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace HELP {
     export const key = 'Command.HELP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HQ {
     export const key = 'Command.HQ';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INF {
     export const key = 'Command.INF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace systemIdInput {
         export const key = 'Command.INF.parameter.systemIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace infrastructureNaturalId {
         export const key = 'Command.INF.parameter.infrastructureNaturalId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace INFU {
     export const key = 'Command.INFU';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INV {
     export const key = 'Command.INV';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace storeIdInput {
         export const key = 'Command.INV.parameter.storeIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace LEAD {
     export const key = 'Command.LEAD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LIC {
     export const key = 'Command.LIC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LM {
     export const key = 'Command.LM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace localMarketIdInput {
         export const key = 'Command.LM.parameter.localMarketIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace LMA {
     export const key = 'Command.LMA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace localMarketAdIdInput {
         export const key = 'Command.LMA.parameter.localMarketAdIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace LMBL {
     export const key = 'Command.LMBL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LMOS {
     export const key = 'Command.LMOS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LMP {
     export const key = 'Command.LMP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace localMarketIdInput {
         export const key = 'Command.LMP.parameter.localMarketIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace LR {
     export const key = 'Command.LR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.LR.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MAT {
     export const key = 'Command.MAT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace materialTicker {
         export const key = 'Command.MAT.parameter.materialTicker';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MOT {
     export const key = 'Command.MOT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.MOT.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MOTS {
     export const key = 'Command.MOTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace motionId {
         export const key = 'Command.MOTS.parameter.motionId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace motionIdInput {
         export const key = 'Command.MOTS.parameter.motionIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MS {
     export const key = 'Command.MS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace systemIdInput {
         export const key = 'Command.MS.parameter.systemIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MTRA {
     export const key = 'Command.MTRA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace materialTickerInput {
         export const key = 'Command.MTRA.parameter.materialTickerInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace originStoreIdInput {
         export const key = 'Command.MTRA.parameter.originStoreIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace targetStoreIdInput {
         export const key = 'Command.MTRA.parameter.targetStoreIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace MU {
     export const key = 'Command.MU';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace mode {
         export const key = 'Command.MU.parameter.mode';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace NOTIG {
     export const key = 'Command.NOTIG';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NOTPNS {
     export const key = 'Command.NOTPNS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NOTS {
     export const key = 'Command.NOTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLI {
     export const key = 'Command.PLI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.PLI.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PLNM {
     export const key = 'Command.PLNM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace naturalId {
         export const key = 'Command.PLNM.parameter.naturalId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace POL {
     export const key = 'Command.POL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.POL.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace POPI {
     export const key = 'Command.POPI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.POPI.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace POPID {
     export const key = 'Command.POPID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.POPID.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace infrastructureType {
         export const key = 'Command.POPID.parameter.infrastructureType';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace POPR {
     export const key = 'Command.POPR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.POPR.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PP {
     export const key = 'Command.PP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.PP.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace planetaryProjectIdInput {
         export const key = 'Command.PP.parameter.planetaryProjectIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace siteIdInput {
         export const key = 'Command.PP.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PPS {
     export const key = 'Command.PPS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace planetIdInput {
         export const key = 'Command.PPS.parameter.planetIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PROD {
     export const key = 'Command.PROD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODCO {
     export const key = 'Command.PRODCO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace productionLineIdInput {
         export const key = 'Command.PRODCO.parameter.productionLineIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace siteIdInput {
         export const key = 'Command.PRODCO.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PRODQ {
     export const key = 'Command.PRODQ';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace productionLineIdInput {
         export const key = 'Command.PRODQ.parameter.productionLineIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace PPI {
     export const key = 'Command.PPI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RSB {
     export const key = 'Command.RSB';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SFC {
     export const key = 'Command.SFC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialShipId {
         export const key = 'Command.SFC.parameter.partialShipId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SHP {
     export const key = 'Command.SHP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialShipId {
         export const key = 'Command.SHP.parameter.partialShipId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SHPF {
     export const key = 'Command.SHPF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialShipId {
         export const key = 'Command.SHPF.parameter.partialShipId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SHPI {
     export const key = 'Command.SHPI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialShipId {
         export const key = 'Command.SHPI.parameter.partialShipId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SHY {
     export const key = 'Command.SHY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace locationIdInput {
         export const key = 'Command.SHY.parameter.locationIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SHYP {
     export const key = 'Command.SHYP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace projectIdInput {
         export const key = 'Command.SHYP.parameter.projectIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SI {
     export const key = 'Command.SI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialShipId {
         export const key = 'Command.SI.parameter.partialShipId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace STEAM {
     export const key = 'Command.STEAM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STNS {
     export const key = 'Command.STNS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace partialStationId {
         export const key = 'Command.STNS.parameter.partialStationId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SYSI {
     export const key = 'Command.SYSI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace systemIdInput {
         export const key = 'Command.SYSI.parameter.systemIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace SYSNM {
     export const key = 'Command.SYSNM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace naturalId {
         export const key = 'Command.SYSNM.parameter.naturalId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace TRA {
     export const key = 'Command.TRA';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace UPCK {
     export const key = 'Command.UPCK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace storeIdInput {
         export const key = 'Command.UPCK.parameter.storeIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace USR {
     export const key = 'Command.USR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace query {
         export const key = 'Command.USR.parameter.query';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace WAR {
     export const key = 'Command.WAR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace warehouseIdInput {
         export const key = 'Command.WAR.parameter.warehouseIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace WF {
     export const key = 'Command.WF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace parameter {
       export namespace siteIdInput {
         export const key = 'Command.WF.parameter.siteIdInput';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace XIT {
     export const key = 'Command.XIT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace XYTV {
     export const key = 'Command.XYTV';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Tour {
@@ -1031,21 +1031,21 @@ export namespace Tour {
     export namespace _1 {
       export namespace title {
         export const key = 'Tour.UI.1.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.1.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.1.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _2 {
       export namespace title {
         export const key = 'Tour.UI.2.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.2.1';
@@ -1055,23 +1055,23 @@ export namespace Tour {
       }
       export namespace _2 {
         export const key = 'Tour.UI.2.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _3 {
       export namespace title {
         export const key = 'Tour.UI.3.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.3.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _4 {
       export namespace title {
         export const key = 'Tour.UI.4.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.4.1';
@@ -1081,135 +1081,135 @@ export namespace Tour {
       }
       export namespace _2 {
         export const key = 'Tour.UI.4.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.UI.4.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _4 {
         export const key = 'Tour.UI.4.4';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _5 {
         export const key = 'Tour.UI.4.5';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _6 {
         export const key = 'Tour.UI.4.6';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _5 {
       export namespace title {
         export const key = 'Tour.UI.5.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.5.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.5.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _6 {
       export namespace title {
         export const key = 'Tour.UI.6.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.6.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.6.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _7 {
       export namespace title {
         export const key = 'Tour.UI.7.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.7.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.7.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.UI.7.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _4 {
         export const key = 'Tour.UI.7.4';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _8 {
       export namespace title {
         export const key = 'Tour.UI.8.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.8.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.8.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _9 {
       export namespace title {
         export const key = 'Tour.UI.9.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.9.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.9.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _10 {
       export namespace title {
         export const key = 'Tour.UI.10.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.10.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _11 {
       export namespace title {
         export const key = 'Tour.UI.11.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.11.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _12 {
       export namespace title {
         export const key = 'Tour.UI.12.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.UI.12.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.UI.12.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.UI.12.3';
@@ -1219,7 +1219,7 @@ export namespace Tour {
       }
       export namespace _4 {
         export const key = 'Tour.UI.12.4';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -1227,59 +1227,59 @@ export namespace Tour {
     export namespace _1 {
       export namespace title {
         export const key = 'Tour.CONTRACT.1.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CONTRACT.1.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _2 {
       export namespace title {
         export const key = 'Tour.CONTRACT.2.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CONTRACT.2.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CONTRACT.2.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _3 {
       export namespace title {
         export const key = 'Tour.CONTRACT.3.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CONTRACT.3.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CONTRACT.3.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _4 {
       export namespace title {
         export const key = 'Tour.CONTRACT.4.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CONTRACT.4.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _5 {
       export namespace title {
         export const key = 'Tour.CONTRACT.5.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CONTRACT.5.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -1287,107 +1287,107 @@ export namespace Tour {
     export namespace _1 {
       export namespace title {
         export const key = 'Tour.BASE.1.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.1.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.1.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _2 {
       export namespace title {
         export const key = 'Tour.BASE.2.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.2.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.2.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.BASE.2.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _3 {
       export namespace title {
         export const key = 'Tour.BASE.3.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.3.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.3.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _4 {
       export namespace title {
         export const key = 'Tour.BASE.4.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.4.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.4.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.BASE.4.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _5 {
       export namespace title {
         export const key = 'Tour.BASE.5.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.5.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.5.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _6 {
       export namespace title {
         export const key = 'Tour.BASE.6.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.6.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.BASE.6.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.BASE.6.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _7 {
       export namespace title {
         export const key = 'Tour.BASE.7.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.BASE.7.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -1395,57 +1395,57 @@ export namespace Tour {
     export namespace _1 {
       export namespace title {
         export const key = 'Tour.FLIGHT.1.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.1.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.1.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _2 {
       export namespace title {
         export const key = 'Tour.FLIGHT.2.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.2.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.2.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.FLIGHT.2.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _3 {
       export namespace title {
         export const key = 'Tour.FLIGHT.3.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.3.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.3.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _4 {
       export namespace title {
         export const key = 'Tour.FLIGHT.4.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.4.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.4.2';
@@ -1457,21 +1457,21 @@ export namespace Tour {
     export namespace _5 {
       export namespace title {
         export const key = 'Tour.FLIGHT.5.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.5.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.5.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _6 {
       export namespace title {
         export const key = 'Tour.FLIGHT.6.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.FLIGHT.6.1';
@@ -1481,15 +1481,15 @@ export namespace Tour {
       }
       export namespace _2 {
         export const key = 'Tour.FLIGHT.6.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.FLIGHT.6.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _4 {
         export const key = 'Tour.FLIGHT.6.4';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -1497,85 +1497,85 @@ export namespace Tour {
     export namespace _1 {
       export namespace title {
         export const key = 'Tour.CX.1.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.1.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CX.1.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _2 {
       export namespace title {
         export const key = 'Tour.CX.2.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.2.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CX.2.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _3 {
       export namespace title {
         export const key = 'Tour.CX.3.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.3.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CX.3.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _4 {
       export namespace title {
         export const key = 'Tour.CX.4.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.4.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _2 {
         export const key = 'Tour.CX.4.2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _3 {
         export const key = 'Tour.CX.4.3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _4 {
         export const key = 'Tour.CX.4.4';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _5 {
       export namespace title {
         export const key = 'Tour.CX.5.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.5.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _6 {
       export namespace title {
         export const key = 'Tour.CX.6.title';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _1 {
         export const key = 'Tour.CX.6.1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -1583,19 +1583,19 @@ export namespace Tour {
     export namespace action {
       export namespace skip {
         export const key = 'Tour.tooltip.action.skip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace previous {
         export const key = 'Tour.tooltip.action.previous';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace finish {
         export const key = 'Tour.tooltip.action.finish';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace next {
         export const key = 'Tour.tooltip.action.next';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace progress {
@@ -1610,23 +1610,23 @@ export namespace Tour {
 export namespace ErrorBoundary {
   export namespace error {
     export const key = 'ErrorBoundary.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Restriction {
   export namespace message {
     export const key = 'Restriction.message';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace headline {
     export const key = 'Restriction.headline';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace RestrictionBanner {
   export namespace message {
     export const key = 'RestrictionBanner.message';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CardSubheading {
@@ -1642,7 +1642,7 @@ export namespace Card {
   export namespace action {
     export namespace open {
       export const key = 'Card.action.open';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -1660,60 +1660,60 @@ export namespace FullscreenCard {
   export namespace context {
     export namespace title {
       export const key = 'FullscreenCard.context.title';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace EditMenu {
     export namespace action {
       export namespace move {
         export const key = 'FullscreenCard.EditMenu.action.move';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _delete {
         export const key = 'FullscreenCard.EditMenu.action.delete';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace title {
       export const key = 'FullscreenCard.EditMenu.title';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace prev {
       export const key = 'FullscreenCard.action.prev';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace back {
       export const key = 'FullscreenCard.action.back';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stack {
       export const key = 'FullscreenCard.action.stack';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace context {
       export const key = 'FullscreenCard.action.context';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace next {
       export const key = 'FullscreenCard.action.next';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace SubscriptionLevel {
   export namespace trial {
     export const key = 'SubscriptionLevel.trial';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace basic {
     export const key = 'SubscriptionLevel.basic';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace pro {
     export const key = 'SubscriptionLevel.pro';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace AddressLabel {
@@ -1733,7 +1733,7 @@ export namespace AddressLabel {
 export namespace Loading {
   export namespace loading {
     export const key = 'Loading.loading';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ContextName {
@@ -1778,471 +1778,471 @@ export namespace ContextControls {
   }
   export namespace contexts {
     export const key = 'ContextControls.contexts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ApexMobile {
   export namespace text {
     export namespace welcome {
       export const key = 'ApexMobile.text.welcome';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace welcome2 {
       export const key = 'ApexMobile.text.welcome2';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace trading {
       export const key = 'ApexMobile.text.trading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ApexMobilePanel {
   export namespace title {
     export const key = 'ApexMobilePanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ActionsPanel {
   export namespace table {
     export namespace _type {
       export const key = 'ActionsPanel.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace id {
       export const key = 'ActionsPanel.table.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ActionStatus {
   export namespace AUTHENTICATION_FAILED {
     export const key = 'ActionStatus.AUTHENTICATION_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ROUTING_FAILED {
     export const key = 'ActionStatus.ROUTING_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AUTHORIZATION_FAILED {
     export const key = 'ActionStatus.AUTHORIZATION_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENTITY_ID_VALIDATION_FAILED {
     export const key = 'ActionStatus.ENTITY_ID_VALIDATION_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ILLEGAL_ARGUMENTS {
     export const key = 'ActionStatus.ILLEGAL_ARGUMENTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NOT_FOUND {
     export const key = 'ActionStatus.NOT_FOUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AUTH_LOGIN_FAILED {
     export const key = 'ActionStatus.AUTH_LOGIN_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AUTH_LOGIN_ACCOUNT_NOT_FOUND {
     export const key = 'ActionStatus.AUTH_LOGIN_ACCOUNT_NOT_FOUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AUTH_LOGIN_PASSWORD_INVALID {
     export const key = 'ActionStatus.AUTH_LOGIN_PASSWORD_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AUTH_LOGIN_PERMISSION_DENIED {
     export const key = 'ActionStatus.AUTH_LOGIN_PERMISSION_DENIED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENTITY_NAME_EXISTS {
     export const key = 'ActionStatus.ENTITY_NAME_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENTITY_CODE_EXISTS {
     export const key = 'ActionStatus.ENTITY_CODE_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_COMPANY_ALREADY_INVITED {
     export const key = 'ActionStatus.CORPORATION_COMPANY_ALREADY_INVITED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_COMPANY_ALREADY_SHAREHOLDER {
     export const key = 'ActionStatus.CORPORATION_COMPANY_ALREADY_SHAREHOLDER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_SHAREHOLDER_HOLDING_EXISTS {
     export const key = 'ActionStatus.CORPORATION_SHAREHOLDER_HOLDING_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_SHAREHOLDER_NO_CORPORATION {
     export const key = 'ActionStatus.CORPORATION_SHAREHOLDER_NO_CORPORATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_SHAREHOLDER_CORPORATION_EXISTS {
     export const key = 'ActionStatus.CORPORATION_SHAREHOLDER_CORPORATION_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_MANAGER_NO_HQ {
     export const key = 'ActionStatus.CORPORATION_MANAGER_NO_HQ';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_MANAGER_PROJECT_LIMIT_EXCEEDED {
     export const key = 'ActionStatus.CORPORATION_MANAGER_PROJECT_LIMIT_EXCEEDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COUNTRY_ID_INVALID {
     export const key = 'ActionStatus.COUNTRY_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MONEY_AMOUNT_INVALID {
     export const key = 'ActionStatus.MONEY_AMOUNT_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MONEY_INSUFFICIENT {
     export const key = 'ActionStatus.MONEY_INSUFFICIENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MONEY_CURRENCY_MISMATCH {
     export const key = 'ActionStatus.MONEY_CURRENCY_MISMATCH';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_CREATE_COMPANY_EXISTS {
     export const key = 'ActionStatus.USER_CREATE_COMPANY_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_CREATE_COMPANY_1_LETTER_CODE_PERK_REQUIRED {
     export const key = 'ActionStatus.USER_CREATE_COMPANY_1_LETTER_CODE_PERK_REQUIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_CREATE_COMPANY_2_LETTER_CODE_PERK_REQUIRED {
     export const key = 'ActionStatus.USER_CREATE_COMPANY_2_LETTER_CODE_PERK_REQUIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_UNSUPPORTED {
     export const key = 'ActionStatus.USER_LICENSE_UNSUPPORTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_INSUFFICIENT_BALANCE {
     export const key = 'ActionStatus.USER_LICENSE_INSUFFICIENT_BALANCE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_INVALID_TARGET {
     export const key = 'ActionStatus.USER_LICENSE_INVALID_TARGET';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_ID_INVALID {
     export const key = 'ActionStatus.CONTRACT_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_STATUS_INVALID {
     export const key = 'ActionStatus.CONTRACT_STATUS_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONDITION_ID_INVALID {
     export const key = 'ActionStatus.CONTRACT_CONDITION_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONDITION_UNFULFILLABLE {
     export const key = 'ActionStatus.CONTRACT_CONDITION_UNFULFILLABLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_ACTIVE_CONTRACT_LIMIT_REACHED {
     export const key = 'ActionStatus.CONTRACT_ACTIVE_CONTRACT_LIMIT_REACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INVENTORY_INSUFFICIENT {
     export const key = 'ActionStatus.INVENTORY_INSUFFICIENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORAGE_STORE_NOT_FOUND {
     export const key = 'ActionStatus.STORAGE_STORE_NOT_FOUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORAGE_TRANSFER_IMPOSSIBLE {
     export const key = 'ActionStatus.STORAGE_TRANSFER_IMPOSSIBLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORE_CAPACITY_INSUFFICIENT {
     export const key = 'ActionStatus.STORE_CAPACITY_INSUFFICIENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORE_QUANTITY_INSUFFICIENT {
     export const key = 'ActionStatus.STORE_QUANTITY_INSUFFICIENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORAGE_NO_FIXED_STORE_FOUND {
     export const key = 'ActionStatus.STORAGE_NO_FIXED_STORE_FOUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORAGE_TRANSFER_RECEIVE_FAILED {
     export const key = 'ActionStatus.STORAGE_TRANSFER_RECEIVE_FAILED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_IN_TRANSIT {
     export const key = 'ActionStatus.SHIP_IN_TRANSIT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_NO_SUCH_SHIP {
     export const key = 'ActionStatus.SHIP_NO_SUCH_SHIP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_NO_SUCH_FLIGHT {
     export const key = 'ActionStatus.SHIP_NO_SUCH_FLIGHT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_INVALID_ROUTE_ES_324 {
     export const key = 'ActionStatus.SHIP_INVALID_ROUTE_ES_324';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_TOO_MANY_FLIGHTS {
     export const key = 'ActionStatus.SHIP_TOO_MANY_FLIGHTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_NOT_OPERATIONAL {
     export const key = 'ActionStatus.SHIP_NOT_OPERATIONAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_ILLEGAL_REPAIR_LOCATION {
     export const key = 'ActionStatus.SHIP_ILLEGAL_REPAIR_LOCATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_SAME_BLUEPRINTS {
     export const key = 'ActionStatus.SHIPYARD_SAME_BLUEPRINTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_WRONG_SHIP_BLUEPRINT {
     export const key = 'ActionStatus.SHIPYARD_WRONG_SHIP_BLUEPRINT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_SHIP_ALREADY_UPGRADING {
     export const key = 'ActionStatus.SHIPYARD_SHIP_ALREADY_UPGRADING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_SHIP_NOT_EMPTY {
     export const key = 'ActionStatus.SHIPYARD_SHIP_NOT_EMPTY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_PROJECT_IN_PROGRESS {
     export const key = 'ActionStatus.SHIPYARD_PROJECT_IN_PROGRESS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_PROJECT_MATERIALS_PAID {
     export const key = 'ActionStatus.SHIPYARD_PROJECT_MATERIALS_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_MISSING_SITE {
     export const key = 'ActionStatus.LOCAL_MARKET_MISSING_SITE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_OWN_AD_ACCEPTION {
     export const key = 'ActionStatus.LOCAL_MARKET_OWN_AD_ACCEPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_AD_EXPIRED {
     export const key = 'ActionStatus.LOCAL_MARKET_AD_EXPIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_ORIGIN_DESTINATION_EQUAL {
     export const key = 'ActionStatus.LOCAL_MARKET_ORIGIN_DESTINATION_EQUAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_ORIGIN_DESTINATION_INVALID {
     export const key = 'ActionStatus.LOCAL_MARKET_ORIGIN_DESTINATION_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_BLACKLIST_ACCEPTION {
     export const key = 'ActionStatus.LOCAL_MARKET_BLACKLIST_ACCEPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_ACCEPTION_RATE_LIMIT {
     export const key = 'ActionStatus.LOCAL_MARKET_ACCEPTION_RATE_LIMIT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_NO_RULE_CHANGES_LEFT {
     export const key = 'ActionStatus.ADMIN_CENTER_NO_RULE_CHANGES_LEFT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_NO_VOTING_RIGHTS {
     export const key = 'ActionStatus.ADMIN_CENTER_NO_VOTING_RIGHTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_VOTE_END_AFTER_TERM_END {
     export const key = 'ActionStatus.ADMIN_CENTER_VOTE_END_AFTER_TERM_END';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_MAXIMUM_UNITS_REACHED {
     export const key = 'ActionStatus.WAREHOUSE_MAXIMUM_UNITS_REACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_NOT_EMPTY {
     export const key = 'ActionStatus.WAREHOUSE_NOT_EMPTY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_NOT_PAID {
     export const key = 'ActionStatus.WAREHOUSE_NOT_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_TICKER_INVALID {
     export const key = 'ActionStatus.COMEX_TICKER_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_BROKER_ORDER_EXISTS {
     export const key = 'ActionStatus.COMEX_BROKER_ORDER_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_BROKER_ORDER_SPREAD_NEGATIVE {
     export const key = 'ActionStatus.COMEX_BROKER_ORDER_SPREAD_NEGATIVE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_BROKER_LIMIT_OUTSIDE_PRICE_BAND {
     export const key = 'ActionStatus.COMEX_BROKER_LIMIT_OUTSIDE_PRICE_BAND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_BROKER_TOO_MANY_ORDERS {
     export const key = 'ActionStatus.COMEX_BROKER_TOO_MANY_ORDERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_TRADER_ORDER_ID_INVALID {
     export const key = 'ActionStatus.COMEX_TRADER_ORDER_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_TRADER_ORDER_STORE_REQUIRED {
     export const key = 'ActionStatus.COMEX_TRADER_ORDER_STORE_REQUIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_PLATFORM_ID_INVALID {
     export const key = 'ActionStatus.SITE_PLATFORM_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_TOO_CLOSE {
     export const key = 'ActionStatus.SITE_TOO_CLOSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_PLATFORM_NOT_EMPTY {
     export const key = 'ActionStatus.SITE_PLATFORM_NOT_EMPTY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_PLATFORM_BUILD_OPTION_ILLEGAL {
     export const key = 'ActionStatus.SITE_PLATFORM_BUILD_OPTION_ILLEGAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_MODULE_ID_INVALID {
     export const key = 'ActionStatus.SITE_MODULE_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_EXISTS {
     export const key = 'ActionStatus.SITE_EXISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_REACTOR_IN_USE {
     export const key = 'ActionStatus.SITE_REACTOR_IN_USE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_NO_FREE_PLOTS {
     export const key = 'ActionStatus.SITE_NO_FREE_PLOTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_DEMOLISH_HQ_IMPOSSIBLE {
     export const key = 'ActionStatus.SITE_DEMOLISH_HQ_IMPOSSIBLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_DEMOLISH_WITH_BUILDINGS_IMPOSSIBLE {
     export const key = 'ActionStatus.SITE_DEMOLISH_WITH_BUILDINGS_IMPOSSIBLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_DEMOLISH_FILLED_STORAGE_IMPOSSIBLE {
     export const key = 'ActionStatus.SITE_DEMOLISH_FILLED_STORAGE_IMPOSSIBLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_DEMOLISH_EXPANDED_AREA_IMPOSSIBLE {
     export const key = 'ActionStatus.SITE_DEMOLISH_EXPANDED_AREA_IMPOSSIBLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRIBUTIONS_NO_SITE_ON_PLANET {
     export const key = 'ActionStatus.CONTRIBUTIONS_NO_SITE_ON_PLANET';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_RECIPE_INVALID {
     export const key = 'ActionStatus.PRODUCTION_RECIPE_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_SLOT_LIMIT_REACHED {
     export const key = 'ActionStatus.PRODUCTION_SLOT_LIMIT_REACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_ORDER_ID_INVALID {
     export const key = 'ActionStatus.PRODUCTION_ORDER_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_ORDER_STARTED {
     export const key = 'ActionStatus.PRODUCTION_ORDER_STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_ALLOWED_READ_INFORMATION {
     export const key = 'ActionStatus.CHAT_NOT_ALLOWED_READ_INFORMATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_ALLOWED_ADD_MESSAGE {
     export const key = 'ActionStatus.CHAT_NOT_ALLOWED_ADD_MESSAGE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_ALLOWED_READ_MESSAGES {
     export const key = 'ActionStatus.CHAT_NOT_ALLOWED_READ_MESSAGES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_ALLOWED_READ_USERS {
     export const key = 'ActionStatus.CHAT_NOT_ALLOWED_READ_USERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_ALLOWED_ADD_USER {
     export const key = 'ActionStatus.CHAT_NOT_ALLOWED_ADD_USER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NO_SUCH_CHANNEL {
     export const key = 'ActionStatus.CHAT_NO_SUCH_CHANNEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_ALREADY_JOINED {
     export const key = 'ActionStatus.CHAT_ALREADY_JOINED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHAT_NOT_JOINED {
     export const key = 'ActionStatus.CHAT_NOT_JOINED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_TRADER_ORDER_ID_INVALID {
     export const key = 'ActionStatus.FOREX_TRADER_ORDER_ID_INVALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_TRADER_ORDER_LIMIT_ILLEGAL {
     export const key = 'ActionStatus.FOREX_TRADER_ORDER_LIMIT_ILLEGAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_TRADER_ORDER_SPREAD_ILLEGAL {
     export const key = 'ActionStatus.FOREX_TRADER_ORDER_SPREAD_ILLEGAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_BROKER_TOO_MANY_ORDERS {
     export const key = 'ActionStatus.FOREX_BROKER_TOO_MANY_ORDERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLANET_NO_FREE_PLOT {
     export const key = 'ActionStatus.PLANET_NO_FREE_PLOT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLANET_SITE_TYPE_NOT_ALLOWED {
     export const key = 'ActionStatus.PLANET_SITE_TYPE_NOT_ALLOWED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RATING_INSUFFICIENT {
     export const key = 'ActionStatus.RATING_INSUFFICIENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NAMING_NAME_TAKEN {
     export const key = 'ActionStatus.NAMING_NAME_TAKEN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace EntityLink {
@@ -2256,7 +2256,7 @@ export namespace EntityLink {
 export namespace NoData {
   export namespace label {
     export const key = 'NoData.label';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Time {
@@ -2289,7 +2289,7 @@ export namespace Time {
 export namespace RelativeTime {
   export namespace now {
     export const key = 'RelativeTime.now';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace past {
     export const key = 'RelativeTime.past';
@@ -2308,133 +2308,133 @@ export namespace Assets {
   export namespace action {
     export namespace view {
       export const key = 'Assets.action.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace construct {
       export const key = 'Assets.action.construct';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace underConstruction {
       export const key = 'Assets.header.underConstruction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace own {
       export const key = 'Assets.header.own';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace constructed {
       export const key = 'Assets.header.constructed';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace _type {
       export const key = 'Assets.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'Assets.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace owner {
       export const key = 'Assets.table.owner';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace constructor {
       export const key = 'Assets.table.constructor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'Assets.table.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'Assets.table.progress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace established {
       export const key = 'Assets.table.established';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace AssetsPanel {
   export namespace title {
     export const key = 'AssetsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace BlueprintStatus {
   export namespace VALID {
     export const key = 'BlueprintStatus.VALID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace IN_PROGRESS {
     export const key = 'BlueprintStatus.IN_PROGRESS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCKED {
     export const key = 'BlueprintStatus.LOCKED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Blueprints {
   export namespace actions {
     export namespace create {
       export const key = 'Blueprints.actions.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'Blueprints.actions.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace copy {
       export const key = 'Blueprints.actions.copy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _delete {
       export const key = 'Blueprints.actions.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace test {
       export const key = 'Blueprints.actions.test';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace name {
       export const key = 'Blueprints.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'Blueprints.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace creationTime {
       export const key = 'Blueprints.table.creationTime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'Blueprints.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace blueprints {
       export const key = 'Blueprints.title.blueprints';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprint {
       export const key = 'Blueprints.title.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace blueprint {
       export const key = 'Blueprints.error.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -2442,3880 +2442,3880 @@ export namespace ActionComponent {
   export namespace action {
     export namespace confirm {
       export const key = 'ActionComponent.action.confirm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ActionFeedback {
   export namespace confirmation {
     export const key = 'ActionFeedback.confirmation';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cancel {
     export const key = 'ActionFeedback.cancel';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace dismiss {
     export const key = 'ActionFeedback.dismiss';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace inprogress {
     export const key = 'ActionFeedback.inprogress';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace success {
     export const key = 'ActionFeedback.success';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MaterialCategory {
   export namespace agriculturalproducts {
     export const key = 'MaterialCategory.agriculturalproducts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace alloys {
     export const key = 'MaterialCategory.alloys';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace chemicals {
     export const key = 'MaterialCategory.chemicals';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace constructionmaterials {
     export const key = 'MaterialCategory.constructionmaterials';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace constructionparts {
     export const key = 'MaterialCategory.constructionparts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace constructionprefabs {
     export const key = 'MaterialCategory.constructionprefabs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace consumablebundles {
     export const key = 'MaterialCategory.consumablebundles';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace consumables_basic_ {
     export const key = 'MaterialCategory.consumables(basic)';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace consumables_luxury_ {
     export const key = 'MaterialCategory.consumables(luxury)';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace drones {
     export const key = 'MaterialCategory.drones';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicdevices {
     export const key = 'MaterialCategory.electronicdevices';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicparts {
     export const key = 'MaterialCategory.electronicparts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicpieces {
     export const key = 'MaterialCategory.electronicpieces';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicsystems {
     export const key = 'MaterialCategory.electronicsystems';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace elements {
     export const key = 'MaterialCategory.elements';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace energysystems {
     export const key = 'MaterialCategory.energysystems';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fuels {
     export const key = 'MaterialCategory.fuels';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace gases {
     export const key = 'MaterialCategory.gases';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructure {
     export const key = 'MaterialCategory.infrastructure';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace liquids {
     export const key = 'MaterialCategory.liquids';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace medicalequipment {
     export const key = 'MaterialCategory.medicalequipment';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace metals {
     export const key = 'MaterialCategory.metals';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace minerals {
     export const key = 'MaterialCategory.minerals';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ores {
     export const key = 'MaterialCategory.ores';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace plastics {
     export const key = 'MaterialCategory.plastics';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipengines {
     export const key = 'MaterialCategory.shipengines';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipkits {
     export const key = 'MaterialCategory.shipkits';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipparts {
     export const key = 'MaterialCategory.shipparts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipshields {
     export const key = 'MaterialCategory.shipshields';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwarecomponents {
     export const key = 'MaterialCategory.softwarecomponents';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwaresystems {
     export const key = 'MaterialCategory.softwaresystems';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwaretools {
     export const key = 'MaterialCategory.softwaretools';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace textiles {
     export const key = 'MaterialCategory.textiles';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace unitprefabs {
     export const key = 'MaterialCategory.unitprefabs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace utility {
     export const key = 'MaterialCategory.utility';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Material {
   export namespace advancedBulkhead {
     export namespace name {
       export const key = 'Material.advancedBulkhead.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedBulkhead.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedDeckElements {
     export namespace name {
       export const key = 'Material.advancedDeckElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedDeckElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedEngine {
     export namespace name {
       export const key = 'Material.advancedEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedFuelPump {
     export namespace name {
       export const key = 'Material.advancedFuelPump.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedFuelPump.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedFuelRod {
     export namespace name {
       export const key = 'Material.advancedFuelRod.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedFuelRod.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedHeatShield {
     export namespace name {
       export const key = 'Material.advancedHeatShield.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedHeatShield.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedHighgSeats {
     export namespace name {
       export const key = 'Material.advancedHighgSeats.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedHighgSeats.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedHullPlate {
     export namespace name {
       export const key = 'Material.advancedHullPlate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedHullPlate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedNozzle {
     export namespace name {
       export const key = 'Material.advancedNozzle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedNozzle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedRadiationShielding {
     export namespace name {
       export const key = 'Material.advancedRadiationShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedRadiationShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedStructuralElements {
     export namespace name {
       export const key = 'Material.advancedStructuralElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedStructuralElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedThermalProtectionMaterial {
     export namespace name {
       export const key = 'Material.advancedThermalProtectionMaterial.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedThermalProtectionMaterial.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedWhippleShielding {
     export namespace name {
       export const key = 'Material.advancedWhippleShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedWhippleShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace advancedWindow {
     export namespace name {
       export const key = 'Material.advancedWindow.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.advancedWindow.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace aerostatFoundation {
     export namespace name {
       export const key = 'Material.aerostatFoundation.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.aerostatFoundation.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace airScrubber {
     export namespace name {
       export const key = 'Material.airScrubber.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.airScrubber.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace allPurposeFodder {
     export namespace name {
       export const key = 'Material.allPurposeFodder.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.allPurposeFodder.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace aluminium {
     export namespace name {
       export const key = 'Material.aluminium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.aluminium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace aluminiumIronAlloy {
     export namespace name {
       export const key = 'Material.aluminiumIronAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.aluminiumIronAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace aluminiumOre {
     export namespace name {
       export const key = 'Material.aluminiumOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.aluminiumOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace aluminiumTitaniumAlloy {
     export namespace name {
       export const key = 'Material.aluminiumTitaniumAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.aluminiumTitaniumAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace alurhenium {
     export namespace name {
       export const key = 'Material.alurhenium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.alurhenium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ammonia {
     export namespace name {
       export const key = 'Material.ammonia.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ammonia.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace antennaArray {
     export namespace name {
       export const key = 'Material.antennaArray.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.antennaArray.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace antibacterialTreeFlowers {
     export namespace name {
       export const key = 'Material.antibacterialTreeFlowers.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.antibacterialTreeFlowers.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace argon {
     export namespace name {
       export const key = 'Material.argon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.argon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace artificialSoil {
     export namespace name {
       export const key = 'Material.artificialSoil.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.artificialSoil.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace audioDistributionSystem {
     export namespace name {
       export const key = 'Material.audioDistributionSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.audioDistributionSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace audioTransmitter {
     export namespace name {
       export const key = 'Material.audioTransmitter.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.audioTransmitter.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace autoDoc {
     export namespace name {
       export const key = 'Material.autoDoc.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.autoDoc.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace automatedCoolingSystem {
     export namespace name {
       export const key = 'Material.automatedCoolingSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.automatedCoolingSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bacteria {
     export namespace name {
       export const key = 'Material.bacteria.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.bacteria.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bandages {
     export namespace name {
       export const key = 'Material.bandages.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.bandages.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicAiFramework {
     export namespace name {
       export const key = 'Material.basicAiFramework.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicAiFramework.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicBulkhead {
     export namespace name {
       export const key = 'Material.basicBulkhead.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicBulkhead.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicDeckElements {
     export namespace name {
       export const key = 'Material.basicDeckElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicDeckElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicFuelPump {
     export namespace name {
       export const key = 'Material.basicFuelPump.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicFuelPump.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicFuelRod {
     export namespace name {
       export const key = 'Material.basicFuelRod.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicFuelRod.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicHeatShield {
     export namespace name {
       export const key = 'Material.basicHeatShield.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicHeatShield.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicHighgSeats {
     export namespace name {
       export const key = 'Material.basicHighgSeats.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicHighgSeats.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicHullPlate {
     export namespace name {
       export const key = 'Material.basicHullPlate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicHullPlate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicNozzle {
     export namespace name {
       export const key = 'Material.basicNozzle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicNozzle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicRadiationShielding {
     export namespace name {
       export const key = 'Material.basicRadiationShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicRadiationShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicStructuralElements {
     export namespace name {
       export const key = 'Material.basicStructuralElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicStructuralElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicThermalProtectionMaterial {
     export namespace name {
       export const key = 'Material.basicThermalProtectionMaterial.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicThermalProtectionMaterial.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicWhippleShielding {
     export namespace name {
       export const key = 'Material.basicWhippleShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicWhippleShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basicWindow {
     export namespace name {
       export const key = 'Material.basicWindow.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.basicWindow.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace beryl {
     export namespace name {
       export const key = 'Material.beryl.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.beryl.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace beryllium {
     export namespace name {
       export const key = 'Material.beryllium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.beryllium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bioreactiveMineral {
     export namespace name {
       export const key = 'Material.bioreactiveMineral.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.bioreactiveMineral.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace biosphereUnit {
     export namespace name {
       export const key = 'Material.biosphereUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.biosphereUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bleach {
     export namespace name {
       export const key = 'Material.bleach.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.bleach.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace blueGoldConnectors {
     export namespace name {
       export const key = 'Material.blueGoldConnectors.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.blueGoldConnectors.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bodyScanner {
     export namespace name {
       export const key = 'Material.bodyScanner.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.bodyScanner.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace boronCrystals {
     export namespace name {
       export const key = 'Material.boronCrystals.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.boronCrystals.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace borosilicate {
     export namespace name {
       export const key = 'Material.borosilicate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.borosilicate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace breathableLiquid {
     export namespace name {
       export const key = 'Material.breathableLiquid.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.breathableLiquid.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace caffeinatedBeans {
     export namespace name {
       export const key = 'Material.caffeinatedBeans.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.caffeinatedBeans.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace calcium {
     export namespace name {
       export const key = 'Material.calcium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.calcium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace caliche {
     export namespace name {
       export const key = 'Material.caliche.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.caliche.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace capacitor {
     export namespace name {
       export const key = 'Material.capacitor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.capacitor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace carbohydrateGrains {
     export namespace name {
       export const key = 'Material.carbohydrateGrains.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.carbohydrateGrains.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace carbohydrateMaize {
     export namespace name {
       export const key = 'Material.carbohydrateMaize.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.carbohydrateMaize.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace carbon {
     export namespace name {
       export const key = 'Material.carbon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.carbon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ceramicFabric {
     export namespace name {
       export const key = 'Material.ceramicFabric.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ceramicFabric.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ceramicTungstenFabric {
     export namespace name {
       export const key = 'Material.ceramicTungstenFabric.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ceramicTungstenFabric.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace chemicalReagents {
     export namespace name {
       export const key = 'Material.chemicalReagents.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.chemicalReagents.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace chlorine {
     export namespace name {
       export const key = 'Material.chlorine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.chlorine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace climateController {
     export namespace name {
       export const key = 'Material.climateController.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.climateController.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace combustionChamber {
     export namespace name {
       export const key = 'Material.combustionChamber.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.combustionChamber.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace commandBridge1 {
     export namespace name {
       export const key = 'Material.commandBridge1.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.commandBridge1.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace commandBridge2 {
     export namespace name {
       export const key = 'Material.commandBridge2.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.commandBridge2.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace commandBridgeShort {
     export namespace name {
       export const key = 'Material.commandBridgeShort.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.commandBridgeShort.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace communicationSystem {
     export namespace name {
       export const key = 'Material.communicationSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.communicationSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace coolingFan {
     export namespace name {
       export const key = 'Material.coolingFan.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.coolingFan.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace copper {
     export namespace name {
       export const key = 'Material.copper.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.copper.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace copperAluminiumAlloy {
     export namespace name {
       export const key = 'Material.copperAluminiumAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.copperAluminiumAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace copperConnectors {
     export namespace name {
       export const key = 'Material.copperConnectors.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.copperConnectors.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace copperOre {
     export namespace name {
       export const key = 'Material.copperOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.copperOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace coreModuleKit {
     export namespace name {
       export const key = 'Material.coreModuleKit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.coreModuleKit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cottonProcessed {
     export namespace name {
       export const key = 'Material.cottonProcessed.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.cottonProcessed.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cottonRaw {
     export namespace name {
       export const key = 'Material.cottonRaw.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.cottonRaw.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace crewQuarters {
     export namespace name {
       export const key = 'Material.crewQuarters.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.crewQuarters.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace crewQuartersMed {
     export namespace name {
       export const key = 'Material.crewQuartersMed.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.crewQuartersMed.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace crewQuartersSmall {
     export namespace name {
       export const key = 'Material.crewQuartersSmall.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.crewQuartersSmall.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace crewQuartersTiny {
     export namespace name {
       export const key = 'Material.crewQuartersTiny.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.crewQuartersTiny.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace crowdControlDrone {
     export namespace name {
       export const key = 'Material.crowdControlDrone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.crowdControlDrone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cryoUnit {
     export namespace name {
       export const key = 'Material.cryoUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.cryoUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cryogenicFluid {
     export namespace name {
       export const key = 'Material.cryogenicFluid.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.cryogenicFluid.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cryopreservationUnit {
     export namespace name {
       export const key = 'Material.cryopreservationUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.cryopreservationUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace dataAnalyzer {
     export namespace name {
       export const key = 'Material.dataAnalyzer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.dataAnalyzer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace dataVisualizer {
     export namespace name {
       export const key = 'Material.dataVisualizer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.dataVisualizer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace decorativeElements {
     export namespace name {
       export const key = 'Material.decorativeElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.decorativeElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace distributedDatabase {
     export namespace name {
       export const key = 'Material.distributedDatabase.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.distributedDatabase.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace drinkingWater {
     export namespace name {
       export const key = 'Material.drinkingWater.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.drinkingWater.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace droneChassis {
     export namespace name {
       export const key = 'Material.droneChassis.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.droneChassis.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace droneFrame {
     export namespace name {
       export const key = 'Material.droneFrame.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.droneFrame.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace droneOperationsUnit {
     export namespace name {
       export const key = 'Material.droneOperationsUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.droneOperationsUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace einsteinium {
     export namespace name {
       export const key = 'Material.einsteinium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.einsteinium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerBundle {
     export namespace name {
       export const key = 'Material.engineerBundle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerBundle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerClothing {
     export namespace name {
       export const key = 'Material.engineerClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerFood {
     export namespace name {
       export const key = 'Material.engineerFood.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerFood.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerLuxuryDrink {
     export namespace name {
       export const key = 'Material.engineerLuxuryDrink.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerLuxuryDrink.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerLuxuryHealth {
     export namespace name {
       export const key = 'Material.engineerLuxuryHealth.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerLuxuryHealth.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace engineerTools {
     export namespace name {
       export const key = 'Material.engineerTools.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.engineerTools.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace enrichedEinsteinium {
     export namespace name {
       export const key = 'Material.enrichedEinsteinium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.enrichedEinsteinium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace enrichedTechnetium {
     export namespace name {
       export const key = 'Material.enrichedTechnetium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.enrichedTechnetium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace entertainmentDataCore {
     export namespace name {
       export const key = 'Material.entertainmentDataCore.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.entertainmentDataCore.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace entertainmentUnit {
     export namespace name {
       export const key = 'Material.entertainmentUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.entertainmentUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace epoxy {
     export namespace name {
       export const key = 'Material.epoxy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.epoxy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fastenerKitMedium {
     export namespace name {
       export const key = 'Material.fastenerKitMedium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fastenerKitMedium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fastenerKitSmall {
     export namespace name {
       export const key = 'Material.fastenerKitSmall.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fastenerKitSmall.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fattyNuts {
     export namespace name {
       export const key = 'Material.fattyNuts.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fattyNuts.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fattyVegetables {
     export namespace name {
       export const key = 'Material.fattyVegetables.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fattyVegetables.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fissionReactor {
     export namespace name {
       export const key = 'Material.fissionReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fissionReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace floatingTank {
     export namespace name {
       export const key = 'Material.floatingTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.floatingTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace flowControl {
     export namespace name {
       export const key = 'Material.flowControl.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.flowControl.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fluidPiping {
     export namespace name {
       export const key = 'Material.fluidPiping.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fluidPiping.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fluorine {
     export namespace name {
       export const key = 'Material.fluorine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fluorine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace flux {
     export namespace name {
       export const key = 'Material.flux.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.flux.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ftlFieldController {
     export namespace name {
       export const key = 'Material.ftlFieldController.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ftlFieldController.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ftlFuel {
     export namespace name {
       export const key = 'Material.ftlFuel.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ftlFuel.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fuelSavingEngine {
     export namespace name {
       export const key = 'Material.fuelSavingEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fuelSavingEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fullBodyInteractionDevice {
     export namespace name {
       export const key = 'Material.fullBodyInteractionDevice.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.fullBodyInteractionDevice.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace galerite {
     export namespace name {
       export const key = 'Material.galerite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.galerite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace gasContainer {
     export namespace name {
       export const key = 'Material.gasContainer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.gasContainer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace gasVent {
     export namespace name {
       export const key = 'Material.gasVent.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.gasVent.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace gatewaySegment {
     export namespace name {
       export const key = 'Material.gatewaySegment.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.gatewaySegment.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace glassCombustionChamber {
     export namespace name {
       export const key = 'Material.glassCombustionChamber.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.glassCombustionChamber.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace glassEngine {
     export namespace name {
       export const key = 'Material.glassEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.glassEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace glassNozzle {
     export namespace name {
       export const key = 'Material.glassNozzle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.glassNozzle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace gold {
     export namespace name {
       export const key = 'Material.gold.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.gold.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace goldCopperAlloy {
     export namespace name {
       export const key = 'Material.goldCopperAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.goldCopperAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace goldIronAlloy {
     export namespace name {
       export const key = 'Material.goldIronAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.goldIronAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace goldOre {
     export namespace name {
       export const key = 'Material.goldOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.goldOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace grapes {
     export namespace name {
       export const key = 'Material.grapes.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.grapes.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace habitatUnit {
     export namespace name {
       export const key = 'Material.habitatUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.habitatUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace habitationModule {
     export namespace name {
       export const key = 'Material.habitationModule.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.habitationModule.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace halite {
     export namespace name {
       export const key = 'Material.halite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.halite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace handcraftWorkshopUnit {
     export namespace name {
       export const key = 'Material.handcraftWorkshopUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.handcraftWorkshopUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hardenedHullPlate {
     export namespace name {
       export const key = 'Material.hardenedHullPlate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hardenedHullPlate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hardenedStructuralElements {
     export namespace name {
       export const key = 'Material.hardenedStructuralElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hardenedStructuralElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace heliotropeExtract {
     export namespace name {
       export const key = 'Material.heliotropeExtract.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.heliotropeExtract.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace helium {
     export namespace name {
       export const key = 'Material.helium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.helium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace helium3 {
     export namespace name {
       export const key = 'Material.helium3.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.helium3.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace herbs {
     export namespace name {
       export const key = 'Material.herbs.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.herbs.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace highLoadCargoBay {
     export namespace name {
       export const key = 'Material.highLoadCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.highLoadCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace highPowerReactor {
     export namespace name {
       export const key = 'Material.highPowerReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.highPowerReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace highVolumeCargoBay {
     export namespace name {
       export const key = 'Material.highVolumeCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.highVolumeCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace holographicDisplay {
     export namespace name {
       export const key = 'Material.holographicDisplay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.holographicDisplay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace holographicGlasses {
     export namespace name {
       export const key = 'Material.holographicGlasses.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.holographicGlasses.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hugeCargoBay {
     export namespace name {
       export const key = 'Material.hugeCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hugeCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hydrocarbonPlants {
     export namespace name {
       export const key = 'Material.hydrocarbonPlants.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hydrocarbonPlants.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hydrogen {
     export namespace name {
       export const key = 'Material.hydrogen.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hydrogen.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hyperPowerReactor {
     export namespace name {
       export const key = 'Material.hyperPowerReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hyperPowerReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hyperthrustEngine {
     export namespace name {
       export const key = 'Material.hyperthrustEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hyperthrustEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace hyperthrustNozzle {
     export namespace name {
       export const key = 'Material.hyperthrustNozzle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.hyperthrustNozzle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace indigo {
     export namespace name {
       export const key = 'Material.indigo.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.indigo.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace informationDataCore {
     export namespace name {
       export const key = 'Material.informationDataCore.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.informationDataCore.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace informationManagementSystem {
     export namespace name {
       export const key = 'Material.informationManagementSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.informationManagementSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace insuFoam {
     export namespace name {
       export const key = 'Material.insuFoam.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.insuFoam.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace iodine {
     export namespace name {
       export const key = 'Material.iodine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.iodine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace iron {
     export namespace name {
       export const key = 'Material.iron.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.iron.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ironOre {
     export namespace name {
       export const key = 'Material.ironOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ironOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ironTitaniumAlloy {
     export namespace name {
       export const key = 'Material.ironTitaniumAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.ironTitaniumAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace kevlar {
     export namespace name {
       export const key = 'Material.kevlar.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.kevlar.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace krypton {
     export namespace name {
       export const key = 'Material.krypton.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.krypton.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace kryptonium {
     export namespace name {
       export const key = 'Material.kryptonium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.kryptonium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace laboratoryUnit {
     export namespace name {
       export const key = 'Material.laboratoryUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.laboratoryUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeCapacitorBank {
     export namespace name {
       export const key = 'Material.largeCapacitorBank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeCapacitorBank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeCargoBay {
     export namespace name {
       export const key = 'Material.largeCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeDeviceCover {
     export namespace name {
       export const key = 'Material.largeDeviceCover.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeDeviceCover.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeEmitter {
     export namespace name {
       export const key = 'Material.largeEmitter.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeEmitter.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeFtlTank {
     export namespace name {
       export const key = 'Material.largeFtlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeFtlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largePlasticsBoard {
     export namespace name {
       export const key = 'Material.largePlasticsBoard.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largePlasticsBoard.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeShipRepairDroneUnit {
     export namespace name {
       export const key = 'Material.largeShipRepairDroneUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeShipRepairDroneUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace largeStlTank {
     export namespace name {
       export const key = 'Material.largeStlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.largeStlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace laserDiode {
     export namespace name {
       export const key = 'Material.laserDiode.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.laserDiode.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lifeSupportSystem {
     export namespace name {
       export const key = 'Material.lifeSupportSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lifeSupportSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lightweightBulkhead {
     export namespace name {
       export const key = 'Material.lightweightBulkhead.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lightweightBulkhead.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lightweightDeckElements {
     export namespace name {
       export const key = 'Material.lightweightDeckElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lightweightDeckElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lightweightHullPlate {
     export namespace name {
       export const key = 'Material.lightweightHullPlate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lightweightHullPlate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lightweightStructuralElements {
     export namespace name {
       export const key = 'Material.lightweightStructuralElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lightweightStructuralElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lightweightWindow {
     export namespace name {
       export const key = 'Material.lightweightWindow.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lightweightWindow.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace limestone {
     export namespace name {
       export const key = 'Material.limestone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.limestone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace liquidCrystals {
     export namespace name {
       export const key = 'Material.liquidCrystals.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.liquidCrystals.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace liquidEinsteinium {
     export namespace name {
       export const key = 'Material.liquidEinsteinium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.liquidEinsteinium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lithium {
     export namespace name {
       export const key = 'Material.lithium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lithium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lithiumOre {
     export namespace name {
       export const key = 'Material.lithiumOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lithiumOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace localDatabase {
     export namespace name {
       export const key = 'Material.localDatabase.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.localDatabase.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace logisticsSystem {
     export namespace name {
       export const key = 'Material.logisticsSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.logisticsSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lowHeatFuelPump {
     export namespace name {
       export const key = 'Material.lowHeatFuelPump.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.lowHeatFuelPump.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace machineLearningInterface {
     export namespace name {
       export const key = 'Material.machineLearningInterface.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.machineLearningInterface.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace magnesite {
     export namespace name {
       export const key = 'Material.magnesite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.magnesite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace magnesium {
     export namespace name {
       export const key = 'Material.magnesium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.magnesium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace magneticFloor {
     export namespace name {
       export const key = 'Material.magneticFloor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.magneticFloor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace magnetite {
     export namespace name {
       export const key = 'Material.magnetite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.magnetite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mainFrameBlank {
     export namespace name {
       export const key = 'Material.mainFrameBlank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mainFrameBlank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace meat {
     export namespace name {
       export const key = 'Material.meat.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.meat.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace medicalStretcher {
     export namespace name {
       export const key = 'Material.medicalStretcher.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.medicalStretcher.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumCapacitorBank {
     export namespace name {
       export const key = 'Material.mediumCapacitorBank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumCapacitorBank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumCargoBay {
     export namespace name {
       export const key = 'Material.mediumCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumDeviceCover {
     export namespace name {
       export const key = 'Material.mediumDeviceCover.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumDeviceCover.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumEmitter {
     export namespace name {
       export const key = 'Material.mediumEmitter.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumEmitter.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumFtlTank {
     export namespace name {
       export const key = 'Material.mediumFtlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumFtlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumPlasticsBoard {
     export namespace name {
       export const key = 'Material.mediumPlasticsBoard.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumPlasticsBoard.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mediumStlTank {
     export namespace name {
       export const key = 'Material.mediumStlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mediumStlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace megaTubeCoating {
     export namespace name {
       export const key = 'Material.megaTubeCoating.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.megaTubeCoating.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace memoryBank {
     export namespace name {
       export const key = 'Material.memoryBank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.memoryBank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace metalHalideLamp {
     export namespace name {
       export const key = 'Material.metalHalideLamp.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.metalHalideLamp.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace microHeadphones {
     export namespace name {
       export const key = 'Material.microHeadphones.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.microHeadphones.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace microProcessor {
     export namespace name {
       export const key = 'Material.microProcessor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.microProcessor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mineralConstructionGranulate {
     export namespace name {
       export const key = 'Material.mineralConstructionGranulate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mineralConstructionGranulate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace motherBoard {
     export namespace name {
       export const key = 'Material.motherBoard.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.motherBoard.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace mushrooms {
     export namespace name {
       export const key = 'Material.mushrooms.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.mushrooms.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nanoCarbonSheeting {
     export namespace name {
       export const key = 'Material.nanoCarbonSheeting.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nanoCarbonSheeting.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nanoFiber {
     export namespace name {
       export const key = 'Material.nanoFiber.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nanoFiber.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nanoGlass {
     export namespace name {
       export const key = 'Material.nanoGlass.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nanoGlass.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nanoResin {
     export namespace name {
       export const key = 'Material.nanoResin.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nanoResin.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace navigation1 {
     export namespace name {
       export const key = 'Material.navigation1.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.navigation1.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace navigation2 {
     export namespace name {
       export const key = 'Material.navigation2.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.navigation2.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace neon {
     export namespace name {
       export const key = 'Material.neon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.neon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace neonLightingSystem {
     export namespace name {
       export const key = 'Material.neonLightingSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.neonLightingSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace networkingFramework {
     export namespace name {
       export const key = 'Material.networkingFramework.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.networkingFramework.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace neuralNetwork {
     export namespace name {
       export const key = 'Material.neuralNetwork.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.neuralNetwork.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nitrogen {
     export namespace name {
       export const key = 'Material.nitrogen.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nitrogen.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nonVolatileMemory {
     export namespace name {
       export const key = 'Material.nonVolatileMemory.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nonVolatileMemory.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nutrientSolution {
     export namespace name {
       export const key = 'Material.nutrientSolution.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nutrientSolution.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace nylon {
     export namespace name {
       export const key = 'Material.nylon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.nylon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace officeSupplies {
     export namespace name {
       export const key = 'Material.officeSupplies.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.officeSupplies.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace olfactorySubstances {
     export namespace name {
       export const key = 'Material.olfactorySubstances.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.olfactorySubstances.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace operatingSystem {
     export namespace name {
       export const key = 'Material.operatingSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.operatingSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace oxygen {
     export namespace name {
       export const key = 'Material.oxygen.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.oxygen.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace painkillers {
     export namespace name {
       export const key = 'Material.painkillers.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.painkillers.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pesticides {
     export namespace name {
       export const key = 'Material.pesticides.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pesticides.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pineberries {
     export namespace name {
       export const key = 'Material.pineberries.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pineberries.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pioneerBundle {
     export namespace name {
       export const key = 'Material.pioneerBundle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pioneerBundle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pioneerClothing {
     export namespace name {
       export const key = 'Material.pioneerClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pioneerClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pioneerLuxuryClothing {
     export namespace name {
       export const key = 'Material.pioneerLuxuryClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pioneerLuxuryClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pioneerLuxuryDrink {
     export namespace name {
       export const key = 'Material.pioneerLuxuryDrink.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pioneerLuxuryDrink.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace polarityFieldGenerator {
     export namespace name {
       export const key = 'Material.polarityFieldGenerator.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.polarityFieldGenerator.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace polyEthylene {
     export namespace name {
       export const key = 'Material.polyEthylene.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.polyEthylene.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace polymerGranulate {
     export namespace name {
       export const key = 'Material.polymerGranulate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.polymerGranulate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace powerCell {
     export namespace name {
       export const key = 'Material.powerCell.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.powerCell.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace premiumFertilizer {
     export namespace name {
       export const key = 'Material.premiumFertilizer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.premiumFertilizer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pressureShielding {
     export namespace name {
       export const key = 'Material.pressureShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.pressureShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace printedCircuitBoard {
     export namespace name {
       export const key = 'Material.printedCircuitBoard.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.printedCircuitBoard.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace proteinAlgae {
     export namespace name {
       export const key = 'Material.proteinAlgae.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.proteinAlgae.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace proteinBeans {
     export namespace name {
       export const key = 'Material.proteinBeans.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.proteinBeans.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace proteinPaste {
     export namespace name {
       export const key = 'Material.proteinPaste.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.proteinPaste.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace quickChargeReactor {
     export namespace name {
       export const key = 'Material.quickChargeReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.quickChargeReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace radiationShielding {
     export namespace name {
       export const key = 'Material.radiationShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.radiationShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace radioDevice {
     export namespace name {
       export const key = 'Material.radioDevice.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.radioDevice.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace radioisotopeGenerator {
     export namespace name {
       export const key = 'Material.radioisotopeGenerator.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.radioisotopeGenerator.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace rations {
     export namespace name {
       export const key = 'Material.rations.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.rations.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reactorControlSystem {
     export namespace name {
       export const key = 'Material.reactorControlSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reactorControlSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace redGoldConnectors {
     export namespace name {
       export const key = 'Material.redGoldConnectors.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.redGoldConnectors.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedBulkhead {
     export namespace name {
       export const key = 'Material.reinforcedBulkhead.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedBulkhead.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedDeckElements {
     export namespace name {
       export const key = 'Material.reinforcedDeckElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedDeckElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedHullPlate {
     export namespace name {
       export const key = 'Material.reinforcedHullPlate.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedHullPlate.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedStructuralElements {
     export namespace name {
       export const key = 'Material.reinforcedStructuralElements.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedStructuralElements.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedTranslucentMaterial {
     export namespace name {
       export const key = 'Material.reinforcedTranslucentMaterial.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedTranslucentMaterial.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace reinforcedWindow {
     export namespace name {
       export const key = 'Material.reinforcedWindow.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.reinforcedWindow.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace rescueDrone {
     export namespace name {
       export const key = 'Material.rescueDrone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.rescueDrone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace rhenium {
     export namespace name {
       export const key = 'Material.rhenium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.rhenium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace rheniumOre {
     export namespace name {
       export const key = 'Material.rheniumOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.rheniumOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace safetyUniform {
     export namespace name {
       export const key = 'Material.safetyUniform.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.safetyUniform.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistBundle {
     export namespace name {
       export const key = 'Material.scientistBundle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistBundle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistClothing {
     export namespace name {
       export const key = 'Material.scientistClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistFood {
     export namespace name {
       export const key = 'Material.scientistFood.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistFood.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistLuxuryDrink {
     export namespace name {
       export const key = 'Material.scientistLuxuryDrink.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistLuxuryDrink.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistLuxuryHealth {
     export namespace name {
       export const key = 'Material.scientistLuxuryHealth.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistLuxuryHealth.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace scientistTools {
     export namespace name {
       export const key = 'Material.scientistTools.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.scientistTools.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sealant {
     export namespace name {
       export const key = 'Material.sealant.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sealant.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace searchAlgorithm {
     export namespace name {
       export const key = 'Material.searchAlgorithm.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.searchAlgorithm.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sedativeSubstance {
     export namespace name {
       export const key = 'Material.sedativeSubstance.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sedativeSubstance.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sensor {
     export namespace name {
       export const key = 'Material.sensor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sensor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sensorArray {
     export namespace name {
       export const key = 'Material.sensorArray.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sensorArray.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settlerBundle {
     export namespace name {
       export const key = 'Material.settlerBundle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.settlerBundle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settlerClothing {
     export namespace name {
       export const key = 'Material.settlerClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.settlerClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settlerLuxuryDrink {
     export namespace name {
       export const key = 'Material.settlerLuxuryDrink.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.settlerLuxuryDrink.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settlerLuxuryTools {
     export namespace name {
       export const key = 'Material.settlerLuxuryTools.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.settlerLuxuryTools.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settlerTools {
     export namespace name {
       export const key = 'Material.settlerTools.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.settlerTools.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace shipRepairDrone {
     export namespace name {
       export const key = 'Material.shipRepairDrone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.shipRepairDrone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace shockwaveDampeningModule {
     export namespace name {
       export const key = 'Material.shockwaveDampeningModule.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.shockwaveDampeningModule.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace silicon {
     export namespace name {
       export const key = 'Material.silicon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.silicon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace siliconOre {
     export namespace name {
       export const key = 'Material.siliconOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.siliconOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace silkProcessed {
     export namespace name {
       export const key = 'Material.silkProcessed.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.silkProcessed.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace silkRaw {
     export namespace name {
       export const key = 'Material.silkRaw.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.silkRaw.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace singularityStabilizer {
     export namespace name {
       export const key = 'Material.singularityStabilizer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.singularityStabilizer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallCapacitorBank {
     export namespace name {
       export const key = 'Material.smallCapacitorBank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallCapacitorBank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallCargoBay {
     export namespace name {
       export const key = 'Material.smallCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallDeviceCover {
     export namespace name {
       export const key = 'Material.smallDeviceCover.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallDeviceCover.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallEmitter {
     export namespace name {
       export const key = 'Material.smallEmitter.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallEmitter.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallFtlTank {
     export namespace name {
       export const key = 'Material.smallFtlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallFtlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallPlasticsBoard {
     export namespace name {
       export const key = 'Material.smallPlasticsBoard.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallPlasticsBoard.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallShipRepairDroneUnit {
     export namespace name {
       export const key = 'Material.smallShipRepairDroneUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallShipRepairDroneUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace smallStlTank {
     export namespace name {
       export const key = 'Material.smallStlTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.smallStlTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sodium {
     export namespace name {
       export const key = 'Material.sodium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sodium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sodiumBorohydride {
     export namespace name {
       export const key = 'Material.sodiumBorohydride.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sodiumBorohydride.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace solarCell {
     export namespace name {
       export const key = 'Material.solarCell.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.solarCell.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace solarPanel {
     export namespace name {
       export const key = 'Material.solarPanel.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.solarPanel.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sortingAlgorithm {
     export namespace name {
       export const key = 'Material.sortingAlgorithm.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sortingAlgorithm.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace spaceTether {
     export namespace name {
       export const key = 'Material.spaceTether.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.spaceTether.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace specializedRadiationShielding {
     export namespace name {
       export const key = 'Material.specializedRadiationShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.specializedRadiationShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace stabilitySupportSystem {
     export namespace name {
       export const key = 'Material.stabilitySupportSystem.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.stabilitySupportSystem.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace standardEngine {
     export namespace name {
       export const key = 'Material.standardEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.standardEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace standardReactor {
     export namespace name {
       export const key = 'Material.standardReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.standardReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace steel {
     export namespace name {
       export const key = 'Material.steel.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.steel.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace stlFuel {
     export namespace name {
       export const key = 'Material.stlFuel.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.stlFuel.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace structuralSpacecraftComponent {
     export namespace name {
       export const key = 'Material.structuralSpacecraftComponent.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.structuralSpacecraftComponent.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sulfur {
     export namespace name {
       export const key = 'Material.sulfur.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sulfur.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace sulfurCrystals {
     export namespace name {
       export const key = 'Material.sulfurCrystals.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.sulfurCrystals.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace surgeryUnit {
     export namespace name {
       export const key = 'Material.surgeryUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.surgeryUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace surgicalDrone {
     export namespace name {
       export const key = 'Material.surgicalDrone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.surgicalDrone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace surgicalEquipment {
     export namespace name {
       export const key = 'Material.surgicalEquipment.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.surgicalEquipment.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace surveillanceDrone {
     export namespace name {
       export const key = 'Material.surveillanceDrone.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.surveillanceDrone.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tantalite {
     export namespace name {
       export const key = 'Material.tantalite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tantalite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tantalum {
     export namespace name {
       export const key = 'Material.tantalum.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tantalum.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace targetingComputer {
     export namespace name {
       export const key = 'Material.targetingComputer.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.targetingComputer.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tclAcid {
     export namespace name {
       export const key = 'Material.tclAcid.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tclAcid.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technetium {
     export namespace name {
       export const key = 'Material.technetium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technetium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technetiumOxide {
     export namespace name {
       export const key = 'Material.technetiumOxide.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technetiumOxide.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technetiumStabilizers {
     export namespace name {
       export const key = 'Material.technetiumStabilizers.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technetiumStabilizers.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianBundle {
     export namespace name {
       export const key = 'Material.technicianBundle.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianBundle.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianClothing {
     export namespace name {
       export const key = 'Material.technicianClothing.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianClothing.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianHealth {
     export namespace name {
       export const key = 'Material.technicianHealth.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianHealth.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianLuxuryDrink {
     export namespace name {
       export const key = 'Material.technicianLuxuryDrink.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianLuxuryDrink.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianLuxuryHealth {
     export namespace name {
       export const key = 'Material.technicianLuxuryHealth.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianLuxuryHealth.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technicianTools {
     export namespace name {
       export const key = 'Material.technicianTools.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technicianTools.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace technoKevlar {
     export namespace name {
       export const key = 'Material.technoKevlar.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.technoKevlar.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tectosilisite {
     export namespace name {
       export const key = 'Material.tectosilisite.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tectosilisite.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tensionReliefStructure {
     export namespace name {
       export const key = 'Material.tensionReliefStructure.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tensionReliefStructure.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tensorProcessingUnit {
     export namespace name {
       export const key = 'Material.tensorProcessingUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tensorProcessingUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace testTubes {
     export namespace name {
       export const key = 'Material.testTubes.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.testTubes.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace thermalShielding {
     export namespace name {
       export const key = 'Material.thermalShielding.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.thermalShielding.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace thermoFluid {
     export namespace name {
       export const key = 'Material.thermoFluid.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.thermoFluid.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tinyCargoBay {
     export namespace name {
       export const key = 'Material.tinyCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tinyCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace titanium {
     export namespace name {
       export const key = 'Material.titanium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.titanium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace titaniumOre {
     export namespace name {
       export const key = 'Material.titaniumOre.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.titaniumOre.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace torusSegment {
     export namespace name {
       export const key = 'Material.torusSegment.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.torusSegment.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace touchDeviceBlank {
     export namespace name {
       export const key = 'Material.touchDeviceBlank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.touchDeviceBlank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace touchScreen {
     export namespace name {
       export const key = 'Material.touchScreen.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.touchScreen.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace transistor {
     export namespace name {
       export const key = 'Material.transistor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.transistor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace translucentMaterial {
     export namespace name {
       export const key = 'Material.translucentMaterial.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.translucentMaterial.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace traumaCareUnit {
     export namespace name {
       export const key = 'Material.traumaCareUnit.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.traumaCareUnit.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace truss {
     export namespace name {
       export const key = 'Material.truss.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.truss.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tungstenAluminiumAlloy {
     export namespace name {
       export const key = 'Material.tungstenAluminiumAlloy.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tungstenAluminiumAlloy.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tungstenResource {
     export namespace name {
       export const key = 'Material.tungstenResource.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.tungstenResource.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace twoDimensionalDisplay {
     export namespace name {
       export const key = 'Material.twoDimensionalDisplay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.twoDimensionalDisplay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace universalToolset {
     export namespace name {
       export const key = 'Material.universalToolset.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.universalToolset.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace universeMap {
     export namespace name {
       export const key = 'Material.universeMap.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.universeMap.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace verySmallCargoBay {
     export namespace name {
       export const key = 'Material.verySmallCargoBay.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.verySmallCargoBay.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace vitaEssence {
     export namespace name {
       export const key = 'Material.vitaEssence.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.vitaEssence.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace vortexEngine {
     export namespace name {
       export const key = 'Material.vortexEngine.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.vortexEngine.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace vortexFuelTank {
     export namespace name {
       export const key = 'Material.vortexFuelTank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.vortexFuelTank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace vortexReactor {
     export namespace name {
       export const key = 'Material.vortexReactor.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.vortexReactor.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace vortexStimulationFuel {
     export namespace name {
       export const key = 'Material.vortexStimulationFuel.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.vortexStimulationFuel.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace waferMedium {
     export namespace name {
       export const key = 'Material.waferMedium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.waferMedium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace waferSmall {
     export namespace name {
       export const key = 'Material.waferSmall.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.waferSmall.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace water {
     export namespace name {
       export const key = 'Material.water.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.water.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace waterFilter {
     export namespace name {
       export const key = 'Material.waterFilter.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.waterFilter.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace waterRecycler {
     export namespace name {
       export const key = 'Material.waterRecycler.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.waterRecycler.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace weakArtificalIntelligence {
     export namespace name {
       export const key = 'Material.weakArtificalIntelligence.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.weakArtificalIntelligence.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace windowManager {
     export namespace name {
       export const key = 'Material.windowManager.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.windowManager.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace wolfram {
     export namespace name {
       export const key = 'Material.wolfram.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.wolfram.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace wolfrhenium {
     export namespace name {
       export const key = 'Material.wolfrhenium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.wolfrhenium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace workstationBlank {
     export namespace name {
       export const key = 'Material.workstationBlank.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.workstationBlank.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace zircon {
     export namespace name {
       export const key = 'Material.zircon.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.zircon.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace zirconium {
     export namespace name {
       export const key = 'Material.zirconium.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Material.zirconium.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace StoreName {
   export namespace base {
     export const key = 'StoreName.base';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ship_store {
     export const key = 'StoreName.ship_store';
@@ -6343,15 +6343,15 @@ export namespace StoreName {
   }
   export namespace warehouse {
     export const key = 'StoreName.warehouse';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace construction_store {
     export const key = 'StoreName.construction_store';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace upkeep_store {
     export const key = 'StoreName.upkeep_store';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace StoreItem {
@@ -6371,17 +6371,17 @@ export namespace StoreItem {
 export namespace CommandInput {
   export namespace label {
     export const key = 'CommandInput.label';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShipType {
   export namespace REGULAR {
     export const key = 'ShipType.REGULAR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COLONY_SHIP {
     export const key = 'ShipType.COLONY_SHIP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComponentOption {
@@ -6393,11 +6393,11 @@ export namespace ComponentOption {
   }
   export namespace required {
     export const key = 'ComponentOption.required';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace notrequired {
     export const key = 'ComponentOption.notrequired';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ftlEmitter {
     export const key = 'ComponentOption.ftlEmitter';
@@ -6460,38 +6460,38 @@ export namespace Modifier {
   }
   export namespace _protected {
     export const key = 'Modifier.protected';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace notprotected {
     export const key = 'Modifier.notprotected';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Performance {
   export namespace label {
     export namespace cargoCapacity {
       export const key = 'Performance.label.cargoCapacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxGFactor {
       export const key = 'Performance.label.maxGFactor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace accelerationMax {
       export const key = 'Performance.label.accelerationMax';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ftlSpeedMax {
       export const key = 'Performance.label.ftlSpeedMax';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operatingEmptyMass {
       export const key = 'Performance.label.operatingEmptyMass';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'Performance.label.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace value {
@@ -6532,221 +6532,221 @@ export namespace BlueprintComponentType {
   export namespace STL_ENGINE {
     export namespace name {
       export const key = 'BlueprintComponentType.STL_ENGINE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.STL_ENGINE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_REACTOR {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_REACTOR.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_REACTOR.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace COMMAND_BRIDGE {
     export namespace name {
       export const key = 'BlueprintComponentType.COMMAND_BRIDGE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.COMMAND_BRIDGE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace STRUCTURE {
     export namespace name {
       export const key = 'BlueprintComponentType.STRUCTURE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.STRUCTURE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace CREW_QUARTERS {
     export namespace name {
       export const key = 'BlueprintComponentType.CREW_QUARTERS.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.CREW_QUARTERS.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_FIELD_CONTROLLER {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_FIELD_CONTROLLER.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_FIELD_CONTROLLER.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_FIELD_EMITTER_SMALL {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_SMALL.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_SMALL.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_FIELD_EMITTER_MEDIUM {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_MEDIUM.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_MEDIUM.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_FIELD_EMITTER_LARGE {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_LARGE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_FIELD_EMITTER_LARGE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace STL_FUEL_TANK {
     export namespace name {
       export const key = 'BlueprintComponentType.STL_FUEL_TANK.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.STL_FUEL_TANK.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FTL_FUEL_TANK {
     export namespace name {
       export const key = 'BlueprintComponentType.FTL_FUEL_TANK.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.FTL_FUEL_TANK.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace VORTEX_REACTOR {
     export namespace name {
       export const key = 'BlueprintComponentType.VORTEX_REACTOR.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.VORTEX_REACTOR.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace VORTEX_FUEL_TANK {
     export namespace name {
       export const key = 'BlueprintComponentType.VORTEX_FUEL_TANK.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.VORTEX_FUEL_TANK.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace CARGO_BAY {
     export namespace name {
       export const key = 'BlueprintComponentType.CARGO_BAY.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.CARGO_BAY.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace HULL_TYPE {
     export namespace name {
       export const key = 'BlueprintComponentType.HULL_TYPE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.HULL_TYPE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace HEAT_SHIELD {
     export namespace name {
       export const key = 'BlueprintComponentType.HEAT_SHIELD.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.HEAT_SHIELD.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace WHIPPLE_SHIELD {
     export namespace name {
       export const key = 'BlueprintComponentType.WHIPPLE_SHIELD.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.WHIPPLE_SHIELD.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace RADIATION_SHIELD {
     export namespace name {
       export const key = 'BlueprintComponentType.RADIATION_SHIELD.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.RADIATION_SHIELD.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace GRAVITY_SHIELD {
     export namespace name {
       export const key = 'BlueprintComponentType.GRAVITY_SHIELD.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.GRAVITY_SHIELD.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace REPAIR_DRONES {
     export namespace name {
       export const key = 'BlueprintComponentType.REPAIR_DRONES.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.REPAIR_DRONES.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace HIGH_G_SEATS {
     export namespace name {
       export const key = 'BlueprintComponentType.HIGH_G_SEATS.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.HIGH_G_SEATS.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace HABITATION_MODULE {
     export namespace name {
       export const key = 'BlueprintComponentType.HABITATION_MODULE.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace tooltip {
       export const key = 'BlueprintComponentType.HABITATION_MODULE.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -6754,53 +6754,53 @@ export namespace Blueprint {
   export namespace header {
     export namespace information {
       export const key = 'Blueprint.header.information';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace layout {
       export const key = 'Blueprint.header.layout';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace performance {
       export const key = 'Blueprint.header.performance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace billofmaterial {
       export const key = 'Blueprint.header.billofmaterial';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace shipType {
       export const key = 'Blueprint.label.shipType';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'Blueprint.label.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace buildTime {
       export const key = 'Blueprint.label.buildTime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace materials {
       export const key = 'Blueprint.label.materials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace banner {
     export namespace locked {
       export const key = 'Blueprint.banner.locked';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace save {
       export const key = 'Blueprint.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace discard {
       export const key = 'Blueprint.action.discard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace buildTime {
@@ -6814,964 +6814,964 @@ export namespace Shipyard {
   export namespace context {
     export namespace shipyardProjects {
       export const key = 'Shipyard.context.shipyardProjects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprints {
       export const key = 'Shipyard.context.blueprints';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprintFlightSimulator {
       export const key = 'Shipyard.context.blueprintFlightSimulator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipyardProject {
       export const key = 'Shipyard.context.shipyardProject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'Shipyard.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipyard {
       export const key = 'Shipyard.context.shipyard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace address {
       export const key = 'Shipyard.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'Shipyard.label.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace activeProjects {
       export const key = 'Shipyard.label.activeProjects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inConstruction {
       export const key = 'Shipyard.label.inConstruction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace finishedProjects {
       export const key = 'Shipyard.label.finishedProjects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace finishedProjectsWeek {
       export const key = 'Shipyard.label.finishedProjectsWeek';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace finishedProjectsMonth {
       export const key = 'Shipyard.label.finishedProjectsMonth';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace finishedProjectsSemiannualy {
       export const key = 'Shipyard.label.finishedProjectsSemiannualy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprint {
       export const key = 'Shipyard.label.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace originBlueprint {
       export const key = 'Shipyard.label.originBlueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace targetBlueprint {
       export const key = 'Shipyard.label.targetBlueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace project {
       export const key = 'Shipyard.header.project';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgradeProject {
       export const key = 'Shipyard.header.upgradeProject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'Shipyard.header.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace create {
       export const key = 'Shipyard.action.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace projects {
     export namespace header {
       export namespace created {
         export const key = 'Shipyard.projects.header.created';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace blueprint {
         export const key = 'Shipyard.projects.header.blueprint';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace status {
         export const key = 'Shipyard.projects.header.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace cmds {
         export const key = 'Shipyard.projects.header.cmds';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace actions {
       export namespace view {
         export const key = 'Shipyard.projects.actions.view';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _delete {
         export const key = 'Shipyard.projects.actions.delete';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace error {
     export namespace id {
       export const key = 'Shipyard.error.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace all {
       export const key = 'Shipyard.title.all';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ExpertiseCategory {
   export namespace AGRICULTURE {
     export const key = 'ExpertiseCategory.AGRICULTURE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHEMISTRY {
     export const key = 'ExpertiseCategory.CHEMISTRY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONSTRUCTION {
     export const key = 'ExpertiseCategory.CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ELECTRONICS {
     export const key = 'ExpertiseCategory.ELECTRONICS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOOD_INDUSTRIES {
     export const key = 'ExpertiseCategory.FOOD_INDUSTRIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FUEL_REFINING {
     export const key = 'ExpertiseCategory.FUEL_REFINING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MANUFACTURING {
     export const key = 'ExpertiseCategory.MANUFACTURING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace METALLURGY {
     export const key = 'ExpertiseCategory.METALLURGY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RESOURCE_EXTRACTION {
     export const key = 'ExpertiseCategory.RESOURCE_EXTRACTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Reactor {
   export namespace advancedAppliancesFactory_name {
     export const key = 'Reactor.advancedAppliancesFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace advancedAppliancesFactory_description {
     export const key = 'Reactor.advancedAppliancesFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace advancedMaterialLab_name {
     export const key = 'Reactor.advancedMaterialLab_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace advancedMaterialLab_description {
     export const key = 'Reactor.advancedMaterialLab_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace advancedSmelter_name {
     export const key = 'Reactor.advancedSmelter_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace advancedSmelter_description {
     export const key = 'Reactor.advancedSmelter_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace appliancesFactory_name {
     export const key = 'Reactor.appliancesFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace appliancesFactory_description {
     export const key = 'Reactor.appliancesFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace basicMaterialsPlant_name {
     export const key = 'Reactor.basicMaterialsPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace basicMaterialsPlant_description {
     export const key = 'Reactor.basicMaterialsPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace chemPlant_name {
     export const key = 'Reactor.chemPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace chemPlant_description {
     export const key = 'Reactor.chemPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cleanRoom_name {
     export const key = 'Reactor.cleanRoom_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cleanRoom_description {
     export const key = 'Reactor.cleanRoom_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace clothingFactory_name {
     export const key = 'Reactor.clothingFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace clothingFactory_description {
     export const key = 'Reactor.clothingFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace collector_name {
     export const key = 'Reactor.collector_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace collector_description {
     export const key = 'Reactor.collector_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace coreModule_name {
     export const key = 'Reactor.coreModule_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace coreModule_description {
     export const key = 'Reactor.coreModule_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectFTLLaboratory_name {
     export const key = 'Reactor.corporationProjectFTLLaboratory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectFTLLaboratory_description {
     export const key = 'Reactor.corporationProjectFTLLaboratory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectHeadquarters_name {
     export const key = 'Reactor.corporationProjectHeadquarters_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectHeadquarters_description {
     export const key = 'Reactor.corporationProjectHeadquarters_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectImmortality_name {
     export const key = 'Reactor.corporationProjectImmortality_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectImmortality_description {
     export const key = 'Reactor.corporationProjectImmortality_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectRepresentationCenter_name {
     export const key = 'Reactor.corporationProjectRepresentationCenter_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectRepresentationCenter_description {
     export const key = 'Reactor.corporationProjectRepresentationCenter_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectTerraforming_name {
     export const key = 'Reactor.corporationProjectTerraforming_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace corporationProjectTerraforming_description {
     export const key = 'Reactor.corporationProjectTerraforming_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace droneShop_name {
     export const key = 'Reactor.droneShop_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace droneShop_description {
     export const key = 'Reactor.droneShop_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace einsteiniumEnrichmentPlant_name {
     export const key = 'Reactor.einsteiniumEnrichmentPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace einsteiniumEnrichmentPlant_description {
     export const key = 'Reactor.einsteiniumEnrichmentPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicDeviceManufactory_name {
     export const key = 'Reactor.electronicDeviceManufactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicDeviceManufactory_description {
     export const key = 'Reactor.electronicDeviceManufactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicsPlant_name {
     export const key = 'Reactor.electronicsPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace electronicsPlant_description {
     export const key = 'Reactor.electronicsPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace energyComponentAssembly_name {
     export const key = 'Reactor.energyComponentAssembly_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace energyComponentAssembly_description {
     export const key = 'Reactor.energyComponentAssembly_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace extractor_name {
     export const key = 'Reactor.extractor_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace extractor_description {
     export const key = 'Reactor.extractor_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace farm_name {
     export const key = 'Reactor.farm_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace farm_description {
     export const key = 'Reactor.farm_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fermentationFacility_name {
     export const key = 'Reactor.fermentationFacility_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fermentationFacility_description {
     export const key = 'Reactor.fermentationFacility_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fineSmithy_name {
     export const key = 'Reactor.fineSmithy_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fineSmithy_description {
     export const key = 'Reactor.fineSmithy_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace foodProcessor_name {
     export const key = 'Reactor.foodProcessor_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace foodProcessor_description {
     export const key = 'Reactor.foodProcessor_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace glassFurnace_name {
     export const key = 'Reactor.glassFurnace_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace glassFurnace_description {
     export const key = 'Reactor.glassFurnace_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationBarracks_name {
     export const key = 'Reactor.habitationBarracks_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationBarracks_description {
     export const key = 'Reactor.habitationBarracks_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationCommune_name {
     export const key = 'Reactor.habitationCommune_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationCommune_description {
     export const key = 'Reactor.habitationCommune_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationEngineer_name {
     export const key = 'Reactor.habitationEngineer_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationEngineer_description {
     export const key = 'Reactor.habitationEngineer_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationLuxury_name {
     export const key = 'Reactor.habitationLuxury_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationLuxury_description {
     export const key = 'Reactor.habitationLuxury_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationManagers_name {
     export const key = 'Reactor.habitationManagers_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationManagers_description {
     export const key = 'Reactor.habitationManagers_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationPioneer_name {
     export const key = 'Reactor.habitationPioneer_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationPioneer_description {
     export const key = 'Reactor.habitationPioneer_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationScientist_name {
     export const key = 'Reactor.habitationScientist_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationScientist_description {
     export const key = 'Reactor.habitationScientist_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationSettler_name {
     export const key = 'Reactor.habitationSettler_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationSettler_description {
     export const key = 'Reactor.habitationSettler_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationTechnician_name {
     export const key = 'Reactor.habitationTechnician_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace habitationTechnician_description {
     export const key = 'Reactor.habitationTechnician_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hullWeldingPlant_name {
     export const key = 'Reactor.hullWeldingPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hullWeldingPlant_description {
     export const key = 'Reactor.hullWeldingPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hydroponicsFarm_name {
     export const key = 'Reactor.hydroponicsFarm_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hydroponicsFarm_description {
     export const key = 'Reactor.hydroponicsFarm_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace inVitroPlant_name {
     export const key = 'Reactor.inVitroPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace inVitroPlant_description {
     export const key = 'Reactor.inVitroPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace incinerator_name {
     export const key = 'Reactor.incinerator_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace incinerator_description {
     export const key = 'Reactor.incinerator_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace laboratory_name {
     export const key = 'Reactor.laboratory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace laboratory_description {
     export const key = 'Reactor.laboratory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace mediumComponentsAssembly_name {
     export const key = 'Reactor.mediumComponentsAssembly_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace mediumComponentsAssembly_description {
     export const key = 'Reactor.mediumComponentsAssembly_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace orchard_name {
     export const key = 'Reactor.orchard_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace orchard_description {
     export const key = 'Reactor.orchard_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace packagingCenter_name {
     export const key = 'Reactor.packagingCenter_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace packagingCenter_description {
     export const key = 'Reactor.packagingCenter_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace pharmaFactory_name {
     export const key = 'Reactor.pharmaFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace pharmaFactory_description {
     export const key = 'Reactor.pharmaFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectAdminCenter_name {
     export const key = 'Reactor.planetaryProjectAdminCenter_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectAdminCenter_description {
     export const key = 'Reactor.planetaryProjectAdminCenter_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCogc_name {
     export const key = 'Reactor.planetaryProjectCogc_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCogc_description {
     export const key = 'Reactor.planetaryProjectCogc_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortBig_name {
     export const key = 'Reactor.planetaryProjectComfortBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortBig_description {
     export const key = 'Reactor.planetaryProjectComfortBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortCulture_name {
     export const key = 'Reactor.planetaryProjectComfortCulture_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortCulture_description {
     export const key = 'Reactor.planetaryProjectComfortCulture_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortSmall_name {
     export const key = 'Reactor.planetaryProjectComfortSmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectComfortSmall_description {
     export const key = 'Reactor.planetaryProjectComfortSmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureBig_name {
     export const key = 'Reactor.planetaryProjectCultureBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureBig_description {
     export const key = 'Reactor.planetaryProjectCultureBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureEducation_name {
     export const key = 'Reactor.planetaryProjectCultureEducation_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureEducation_description {
     export const key = 'Reactor.planetaryProjectCultureEducation_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureSmall_name {
     export const key = 'Reactor.planetaryProjectCultureSmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectCultureSmall_description {
     export const key = 'Reactor.planetaryProjectCultureSmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectEducationBig_name {
     export const key = 'Reactor.planetaryProjectEducationBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectEducationBig_description {
     export const key = 'Reactor.planetaryProjectEducationBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectEducationSmall_name {
     export const key = 'Reactor.planetaryProjectEducationSmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectEducationSmall_description {
     export const key = 'Reactor.planetaryProjectEducationSmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthBig_name {
     export const key = 'Reactor.planetaryProjectHealthBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthBig_description {
     export const key = 'Reactor.planetaryProjectHealthBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthComfort_name {
     export const key = 'Reactor.planetaryProjectHealthComfort_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthComfort_description {
     export const key = 'Reactor.planetaryProjectHealthComfort_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthSmall_name {
     export const key = 'Reactor.planetaryProjectHealthSmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectHealthSmall_description {
     export const key = 'Reactor.planetaryProjectHealthSmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectLocalMarket_name {
     export const key = 'Reactor.planetaryProjectLocalMarket_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectLocalMarket_description {
     export const key = 'Reactor.planetaryProjectLocalMarket_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectPopulation_name {
     export const key = 'Reactor.planetaryProjectPopulation_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectPopulation_description {
     export const key = 'Reactor.planetaryProjectPopulation_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetyBig_name {
     export const key = 'Reactor.planetaryProjectSafetyBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetyBig_description {
     export const key = 'Reactor.planetaryProjectSafetyBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetyHealth_name {
     export const key = 'Reactor.planetaryProjectSafetyHealth_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetyHealth_description {
     export const key = 'Reactor.planetaryProjectSafetyHealth_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetySmall_name {
     export const key = 'Reactor.planetaryProjectSafetySmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectSafetySmall_description {
     export const key = 'Reactor.planetaryProjectSafetySmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectShipyard_name {
     export const key = 'Reactor.planetaryProjectShipyard_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectShipyard_description {
     export const key = 'Reactor.planetaryProjectShipyard_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectWarehouse_name {
     export const key = 'Reactor.planetaryProjectWarehouse_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace planetaryProjectWarehouse_description {
     export const key = 'Reactor.planetaryProjectWarehouse_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace plasticsPrinterFacility_name {
     export const key = 'Reactor.plasticsPrinterFacility_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace plasticsPrinterFacility_description {
     export const key = 'Reactor.plasticsPrinterFacility_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace polymerPlant_name {
     export const key = 'Reactor.polymerPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace polymerPlant_description {
     export const key = 'Reactor.polymerPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant1_name {
     export const key = 'Reactor.prefabPlant1_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant1_description {
     export const key = 'Reactor.prefabPlant1_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant2_name {
     export const key = 'Reactor.prefabPlant2_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant2_description {
     export const key = 'Reactor.prefabPlant2_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant3_name {
     export const key = 'Reactor.prefabPlant3_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant3_description {
     export const key = 'Reactor.prefabPlant3_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant4_name {
     export const key = 'Reactor.prefabPlant4_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace prefabPlant4_description {
     export const key = 'Reactor.prefabPlant4_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace refinery_name {
     export const key = 'Reactor.refinery_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace refinery_description {
     export const key = 'Reactor.refinery_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace rig_name {
     export const key = 'Reactor.rig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace rig_description {
     export const key = 'Reactor.rig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipKitFactory_name {
     export const key = 'Reactor.shipKitFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace shipKitFactory_description {
     export const key = 'Reactor.shipKitFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace smallComponentsAssembly_name {
     export const key = 'Reactor.smallComponentsAssembly_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace smallComponentsAssembly_description {
     export const key = 'Reactor.smallComponentsAssembly_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace smelter_name {
     export const key = 'Reactor.smelter_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace smelter_description {
     export const key = 'Reactor.smelter_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareDevelopment_name {
     export const key = 'Reactor.softwareDevelopment_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareDevelopment_description {
     export const key = 'Reactor.softwareDevelopment_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareEngineering_name {
     export const key = 'Reactor.softwareEngineering_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareEngineering_description {
     export const key = 'Reactor.softwareEngineering_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareLabs_name {
     export const key = 'Reactor.softwareLabs_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace softwareLabs_description {
     export const key = 'Reactor.softwareLabs_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace spacecraftPrefabPlant_name {
     export const key = 'Reactor.spacecraftPrefabPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace spacecraftPrefabPlant_description {
     export const key = 'Reactor.spacecraftPrefabPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace spacecraftPropulsionFactory_name {
     export const key = 'Reactor.spacecraftPropulsionFactory_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace spacecraftPropulsionFactory_description {
     export const key = 'Reactor.spacecraftPropulsionFactory_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageBig_name {
     export const key = 'Reactor.storageBig_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageBig_description {
     export const key = 'Reactor.storageBig_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageFacility_name {
     export const key = 'Reactor.storageFacility_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageFacility_description {
     export const key = 'Reactor.storageFacility_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageSmall_name {
     export const key = 'Reactor.storageSmall_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageSmall_description {
     export const key = 'Reactor.storageSmall_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageVolume_name {
     export const key = 'Reactor.storageVolume_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageVolume_description {
     export const key = 'Reactor.storageVolume_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageWeight_name {
     export const key = 'Reactor.storageWeight_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace storageWeight_description {
     export const key = 'Reactor.storageWeight_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace technetiumProcessing_name {
     export const key = 'Reactor.technetiumProcessing_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace technetiumProcessing_description {
     export const key = 'Reactor.technetiumProcessing_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace unitPrefabPlant_name {
     export const key = 'Reactor.unitPrefabPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace unitPrefabPlant_description {
     export const key = 'Reactor.unitPrefabPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace weavingPlant_name {
     export const key = 'Reactor.weavingPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace weavingPlant_description {
     export const key = 'Reactor.weavingPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace weldingPlant_name {
     export const key = 'Reactor.weldingPlant_name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace weldingPlant_description {
     export const key = 'Reactor.weldingPlant_description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Workforce {
   export namespace PIONEER {
     export const key = 'Workforce.PIONEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PIONEER_TICKER {
     export const key = 'Workforce.PIONEER_TICKER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SETTLER {
     export const key = 'Workforce.SETTLER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SETTLER_TICKER {
     export const key = 'Workforce.SETTLER_TICKER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TECHNICIAN {
     export const key = 'Workforce.TECHNICIAN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TECHNICIAN_TICKER {
     export const key = 'Workforce.TECHNICIAN_TICKER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENGINEER {
     export const key = 'Workforce.ENGINEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENGINEER_TICKER {
     export const key = 'Workforce.ENGINEER_TICKER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SCIENTIST {
     export const key = 'Workforce.SCIENTIST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SCIENTIST_TICKER {
     export const key = 'Workforce.SCIENTIST_TICKER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace BuildingInformation {
   export namespace recipe {
     export namespace inputless {
       export const key = 'BuildingInformation.recipe.inputless';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace expertise {
     export const key = 'BuildingInformation.expertise';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace areaCost {
     export const key = 'BuildingInformation.areaCost';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace production {
     export const key = 'BuildingInformation.production';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace workforces {
     export const key = 'BuildingInformation.workforces';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace buildingCosts {
     export const key = 'BuildingInformation.buildingCosts';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace BuildingPanel {
   export namespace title {
     export const key = 'BuildingPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace titleWithName {
     export const key = 'BuildingPanel.titleWithName';
@@ -7782,7 +7782,7 @@ export namespace BuildingPanel {
   export namespace error {
     export namespace building {
       export const key = 'BuildingPanel.error.building';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -7790,7 +7790,7 @@ export namespace LastActivity {
   export namespace active {
     export namespace now {
       export const key = 'LastActivity.active.now';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recently {
       export const key = 'LastActivity.active.recently';
@@ -7808,7 +7808,7 @@ export namespace LastActivity {
   export namespace muted {
     export namespace now {
       export const key = 'LastActivity.muted.now';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recently {
       export const key = 'LastActivity.muted.recently';
@@ -7881,7 +7881,7 @@ export namespace Forms {
     export namespace error {
       export namespace isRequired {
         export const key = 'Forms.validation.error.isRequired';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace maxLength {
         export const key = 'Forms.validation.error.maxLength';
@@ -7909,24 +7909,24 @@ export namespace Forms {
       }
       export namespace pattern {
         export const key = 'Forms.validation.error.pattern';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace string {
         export namespace invalid {
           export const key = 'Forms.validation.error.string.invalid';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace float {
         export namespace invalid {
           export const key = 'Forms.validation.error.float.invalid';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace integer {
         export namespace invalid {
           export const key = 'Forms.validation.error.integer.invalid';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
     }
@@ -7936,19 +7936,19 @@ export namespace CreateGroupMembership {
   export namespace form {
     export namespace header {
       export const key = 'CreateGroupMembership.form.header';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CreateGroupMembership.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'CreateGroupMembership.form.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace create {
       export const key = 'CreateGroupMembership.form.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -7956,19 +7956,19 @@ export namespace CreateOneOnOneMembership {
   export namespace form {
     export namespace header {
       export const key = 'CreateOneOnOneMembership.form.header';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CreateOneOnOneMembership.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'CreateOneOnOneMembership.form.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace create {
       export const key = 'CreateOneOnOneMembership.form.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -7977,13 +7977,13 @@ export namespace ChannelMembershipList {
     export namespace addGroup {
       export namespace label {
         export const key = 'ChannelMembershipList.controls.addGroup.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace addPrivate {
       export namespace label {
         export const key = 'ChannelMembershipList.controls.addPrivate.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -7992,11 +7992,11 @@ export namespace ChannelListPanel {
   export namespace context {
     export namespace publicCommunicationsCatalog {
       export const key = 'ChannelListPanel.context.publicCommunicationsCatalog';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace mutedUsers {
       export const key = 'ChannelListPanel.context.mutedUsers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8038,108 +8038,108 @@ export namespace ForExInlineTickerQuote {
 export namespace MutedChatMessage {
   export namespace text {
     export const key = 'MutedChatMessage.text';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Badge {
   export namespace name {
     export namespace team {
       export const key = 'Badge.name.team';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moderator {
       export const key = 'Badge.name.moderator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pioneer {
       export const key = 'Badge.name.pioneer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace translator {
       export const key = 'Badge.name.translator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace comet {
       export const key = 'Badge.name.comet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moon {
       export const key = 'Badge.name.moon';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'Badge.name.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace star {
       export const key = 'Badge.name.star';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace galaxy {
       export const key = 'Badge.name.galaxy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cluster {
       export const key = 'Badge.name.cluster';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace supercluster {
       export const key = 'Badge.name.supercluster';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace universe {
       export const key = 'Badge.name.universe';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace description {
     export namespace team {
       export const key = 'Badge.description.team';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moderator {
       export const key = 'Badge.description.moderator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pioneer {
       export const key = 'Badge.description.pioneer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace translator {
       export const key = 'Badge.description.translator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace comet {
       export const key = 'Badge.description.comet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moon {
       export const key = 'Badge.description.moon';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'Badge.description.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace star {
       export const key = 'Badge.description.star';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace galaxy {
       export const key = 'Badge.description.galaxy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cluster {
       export const key = 'Badge.description.cluster';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace supercluster {
       export const key = 'Badge.description.supercluster';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace universe {
       export const key = 'Badge.description.universe';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8179,12 +8179,12 @@ export namespace chat {
       };
       export namespace auto {
         export const key = 'chat.messages.renamed.auto';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace read_status {
       export const key = 'chat.messages.read_status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deleted {
       export const key = 'chat.messages.deleted';
@@ -8193,7 +8193,7 @@ export namespace chat {
       };
       export namespace auto {
         export const key = 'chat.messages.deleted.auto';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace banned {
@@ -8207,7 +8207,7 @@ export namespace chat {
     export namespace button {
       export namespace loadMore {
         export const key = 'chat.messageList.button.loadMore';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace label {
@@ -8225,7 +8225,7 @@ export namespace Message {
   export namespace action {
     export namespace _delete {
       export const key = 'Message.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8233,11 +8233,11 @@ export namespace Prompt {
   export namespace placeholder {
     export namespace _default {
       export const key = 'Prompt.placeholder.default';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace muted {
       export const key = 'Prompt.placeholder.muted';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace banned {
       export const key = 'Prompt.placeholder.banned';
@@ -8252,18 +8252,18 @@ export namespace UserSelector {
   export namespace input {
     export namespace placeholder {
       export const key = 'UserSelector.input.placeholder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace suggestions {
     export namespace title {
       export namespace searchResults20 {
         export const key = 'UserSelector.suggestions.title.searchResults20';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace searchResults {
         export const key = 'UserSelector.suggestions.title.searchResults';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -8272,52 +8272,52 @@ export namespace AddUser {
   export namespace form {
     export namespace header {
       export const key = 'AddUser.form.header';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace username {
       export const key = 'AddUser.form.username';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'AddUser.form.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace add {
       export const key = 'AddUser.form.add';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace UserList {
   export namespace headerOnline {
     export const key = 'UserList.headerOnline';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace headerOffline {
     export const key = 'UserList.headerOffline';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Channel {
   export namespace controls {
     export namespace leave {
       export const key = 'Channel.controls.leave';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace userList {
       export namespace label {
         export const key = 'Channel.controls.userList.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace addUser {
       export const key = 'Channel.controls.addUser';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace mute {
       export namespace label {
         export const key = 'Channel.controls.mute.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -8325,31 +8325,31 @@ export namespace Channel {
 export namespace ChannelMembership {
   export namespace create {
     export const key = 'ChannelMembership.create';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export namespace _private {
         export const key = 'ChannelMembership.create.description.private';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace group {
         export const key = 'ChannelMembership.create.description.group';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace join {
     export const key = 'ChannelMembership.join';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'ChannelMembership.join.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace GroupChannelMembershipPanel {
   export namespace title {
     export const key = 'GroupChannelMembershipPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace PrivateChannelMembershipPanel {
@@ -8364,7 +8364,7 @@ export namespace PublicChannelMembershipPanel {
   export namespace title {
     export namespace _default {
       export const key = 'PublicChannelMembershipPanel.title.default';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8372,7 +8372,7 @@ export namespace ChannelCatalog {
   export namespace controls {
     export namespace open {
       export const key = 'ChannelCatalog.controls.open';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8380,7 +8380,7 @@ export namespace ChannelCatalogPanel {
   export namespace context {
     export namespace communications {
       export const key = 'ChannelCatalogPanel.context.communications';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8388,21 +8388,21 @@ export namespace MutedUsers {
   export namespace table {
     export namespace user {
       export const key = 'MutedUsers.table.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'MutedUsers.table.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'MutedUsers.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace actions {
     export namespace unmute {
       export const key = 'MutedUsers.actions.unmute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8410,7 +8410,7 @@ export namespace MutedUsersPanel {
   export namespace context {
     export namespace communications {
       export const key = 'MutedUsersPanel.context.communications';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8418,42 +8418,42 @@ export namespace ComEx {
   export namespace context {
     export namespace exchanges {
       export const key = 'ComEx.context.exchanges';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orders {
       export namespace own {
         export const key = 'ComEx.context.orders.own';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace place {
         export const key = 'ComEx.context.orders.place';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace exchange {
       export namespace info {
         export const key = 'ComEx.context.exchange.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace material {
       export namespace info {
         export const key = 'ComEx.context.material.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace price {
       export namespace info {
         export const key = 'ComEx.context.price.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace chart {
         export const key = 'ComEx.context.price.chart';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace orders {
         export const key = 'ComEx.context.price.orders';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -8462,43 +8462,43 @@ export namespace BrokerFrame {
   export namespace error {
     export namespace unknownTicker {
       export const key = 'BrokerFrame.error.unknownTicker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ComExPlaceOrderBook {
   export namespace infinity {
     export const key = 'ComExPlaceOrderBook.infinity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace offers {
     export const key = 'ComExPlaceOrderBook.offers';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace empty {
       export const key = 'ComExPlaceOrderBook.offers.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace requests {
     export const key = 'ComExPlaceOrderBook.requests';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace empty {
       export const key = 'ComExPlaceOrderBook.requests.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace trader {
       export const key = 'ComExPlaceOrderBook.table.trader';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ComExPlaceOrderBook.table.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ComExPlaceOrderBook.table.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace spread {
@@ -8511,72 +8511,72 @@ export namespace ComExPlaceOrderBook {
 export namespace SelectInput {
   export namespace nullLabel {
     export const key = 'SelectInput.nullLabel';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace emptyLabel {
     export const key = 'SelectInput.emptyLabel';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExPlaceOrderForm {
   export namespace label {
     export namespace priceband {
       export const key = 'ComExPlaceOrderForm.label.priceband';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ComExPlaceOrderForm.label.priceband.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace effectivePrice {
       export const key = 'ComExPlaceOrderForm.label.effectivePrice';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ComExPlaceOrderForm.label.effectivePrice.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace exchange {
       export const key = 'ComExPlaceOrderForm.label.exchange';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'ComExPlaceOrderForm.label.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace priceAverage {
       export const key = 'ComExPlaceOrderForm.label.priceAverage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace bidask {
       export const key = 'ComExPlaceOrderForm.label.bidask';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace storeId {
       export const key = 'ComExPlaceOrderForm.label.storeId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'ComExPlaceOrderForm.label.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ComExPlaceOrderForm.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace limit {
       export const key = 'ComExPlaceOrderForm.label.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'ComExPlaceOrderForm.label.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace price {
     export namespace set {
       export const key = 'ComExPlaceOrderForm.price.set';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace priceAverage {
@@ -8615,96 +8615,96 @@ export namespace ComExPlaceOrderForm {
       };
       export namespace set {
         export const key = 'ComExPlaceOrderForm.inventory.amount.set';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace shipmentSize {
     export const key = 'ComExPlaceOrderForm.shipmentSize';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace buy {
     export const key = 'ComExPlaceOrderForm.buy';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace sell {
     export const key = 'ComExPlaceOrderForm.sell';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ForExPlaceOrderForm {
   export namespace label {
     export namespace placeOrder {
       export const key = 'ForExPlaceOrderForm.label.placeOrder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace lots {
       export const key = 'ForExPlaceOrderForm.label.lots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ForExPlaceOrderForm.label.lots.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace size {
         export const key = 'ForExPlaceOrderForm.label.lots.size';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace volume {
       export const key = 'ForExPlaceOrderForm.label.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ForExPlaceOrderForm.label.volume.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fee {
       export const key = 'ForExPlaceOrderForm.label.fee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ForExPlaceOrderForm.label.fee.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace currency {
       export namespace base {
         export const key = 'ForExPlaceOrderForm.label.currency.base';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace quote {
         export const key = 'ForExPlaceOrderForm.label.currency.quote';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace amount {
       export const key = 'ForExPlaceOrderForm.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ForExPlaceOrderForm.label.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace total {
       export const key = 'ForExPlaceOrderForm.label.total';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace buy {
     export const key = 'ForExPlaceOrderForm.buy';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace sell {
     export const key = 'ForExPlaceOrderForm.sell';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace limit {
     export namespace maximum {
       export const key = 'ForExPlaceOrderForm.limit.maximum';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace minimum {
       export const key = 'ForExPlaceOrderForm.limit.minimum';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace price {
@@ -8715,13 +8715,13 @@ export namespace ForExPlaceOrderForm {
     };
     export namespace set {
       export const key = 'ForExPlaceOrderForm.price.set';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace _ {
     export namespace labelfeeTotal {
       export const key = 'ForExPlaceOrderForm..labelfeeTotal';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8729,10 +8729,10 @@ export namespace ComExPlaceOrderPanel {
   export namespace action {
     export namespace place {
       export const key = 'ComExPlaceOrderPanel.action.place';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'ComExPlaceOrderPanel.action.place.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -8747,7 +8747,7 @@ export namespace StockChartContainer {
   export namespace error {
     export namespace noData {
       export const key = 'StockChartContainer.error.noData';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -8780,47 +8780,47 @@ export namespace comex {
     export namespace info {
       export namespace priceAverage {
         export const key = 'comex.broker.info.priceAverage';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace high {
         export const key = 'comex.broker.info.high';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace allTime {
           export const key = 'comex.broker.info.high.allTime';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace low {
         export const key = 'comex.broker.info.low';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace allTime {
           export const key = 'comex.broker.info.low.allTime';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace ask {
         export const key = 'comex.broker.info.ask';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace amount {
           export const key = 'comex.broker.info.ask.amount';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace bid {
         export const key = 'comex.broker.info.bid';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace amount {
           export const key = 'comex.broker.info.bid.amount';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace traded {
         export const key = 'comex.broker.info.traded';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace volume {
         export const key = 'comex.broker.info.volume';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -8828,7 +8828,7 @@ export namespace comex {
 export namespace ComExPricePanel {
   export namespace noPrice {
     export const key = 'ComExPricePanel.noPrice';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace title {
     export const key = 'ComExPricePanel.title';
@@ -8848,48 +8848,48 @@ export namespace EndlessScrollControl {
   export namespace label {
     export namespace loadmore {
       export const key = 'EndlessScrollControl.label.loadmore';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ComExListTable {
   export namespace name {
     export const key = 'ComExListTable.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace code {
     export const key = 'ComExListTable.code';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace operator {
     export const key = 'ComExListTable.operator';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace location {
     export const key = 'ComExListTable.location';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExListPanel {
   export namespace title {
     export const key = 'ComExListPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace nodata {
       export const key = 'ComExListPanel.error.nodata';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CalculatedDistance {
   export namespace samePlanet {
     export const key = 'CalculatedDistance.samePlanet';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace sameSystem {
     export const key = 'CalculatedDistance.sameSystem';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace jumps {
     export const key = 'CalculatedDistance.jumps';
@@ -8908,96 +8908,96 @@ export namespace ComExMaterialInfoRow {
   }
   export namespace noPrice {
     export const key = 'ComExMaterialInfoRow.noPrice';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infinity {
     export const key = 'ComExMaterialInfoRow.infinity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExMaterialInfo {
   export namespace link {
     export namespace info {
       export const key = 'ComExMaterialInfo.link.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace chart {
       export const key = 'ComExMaterialInfo.link.chart';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orderBook {
       export const key = 'ComExMaterialInfo.link.orderBook';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace placeOrder {
       export const key = 'ComExMaterialInfo.link.placeOrder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace exchange {
     export const key = 'ComExMaterialInfo.exchange';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace location {
       export const key = 'ComExMaterialInfo.exchange.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace distance {
     export const key = 'ComExMaterialInfo.distance';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace price {
     export const key = 'ComExMaterialInfo.price';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace change {
       export const key = 'ComExMaterialInfo.price.change';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ask {
     export const key = 'ComExMaterialInfo.ask';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace amount {
       export const key = 'ComExMaterialInfo.ask.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bid {
     export const key = 'ComExMaterialInfo.bid';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace amount {
       export const key = 'ComExMaterialInfo.bid.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace supply {
     export const key = 'ComExMaterialInfo.supply';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace demand {
       export const key = 'ComExMaterialInfo.supply.demand';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace units {
     export const key = 'ComExMaterialInfo.units';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace weekly {
       export const key = 'ComExMaterialInfo.units.weekly';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace materialInfo {
       export const key = 'ComExMaterialInfo.context.materialInfo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace exchangeList {
       export const key = 'ComExMaterialInfo.context.exchangeList';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orderList {
       export const key = 'ComExMaterialInfo.context.orderList';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -9007,13 +9007,13 @@ export namespace ComExMaterialInfo {
     };
     export namespace loading {
       export const key = 'ComExMaterialInfo.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace nodata {
       export const key = 'ComExMaterialInfo.error.nodata';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9027,110 +9027,110 @@ export namespace BrokerListLine {
 export namespace BrokerList {
   export namespace noPrice {
     export const key = 'BrokerList.noPrice';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infinity {
     export const key = 'BrokerList.infinity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace link {
     export namespace info {
       export const key = 'BrokerList.link.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace chart {
       export const key = 'BrokerList.link.chart';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orderBook {
       export const key = 'BrokerList.link.orderBook';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace placeOrder {
       export const key = 'BrokerList.link.placeOrder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace empty {
     export const key = 'BrokerList.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace material {
     export const key = 'BrokerList.material';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ticker {
     export const key = 'BrokerList.ticker';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace price {
     export const key = 'BrokerList.price';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace change {
     export const key = 'BrokerList.change';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ask {
     export const key = 'BrokerList.ask';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace amount {
       export const key = 'BrokerList.ask.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace bid {
     export const key = 'BrokerList.bid';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace amount {
       export const key = 'BrokerList.bid.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace demand {
       export const key = 'BrokerList.bid.demand';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace supply {
     export const key = 'BrokerList.supply';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExPanel {
   export namespace title {
     export namespace loading {
       export const key = 'ComExPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace data {
     export namespace station {
       export const key = 'ComExPanel.data.station';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'ComExPanel.data.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace code {
       export const key = 'ComExPanel.data.code';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'ComExPanel.data.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'ComExPanel.data.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'ComExPanel.data.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace category {
       export const key = 'ComExPanel.data.category';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -9161,81 +9161,81 @@ export namespace LocalMarket {
   export namespace context {
     export namespace ads {
       export const key = 'LocalMarket.context.ads';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blacklist {
       export const key = 'LocalMarket.context.blacklist';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'LocalMarket.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace market {
       export const key = 'LocalMarket.context.market';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace post {
       export const key = 'LocalMarket.context.post';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace adType {
     export namespace buying {
       export const key = 'LocalMarket.adType.buying';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace selling {
       export const key = 'LocalMarket.adType.selling';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipping {
       export const key = 'LocalMarket.adType.shipping';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace market {
       export namespace fees {
         export const key = 'LocalMarket.label.market.fees';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace info {
           export const key = 'LocalMarket.label.market.fees.info';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace address {
         export const key = 'LocalMarket.label.market.address';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace operator {
         export const key = 'LocalMarket.label.market.operator';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace currency {
         export const key = 'LocalMarket.label.market.currency';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace error {
     export namespace adtype {
       export const key = 'LocalMarket.error.adtype';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace id {
       export const key = 'LocalMarket.error.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nomarket {
       export const key = 'LocalMarket.error.nomarket';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace post {
       export const key = 'LocalMarket.button.post';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace market {
@@ -9250,7 +9250,7 @@ export namespace LocalMarket {
   export namespace header {
     export namespace ads {
       export const key = 'LocalMarket.header.ads';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -9260,7 +9260,7 @@ export namespace LocalMarket {
     };
     export namespace loading {
       export const key = 'LocalMarket.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9274,95 +9274,95 @@ export namespace Warehouse {
   export namespace context {
     export namespace planet {
       export const key = 'Warehouse.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace warehouse {
       export const key = 'Warehouse.context.warehouse';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace localrules {
       export const key = 'Warehouse.context.localrules';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace fee {
       export const key = 'Warehouse.label.fee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'Warehouse.label.fee.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace address {
       export const key = 'Warehouse.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'Warehouse.label.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace level {
       export const key = 'Warehouse.label.level';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace units {
       export const key = 'Warehouse.label.units';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace rentableUnits {
       export const key = 'Warehouse.label.rentableUnits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace size {
       export const key = 'Warehouse.label.size';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace rental {
       export const key = 'Warehouse.label.rental';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace locked {
       export const key = 'Warehouse.label.locked';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unitsRented {
       export const key = 'Warehouse.label.unitsRented';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacity {
       export const key = 'Warehouse.label.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace store {
       export const key = 'Warehouse.label.store';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payment {
       export const key = 'Warehouse.label.payment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace feeCollector {
       export const key = 'Warehouse.label.feeCollector';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace warehousestorage {
       export const key = 'Warehouse.label.warehousestorage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxedOut {
       export const key = 'Warehouse.label.maxedOut';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export namespace operational {
       export const key = 'Warehouse.status.operational';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace locked {
       export const key = 'Warehouse.status.locked';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace availableUnits {
@@ -9373,37 +9373,37 @@ export namespace Warehouse {
     };
     export namespace unlimited {
       export const key = 'Warehouse.availableUnits.unlimited';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace size {
     export namespace _default {
       export const key = 'Warehouse.size.default';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace rent {
       export const key = 'Warehouse.action.rent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'Warehouse.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace storage {
       export const key = 'Warehouse.header.storage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace expansion {
       export const key = 'Warehouse.header.expansion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'Warehouse.header.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace unitsRented {
@@ -9423,7 +9423,7 @@ export namespace Warehouse {
   export namespace command {
     export namespace openStore {
       export const key = 'Warehouse.command.openStore';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fee {
@@ -9437,11 +9437,11 @@ export namespace Warehouse {
   export namespace error {
     export namespace id {
       export const key = 'Warehouse.error.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nowar {
       export const key = 'Warehouse.error.nowar';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -9451,103 +9451,103 @@ export namespace Warehouse {
     };
     export namespace loading {
       export const key = 'Warehouse.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace OrderStatusLabel {
   export namespace CREATED {
     export const key = 'OrderStatusLabel.CREATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLACED {
     export const key = 'OrderStatusLabel.PLACED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PARTIALLY_FILLED {
     export const key = 'OrderStatusLabel.PARTIALLY_FILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FILLED {
     export const key = 'OrderStatusLabel.FILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DELETED {
     export const key = 'OrderStatusLabel.DELETED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace OrderTypeLabel {
   export namespace BUYING {
     export const key = 'OrderTypeLabel.BUYING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SELLING {
     export const key = 'OrderTypeLabel.SELLING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExOrderPanel {
   export namespace title {
     export const key = 'ComExOrderPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace trades {
     export const key = 'ComExOrderPanel.trades';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace empty {
       export const key = 'ComExOrderPanel.trades.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace partner {
       export const key = 'ComExOrderPanel.trades.partner';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ComExOrderPanel.trades.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ComExOrderPanel.trades.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'ComExOrderPanel.trades.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace data {
     export namespace _type {
       export const key = 'ComExOrderPanel.data.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace exchange {
       export const key = 'ComExOrderPanel.data.exchange';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ticker {
       export const key = 'ComExOrderPanel.data.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'ComExOrderPanel.data.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ComExOrderPanel.data.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace initial {
         export const key = 'ComExOrderPanel.data.amount.initial';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace limit {
       export const key = 'ComExOrderPanel.data.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ComExOrderPanel.data.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -9563,7 +9563,7 @@ export namespace FilterTag {
   export namespace action {
     export namespace close {
       export const key = 'FilterTag.action.close';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9571,7 +9571,7 @@ export namespace MaterialSelector {
   export namespace input {
     export namespace placeholder {
       export const key = 'MaterialSelector.input.placeholder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9579,38 +9579,38 @@ export namespace ComExOrdersPanel {
   export namespace filter {
     export namespace show {
       export const key = 'ComExOrdersPanel.filter.show';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace hide {
       export const key = 'ComExOrdersPanel.filter.hide';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace clearMaterialFilters {
       export const key = 'ComExOrdersPanel.filter.clearMaterialFilters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace types {
       export const key = 'ComExOrdersPanel.filter.types';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace exchanges {
       export const key = 'ComExOrdersPanel.filter.exchanges';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace statuses {
       export const key = 'ComExOrdersPanel.filter.statuses';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace materials {
       export const key = 'ComExOrdersPanel.filter.materials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace _delete {
     export namespace action {
       export namespace confirmation {
         export const key = 'ComExOrdersPanel.delete.action.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace details {
           export const key = 'ComExOrdersPanel.delete.action.confirmation.details';
           export type parameter = {
@@ -9620,52 +9620,52 @@ export namespace ComExOrdersPanel {
       }
       export namespace submit {
         export const key = 'ComExOrdersPanel.delete.action.submit';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace title {
     export const key = 'ComExOrdersPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace deleteFilled {
     export const key = 'ComExOrdersPanel.deleteFilled';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace deleted {
     export const key = 'ComExOrdersPanel.deleted';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ComExOrdersTable {
   export namespace table {
     export namespace exchange {
       export const key = 'ComExOrdersTable.table.exchange';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'ComExOrdersTable.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ticker {
       export const key = 'ComExOrdersTable.table.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'ComExOrdersTable.table.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ComExOrdersTable.table.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace limit {
       export const key = 'ComExOrdersTable.table.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ComExOrdersTable.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace amount {
@@ -9677,15 +9677,15 @@ export namespace ComExOrdersTable {
   }
   export namespace _delete {
     export const key = 'ComExOrdersTable.delete';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace view {
     export const key = 'ComExOrdersTable.view';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace noOrders {
     export const key = 'ComExOrdersTable.noOrders';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ProgressBar {
@@ -9701,27 +9701,27 @@ export namespace MaterialAssignment {
   export namespace label {
     export namespace storage {
       export const key = 'MaterialAssignment.label.storage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace inventory {
       export const key = 'MaterialAssignment.table.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace assignment {
       export const key = 'MaterialAssignment.table.assignment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'MaterialAssignment.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace assign {
       export const key = 'MaterialAssignment.action.assign';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9730,36 +9730,36 @@ export namespace CompanyHeadquarters {
     export namespace level {
       export namespace info {
         export const key = 'CompanyHeadquarters.label.level.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace basepermits {
       export namespace info {
         export const key = 'CompanyHeadquarters.label.basepermits.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace efficiencygains {
       export namespace info {
         export const key = 'CompanyHeadquarters.label.efficiencygains.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace additionalBasePermits {
       export namespace info {
         export const key = 'CompanyHeadquarters.label.additionalBasePermits.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace additionalProductionQueueSlots {
       export namespace info {
         export const key = 'CompanyHeadquarters.label.additionalProductionQueueSlots.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace relocateNotPossible {
       export const key = 'CompanyHeadquarters.label.relocateNotPossible';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
@@ -9778,45 +9778,45 @@ export namespace CompanyHeadquarters {
     }
     export namespace site {
       export const key = 'CompanyHeadquarters.form.site';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CompanyHeadquarters.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'CompanyHeadquarters.form.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace level {
       export const key = 'CompanyHeadquarters.form.level';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace basepermits {
       export const key = 'CompanyHeadquarters.form.basepermits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace efficiencygains {
       export const key = 'CompanyHeadquarters.form.efficiencygains';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace additionalBasePermits {
       export const key = 'CompanyHeadquarters.form.additionalBasePermits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace additionalProductionQueueSlots {
       export const key = 'CompanyHeadquarters.form.additionalProductionQueueSlots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace command {
     export const key = 'CompanyHeadquarters.command';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace button {
     export namespace relocate {
       export const key = 'CompanyHeadquarters.button.relocate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace basepermits {
@@ -9829,17 +9829,17 @@ export namespace CompanyHeadquarters {
   export namespace header {
     export namespace upgrade {
       export const key = 'CompanyHeadquarters.header.upgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace relocate {
       export const key = 'CompanyHeadquarters.header.relocate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace company {
       export const key = 'CompanyHeadquarters.context.company';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -9851,12 +9851,12 @@ export namespace CompanyHeadquarters {
     }
     export namespace noAddress {
       export const key = 'CompanyHeadquarters.title.noAddress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace empty {
     export const key = 'CompanyHeadquarters.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CompanyHeadquartersPanel {
@@ -9869,43 +9869,43 @@ export namespace CompanyHeadquartersPanel {
     }
     export namespace relocate {
       export const key = 'CompanyHeadquartersPanel.action.relocate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace OfficeType {
   export namespace GOVERNOR {
     export const key = 'OfficeType.GOVERNOR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MEMBER_OF_PARLIAMENT {
     export const key = 'OfficeType.MEMBER_OF_PARLIAMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace OfficeList {
   export namespace table {
     export namespace role {
       export const key = 'OfficeList.table.role';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'OfficeList.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace end {
       export const key = 'OfficeList.table.end';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace adm {
       export const key = 'OfficeList.action.adm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gov {
       export const key = 'OfficeList.action.gov';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9913,25 +9913,25 @@ export namespace Offices {
   export namespace header {
     export namespace runs {
       export const key = 'Offices.header.runs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace current {
       export const key = 'Offices.header.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace past {
       export const key = 'Offices.header.past';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace address {
       export const key = 'Offices.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace end {
       export const key = 'Offices.table.end';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -9943,7 +9943,7 @@ export namespace OfficesPanel {
     };
     export namespace loading {
       export const key = 'OfficesPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -9957,106 +9957,106 @@ export namespace OfficesPanel {
   export namespace context {
     export namespace user {
       export const key = 'OfficesPanel.context.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CompanySetup {
   export namespace VICTUALLER {
     export const key = 'CompanySetup.VICTUALLER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace METALLURGIST {
     export const key = 'CompanySetup.METALLURGIST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CARBON_FARMER {
     export const key = 'CompanySetup.CARBON_FARMER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MANUFACTURER {
     export const key = 'CompanySetup.MANUFACTURER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONSTRUCTOR {
     export const key = 'CompanySetup.CONSTRUCTOR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FUEL_ENGINEER {
     export const key = 'CompanySetup.FUEL_ENGINEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace profile {
     export namespace VICTUALLER {
       export const key = 'CompanySetup.profile.VICTUALLER';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.VICTUALLER.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.VICTUALLER.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace METALLURGIST {
       export const key = 'CompanySetup.profile.METALLURGIST';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.METALLURGIST.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.METALLURGIST.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace CARBON_FARMER {
       export const key = 'CompanySetup.profile.CARBON_FARMER';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.CARBON_FARMER.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.CARBON_FARMER.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace MANUFACTURER {
       export const key = 'CompanySetup.profile.MANUFACTURER';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.MANUFACTURER.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.MANUFACTURER.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace CONSTRUCTOR {
       export const key = 'CompanySetup.profile.CONSTRUCTOR';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.CONSTRUCTOR.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.CONSTRUCTOR.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace FUEL_ENGINEER {
       export const key = 'CompanySetup.profile.FUEL_ENGINEER';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'CompanySetup.profile.FUEL_ENGINEER.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.profile.FUEL_ENGINEER.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -10065,58 +10065,58 @@ export namespace CompanySetup {
       export namespace error {
         export namespace unavailableName {
           export const key = 'CompanySetup.step.company.error.unavailableName';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
         export namespace unavailableCode {
           export const key = 'CompanySetup.step.company.error.unavailableCode';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace name {
         export const key = 'CompanySetup.step.company.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace info {
           export const key = 'CompanySetup.step.company.name.info';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
         export namespace placeholder {
           export const key = 'CompanySetup.step.company.name.placeholder';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace code {
         export const key = 'CompanySetup.step.company.code';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
         export namespace info {
           export const key = 'CompanySetup.step.company.code.info';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
         export namespace placeholder {
           export const key = 'CompanySetup.step.company.code.placeholder';
-          export type parameter = object;
+          export type parameter = Record<string, never>;
         }
       }
       export namespace header {
         export const key = 'CompanySetup.step.company.header';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace description1 {
         export const key = 'CompanySetup.step.company.description1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace description2 {
         export const key = 'CompanySetup.step.company.description2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace disclaimer {
       export namespace header {
         export const key = 'CompanySetup.step.disclaimer.header';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace indevelopment {
         export const key = 'CompanySetup.step.disclaimer.indevelopment';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace text1 {
         export const key = 'CompanySetup.step.disclaimer.text1';
@@ -10126,7 +10126,7 @@ export namespace CompanySetup {
       }
       export namespace slowgame {
         export const key = 'CompanySetup.step.disclaimer.slowgame';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace text2 {
         export const key = 'CompanySetup.step.disclaimer.text2';
@@ -10136,13 +10136,13 @@ export namespace CompanySetup {
       }
       export namespace text3 {
         export const key = 'CompanySetup.step.disclaimer.text3';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace country {
       export namespace header {
         export const key = 'CompanySetup.step.country.header';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace currency {
         export const key = 'CompanySetup.step.country.currency';
@@ -10154,61 +10154,61 @@ export namespace CompanySetup {
     export namespace location {
       export namespace professionSuitability {
         export const key = 'CompanySetup.step.location.professionSuitability';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace header {
         export const key = 'CompanySetup.step.location.header';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace description1 {
         export const key = 'CompanySetup.step.location.description1';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace description2 {
         export const key = 'CompanySetup.step.location.description2';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace profile {
       export namespace header {
         export const key = 'CompanySetup.step.profile.header';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace centralResources {
         export const key = 'CompanySetup.step.profile.centralResources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'CompanySetup.step.profile.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace note {
         export const key = 'CompanySetup.step.profile.note';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace action {
       export namespace back {
         export const key = 'CompanySetup.step.action.back';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace accept {
         export const key = 'CompanySetup.step.action.accept';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace next {
         export const key = 'CompanySetup.step.action.next';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace create {
         export const key = 'CompanySetup.step.action.create';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace header {
     export const key = 'CompanySetup.header';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace RecommendedStarterBuildings {
@@ -10220,27 +10220,27 @@ export namespace RecommendedStarterBuildings {
   }
   export namespace text2 {
     export const key = 'RecommendedStarterBuildings.text2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text3 {
     export const key = 'RecommendedStarterBuildings.text3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text4 {
     export const key = 'RecommendedStarterBuildings.text4';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace buttons {
     export namespace construct {
       export const key = 'RecommendedStarterBuildings.buttons.construct';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace RecommendedStarterBuildingsPanel {
   export namespace title {
     export const key = 'RecommendedStarterBuildingsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Validation {
@@ -10259,11 +10259,11 @@ export namespace Validation {
     }
     export namespace required {
       export const key = 'Validation.rule.required';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace matches {
       export const key = 'Validation.rule.matches';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10271,7 +10271,7 @@ export namespace RepresentationCenter {
   export namespace label {
     export namespace level {
       export const key = 'RepresentationCenter.label.level';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'RepresentationCenter.label.progress';
@@ -10289,197 +10289,197 @@ export namespace RepresentationCenter {
     }
     export namespace contribution {
       export const key = 'RepresentationCenter.label.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
     export namespace level {
       export const key = 'RepresentationCenter.form.level';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace totalContributions {
       export const key = 'RepresentationCenter.form.totalContributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace section {
       export namespace next {
         export const key = 'RepresentationCenter.form.section.next';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace contributions {
         export const key = 'RepresentationCenter.form.section.contributions';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace costNextLevel {
       export const key = 'RepresentationCenter.form.costNextLevel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'RepresentationCenter.form.progress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace left {
       export const key = 'RepresentationCenter.form.left';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace set {
       export const key = 'RepresentationCenter.action.set';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribute {
       export const key = 'RepresentationCenter.action.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace contributions {
     export namespace contributor {
       export const key = 'RepresentationCenter.contributions.contributor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'RepresentationCenter.contributions.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'RepresentationCenter.contributions.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace sites {
       export const key = 'RepresentationCenter.context.sites';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace headquarters {
       export const key = 'RepresentationCenter.context.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'RepresentationCenter.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InfrastructureType {
   export namespace GATEWAY {
     export const key = 'InfrastructureType.GATEWAY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Program {
   export namespace IMMIGRATION_PIONEER {
     export const key = 'Program.IMMIGRATION_PIONEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.IMMIGRATION_PIONEER.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IMMIGRATION_SETTLER {
     export const key = 'Program.IMMIGRATION_SETTLER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.IMMIGRATION_SETTLER.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IMMIGRATION_TECHNICIAN {
     export const key = 'Program.IMMIGRATION_TECHNICIAN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.IMMIGRATION_TECHNICIAN.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IMMIGRATION_ENGINEER {
     export const key = 'Program.IMMIGRATION_ENGINEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.IMMIGRATION_ENGINEER.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IMMIGRATION_SCIENTIST {
     export const key = 'Program.IMMIGRATION_SCIENTIST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.IMMIGRATION_SCIENTIST.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FAMILY_SUPPORT_1 {
     export const key = 'Program.FAMILY_SUPPORT_1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FAMILY_SUPPORT_1.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FAMILY_SUPPORT_2 {
     export const key = 'Program.FAMILY_SUPPORT_2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FAMILY_SUPPORT_2.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FAMILY_SUPPORT_3 {
     export const key = 'Program.FAMILY_SUPPORT_3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FAMILY_SUPPORT_3.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace EDUCATION_1 {
     export const key = 'Program.EDUCATION_1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.EDUCATION_1.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace EDUCATION_2 {
     export const key = 'Program.EDUCATION_2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.EDUCATION_2.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace EDUCATION_3 {
     export const key = 'Program.EDUCATION_3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.EDUCATION_3.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FESTIVITIES_1 {
     export const key = 'Program.FESTIVITIES_1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FESTIVITIES_1.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FESTIVITIES_2 {
     export const key = 'Program.FESTIVITIES_2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FESTIVITIES_2.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace FESTIVITIES_3 {
     export const key = 'Program.FESTIVITIES_3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'Program.FESTIVITIES_3.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10507,7 +10507,7 @@ export namespace ConditionText {
     };
     export namespace autoprovision {
       export const key = 'ConditionText.provision.autoprovision';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pickup {
@@ -10555,7 +10555,7 @@ export namespace ConditionText {
   }
   export namespace upgrade {
     export const key = 'ConditionText.upgrade';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace reputation {
     export const key = 'ConditionText.reputation';
@@ -10565,7 +10565,7 @@ export namespace ConditionText {
   }
   export namespace maintenance {
     export const key = 'ConditionText.maintenance';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace contribution {
     export const key = 'ConditionText.contribution';
@@ -10575,35 +10575,35 @@ export namespace ConditionText {
   }
   export namespace construction {
     export const key = 'ConditionText.construction';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace power {
     export const key = 'ConditionText.power';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace baseConstruction {
     export const key = 'ConditionText.baseConstruction';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace productionRun {
     export const key = 'ConditionText.productionRun';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace productionOrderCompleted {
     export const key = 'ConditionText.productionOrderCompleted';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace startFlight {
     export const key = 'ConditionText.startFlight';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace finishFlight {
     export const key = 'ConditionText.finishFlight';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace placeOrder {
     export const key = 'ConditionText.placeOrder';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace loanPayout {
     export const key = 'ConditionText.loanPayout';
@@ -10633,7 +10633,7 @@ export namespace ConditionText {
   }
   export namespace infrastructureConstructionFinish {
     export const key = 'ConditionText.infrastructureConstructionFinish';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructureUpgradeStart {
     export const key = 'ConditionText.infrastructureUpgradeStart';
@@ -10644,7 +10644,7 @@ export namespace ConditionText {
   }
   export namespace infrastructureUpgradeFinish {
     export const key = 'ConditionText.infrastructureUpgradeFinish';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructureUpkeep {
     export const key = 'ConditionText.infrastructureUpkeep';
@@ -10668,18 +10668,18 @@ export namespace AddressSelector {
   export namespace input {
     export namespace placeholder {
       export const key = 'AddressSelector.input.placeholder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace suggestions {
     export namespace title {
       export namespace searchResults20 {
         export const key = 'AddressSelector.suggestions.title.searchResults20';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace searchResults {
         export const key = 'AddressSelector.suggestions.title.searchResults';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -10688,15 +10688,15 @@ export namespace ProvisionConditionEditForm {
   export namespace form {
     export namespace amount {
       export const key = 'ProvisionConditionEditForm.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'ProvisionConditionEditForm.form.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'ProvisionConditionEditForm.form.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10704,7 +10704,7 @@ export namespace ConditionEditForm {
   export namespace action {
     export namespace save {
       export const key = 'ConditionEditForm.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10712,7 +10712,7 @@ export namespace AddressConditionEditForm {
   export namespace form {
     export namespace address {
       export const key = 'AddressConditionEditForm.form.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10720,15 +10720,15 @@ export namespace DeliveryConditionEditForm {
   export namespace form {
     export namespace amount {
       export const key = 'DeliveryConditionEditForm.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'DeliveryConditionEditForm.form.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'DeliveryConditionEditForm.form.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10736,11 +10736,11 @@ export namespace PaymentConditionEditForm {
   export namespace form {
     export namespace amount {
       export const key = 'PaymentConditionEditForm.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'PaymentConditionEditForm.form.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10748,15 +10748,15 @@ export namespace PickupConditionEditorForm {
   export namespace form {
     export namespace amount {
       export const key = 'PickupConditionEditorForm.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'PickupConditionEditorForm.form.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'PickupConditionEditorForm.form.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10764,39 +10764,39 @@ export namespace TemplateSelectionShip {
   export namespace label {
     export namespace amount {
       export const key = 'TemplateSelectionShip.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'TemplateSelectionShip.label.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cargo {
       export const key = 'TemplateSelectionShip.label.cargo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace origin {
       export const key = 'TemplateSelectionShip.label.origin';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace autoprovision {
       export const key = 'TemplateSelectionShip.label.autoprovision';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'TemplateSelectionShip.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'TemplateSelectionShip.label.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destination {
       export const key = 'TemplateSelectionShip.label.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deadline {
       export const key = 'TemplateSelectionShip.label.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cargo {
@@ -10810,14 +10810,14 @@ export namespace TemplateSelectionShip {
 export namespace DraftConditionEditor {
   export namespace header {
     export const key = 'DraftConditionEditor.header';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace DraftConditionParameterEditForm {
   export namespace form {
     export namespace amount {
       export const key = 'DraftConditionParameterEditForm.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -10834,39 +10834,39 @@ export namespace ContractDraft {
   export namespace form {
     export namespace preamble {
       export const key = 'ContractDraft.form.preamble';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace placeholder {
         export const key = 'ContractDraft.form.preamble.placeholder';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace status {
       export const key = 'ContractDraft.form.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'ContractDraft.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace repeating {
       export const key = 'ContractDraft.form.repeating';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace save {
       export const key = 'ContractDraft.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace template {
       export const key = 'ContractDraft.action.template';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace template {
       export const key = 'ContractDraft.label.template';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace condition {
@@ -10881,46 +10881,46 @@ export namespace ContractDraft {
   export namespace header {
     export namespace conditions {
       export const key = 'ContractDraft.header.conditions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace send {
       export const key = 'ContractDraft.header.send';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace index {
       export const key = 'ContractDraft.table.index';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'ContractDraft.table.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deadline {
       export const key = 'ContractDraft.table.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace party {
       export const key = 'ContractDraft.table.party';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace dependency {
       export const key = 'ContractDraft.table.dependency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'ContractDraft.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace action {
       export namespace condition {
         export const key = 'ContractDraft.table.action.condition';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace parameter {
         export const key = 'ContractDraft.table.action.parameter';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -10928,198 +10928,198 @@ export namespace ContractDraft {
 export namespace DraftPartyName {
   export namespace self {
     export const key = 'DraftPartyName.self';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace other {
     export const key = 'DraftPartyName.other';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ContractDraftSend {
   export namespace form {
     export namespace recipient {
       export const key = 'ContractDraftSend.form.recipient';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace send {
       export const key = 'ContractDraftSend.action.send';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace save {
       export const key = 'ContractDraftSend.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace discard {
       export const key = 'ContractDraftSend.action.discard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace TemplateType {
   export namespace BUY {
     export const key = 'TemplateType.BUY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BUY_DESC {
     export const key = 'TemplateType.BUY_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SELL {
     export const key = 'TemplateType.SELL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SELL_DESC {
     export const key = 'TemplateType.SELL_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP {
     export const key = 'TemplateType.SHIP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_DESC {
     export const key = 'TemplateType.SHIP_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_INTEREST {
     export const key = 'TemplateType.LOAN_INTEREST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_INTEREST_DESC {
     export const key = 'TemplateType.LOAN_INTEREST_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_ANNUITY {
     export const key = 'TemplateType.LOAN_ANNUITY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_ANNUITY_DESC {
     export const key = 'TemplateType.LOAN_ANNUITY_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_STABLE {
     export const key = 'TemplateType.LOAN_STABLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_STABLE_DESC {
     export const key = 'TemplateType.LOAN_STABLE_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TemplateSelection {
   export namespace label {
     export namespace description {
       export const key = 'TemplateSelection.label.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace addCommodity {
       export const key = 'TemplateSelection.action.addCommodity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moveUp {
       export const key = 'TemplateSelection.action.moveUp';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moveDown {
       export const key = 'TemplateSelection.action.moveDown';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace remove {
       export const key = 'TemplateSelection.action.remove';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'TemplateSelection.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace template {
       export const key = 'TemplateSelection.action.template';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace addShipment {
       export const key = 'TemplateSelection.action.addShipment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export const key = 'TemplateSelection.header';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TemplateSelectionBuy {
   export namespace label {
     export namespace currency {
       export const key = 'TemplateSelectionBuy.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'TemplateSelectionBuy.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'TemplateSelectionBuy.label.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pricePerUnit {
       export const key = 'TemplateSelectionBuy.label.pricePerUnit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'TemplateSelectionBuy.label.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'TemplateSelectionBuy.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deadline {
       export const key = 'TemplateSelectionBuy.label.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace Role {
   export namespace BORROWER {
     export const key = 'Role.BORROWER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LENDER {
     export const key = 'Role.LENDER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TemplateSelectionLoanAnnuity {
   export namespace label {
     export namespace interval {
       export const key = 'TemplateSelectionLoanAnnuity.label.interval';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'TemplateSelectionLoanAnnuity.label.interval.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace role {
       export const key = 'TemplateSelectionLoanAnnuity.label.role';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'TemplateSelectionLoanAnnuity.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'TemplateSelectionLoanAnnuity.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace interestRate {
       export const key = 'TemplateSelectionLoanAnnuity.label.interestRate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace repayment {
       export const key = 'TemplateSelectionLoanAnnuity.label.repayment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11127,37 +11127,37 @@ export namespace TemplateSelectionLoanInterest {
   export namespace label {
     export namespace interval {
       export const key = 'TemplateSelectionLoanInterest.label.interval';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'TemplateSelectionLoanInterest.label.interval.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace installments {
       export namespace info {
         export const key = 'TemplateSelectionLoanInterest.label.installments.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace role {
       export const key = 'TemplateSelectionLoanInterest.label.role';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'TemplateSelectionLoanInterest.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'TemplateSelectionLoanInterest.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace interestRate {
       export const key = 'TemplateSelectionLoanInterest.label.interestRate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace duration {
       export const key = 'TemplateSelectionLoanInterest.label.duration';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11165,31 +11165,31 @@ export namespace TemplateSelectionLoanStable {
   export namespace label {
     export namespace interval {
       export const key = 'TemplateSelectionLoanStable.label.interval';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'TemplateSelectionLoanStable.label.interval.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace role {
       export const key = 'TemplateSelectionLoanStable.label.role';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'TemplateSelectionLoanStable.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'TemplateSelectionLoanStable.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace interestRate {
       export const key = 'TemplateSelectionLoanStable.label.interestRate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace repaymentRate {
       export const key = 'TemplateSelectionLoanStable.label.repaymentRate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11205,37 +11205,37 @@ export namespace ContractDrafts {
   export namespace actions {
     export namespace create {
       export const key = 'ContractDrafts.actions.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'ContractDrafts.actions.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace copy {
       export const key = 'ContractDrafts.actions.copy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _delete {
       export const key = 'ContractDrafts.actions.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace name {
       export const key = 'ContractDrafts.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ContractDrafts.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace creationTime {
       export const key = 'ContractDrafts.table.creationTime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'ContractDrafts.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11243,11 +11243,11 @@ export namespace Contracts {
   export namespace context {
     export namespace contracts {
       export const key = 'Contracts.context.contracts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractDrafts {
       export const key = 'Contracts.context.contractDrafts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11255,7 +11255,7 @@ export namespace ContractDraftsPanel {
   export namespace action {
     export namespace _delete {
       export const key = 'ContractDraftsPanel.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'ContractDraftsPanel.action.delete.confirmation';
         export type parameter = {
@@ -11265,7 +11265,7 @@ export namespace ContractDraftsPanel {
     }
     export namespace send {
       export const key = 'ContractDraftsPanel.action.send';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'ContractDraftsPanel.action.send.confirmation';
         export type parameter = {
@@ -11278,17 +11278,17 @@ export namespace ContractDraftsPanel {
   export namespace title {
     export namespace drafts {
       export const key = 'ContractDraftsPanel.title.drafts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace draft {
       export const key = 'ContractDraftsPanel.title.draft';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace draft {
       export const key = 'ContractDraftsPanel.error.draft';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11296,116 +11296,116 @@ export namespace Country {
   export namespace CI {
     export namespace name {
       export const key = 'Country.CI.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Country.CI.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace NC {
     export namespace name {
       export const key = 'Country.NC.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Country.NC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IC {
     export namespace name {
       export const key = 'Country.IC.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Country.IC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace AI {
     export namespace name {
       export const key = 'Country.AI.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'Country.AI.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace receiveContractOffers {
       export const key = 'Country.label.receiveContractOffers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'Country.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace code {
       export const key = 'Country.label.code';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace background {
       export const key = 'Country.label.background';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace agents {
       export const key = 'Country.label.agents';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractOffers {
       export const key = 'Country.label.contractOffers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ContractStatus {
   export namespace DRAFT {
     export const key = 'ContractStatus.DRAFT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace OPEN {
     export const key = 'ContractStatus.OPEN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CLOSED {
     export const key = 'ContractStatus.CLOSED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace REJECTED {
     export const key = 'ContractStatus.REJECTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PARTIALLY_FULFILLED {
     export const key = 'ContractStatus.PARTIALLY_FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FULFILLED {
     export const key = 'ContractStatus.FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DEADLINE_EXCEEDED {
     export const key = 'ContractStatus.DEADLINE_EXCEEDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BREACHED {
     export const key = 'ContractStatus.BREACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CANCELLED {
     export const key = 'ContractStatus.CANCELLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TERMINATED {
     export const key = 'ContractStatus.TERMINATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace AgentPreamble {
   export namespace thisContract {
     export const key = 'AgentPreamble.thisContract';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace mission {
     export const key = 'AgentPreamble.mission';
@@ -11426,7 +11426,7 @@ export namespace AgentPreamble {
       };
       export namespace deadline {
         export const key = 'AgentPreamble.mission.shipping.deadline';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace materials {
@@ -11451,7 +11451,7 @@ export namespace AgentPreamble {
     }
     export namespace maintenance {
       export const key = 'AgentPreamble.mission.maintenance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'AgentPreamble.mission.contribution';
@@ -11462,7 +11462,7 @@ export namespace AgentPreamble {
       };
       export namespace deadline {
         export const key = 'AgentPreamble.mission.contribution.deadline';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fleet {
@@ -11533,31 +11533,31 @@ export namespace AgentPreamble {
 export namespace ContractCondition {
   export namespace PENDING {
     export const key = 'ContractCondition.PENDING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace IN_PROGRESS {
     export const key = 'ContractCondition.IN_PROGRESS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PARTLY_FULFILLED {
     export const key = 'ContractCondition.PARTLY_FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FULFILLMENT_ATTEMPTED {
     export const key = 'ContractCondition.FULFILLMENT_ATTEMPTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FULFILLED {
     export const key = 'ContractCondition.FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace VIOLATED {
     export const key = 'ContractCondition.VIOLATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fulfill {
     export const key = 'ContractCondition.fulfill';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace deadline {
     export const key = 'ContractCondition.deadline';
@@ -11638,115 +11638,115 @@ export namespace Contract {
   export namespace action {
     export namespace requestTermination {
       export const key = 'Contract.action.requestTermination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'Contract.action.requestTermination.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace close {
       export const key = 'Contract.action.close';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reject {
       export const key = 'Contract.action.reject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace deadline {
       export const key = 'Contract.table.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'Contract.table.deadline.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace index {
       export const key = 'Contract.table.index';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'Contract.table.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace party {
       export const key = 'Contract.table.party';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'Contract.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace dependencies {
       export const key = 'Contract.table.dependencies';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace command {
       export const key = 'Contract.table.command';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace termination {
     export const key = 'Contract.termination';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace sent {
       export const key = 'Contract.termination.sent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace received {
       export const key = 'Contract.termination.received';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace banner {
     export namespace action {
       export namespace breach {
         export const key = 'Contract.banner.action.breach';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace extend {
         export const key = 'Contract.banner.action.extend';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace id {
     export const key = 'Contract.id';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace date {
     export const key = 'Contract.date';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace name {
     export const key = 'Contract.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace preamble {
     export const key = 'Contract.preamble';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace partner {
     export const key = 'Contract.partner';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace status {
     export const key = 'Contract.status';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace conditions {
     export const key = 'Contract.conditions';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace fulfillCondition {
     export namespace confirmation {
       export const key = 'Contract.fulfillCondition.confirmation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace confirm {
       export const key = 'Contract.fulfillCondition.confirm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11770,7 +11770,7 @@ export namespace ContractPanel {
     };
     export namespace loading {
       export const key = 'ContractPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11778,82 +11778,82 @@ export namespace ContractsPanel {
   export namespace filter {
     export namespace all {
       export const key = 'ContractsPanel.filter.all';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace none {
       export const key = 'ContractsPanel.filter.none';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace show {
       export const key = 'ContractsPanel.filter.show';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace hide {
       export const key = 'ContractsPanel.filter.hide';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace id {
       export const key = 'ContractsPanel.table.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace partner {
       export const key = 'ContractsPanel.table.partner';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'ContractsPanel.table.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace due {
       export const key = 'ContractsPanel.table.due';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ContractsPanel.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cmds {
       export const key = 'ContractsPanel.table.cmds';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'ContractsPanel.table.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'ContractsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShareholderContext {
   export namespace context {
     export namespace corporation {
       export const key = 'ShareholderContext.context.corporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace com {
       export const key = 'ShareholderContext.context.com';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace finance {
       export const key = 'ShareholderContext.context.finance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace invites {
       export const key = 'ShareholderContext.context.invites';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'ShareholderContext.context.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace project {
       export namespace _new {
         export const key = 'ShareholderContext.context.project.new';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -11866,34 +11866,34 @@ export namespace CorporationInviteContainer {
     };
     export namespace loading {
       export const key = 'CorporationInviteContainer.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pendingInvite {
     export namespace invitee {
       export const key = 'CorporationInviteContainer.pendingInvite.invitee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace invitor {
       export const key = 'CorporationInviteContainer.pendingInvite.invitor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace invited {
       export const key = 'CorporationInviteContainer.pendingInvite.invited';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'CorporationInviteContainer.pendingInvite.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'CorporationInviteContainer.pendingInvite.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace invite {
     export const key = 'CorporationInviteContainer.invite';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace description {
       export const key = 'CorporationInviteContainer.invite.description';
       export type parameter = {
@@ -11904,35 +11904,35 @@ export namespace CorporationInviteContainer {
   export namespace error {
     export namespace notFound {
       export const key = 'CorporationInviteContainer.error.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CorporationInvitesContainer {
   export namespace title {
     export const key = 'CorporationInvitesContainer.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace table {
     export namespace view {
       export const key = 'CorporationInvitesContainer.table.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace empty {
       export const key = 'CorporationInvitesContainer.table.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace invitee {
       export const key = 'CorporationInvitesContainer.table.invitee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace invitor {
       export const key = 'CorporationInvitesContainer.table.invitor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sent {
       export const key = 'CorporationInvitesContainer.table.sent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -11940,11 +11940,11 @@ export namespace PlotSelectionMapContainer {
   export namespace button {
     export namespace select {
       export const key = 'PlotSelectionMapContainer.button.select';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace random {
       export const key = 'PlotSelectionMapContainer.button.random';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
@@ -11957,50 +11957,50 @@ export namespace PlotSelectionMapContainer {
 export namespace PlanetInfoMapContainer {
   export namespace help {
     export const key = 'PlanetInfoMapContainer.help';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ownSite {
     export namespace view {
       export const key = 'PlanetInfoMapContainer.ownSite.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace start {
       export const key = 'PlanetInfoMapContainer.ownSite.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CorporationProject {
   export namespace hq {
     export const key = 'CorporationProject.hq';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ticker {
     export namespace hq {
       export const key = 'CorporationProject.ticker.hq';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace representation_center {
       export const key = 'CorporationProject.ticker.representation_center';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ftl_laboratory {
       export const key = 'CorporationProject.ticker.ftl_laboratory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace immortality_center {
       export const key = 'CorporationProject.ticker.immortality_center';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace terraforming_center {
       export const key = 'CorporationProject.ticker.terraforming_center';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace description {
     export namespace hq {
       export const key = 'CorporationProject.description.hq';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace representation_center {
       export const key = 'CorporationProject.description.representation_center';
@@ -12010,88 +12010,88 @@ export namespace CorporationProject {
     }
     export namespace ftl_laboratory {
       export const key = 'CorporationProject.description.ftl_laboratory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace immortality_center {
       export const key = 'CorporationProject.description.immortality_center';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace terraforming_center {
       export const key = 'CorporationProject.description.terraforming_center';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace representation_center {
     export const key = 'CorporationProject.representation_center';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ftl_laboratory {
     export const key = 'CorporationProject.ftl_laboratory';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace immortality_center {
     export const key = 'CorporationProject.immortality_center';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace terraforming_center {
     export const key = 'CorporationProject.terraforming_center';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace empty {
     export const key = 'CorporationProject.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace contribute {
     export namespace error {
       export const key = 'CorporationProject.contribute.error';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace contribute {
       export const key = 'CorporationProject.section.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'CorporationProject.section.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export const key = 'CorporationProject.status';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace operational {
       export const key = 'CorporationProject.status.operational';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inConstruction {
       export const key = 'CorporationProject.status.inConstruction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace command {
     export const key = 'CorporationProject.command';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace cancelProject {
       export const key = 'CorporationProject.command.cancelProject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace project {
     export const key = 'CorporationProject.project';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace address {
     export const key = 'CorporationProject.address';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace constructionDate {
     export const key = 'CorporationProject.constructionDate';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace billOfMaterial {
     export const key = 'CorporationProject.billOfMaterial';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CorporationNewProject {
@@ -12105,123 +12105,123 @@ export namespace CorporationNewProject {
   export namespace label {
     export namespace project {
       export const key = 'CorporationNewProject.label.project';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'CorporationNewProject.label.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'CorporationNewProject.label.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace billofmaterial {
       export const key = 'CorporationNewProject.label.billofmaterial';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace limit {
       export const key = 'CorporationNewProject.label.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace site {
       export const key = 'CorporationNewProject.label.site';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace command {
     export namespace start {
       export const key = 'CorporationNewProject.command.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace started {
       export const key = 'CorporationNewProject.action.started';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CorporationNewProjectPanel {
   export namespace title {
     export const key = 'CorporationNewProjectPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace empty {
     export const key = 'CorporationNewProjectPanel.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CorporationFinance {
   export namespace balances {
     export namespace currency {
       export const key = 'CorporationFinance.balances.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace balance {
       export const key = 'CorporationFinance.balances.balance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace dividendPayouts {
     export namespace time {
       export const key = 'CorporationFinance.dividendPayouts.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payoutpershare {
       export const key = 'CorporationFinance.dividendPayouts.payoutpershare';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace info {
     export namespace currency {
       export const key = 'CorporationFinance.info.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'CorporationFinance.info.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shareholders {
       export const key = 'CorporationFinance.info.shareholders';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nextDividendPayout {
       export const key = 'CorporationFinance.info.nextDividendPayout';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace liquidassets {
       export const key = 'CorporationFinance.header.liquidassets';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace dividendpayouts {
       export const key = 'CorporationFinance.header.dividendpayouts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CorporationFinancePanel {
   export namespace noPrimaryHolding {
     export const key = 'CorporationFinancePanel.noPrimaryHolding';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShareholderCorporationFinancePanel {
   export namespace title {
     export const key = 'ShareholderCorporationFinancePanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CorporationRepresentationCenter {
   export namespace title {
     export const key = 'CorporationRepresentationCenter.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace noRepresentation {
       export const key = 'CorporationRepresentationCenter.error.noRepresentation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12234,38 +12234,38 @@ export namespace Contribution {
   }
   export namespace stores {
     export const key = 'Contribution.stores';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace table {
     export namespace inventory {
       export const key = 'Contribution.table.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'Contribution.table.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nextConsumption {
       export const key = 'Contribution.table.nextConsumption';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'Contribution.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reserve {
       export const key = 'Contribution.table.reserve';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace lastFor {
       export const key = 'Contribution.table.lastFor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace contribute {
       export const key = 'Contribution.button.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12273,21 +12273,21 @@ export namespace Contributions {
   export namespace label {
     export namespace noContributions {
       export const key = 'Contributions.label.noContributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace time {
       export const key = 'Contributions.table.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributor {
       export const key = 'Contributions.table.contributor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace materials {
       export const key = 'Contributions.table.materials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12295,39 +12295,39 @@ export namespace Corporation {
   export namespace infrastructure {
     export namespace project {
       export const key = 'Corporation.infrastructure.project';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'Corporation.infrastructure.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'Corporation.infrastructure.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace command {
       export const key = 'Corporation.infrastructure.command';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace view {
         export const key = 'Corporation.infrastructure.command.view';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace project {
         export const key = 'Corporation.infrastructure.command.project';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace contribute {
         export const key = 'Corporation.infrastructure.command.contribute';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace empty {
       export const key = 'Corporation.infrastructure.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace startproject {
       export const key = 'Corporation.infrastructure.startproject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12335,10 +12335,10 @@ export namespace CorporationProjectPanel {
   export namespace action {
     export namespace cancel {
       export const key = 'CorporationProjectPanel.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'CorporationProjectPanel.action.cancel.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -12350,79 +12350,79 @@ export namespace CorporationProjectPanel {
     };
     export namespace loading {
       export const key = 'CorporationProjectPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'CorporationProjectPanel.title.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'CorporationProjectPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace projectId {
       export const key = 'CorporationProjectPanel.error.projectId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace noCorporation {
     export const key = 'CorporationProjectPanel.noCorporation';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShareholderCorporation {
   export namespace info {
     export namespace faction {
       export const key = 'ShareholderCorporation.info.faction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'ShareholderCorporation.info.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace headquarters {
       export const key = 'ShareholderCorporation.info.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace founded {
       export const key = 'ShareholderCorporation.info.founded';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'ShareholderCorporation.info.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace primaryHolding {
     export namespace leave {
       export const key = 'ShareholderCorporation.primaryHolding.leave';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace shareholders {
       export const key = 'ShareholderCorporation.header.shareholders';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'ShareholderCorporation.header.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace shareholder {
     export namespace company {
       export const key = 'ShareholderCorporation.shareholder.company';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'ShareholderCorporation.shareholder.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace joined {
       export const key = 'ShareholderCorporation.shareholder.joined';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace relativeShare {
       export const key = 'ShareholderCorporation.shareholder.relativeShare';
@@ -12435,52 +12435,52 @@ export namespace ShareholderCorporation {
 export namespace FormCorporationForm {
   export namespace name {
     export const key = 'FormCorporationForm.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace code {
     export const key = 'FormCorporationForm.code';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace capital {
     export const key = 'FormCorporationForm.capital';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace submit {
     export const key = 'FormCorporationForm.submit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace PendingInvitesContainer {
   export namespace table {
     export namespace corporation {
       export const key = 'PendingInvitesContainer.table.corporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'PendingInvitesContainer.table.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'PendingInvitesContainer.table.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace received {
       export const key = 'PendingInvitesContainer.table.received';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace empty {
       export const key = 'PendingInvitesContainer.table.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace accept {
       export const key = 'PendingInvitesContainer.action.accept';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reject {
       export const key = 'PendingInvitesContainer.action.reject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12488,13 +12488,13 @@ export namespace CorporationMembership {
   export namespace formCorporation {
     export namespace title {
       export const key = 'CorporationMembership.formCorporation.title';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace invites {
     export namespace title {
       export const key = 'CorporationMembership.invites.title';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12502,22 +12502,22 @@ export namespace CorporationMembershipPanel {
   export namespace action {
     export namespace confirmation {
       export const key = 'CorporationMembershipPanel.action.confirmation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace leave {
       export const key = 'CorporationMembershipPanel.action.leave';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'CorporationMembershipPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CountryPanel {
   export namespace title {
     export const key = 'CountryPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace country {
       export const key = 'CountryPanel.title.country';
       export type parameter = {
@@ -12537,62 +12537,62 @@ export namespace CountryPanel {
 export namespace Rating {
   export namespace unrated {
     export const key = 'Rating.unrated';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.unrated.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace pending {
     export const key = 'Rating.pending';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace a {
     export const key = 'Rating.a';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.a.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace b {
     export const key = 'Rating.b';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.b.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace c {
     export const key = 'Rating.c';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.c.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace d {
     export const key = 'Rating.d';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.d.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace e {
     export const key = 'Rating.e';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.e.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace f {
     export const key = 'Rating.f';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace desc {
       export const key = 'Rating.f.desc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12618,13 +12618,13 @@ export namespace CompanyPanel {
   export namespace context {
     export namespace headquarters {
       export const key = 'CompanyPanel.context.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace loading {
       export const key = 'CompanyPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace single {
       export const key = 'CompanyPanel.title.single';
@@ -12636,39 +12636,39 @@ export namespace CompanyPanel {
   export namespace data {
     export namespace corporation {
       export const key = 'CompanyPanel.data.corporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace invite {
         export const key = 'CompanyPanel.data.corporation.invite';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace code {
       export const key = 'CompanyPanel.data.code';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace registration {
       export const key = 'CompanyPanel.data.registration';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace country {
       export const key = 'CompanyPanel.data.country';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace founded {
       export const key = 'CompanyPanel.data.founded';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace rating {
       export const key = 'CompanyPanel.data.rating';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reputation {
       export const key = 'CompanyPanel.data.reputation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace representation {
       export const key = 'CompanyPanel.data.representation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace level {
         export const key = 'CompanyPanel.data.representation.level';
         export type parameter = {
@@ -12678,11 +12678,11 @@ export namespace CompanyPanel {
     }
     export namespace user {
       export const key = 'CompanyPanel.data.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace bases {
       export const key = 'CompanyPanel.data.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -12698,17 +12698,17 @@ export namespace Corporations {
   export namespace list {
     export namespace code {
       export const key = 'Corporations.list.code';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'Corporations.list.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace detail {
       export const key = 'Corporations.action.detail';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12716,7 +12716,7 @@ export namespace CorporationsPanel {
   export namespace title {
     export namespace listing {
       export const key = 'CorporationsPanel.title.listing';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace single {
       export const key = 'CorporationsPanel.title.single';
@@ -12725,56 +12725,56 @@ export namespace CorporationsPanel {
       };
       export namespace loading {
         export const key = 'CorporationsPanel.title.single.loading';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace error {
     export namespace corporationId {
       export const key = 'CorporationsPanel.error.corporationId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CorporationsTile {
   export namespace error {
     export const key = 'CorporationsTile.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CorporationContainer {
   export namespace data {
     export namespace headquarter {
       export const key = 'CorporationContainer.data.headquarter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CorporationContainer.data.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace code {
       export const key = 'CorporationContainer.data.code';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace country {
       export const key = 'CorporationContainer.data.country';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace founded {
       export const key = 'CorporationContainer.data.founded';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace headquarters {
       export const key = 'CorporationContainer.data.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shares {
       export const key = 'CorporationContainer.data.shares';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shareholders {
       export const key = 'CorporationContainer.data.shareholders';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shareholder {
       export const key = 'CorporationContainer.data.shareholder';
@@ -12789,7 +12789,7 @@ export namespace CoporationContainer {
   export namespace data {
     export namespace representationCenter {
       export const key = 'CoporationContainer.data.representationCenter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace level {
         export const key = 'CoporationContainer.data.representationCenter.level';
         export type parameter = {
@@ -12803,23 +12803,23 @@ export namespace SitePublicInformation {
   export namespace label {
     export namespace name {
       export const key = 'SitePublicInformation.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'SitePublicInformation.label.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace founded {
       export const key = 'SitePublicInformation.label.founded';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace area {
       export const key = 'SitePublicInformation.label.area';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace industry {
       export const key = 'SitePublicInformation.label.industry';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace area {
@@ -12833,7 +12833,7 @@ export namespace CompanySiteContainer {
   export namespace error {
     export namespace notFound {
       export const key = 'CompanySiteContainer.error.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12841,7 +12841,7 @@ export namespace SitePublicInformationPanel {
   export namespace context {
     export namespace planet {
       export const key = 'SitePublicInformationPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -12851,7 +12851,7 @@ export namespace SitePublicInformationPanel {
     };
     export namespace loading {
       export const key = 'SitePublicInformationPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -12863,22 +12863,22 @@ export namespace SitePublicInformationPanel {
     }
     export namespace siteId {
       export const key = 'SitePublicInformationPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ShipInformationPanel {
   export namespace operator {
     export const key = 'ShipInformationPanel.operator';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace commissioned {
     export const key = 'ShipInformationPanel.commissioned';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace manufacturer {
     export const key = 'ShipInformationPanel.manufacturer';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace title {
     export const key = 'ShipInformationPanel.title';
@@ -12888,13 +12888,13 @@ export namespace ShipInformationPanel {
     };
     export namespace loading {
       export const key = 'ShipInformationPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace shipId {
       export const key = 'ShipInformationPanel.error.shipId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12902,32 +12902,32 @@ export namespace Stations {
   export namespace list {
     export namespace name {
       export const key = 'Stations.list.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'Stations.list.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace naturalId {
       export const key = 'Stations.list.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace details {
       export const key = 'Stations.action.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace StationsTile {
   export namespace title {
     export const key = 'StationsTile.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export const key = 'StationsTile.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace StationInfrastructure {
@@ -12941,31 +12941,31 @@ export namespace StationInfrastructure {
 export namespace StationInformationPanel {
   export namespace name {
     export const key = 'StationInformationPanel.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace code {
     export const key = 'StationInformationPanel.code';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace address {
     export const key = 'StationInformationPanel.address';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace faction {
     export const key = 'StationInformationPanel.faction';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace governingEntity {
     export const key = 'StationInformationPanel.governingEntity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace commissioned {
     export const key = 'StationInformationPanel.commissioned';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructure {
     export const key = 'StationInformationPanel.infrastructure';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace title {
     export const key = 'StationInformationPanel.title';
@@ -12974,13 +12974,13 @@ export namespace StationInformationPanel {
     };
     export namespace loading {
       export const key = 'StationInformationPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace stationId {
       export const key = 'StationInformationPanel.error.stationId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -12988,7 +12988,7 @@ export namespace Station {
   export namespace context {
     export namespace systemMap {
       export const key = 'Station.context.systemMap';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -13013,11 +13013,11 @@ export namespace UserOffices {
   export namespace label {
     export namespace current {
       export const key = 'UserOffices.label.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace past {
       export const key = 'UserOffices.label.past';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -13025,29 +13025,29 @@ export namespace LicenseGifting {
   export namespace table {
     export namespace _type {
       export const key = 'LicenseGifting.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace user {
       export const key = 'LicenseGifting.table.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'LicenseGifting.table.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gift {
       export const key = 'LicenseGifting.table.gift';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace received {
       export const key = 'LicenseGifting.label.received';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sent {
       export const key = 'LicenseGifting.label.sent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace value {
@@ -13061,15 +13061,15 @@ export namespace LicenseGifting {
   export namespace header {
     export namespace received {
       export const key = 'LicenseGifting.header.received';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sent {
       export const key = 'LicenseGifting.header.sent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gift {
       export const key = 'LicenseGifting.header.gift';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -13077,65 +13077,65 @@ export namespace UserPanel {
   export namespace action {
     export namespace contact {
       export const key = 'UserPanel.action.contact';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blacklist {
       export const key = 'UserPanel.action.blacklist';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'UserPanel.action.blacklist.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace deblacklist {
       export const key = 'UserPanel.action.deblacklist';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace mute {
       export const key = 'UserPanel.action.mute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'UserPanel.action.mute.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace unmute {
       export const key = 'UserPanel.action.unmute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace impersonate {
       export const key = 'UserPanel.action.impersonate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace data {
     export namespace name {
       export const key = 'UserPanel.data.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace company {
       export const key = 'UserPanel.data.company';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'UserPanel.data.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace online {
       export const key = 'UserPanel.data.online';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace yes {
         export const key = 'UserPanel.data.online.yes';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace no {
         export const key = 'UserPanel.data.online.no';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace activity {
       export const key = 'UserPanel.data.activity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace activeDaysPerWeek {
       export const key = 'UserPanel.data.activeDaysPerWeek';
@@ -13146,23 +13146,23 @@ export namespace UserPanel {
     }
     export namespace badges {
       export const key = 'UserPanel.data.badges';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gifts {
       export const key = 'UserPanel.data.gifts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace offices {
       export const key = 'UserPanel.context.offices';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace loading {
       export const key = 'UserPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -13178,11 +13178,11 @@ export namespace Experts {
   export namespace label {
     export namespace totalExperts {
       export const key = 'Experts.label.totalExperts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace activeExperts {
       export const key = 'Experts.label.activeExperts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace activeExperts {
@@ -13195,27 +13195,27 @@ export namespace Experts {
   export namespace table {
     export namespace category {
       export const key = 'Experts.table.category';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace active {
       export const key = 'Experts.table.active';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace efficiency {
       export const key = 'Experts.table.efficiency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace controls {
       export const key = 'Experts.table.controls';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace available {
       export const key = 'Experts.table.available';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'Experts.table.progress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace currentAndLimit {
@@ -13228,11 +13228,11 @@ export namespace Experts {
   export namespace action {
     export namespace activate {
       export const key = 'Experts.action.activate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deactivate {
       export const key = 'Experts.action.deactivate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -13244,78 +13244,78 @@ export namespace ExpertsPanel {
     };
     export namespace loading {
       export const key = 'ExpertsPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace siteId {
       export const key = 'ExpertsPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace AccountCategory {
   export namespace FIXED_ASSETS {
     export const key = 'AccountCategory.FIXED_ASSETS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CURRENT_ASSETS {
     export const key = 'AccountCategory.CURRENT_ASSETS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LIQUID_ASSETS {
     export const key = 'AccountCategory.LIQUID_ASSETS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EQUITY {
     export const key = 'AccountCategory.EQUITY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LIABILITIES {
     export const key = 'AccountCategory.LIABILITIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace REVENUE {
     export const key = 'AccountCategory.REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXPENSES {
     export const key = 'AccountCategory.EXPENSES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace AccountType {
   export namespace SITES {
     export const key = 'AccountType.SITES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLATFORMS {
     export const key = 'AccountType.PLATFORMS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPS {
     export const key = 'AccountType.SHIPS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HOLDINGS {
     export const key = 'AccountType.HOLDINGS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INVENTORY {
     export const key = 'AccountType.INVENTORY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RECEIVABLES {
     export const key = 'AccountType.RECEIVABLES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RECEIVABLE_MATERIALS {
     export const key = 'AccountType.RECEIVABLE_MATERIALS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_ESCROW {
     export const key = 'AccountType.MATERIAL_ESCROW';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CASH_ESCROW {
     export const key = 'AccountType.CASH_ESCROW';
@@ -13325,7 +13325,7 @@ export namespace AccountType {
   }
   export namespace LOANS {
     export const key = 'AccountType.LOANS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CASH {
     export const key = 'AccountType.CASH';
@@ -13335,489 +13335,489 @@ export namespace AccountType {
   }
   export namespace FIXED_CAPITAL {
     export const key = 'AccountType.FIXED_CAPITAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SUBSCRIBED_CAPITAL {
     export const key = 'AccountType.SUBSCRIBED_CAPITAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PROFIT_CARRIED_FORWARD {
     export const key = 'AccountType.PROFIT_CARRIED_FORWARD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOSS_CARRIED_FORWARD {
     export const key = 'AccountType.LOSS_CARRIED_FORWARD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PAYABLES {
     export const key = 'AccountType.PAYABLES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DEBT {
     export const key = 'AccountType.DEBT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace REVENUE {
     export const key = 'AccountType.REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_FEE_REVENUE {
     export const key = 'AccountType.PRODUCTION_FEE_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_FEE_REVENUE {
     export const key = 'AccountType.LOCAL_MARKET_FEE_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_SALE_REVENUE {
     export const key = 'AccountType.MATERIAL_SALE_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TRANSPORT_REVENUE {
     export const key = 'AccountType.TRANSPORT_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_FEE_REVENUE {
     export const key = 'AccountType.WAREHOUSE_FEE_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_ESTABLISHMENT_TAXES_REVENUE {
     export const key = 'AccountType.SITE_ESTABLISHMENT_TAXES_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_REVENUE {
     export const key = 'AccountType.FOREX_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_FLUCTUATION_REVENUE {
     export const key = 'AccountType.FOREX_FLUCTUATION_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FEE_REVENUES {
     export const key = 'AccountType.GATEWAY_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRIBUTION_REVENUE {
     export const key = 'AccountType.CONTRIBUTION_REVENUE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_CONSUMPTION {
     export const key = 'AccountType.MATERIAL_CONSUMPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FUEL_CONSUMPTION {
     export const key = 'AccountType.FUEL_CONSUMPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RECEIPT_OF_GOODS {
     export const key = 'AccountType.RECEIPT_OF_GOODS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_DELIVERY {
     export const key = 'AccountType.MATERIAL_DELIVERY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXPENSE {
     export const key = 'AccountType.EXPENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKER_SUPPLIES {
     export const key = 'AccountType.WORKER_SUPPLIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_FEES {
     export const key = 'AccountType.PRODUCTION_FEES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_ESTABLISHMENT_TAXES {
     export const key = 'AccountType.SITE_ESTABLISHMENT_TAXES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HOLDINGS_WRITE_OFF {
     export const key = 'AccountType.HOLDINGS_WRITE_OFF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_DEPRECIATION {
     export const key = 'AccountType.SITE_DEPRECIATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_WRITE_OFF {
     export const key = 'AccountType.CONTRACT_WRITE_OFF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TRANSPORT_EXPENSES {
     export const key = 'AccountType.TRANSPORT_EXPENSES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_STORAGE_FEE {
     export const key = 'AccountType.WAREHOUSE_STORAGE_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMPANY_HEADQUARTER_CONTRIBUTIONS {
     export const key = 'AccountType.COMPANY_HEADQUARTER_CONTRIBUTIONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace REPRESENTATION_CENTER_CONTRIBUTIONS {
     export const key = 'AccountType.REPRESENTATION_CENTER_CONTRIBUTIONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLANETARY_PROJECT_CONTRIBUTIONS {
     export const key = 'AccountType.PLANETARY_PROJECT_CONTRIBUTIONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GOVERNMENT_PROGRAM_FEE {
     export const key = 'AccountType.GOVERNMENT_PROGRAM_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_PROJECT_CONTRIBUTIONS {
     export const key = 'AccountType.CORPORATION_PROJECT_CONTRIBUTIONS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_MAINTENANCE {
     export const key = 'AccountType.SHIP_MAINTENANCE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TRANSACTION_FEES {
     export const key = 'AccountType.TRANSACTION_FEES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_EXPENSE {
     export const key = 'AccountType.FOREX_EXPENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_FLUCTUATION_EXPENSE {
     export const key = 'AccountType.FOREX_FLUCTUATION_EXPENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FEES {
     export const key = 'AccountType.GATEWAY_FEES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DIVIDEND_INCOME {
     export const key = 'AccountType.DIVIDEND_INCOME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INTEREST_INCOME {
     export const key = 'AccountType.INTEREST_INCOME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FINANCIAL_WRITE_OFF {
     export const key = 'AccountType.FINANCIAL_WRITE_OFF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INTEREST_EXPENSE {
     export const key = 'AccountType.INTEREST_EXPENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXTRAORDINARY_INCOME {
     export const key = 'AccountType.EXTRAORDINARY_INCOME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace REPRESENTATION_CENTER {
   export const key = 'REPRESENTATION_CENTER';
-  export type parameter = object;
+  export type parameter = Record<string, never>;
 }
 export namespace Finance {
   export namespace context {
     export namespace overview {
       export const key = 'Finance.context.overview';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace balanceStatement {
       export const key = 'Finance.context.balanceStatement';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace incomeStatement {
       export const key = 'Finance.context.incomeStatement';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace liquidAssets {
       export const key = 'Finance.context.liquidAssets';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace BalanceStatementPanel {
   export namespace title {
     export const key = 'BalanceStatementPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace total {
     export const key = 'BalanceStatementPanel.total';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace period {
     export namespace current {
       export const key = 'BalanceStatementPanel.period.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace last {
       export const key = 'BalanceStatementPanel.period.last';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace previous {
       export const key = 'BalanceStatementPanel.period.previous';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace change {
     export const key = 'BalanceStatementPanel.change';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export const key = 'BalanceStatementPanel.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace IncomeStatementPanel {
   export const key = 'IncomeStatementPanel';
-  export type parameter = object;
+  export type parameter = Record<string, never>;
   export namespace title {
     export const key = 'IncomeStatementPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace period {
     export namespace current {
       export const key = 'IncomeStatementPanel.period.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace last {
       export const key = 'IncomeStatementPanel.period.last';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace previous {
       export const key = 'IncomeStatementPanel.period.previous';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace change {
     export const key = 'IncomeStatementPanel.change';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace total {
     export const key = 'IncomeStatementPanel.total';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace revenues {
     export const key = 'IncomeStatementPanel.revenues';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace expenses {
     export const key = 'IncomeStatementPanel.expenses';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace result {
     export const key = 'IncomeStatementPanel.result';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LiquidAssetsPanel {
   export namespace title {
     export const key = 'LiquidAssetsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace table {
     export namespace currency {
       export const key = 'LiquidAssetsPanel.table.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'LiquidAssetsPanel.table.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace BookingType {
   export namespace INITIAL_FUNDS {
     export const key = 'BookingType.INITIAL_FUNDS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INITIAL_MATERIALS {
     export const key = 'BookingType.INITIAL_MATERIALS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DIRECT_PAYMENT_PAID {
     export const key = 'BookingType.DIRECT_PAYMENT_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DIRECT_PAYMENT_RECEIVED {
     export const key = 'BookingType.DIRECT_PAYMENT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_PAYMENT_PAID {
     export const key = 'BookingType.CONTRACT_PAYMENT_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_PAYMENT_RECEIVED {
     export const key = 'BookingType.CONTRACT_PAYMENT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_DEPOSIT {
     export const key = 'BookingType.COMEX_DEPOSIT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_DEPOSIT_REFUND {
     export const key = 'BookingType.COMEX_DEPOSIT_REFUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_ORDER_DELETION_FEES {
     export const key = 'BookingType.COMEX_ORDER_DELETION_FEES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_ORDER_DELETION_FEES_ROLLBACK {
     export const key = 'BookingType.COMEX_ORDER_DELETION_FEES_ROLLBACK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_FORMATION {
     export const key = 'BookingType.CORPORATION_FORMATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_DIVIDEND {
     export const key = 'BookingType.CORPORATION_DIVIDEND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_INVESTMENT {
     export const key = 'BookingType.CORPORATION_INVESTMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_DEPOSIT {
     export const key = 'BookingType.FOREX_DEPOSIT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_DEPOSIT_REFUND {
     export const key = 'BookingType.FOREX_DEPOSIT_REFUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_SALE {
     export const key = 'BookingType.FOREX_SALE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_PURCHASE {
     export const key = 'BookingType.FOREX_PURCHASE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_PURCHASE {
     export const key = 'BookingType.MATERIAL_PURCHASE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_SALE {
     export const key = 'BookingType.MATERIAL_SALE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_CONSUMPTION {
     export const key = 'BookingType.MATERIAL_CONSUMPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MATERIAL_RECEIVED {
     export const key = 'BookingType.MATERIAL_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKER_SUPPLIES {
     export const key = 'BookingType.WORKER_SUPPLIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLATFORM_BUILT {
     export const key = 'BookingType.PLATFORM_BUILT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLATFORM_REMOVED {
     export const key = 'BookingType.PLATFORM_REMOVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace REPRESENTATION_CENTER_CONTRIBUTION {
     export const key = 'BookingType.REPRESENTATION_CENTER_CONTRIBUTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GOVERNMENT_PROGRAM_FEE {
     export const key = 'BookingType.GOVERNMENT_PROGRAM_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GOVERNMENT_PROGRAM_FEE_ROLLBACK {
     export const key = 'BookingType.GOVERNMENT_PROGRAM_FEE_ROLLBACK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FEE {
     export const key = 'BookingType.GATEWAY_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FEE_REFUND {
     export const key = 'BookingType.GATEWAY_FEE_REFUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FEE_REVENUES {
     export const key = 'BookingType.GATEWAY_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_FEE {
     export const key = 'BookingType.LOCAL_MARKET_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_FEE_REVENUES {
     export const key = 'BookingType.LOCAL_MARKET_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_FEE {
     export const key = 'BookingType.PRODUCTION_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_FEE_REFUND {
     export const key = 'BookingType.PRODUCTION_FEE_REFUND';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_FEE_REVENUES {
     export const key = 'BookingType.PRODUCTION_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_ESTABLISHMENT_FEE {
     export const key = 'BookingType.SITE_ESTABLISHMENT_FEE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_ESTABLISHMENT_FEE_REVENUES {
     export const key = 'BookingType.SITE_ESTABLISHMENT_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_FEES {
     export const key = 'BookingType.WORKFORCE_FEES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_FEE_REVENUES {
     export const key = 'BookingType.WAREHOUSE_FEE_REVENUES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_PAYOUT_PAID {
     export const key = 'BookingType.LOAN_PAYOUT_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_PAYOUT_RECEIVED {
     export const key = 'BookingType.LOAN_PAYOUT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_INSTALLMENT_RECEIVED {
     export const key = 'BookingType.LOAN_INSTALLMENT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_INSTALLMENT_PAID {
     export const key = 'BookingType.LOAN_INSTALLMENT_PAID';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_WRITE_OFF {
     export const key = 'BookingType.LOAN_WRITE_OFF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOAN_FAILURE {
     export const key = 'BookingType.LOAN_FAILURE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CashBookings {
   export namespace debit {
     export const key = 'CashBookings.debit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace credit {
     export const key = 'CashBookings.credit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace value {
     export const key = 'CashBookings.value';
@@ -13828,66 +13828,66 @@ export namespace CashBookings {
   }
   export namespace description {
     export const key = 'CashBookings.description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace time {
     export const key = 'CashBookings.time';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace amount {
     export const key = 'CashBookings.amount';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace FinanceOverviewPanel {
   export namespace title {
     export const key = 'FinanceOverviewPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace header {
     export namespace indicators {
       export const key = 'FinanceOverviewPanel.header.indicators';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cashBookings {
       export const key = 'FinanceOverviewPanel.header.cashBookings';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace indicators {
     export namespace assets {
       export namespace fixed {
         export const key = 'FinanceOverviewPanel.indicators.assets.fixed';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace current {
         export const key = 'FinanceOverviewPanel.indicators.assets.current';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace liquid {
         export const key = 'FinanceOverviewPanel.indicators.assets.liquid';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace equity {
       export const key = 'FinanceOverviewPanel.indicators.equity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace liabilities {
       export const key = 'FinanceOverviewPanel.indicators.liabilities';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace revenue {
       export const key = 'FinanceOverviewPanel.indicators.revenue';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace expenses {
       export const key = 'FinanceOverviewPanel.indicators.expenses';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace result {
       export const key = 'FinanceOverviewPanel.indicators.result';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -13912,47 +13912,47 @@ export namespace ShipFuel {
 export namespace ShipStatus {
   export namespace takeoff {
     export const key = 'ShipStatus.takeoff';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace departure {
     export const key = 'ShipStatus.departure';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace transit {
     export const key = 'ShipStatus.transit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace charge {
     export const key = 'ShipStatus.charge';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace jump {
     export const key = 'ShipStatus.jump';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace float {
     export const key = 'ShipStatus.float';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace approach {
     export const key = 'ShipStatus.approach';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace landing {
     export const key = 'ShipStatus.landing';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace lock {
     export const key = 'ShipStatus.lock';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace decay {
     export const key = 'ShipStatus.decay';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace jumpgateway {
     export const key = 'ShipStatus.jumpgateway';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShipStore {
@@ -13975,29 +13975,29 @@ export namespace ships {
   export namespace action {
     export namespace view {
       export const key = 'ships.action.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fly_to {
       export const key = 'ships.action.fly_to';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cargo {
       export const key = 'ships.action.cargo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuel {
       export const key = 'ships.action.fuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unload {
       export const key = 'ships.action.unload';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export namespace stationary {
       export const key = 'ships.status.stationary';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14005,39 +14005,39 @@ export namespace FleetPanel {
   export namespace table {
     export namespace destination {
       export const key = 'FleetPanel.table.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace eta {
       export const key = 'FleetPanel.table.eta';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'FleetPanel.table.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cargo {
       export const key = 'FleetPanel.table.cargo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuel {
       export const key = 'FleetPanel.table.fuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace registration {
       export const key = 'FleetPanel.table.registration';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ship {
       export const key = 'FleetPanel.table.ship';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'FleetPanel.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace command {
       export const key = 'FleetPanel.table.command';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fleetAt {
@@ -14048,7 +14048,7 @@ export namespace FleetPanel {
   }
   export namespace fleet {
     export const key = 'FleetPanel.fleet';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace title {
     export const key = 'FleetPanel.title';
@@ -14057,32 +14057,32 @@ export namespace FleetPanel {
     };
     export namespace loading {
       export const key = 'FleetPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'FleetPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemId {
       export const key = 'FleetPanel.error.systemId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace FuelUnits {
   export namespace stl {
     export const key = 'FuelUnits.stl';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ftl {
     export const key = 'FuelUnits.ftl';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace vortex {
     export const key = 'FuelUnits.vortex';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace FuelConsumption {
@@ -14104,19 +14104,19 @@ export namespace FuelConsumption {
 export namespace DistanceUnit {
   export namespace au {
     export const key = 'DistanceUnit.au';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hops {
     export const key = 'DistanceUnit.hops';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace km {
     export const key = 'DistanceUnit.km';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace parsec {
     export const key = 'DistanceUnit.parsec';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Distance {
@@ -14139,155 +14139,155 @@ export namespace Damage {
 export namespace MissionSegmentType {
   export namespace takeoff {
     export const key = 'MissionSegmentType.takeoff';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.takeoff.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace departure {
     export const key = 'MissionSegmentType.departure';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.departure.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace transit {
     export const key = 'MissionSegmentType.transit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.transit.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace charge {
     export const key = 'MissionSegmentType.charge';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.charge.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace jump {
     export const key = 'MissionSegmentType.jump';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.jump.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace float {
     export const key = 'MissionSegmentType.float';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.float.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace approach {
     export const key = 'MissionSegmentType.approach';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.approach.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace landing {
     export const key = 'MissionSegmentType.landing';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.landing.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace lock {
     export const key = 'MissionSegmentType.lock';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.lock.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace decay {
     export const key = 'MissionSegmentType.decay';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.decay.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace jumpgateway {
     export const key = 'MissionSegmentType.jumpgateway';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace tooltip {
       export const key = 'MissionSegmentType.jumpgateway.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace MissionPlan {
   export namespace damage {
     export const key = 'MissionPlan.damage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace info {
       export const key = 'MissionPlan.damage.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace index {
     export const key = 'MissionPlan.index';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _type {
     export const key = 'MissionPlan.type';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace destination {
     export const key = 'MissionPlan.destination';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace duration {
     export const key = 'MissionPlan.duration';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace distance {
     export const key = 'MissionPlan.distance';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace costs {
     export const key = 'MissionPlan.costs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace consumption {
     export const key = 'MissionPlan.consumption';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace NavigationConstants {
   export namespace ok {
     export const key = 'NavigationConstants.ok';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace invalid {
     export const key = 'NavigationConstants.invalid';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace calculating {
     export const key = 'NavigationConstants.calculating';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace notReady {
     export const key = 'NavigationConstants.notReady';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace noPath {
     export const key = 'NavigationConstants.noPath';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace equalOriginDestination {
     export const key = 'NavigationConstants.equalOriginDestination';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace missingStlFuel {
     export const key = 'NavigationConstants.missingStlFuel';
@@ -14303,32 +14303,32 @@ export namespace NavigationConstants {
   }
   export namespace ftlReactorRequired {
     export const key = 'NavigationConstants.ftlReactorRequired';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace outOfStlRange {
     export const key = 'NavigationConstants.outOfStlRange';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace outOfFtlRange {
     export const key = 'NavigationConstants.outOfFtlRange';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace RoutePreferencesSelect {
   export namespace label {
     export namespace useGateways {
       export const key = 'RoutePreferencesSelect.label.useGateways';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace value {
     export namespace leastJumps {
       export const key = 'RoutePreferencesSelect.value.leastJumps';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shortestFTL {
       export const key = 'RoutePreferencesSelect.value.shortestFTL';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14336,47 +14336,47 @@ export namespace BlueprintTestFlight {
   export namespace label {
     export namespace blueprint {
       export const key = 'BlueprintTestFlight.label.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace origin {
       export const key = 'BlueprintTestFlight.label.origin';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destination {
       export const key = 'BlueprintTestFlight.label.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuelUsage {
       export const key = 'BlueprintTestFlight.label.fuelUsage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reactorUsage {
       export const key = 'BlueprintTestFlight.label.reactorUsage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payload {
       export const key = 'BlueprintTestFlight.label.payload';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stlFuel {
       export const key = 'BlueprintTestFlight.label.stlFuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ftlFuel {
       export const key = 'BlueprintTestFlight.label.ftlFuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'BlueprintTestFlight.label.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ftlPreferences {
       export const key = 'BlueprintTestFlight.label.ftlPreferences';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'BlueprintTestFlight.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14384,13 +14384,13 @@ export namespace BlueprintTestFlightPanel {
   export namespace title {
     export namespace loading {
       export const key = 'BlueprintTestFlightPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace blueprintId {
       export const key = 'BlueprintTestFlightPanel.error.blueprintId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14398,15 +14398,15 @@ export namespace ReachableSystems {
   export namespace table {
     export namespace system {
       export const key = 'ReachableSystems.table.system';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace distance {
       export const key = 'ReachableSystems.table.distance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'ReachableSystems.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14414,103 +14414,103 @@ export namespace ShipFlightControl {
   export namespace label {
     export namespace reachableSystems {
       export const key = 'ShipFlightControl.label.reachableSystems';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuelUsage {
       export const key = 'ShipFlightControl.label.fuelUsage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reactorUsage {
       export const key = 'ShipFlightControl.label.reactorUsage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace routePreferences {
       export const key = 'ShipFlightControl.label.routePreferences';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ShipFlightControl.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace note {
       export const key = 'ShipFlightControl.label.note';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace landing {
       export const key = 'ShipFlightControl.label.landing';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace target {
       export const key = 'ShipFlightControl.label.target';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace surface {
       export const key = 'ShipFlightControl.label.surface';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'ShipFlightControl.label.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ShipFlightControl.label.condition.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace unload {
       export const key = 'ShipFlightControl.label.unload';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ShipFlightControl.label.unload.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace unloading {
       export const key = 'ShipFlightControl.label.unloading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ship {
       export const key = 'ShipFlightControl.label.ship';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'ShipFlightControl.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace mass {
       export const key = 'ShipFlightControl.label.mass';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'ShipFlightControl.label.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuel {
       export const key = 'ShipFlightControl.label.fuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace origin {
       export const key = 'ShipFlightControl.label.origin';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destination {
       export const key = 'ShipFlightControl.label.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace text {
     export namespace reducedFlightTimes {
       export const key = 'ShipFlightControl.text.reducedFlightTimes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace startFlight {
       export const key = 'ShipFlightControl.button.startFlight';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace abortFlight {
       export const key = 'ShipFlightControl.button.abortFlight';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14534,51 +14534,51 @@ export namespace Ship {
   export namespace label {
     export namespace _type {
       export const key = 'Ship.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commissioned {
       export const key = 'Ship.label.commissioned';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprint {
       export const key = 'Ship.label.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projectHistory {
       export const key = 'Ship.label.projectHistory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fueltanks {
       export const key = 'Ship.label.fueltanks';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cargohold {
       export const key = 'Ship.label.cargohold';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operatingEmptyMass {
       export const key = 'Ship.label.operatingEmptyMass';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'Ship.label.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operatingTimeStl {
       export const key = 'Ship.label.operatingTimeStl';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operatingTimeFtl {
       export const key = 'Ship.label.operatingTimeFtl';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'Ship.label.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace repairCost {
       export const key = 'Ship.label.repairCost';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace operatingEmptyMass {
@@ -14596,13 +14596,13 @@ export namespace Ship {
   export namespace header {
     export namespace Status {
       export const key = 'Ship.header.Status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace repair {
       export const key = 'Ship.action.repair';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace projecthistory {
@@ -14616,41 +14616,41 @@ export namespace Ship {
 export namespace FlightPlan {
   export namespace index {
     export const key = 'FlightPlan.index';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _type {
     export const key = 'FlightPlan.type';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace destination {
     export const key = 'FlightPlan.destination';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace duration {
     export const key = 'FlightPlan.duration';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace distance {
     export const key = 'FlightPlan.distance';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace damage {
     export const key = 'FlightPlan.damage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace consumption {
     export const key = 'FlightPlan.consumption';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace FlightControlContainer {
   export namespace action {
     export namespace start {
       export const key = 'FlightControlContainer.action.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'FlightControlContainer.action.start.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace content {
         export const key = 'FlightControlContainer.action.start.content';
@@ -14663,10 +14663,10 @@ export namespace FlightControlContainer {
     }
     export namespace abort {
       export const key = 'FlightControlContainer.action.abort';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'FlightControlContainer.action.abort.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -14675,13 +14675,13 @@ export namespace FlightControlPanel {
   export namespace title {
     export namespace loading {
       export const key = 'FlightControlPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace shipId {
       export const key = 'FlightControlPanel.error.shipId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14689,42 +14689,42 @@ export namespace StoreItemIcon {
   export namespace context {
     export namespace unpack {
       export const key = 'StoreItemIcon.context.unpack';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace SortCriteria {
   export namespace ASC {
     export const key = 'SortCriteria.ASC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace DESC {
     export const key = 'SortCriteria.DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ABC {
     export const key = 'SortCriteria.ABC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CAT {
     export const key = 'SortCriteria.CAT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AMT {
     export const key = 'SortCriteria.AMT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TCK {
     export const key = 'SortCriteria.TCK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WGT {
     export const key = 'SortCriteria.WGT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace VOL {
     export const key = 'SortCriteria.VOL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ListItemView {
@@ -14745,24 +14745,24 @@ export namespace ListItemView {
 export namespace StoreLockOverlay {
   export namespace message {
     export const key = 'StoreLockOverlay.message';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MobileMaterialTransferModel {
   export namespace title {
     export const key = 'MobileMaterialTransferModel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MobileMaterialTransferModal {
   export namespace units {
     export const key = 'MobileMaterialTransferModal.units';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace transfer {
       export const key = 'MobileMaterialTransferModal.action.transfer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14776,79 +14776,79 @@ export namespace MobileTransferStoreAndItemSelectionModal {
   export namespace heading {
     export namespace materialTransfer {
       export const key = 'MobileTransferStoreAndItemSelectionModal.heading.materialTransfer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
     export namespace material {
       export const key = 'MobileTransferStoreAndItemSelectionModal.form.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace target {
       export const key = 'MobileTransferStoreAndItemSelectionModal.form.target';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace _continue {
       export const key = 'MobileTransferStoreAndItemSelectionModal.button.continue';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace MobileStoreTransferOverlay {
   export namespace targetStores {
     export const key = 'MobileStoreTransferOverlay.targetStores';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace DropTargetView {
   export namespace ALL {
     export const key = 'DropTargetView.ALL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace AMT {
     export const key = 'DropTargetView.AMT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HLF {
     export const key = 'DropTargetView.HLF';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MAX {
     export const key = 'DropTargetView.MAX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MAX_VOL {
     export const key = 'DropTargetView.MAX_VOL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MAX_WGT {
     export const key = 'DropTargetView.MAX_WGT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace StoreView {
   export namespace actions {
     export namespace startTransfer {
       export const key = 'StoreView.actions.startTransfer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace weight {
     export const key = 'StoreView.weight';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace volume {
     export const key = 'StoreView.volume';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Ships {
   export namespace action {
     export namespace unload {
       export const key = 'Ships.action.unload';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14878,26 +14878,26 @@ export namespace Inventory {
 export namespace ShipFuelInventory {
   export namespace stl {
     export const key = 'ShipFuelInventory.stl';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ftl {
     export const key = 'ShipFuelInventory.ftl';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShipFuelInventoryPanel {
   export namespace context {
     export namespace shipInformation {
       export const key = 'ShipFuelInventoryPanel.context.shipInformation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipInventory {
       export const key = 'ShipFuelInventoryPanel.context.shipInventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipFlightControl {
       export const key = 'ShipFuelInventoryPanel.context.shipFlightControl';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -14910,7 +14910,7 @@ export namespace ShipFuelInventoryPanel {
   export namespace error {
     export namespace shipId {
       export const key = 'ShipFuelInventoryPanel.error.shipId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14923,27 +14923,27 @@ export namespace ShipInventoryPanel {
     };
     export namespace loading {
       export const key = 'ShipInventoryPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace shipInformation {
       export const key = 'ShipInventoryPanel.context.shipInformation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipFuel {
       export const key = 'ShipInventoryPanel.context.shipFuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipFlightControl {
       export const key = 'ShipInventoryPanel.context.shipFlightControl';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace shipId {
       export const key = 'ShipInventoryPanel.error.shipId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14951,15 +14951,15 @@ export namespace Fleet {
   export namespace context {
     export namespace systemMap {
       export const key = 'Fleet.context.systemMap';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planetInformation {
       export const key = 'Fleet.context.planetInformation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shipFlightControl {
       export const key = 'Fleet.context.shipFlightControl';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14972,13 +14972,13 @@ export namespace ShipPanel {
     };
     export namespace loading {
       export const key = 'ShipPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace shipId {
       export const key = 'ShipPanel.error.shipId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -14986,63 +14986,63 @@ export namespace ForEx {
   export namespace context {
     export namespace liquidAssets {
       export const key = 'ForEx.context.liquidAssets';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace matrix {
       export const key = 'ForEx.context.matrix';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orders {
       export const key = 'ForEx.context.orders';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ForEx.context.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace chart {
       export const key = 'ForEx.context.chart';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace orderBook {
       export const key = 'ForEx.context.orderBook';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace placeOrder {
       export const key = 'ForEx.context.placeOrder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ForExOrderBook {
   export namespace offers {
     export const key = 'ForExOrderBook.offers';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace none {
       export const key = 'ForExOrderBook.offers.none';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace requests {
     export const key = 'ForExOrderBook.requests';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace none {
       export const key = 'ForExOrderBook.requests.none';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace trader {
       export const key = 'ForExOrderBook.table.trader';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ForExOrderBook.table.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ForExOrderBook.table.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace spread {
@@ -15110,29 +15110,29 @@ export namespace ForExPricePanelContent {
   }
   export namespace high {
     export const key = 'ForExPricePanelContent.high';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace low {
     export const key = 'ForExPricePanelContent.low';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ask {
     export const key = 'ForExPricePanelContent.ask';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace bid {
     export const key = 'ForExPricePanelContent.bid';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace traded {
     export const key = 'ForExPricePanelContent.traded';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace cForExPricePanelContent {
   export namespace volume {
     export const key = 'cForExPricePanelContent.volume';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ForExPricePanel {
@@ -15155,71 +15155,71 @@ export namespace ForeignExchange {
   export namespace currencies {
     export namespace quote {
       export const key = 'ForeignExchange.currencies.quote';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace base {
       export const key = 'ForeignExchange.currencies.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'ForeignExchange.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ForExOrderPanel {
   export namespace title {
     export const key = 'ForExOrderPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace trades {
     export const key = 'ForExOrderPanel.trades';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace empty {
       export const key = 'ForExOrderPanel.trades.empty';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace partner {
       export const key = 'ForExOrderPanel.trades.partner';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ForExOrderPanel.trades.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'ForExOrderPanel.trades.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'ForExOrderPanel.trades.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace data {
     export namespace _type {
       export const key = 'ForExOrderPanel.data.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ticker {
       export const key = 'ForExOrderPanel.data.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ForExOrderPanel.data.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace initial {
         export const key = 'ForExOrderPanel.data.amount.initial';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace limit {
       export const key = 'ForExOrderPanel.data.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ForExOrderPanel.data.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -15235,23 +15235,23 @@ export namespace ForExOrdersTable {
   export namespace table {
     export namespace _type {
       export const key = 'ForExOrdersTable.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ticker {
       export const key = 'ForExOrdersTable.table.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ForExOrdersTable.table.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace limit {
       export const key = 'ForExOrdersTable.table.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ForExOrdersTable.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace amount {
@@ -15264,22 +15264,22 @@ export namespace ForExOrdersTable {
   export namespace action {
     export namespace _delete {
       export const key = 'ForExOrdersTable.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'ForExOrdersTable.action.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ForExOrdersPanel {
   export namespace title {
     export const key = 'ForExOrdersPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace deleted {
     export const key = 'ForExOrdersPanel.deleted';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ForExPlaceOrderPanel {
@@ -15316,87 +15316,87 @@ export namespace GatewayInformation {
   export namespace costs {
     export namespace base {
       export const key = 'GatewayInformation.costs.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacity {
       export const key = 'GatewayInformation.costs.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'GatewayInformation.costs.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace distance {
       export const key = 'GatewayInformation.costs.distance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace total {
       export const key = 'GatewayInformation.costs.total';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace distance {
       export const key = 'GatewayInformation.table.distance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace system {
       export const key = 'GatewayInformation.table.system';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace specs {
     export namespace maxUses {
       export const key = 'GatewayInformation.specs.maxUses';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxShipVolume {
       export const key = 'GatewayInformation.specs.maxShipVolume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxFuelStorage {
       export const key = 'GatewayInformation.specs.maxFuelStorage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxLinkingRadius {
       export const key = 'GatewayInformation.specs.maxLinkingRadius';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacityUpgrades {
       export const key = 'GatewayInformation.specs.capacityUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volumeUpgrades {
       export const key = 'GatewayInformation.specs.volumeUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace distanceUpgrades {
       export const key = 'GatewayInformation.specs.distanceUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace parameters {
       export const key = 'GatewayInformation.header.parameters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace specs {
       export const key = 'GatewayInformation.header.specs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace buildingCosts {
       export const key = 'GatewayInformation.header.buildingCosts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'GatewayInformation.header.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace upkeep {
       export const key = 'GatewayInformation.label.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -15404,11 +15404,11 @@ export namespace IncrementalNumberInput {
   export namespace action {
     export namespace dec {
       export const key = 'IncrementalNumberInput.action.dec';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inc {
       export const key = 'IncrementalNumberInput.action.inc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -15416,149 +15416,149 @@ export namespace GatewayInformationForm {
   export namespace label {
     export namespace address {
       export const key = 'GatewayInformationForm.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace established {
       export const key = 'GatewayInformationForm.label.established';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentCapacityUpgrades {
       export const key = 'GatewayInformationForm.label.currentCapacityUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentVolumeUpgrades {
       export const key = 'GatewayInformationForm.label.currentVolumeUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentDistanceUpgrades {
       export const key = 'GatewayInformationForm.label.currentDistanceUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace plannedCapacityUpgrades {
       export const key = 'GatewayInformationForm.label.plannedCapacityUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace plannedVolumeUpgrades {
       export const key = 'GatewayInformationForm.label.plannedVolumeUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace plannedDistanceUpgrades {
       export const key = 'GatewayInformationForm.label.plannedDistanceUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace totalUpgrades {
       export const key = 'GatewayInformationForm.label.totalUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace calculate {
       export const key = 'GatewayInformationForm.action.calculate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace GatewayInformationPanel {
   export namespace title {
     export const key = 'GatewayInformationPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InfrastructureUpkeep {
   export namespace label {
     export namespace uptimeAverage {
       export const key = 'InfrastructureUpkeep.label.uptimeAverage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'InfrastructureUpkeep.label.uptimeAverage.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace status {
       export const key = 'InfrastructureUpkeep.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'InfrastructureUpkeep.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'InfrastructureUpkeep.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'InfrastructureUpkeep.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentUpkeepPhase {
       export const key = 'InfrastructureUpkeep.label.currentUpkeepPhase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'InfrastructureUpkeep.label.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace next {
       export const key = 'InfrastructureUpkeep.label.next';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace uptime {
       export const key = 'InfrastructureUpkeep.label.uptime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace infrastructure {
       export const key = 'InfrastructureUpkeep.header.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'InfrastructureUpkeep.header.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractors {
       export const key = 'InfrastructureUpkeep.header.contractors';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace InfrastructureOperationalState {
   export namespace UNDER_CONSTRUCTION {
     export const key = 'InfrastructureOperationalState.UNDER_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace OPERATIONAL {
     export const key = 'InfrastructureOperationalState.OPERATIONAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace UPKEEP_MISSING {
     export const key = 'InfrastructureOperationalState.UPKEEP_MISSING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LinkStatus {
   export namespace UNLINKED {
     export const key = 'LinkStatus.UNLINKED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INCOMPLETE {
     export const key = 'LinkStatus.INCOMPLETE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ESTABLISHED {
     export const key = 'LinkStatus.ESTABLISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InfrastructureContractors {
   export namespace table {
     export namespace phase {
       export const key = 'InfrastructureContractors.table.phase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractors {
       export const key = 'InfrastructureContractors.table.contractors';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace value {
         export const key = 'InfrastructureContractors.table.contractors.value';
         export type parameter = {
@@ -15580,71 +15580,71 @@ export namespace Gateway {
   export namespace label {
     export namespace name {
       export const key = 'Gateway.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace id {
       export const key = 'Gateway.label.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'Gateway.label.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace jumpsPerDay {
       export const key = 'Gateway.label.jumpsPerDay';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxShipVolume {
       export const key = 'Gateway.label.maxShipVolume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recentJumps {
       export const key = 'Gateway.label.recentJumps';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'Gateway.label.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace established {
       export const key = 'Gateway.label.established';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacityUpgrades {
       export const key = 'Gateway.label.capacityUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volumeUpgrades {
       export const key = 'Gateway.label.volumeUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace distanceUpgrades {
       export const key = 'Gateway.label.distanceUpgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace details {
       export const key = 'Gateway.label.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace linkradiusmaximum {
       export const key = 'Gateway.label.linkradiusmaximum';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace outgoinglink {
       export const key = 'Gateway.label.outgoinglink';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace linkstatus {
       export const key = 'Gateway.label.linkstatus';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace linkestablished {
       export const key = 'Gateway.label.linkestablished';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace linkrequests {
       export const key = 'Gateway.label.linkrequests';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace maxShipVolume {
@@ -15656,19 +15656,19 @@ export namespace Gateway {
   export namespace upgrade {
     export namespace constractor {
       export const key = 'Gateway.upgrade.constractor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace started {
       export const key = 'Gateway.upgrade.started';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'Gateway.upgrade.progress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgrades {
       export const key = 'Gateway.upgrade.upgrades';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace parameter {
       export namespace capacity {
@@ -15695,41 +15695,41 @@ export namespace Gateway {
     }
     export namespace store {
       export const key = 'Gateway.upgrade.store';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace action {
         export const key = 'Gateway.upgrade.store.action';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace noupgrade {
       export const key = 'Gateway.upgrade.noupgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace general {
       export const key = 'Gateway.header.general';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacity {
       export const key = 'Gateway.header.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace traffic {
       export const key = 'Gateway.header.traffic';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace link {
       export const key = 'Gateway.header.link';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'Gateway.header.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgrade {
       export const key = 'Gateway.header.upgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace capacityUpgrades {
@@ -15754,13 +15754,13 @@ export namespace Gateway {
     export namespace traffic {
       export namespace details {
         export const key = 'Gateway.action.traffic.details';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace upkeep {
       export namespace details {
         export const key = 'Gateway.action.upkeep.details';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -15783,47 +15783,47 @@ export namespace GatewayTraffic {
   export namespace label {
     export namespace fuelAvailability {
       export const key = 'GatewayTraffic.label.fuelAvailability';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'GatewayTraffic.label.fuelAvailability.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fuelPerJump {
       export const key = 'GatewayTraffic.label.fuelPerJump';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuelAvailable {
       export const key = 'GatewayTraffic.label.fuelAvailable';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace general {
       export const key = 'GatewayTraffic.header.general';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacity {
       export const key = 'GatewayTraffic.header.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace traffic {
       export const key = 'GatewayTraffic.header.traffic';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fuel {
       export const key = 'GatewayTraffic.header.fuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractors {
       export const key = 'GatewayTraffic.header.contractors';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace usageFee {
     export namespace location {
       export const key = 'GatewayTraffic.usageFee.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace fuelAvailable {
@@ -15838,31 +15838,31 @@ export namespace TrafficStats {
   export namespace table {
     export namespace currentPhase {
       export const key = 'TrafficStats.table.currentPhase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace lastPhase {
       export const key = 'TrafficStats.table.lastPhase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace last10Phases {
       export const key = 'TrafficStats.table.last10Phases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace successful {
       export const key = 'TrafficStats.table.successful';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace failedInoperative {
       export const key = 'TrafficStats.table.failedInoperative';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace failedMissingFuel {
       export const key = 'TrafficStats.table.failedMissingFuel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace failedNoCapacity {
       export const key = 'TrafficStats.table.failedNoCapacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -15871,28 +15871,28 @@ export namespace Gateways {
     export namespace action {
       export namespace view {
         export const key = 'Gateways.table.action.view';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace name {
       export const key = 'Gateways.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'Gateways.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace link {
       export const key = 'Gateways.table.link';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'Gateways.table.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace established {
       export const key = 'Gateways.table.established';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -15900,23 +15900,23 @@ export namespace GatewayPanel {
   export namespace error {
     export namespace noGateway {
       export const key = 'GatewayPanel.error.noGateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace gateways {
       export const key = 'GatewayPanel.title.gateways';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gateway {
       export const key = 'GatewayPanel.title.gateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace gatewayInformation {
       export const key = 'GatewayPanel.context.gatewayInformation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -15924,99 +15924,99 @@ export namespace GatewayTrafficPanel {
   export namespace title {
     export namespace gateways {
       export const key = 'GatewayTrafficPanel.title.gateways';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace gateway {
       export const key = 'GatewayTrafficPanel.context.gateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace PlanetaryProjects {
   export namespace ADM {
     export const key = 'PlanetaryProjects.ADM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.ADM.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.ADM.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace COGC {
     export const key = 'PlanetaryProjects.COGC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.COGC.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.COGC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace CX {
     export const key = 'PlanetaryProjects.CX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.CX.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.CX.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace LOCM {
     export const key = 'PlanetaryProjects.LOCM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.LOCM.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.LOCM.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace POP {
     export const key = 'PlanetaryProjects.POP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.POP.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.POP.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace SHY {
     export const key = 'PlanetaryProjects.SHY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.SHY.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.SHY.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace WAR {
     export const key = 'PlanetaryProjects.WAR';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace ticker {
       export const key = 'PlanetaryProjects.WAR.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PlanetaryProjects.WAR.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16032,31 +16032,31 @@ export namespace LocalMarkets {
   export namespace header {
     export namespace planets {
       export const key = 'LocalMarkets.header.planets';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stations {
       export const key = 'LocalMarkets.header.stations';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace planet {
     export namespace location {
       export const key = 'LocalMarkets.planet.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'LocalMarkets.planet.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace station {
     export namespace location {
       export const key = 'LocalMarkets.station.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'LocalMarkets.station.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16064,19 +16064,19 @@ export namespace InfrastructurePanel {
   export namespace context {
     export namespace fleet {
       export const key = 'InfrastructurePanel.context.fleet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'InfrastructurePanel.context.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemMap {
       export const key = 'InfrastructurePanel.context.systemMap';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemInfo {
       export const key = 'InfrastructurePanel.context.systemInfo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -16086,17 +16086,17 @@ export namespace InfrastructurePanel {
     };
     export namespace loading {
       export const key = 'InfrastructurePanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'InfrastructurePanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace systemId {
       export const key = 'InfrastructurePanel.error.systemId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16104,101 +16104,101 @@ export namespace InfrastructureUpkeepPanel {
   export namespace error {
     export namespace notfound {
       export const key = 'InfrastructureUpkeepPanel.error.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'InfrastructureUpkeepPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LeaderboardType {
   export namespace ARC_LEVEL {
     export const key = 'LeaderboardType.ARC_LEVEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASES {
     export const key = 'LeaderboardType.BASES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BUILDINGS {
     export const key = 'LeaderboardType.BUILDINGS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FACTION_REPUTATION_TOTAL {
     export const key = 'LeaderboardType.FACTION_REPUTATION_TOTAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FACTION_REPUTATION_AI {
     export const key = 'LeaderboardType.FACTION_REPUTATION_AI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FACTION_REPUTATION_CI {
     export const key = 'LeaderboardType.FACTION_REPUTATION_CI';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FACTION_REPUTATION_IC {
     export const key = 'LeaderboardType.FACTION_REPUTATION_IC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FACTION_REPUTATION_NC {
     export const key = 'LeaderboardType.FACTION_REPUTATION_NC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GOVERNOR_TERMS {
     export const key = 'LeaderboardType.GOVERNOR_TERMS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HQ_LEVEL {
     export const key = 'LeaderboardType.HQ_LEVEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPS {
     export const key = 'LeaderboardType.SHIPS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STL_OPERATING_TIME {
     export const key = 'LeaderboardType.STL_OPERATING_TIME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FTL_OPERATING_TIME {
     export const key = 'LeaderboardType.FTL_OPERATING_TIME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_TOTAL {
     export const key = 'LeaderboardType.WORKFORCE_TOTAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_PIONEER {
     export const key = 'LeaderboardType.WORKFORCE_PIONEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SETTLER {
     export const key = 'LeaderboardType.WORKFORCE_SETTLER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_TECHNICIAN {
     export const key = 'LeaderboardType.WORKFORCE_TECHNICIAN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_ENGINEER {
     export const key = 'LeaderboardType.WORKFORCE_ENGINEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SCIENTIST {
     export const key = 'LeaderboardType.WORKFORCE_SCIENTIST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION {
     export const key = 'LeaderboardType.PRODUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Leaderboard {
   export namespace status {
     export namespace loading {
       export const key = 'Leaderboard.status.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16206,51 +16206,51 @@ export namespace Leaderboards {
   export namespace table {
     export namespace rank {
       export const key = 'Leaderboards.table.rank';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace score {
       export const key = 'Leaderboards.table.score';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace company {
       export const key = 'Leaderboards.table.company';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace user {
       export const key = 'Leaderboards.table.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace coporation {
       export const key = 'Leaderboards.table.coporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace noData {
       export const key = 'Leaderboards.table.noData';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'Leaderboards.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace RangeSelector {
   export namespace label {
     export namespace days_7 {
       export const key = 'RangeSelector.label.days_7';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace days_30 {
       export const key = 'RangeSelector.label.days_30';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace days_90 {
       export const key = 'RangeSelector.label.days_90';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace days_180 {
       export const key = 'RangeSelector.label.days_180';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16258,25 +16258,25 @@ export namespace LeaderboardController {
   export namespace label {
     export namespace _type {
       export const key = 'LeaderboardController.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'LeaderboardController.label.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace range {
       export const key = 'LeaderboardController.label.range';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace top {
       export const key = 'LeaderboardController.action.top';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace own {
       export const key = 'LeaderboardController.action.own';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16296,155 +16296,155 @@ export namespace LocalRules {
   export namespace production {
     export namespace industry {
       export const key = 'LocalRules.production.industry';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pioneer {
       export const key = 'LocalRules.production.pioneer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace settler {
       export const key = 'LocalRules.production.settler';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace technician {
       export const key = 'LocalRules.production.technician';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace engineer {
       export const key = 'LocalRules.production.engineer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace scientist {
       export const key = 'LocalRules.production.scientist';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace localmarket {
     export namespace timeFactor {
       export const key = 'LocalRules.localmarket.timeFactor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'LocalRules.localmarket.timeFactor.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace base {
       export const key = 'LocalRules.localmarket.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace productionfees {
       export const key = 'LocalRules.section.productionfees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'LocalRules.section.productionfees.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace localmarketfees {
       export const key = 'LocalRules.section.localmarketfees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace warehousefees {
       export const key = 'LocalRules.section.warehousefees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace establishmentfees {
       export const key = 'LocalRules.section.establishmentfees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace population {
       export const key = 'LocalRules.section.population';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'LocalRules.section.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace needFulfillment {
       export const key = 'LocalRules.section.needFulfillment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace population {
     export namespace reserve {
       export const key = 'LocalRules.population.reserve';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'LocalRules.population.reserve.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace reserveDefault {
       export const key = 'LocalRules.population.reserveDefault';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace governance {
     export namespace location {
       export const key = 'LocalRules.governance.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace affinity {
       export const key = 'LocalRules.governance.affinity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace collector {
       export const key = 'LocalRules.governance.collector';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'LocalRules.governance.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace warehouse {
     export namespace fee {
       export const key = 'LocalRules.warehouse.fee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace establishment {
     export namespace fee {
       export const key = 'LocalRules.establishment.fee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace infrastructure {
     export namespace name {
       export const key = 'LocalRules.infrastructure.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace built {
       export const key = 'LocalRules.infrastructure.built';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace current {
       export const key = 'LocalRules.infrastructure.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace active {
       export const key = 'LocalRules.infrastructure.active';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribution {
       export const key = 'LocalRules.infrastructure.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace tab {
     export namespace fees {
       export const key = 'LocalRules.tab.fees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace population {
       export const key = 'LocalRules.tab.population';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace programs {
       export const key = 'LocalRules.tab.programs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16457,7 +16457,7 @@ export namespace ProductionFeeForm {
   export namespace action {
     export namespace edit {
       export const key = 'ProductionFeeForm.action.edit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16465,7 +16465,7 @@ export namespace LocalRulesFeeForm {
   export namespace action {
     export namespace setProductionFee {
       export const key = 'LocalRulesFeeForm.action.setProductionFee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16473,11 +16473,11 @@ export namespace FeeProductionContainer {
   export namespace label {
     export namespace currency {
       export const key = 'FeeProductionContainer.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace productionFees {
       export const key = 'FeeProductionContainer.label.productionFees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16485,22 +16485,22 @@ export namespace MotionComponent {
   export namespace action {
     export namespace cancel {
       export const key = 'MotionComponent.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace save {
       export const key = 'MotionComponent.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace PopulationNeedsTable {
   export namespace NEED_FULFILLMENT {
     export const key = 'PopulationNeedsTable.NEED_FULFILLMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NEED_FULFILLMENT_DESCRIPTION {
     export const key = 'PopulationNeedsTable.NEED_FULFILLMENT_DESCRIPTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Population {
@@ -16510,27 +16510,27 @@ export namespace Population {
     }
     export namespace lifeSupport {
       export const key = 'Population.report.lifeSupport';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace safety {
       export const key = 'Population.report.safety';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace health {
       export const key = 'Population.report.health';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace comfort {
       export const key = 'Population.report.comfort';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace culture {
       export const key = 'Population.report.culture';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace education {
       export const key = 'Population.report.education';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace shift {
       export const key = 'Population.report.shift';
@@ -16543,11 +16543,11 @@ export namespace Population {
     export namespace action {
       export namespace prev {
         export const key = 'Population.report.action.prev';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace next {
         export const key = 'Population.report.action.next';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace current {
@@ -16559,88 +16559,88 @@ export namespace Population {
     }
     export namespace pioneers {
       export const key = 'Population.report.pioneers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace settler {
       export const key = 'Population.report.settler';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace technicians {
       export const key = 'Population.report.technicians';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace engineers {
       export const key = 'Population.report.engineers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace scientists {
       export const key = 'Population.report.scientists';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nextPopulation {
       export const key = 'Population.report.nextPopulation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace change {
       export const key = 'Population.report.change';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace migration {
       export const key = 'Population.report.migration';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace educationInOut {
       export const key = 'Population.report.educationInOut';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace happiness {
       export const key = 'Population.report.happiness';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unemployment {
       export const key = 'Population.report.unemployment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace openJobs {
       export const key = 'Population.report.openJobs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace needFulfillment {
       export const key = 'Population.section.needFulfillment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace governmentProgram {
       export const key = 'Population.section.governmentProgram';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace NeedTypeLabel {
   export namespace LIFE_SUPPORT {
     export const key = 'NeedTypeLabel.LIFE_SUPPORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SAFETY {
     export const key = 'NeedTypeLabel.SAFETY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HEALTH {
     export const key = 'NeedTypeLabel.HEALTH';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMFORT {
     export const key = 'NeedTypeLabel.COMFORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CULTURE {
     export const key = 'NeedTypeLabel.CULTURE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EDUCATION {
     export const key = 'NeedTypeLabel.EDUCATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace NeedFulfillment {
@@ -16657,7 +16657,7 @@ export namespace LocalRulesPopulation {
     export namespace active {
       export namespace info {
         export const key = 'LocalRulesPopulation.label.active.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -16665,74 +16665,74 @@ export namespace LocalRulesPopulation {
 export namespace ProgramCategory {
   export namespace IMMIGRATION {
     export const key = 'ProgramCategory.IMMIGRATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FAMILY_SUPPORT {
     export const key = 'ProgramCategory.FAMILY_SUPPORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EDUCATION {
     export const key = 'ProgramCategory.EDUCATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FESTIVITIES {
     export const key = 'ProgramCategory.FESTIVITIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LocalRulesPrograms {
   export namespace label {
     export namespace category {
       export const key = 'LocalRulesPrograms.label.category';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace program {
       export const key = 'LocalRulesPrograms.label.program';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'LocalRulesPrograms.label.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace start {
       export const key = 'LocalRulesPrograms.label.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace endsIn {
       export const key = 'LocalRulesPrograms.label.endsIn';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ended {
       export const key = 'LocalRulesPrograms.label.ended';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace costs {
       export const key = 'LocalRulesPrograms.label.costs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _number {
       export const key = 'LocalRulesPrograms.label.number';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace noAdminCenter {
       export const key = 'LocalRulesPrograms.error.noAdminCenter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace active {
       export const key = 'LocalRulesPrograms.section.active';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upcoming {
       export const key = 'LocalRulesPrograms.section.upcoming';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace past {
       export const key = 'LocalRulesPrograms.section.past';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16740,7 +16740,7 @@ export namespace LocalRulesPanel {
   export namespace context {
     export namespace planet {
       export const key = 'LocalRulesPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -16750,7 +16750,7 @@ export namespace LocalRulesPanel {
     };
     export namespace loading {
       export const key = 'LocalRulesPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -16767,37 +16767,37 @@ export namespace SystemMap {
     export namespace site {
       export namespace label {
         export const key = 'SystemMap.setting.site.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fleet {
       export namespace label {
         export const key = 'SystemMap.setting.fleet.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace inventory {
       export namespace label {
         export const key = 'SystemMap.setting.inventory.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace comex {
       export namespace label {
         export const key = 'SystemMap.setting.comex.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace localMarket {
       export namespace label {
         export const key = 'SystemMap.setting.localMarket.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace shipyard {
       export namespace label {
         export const key = 'SystemMap.setting.shipyard.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -16806,11 +16806,11 @@ export namespace Settings {
   export namespace arrow {
     export namespace right {
       export const key = 'Settings.arrow.right';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace left {
       export const key = 'Settings.arrow.left';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16818,11 +16818,11 @@ export namespace SystemMapPanel {
   export namespace context {
     export namespace info {
       export const key = 'SystemMapPanel.context.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fleet {
       export const key = 'SystemMapPanel.context.fleet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -16832,13 +16832,13 @@ export namespace SystemMapPanel {
     };
     export namespace loading {
       export const key = 'SystemMapPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace systemId {
       export const key = 'SystemMapPanel.error.systemId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16846,7 +16846,7 @@ export namespace CountryControls {
   export namespace label {
     export namespace countries {
       export const key = 'CountryControls.label.countries';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16855,39 +16855,39 @@ export namespace UniverseMap {
     export namespace filters {
       export namespace label {
         export const key = 'UniverseMap.setting.filters.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace resources {
       export namespace label {
         export const key = 'UniverseMap.setting.resources.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace population {
       export namespace label {
         export const key = 'UniverseMap.setting.population.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace country {
       export namespace label {
         export const key = 'UniverseMap.setting.country.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace highlights {
       export namespace label {
         export const key = 'UniverseMap.setting.highlights.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace hint {
       export const key = 'UniverseMap.setting.hint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace label {
         export const key = 'UniverseMap.setting.hint.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -16895,16 +16895,16 @@ export namespace UniverseMap {
     export namespace heading {
       export namespace legend {
         export const key = 'UniverseMap.legend.heading.legend';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace hint {
         export const key = 'UniverseMap.legend.heading.hint';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace text1 {
       export const key = 'UniverseMap.legend.text1';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -16920,58 +16920,58 @@ export namespace StarOverlay {
 export namespace UniverseMapPanel {
   export namespace title {
     export const key = 'UniverseMapPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MaterialInformation {
   export namespace areaCost {
     export const key = 'MaterialInformation.areaCost';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace production {
     export const key = 'MaterialInformation.production';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace wroughtProduct {
     export const key = 'MaterialInformation.wroughtProduct';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace buildingMaterial {
     export const key = 'MaterialInformation.buildingMaterial';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructureUsage {
     export const key = 'MaterialInformation.infrastructureUsage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace otherUsage {
     export const key = 'MaterialInformation.otherUsage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cogcUsage {
     export const key = 'MaterialInformation.cogcUsage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace workforceUsage {
     export const key = 'MaterialInformation.workforceUsage';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ticker {
     export const key = 'MaterialInformation.ticker';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace category {
     export const key = 'MaterialInformation.category';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace label {
     export namespace weight {
       export const key = 'MaterialInformation.label.weight';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'MaterialInformation.label.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace weight {
@@ -16988,14 +16988,14 @@ export namespace MaterialInformation {
   }
   export namespace resource {
     export const key = 'MaterialInformation.resource';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace yes {
       export const key = 'MaterialInformation.resource.yes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace no {
       export const key = 'MaterialInformation.resource.no';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -17003,12 +17003,12 @@ export namespace MaterialPanel {
   export namespace context {
     export namespace comexMaterialInfo {
       export const key = 'MaterialPanel.context.comexMaterialInfo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'MaterialPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace titleWithName {
     export const key = 'MaterialPanel.titleWithName';
@@ -17019,297 +17019,297 @@ export namespace MaterialPanel {
   export namespace error {
     export namespace material {
       export const key = 'MaterialPanel.error.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace AlertType {
   export namespace ADMIN_CENTER_RUN_SUCCEEDED {
     export const key = 'AlertType.ADMIN_CENTER_RUN_SUCCEEDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_GOVERNOR_ELECTED {
     export const key = 'AlertType.ADMIN_CENTER_GOVERNOR_ELECTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_NO_GOVERNOR_ELECTED {
     export const key = 'AlertType.ADMIN_CENTER_NO_GOVERNOR_ELECTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_ELECTION_STARTED {
     export const key = 'AlertType.ADMIN_CENTER_ELECTION_STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_ELECTION_REMINDER {
     export const key = 'AlertType.ADMIN_CENTER_ELECTION_REMINDER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_MOTION_PASSED {
     export const key = 'AlertType.ADMIN_CENTER_MOTION_PASSED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_MOTION_ENDED {
     export const key = 'AlertType.ADMIN_CENTER_MOTION_ENDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_MOTION_VOTING_STARTED {
     export const key = 'AlertType.ADMIN_CENTER_MOTION_VOTING_STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COGC_PROGRAM_CHANGED {
     export const key = 'AlertType.COGC_PROGRAM_CHANGED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COGC_UPKEEP_STARTED {
     export const key = 'AlertType.COGC_UPKEEP_STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COGC_STATUS_CHANGED {
     export const key = 'AlertType.COGC_STATUS_CHANGED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_TRADE {
     export const key = 'AlertType.COMEX_TRADE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_ORDER_FILLED {
     export const key = 'AlertType.COMEX_ORDER_FILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMEX_PICKUP_CONTRACT_CREATED {
     export const key = 'AlertType.COMEX_PICKUP_CONTRACT_CREATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_BREACHED {
     export const key = 'AlertType.CONTRACT_CONTRACT_BREACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_CANCELLED {
     export const key = 'AlertType.CONTRACT_CONTRACT_CANCELLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_DEADLINE_EXCEEDED_WITH_CONTROL {
     export const key = 'AlertType.CONTRACT_DEADLINE_EXCEEDED_WITH_CONTROL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_EXTENDED {
     export const key = 'AlertType.CONTRACT_CONTRACT_EXTENDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_CLOSED {
     export const key = 'AlertType.CONTRACT_CONTRACT_CLOSED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_RECEIVED {
     export const key = 'AlertType.CONTRACT_CONTRACT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_REJECTED {
     export const key = 'AlertType.CONTRACT_CONTRACT_REJECTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_TERMINATION_REQUESTED {
     export const key = 'AlertType.CONTRACT_CONTRACT_TERMINATION_REQUESTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONTRACT_TERMINATED {
     export const key = 'AlertType.CONTRACT_CONTRACT_TERMINATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_DEADLINE_EXCEEDED_WITHOUT_CONTROL {
     export const key = 'AlertType.CONTRACT_DEADLINE_EXCEEDED_WITHOUT_CONTROL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONDITION_FULFILLED {
     export const key = 'AlertType.CONTRACT_CONDITION_FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRACT_CONDITION_PICKUP_CONDITION_PENDING {
     export const key = 'AlertType.CONTRACT_CONDITION_PICKUP_CONDITION_PENDING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_MANAGER_INVITE_ACCEPTED {
     export const key = 'AlertType.CORPORATION_MANAGER_INVITE_ACCEPTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_MANAGER_INVITE_REJECTED {
     export const key = 'AlertType.CORPORATION_MANAGER_INVITE_REJECTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_SHAREHOLDER_DIVIDEND_RECEIVED {
     export const key = 'AlertType.CORPORATION_SHAREHOLDER_DIVIDEND_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_SHAREHOLDER_INVITE_RECEIVED {
     export const key = 'AlertType.CORPORATION_SHAREHOLDER_INVITE_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_MANAGER_SHAREHOLDER_LEFT {
     export const key = 'AlertType.CORPORATION_MANAGER_SHAREHOLDER_LEFT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_PROJECT_FINISHED {
     export const key = 'AlertType.CORPORATION_PROJECT_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_TRADE {
     export const key = 'AlertType.FOREX_TRADE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FOREX_ORDER_FILLED {
     export const key = 'AlertType.FOREX_ORDER_FILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_LINK_REQUEST_RECEIVED {
     export const key = 'AlertType.GATEWAY_LINK_REQUEST_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_LINK_ESTABLISHED {
     export const key = 'AlertType.GATEWAY_LINK_ESTABLISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_LINK_UNLINKED {
     export const key = 'AlertType.GATEWAY_LINK_UNLINKED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_MISSING_FUNDS {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_MISSING_FUNDS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_NOT_OPERATIONAL {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_NOT_OPERATIONAL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_NO_FUEL {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_NO_FUEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_LINK_NOT_ESTABLISHED {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_LINK_NOT_ESTABLISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_LINK_CHANGED {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_LINK_CHANGED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_JUMP_ABORTED_NO_CAPACITY {
     export const key = 'AlertType.GATEWAY_JUMP_ABORTED_NO_CAPACITY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_OPERATIONAL_STATE_CHANGED {
     export const key = 'AlertType.INFRASTRUCTURE_OPERATIONAL_STATE_CHANGED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_PROJECT_COMPLETED {
     export const key = 'AlertType.INFRASTRUCTURE_PROJECT_COMPLETED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_UPGRADE_COMPLETED {
     export const key = 'AlertType.INFRASTRUCTURE_UPGRADE_COMPLETED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_UPKEEP_PHASE_STARTED {
     export const key = 'AlertType.INFRASTRUCTURE_UPKEEP_PHASE_STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_AD_ACCEPTED {
     export const key = 'AlertType.LOCAL_MARKET_AD_ACCEPTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace LOCAL_MARKET_AD_EXPIRED {
     export const key = 'AlertType.LOCAL_MARKET_AD_EXPIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PLANETARY_PROJECT_FINISHED {
     export const key = 'AlertType.PLANETARY_PROJECT_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace POPULATION_PROJECT_UPGRADED {
     export const key = 'AlertType.POPULATION_PROJECT_UPGRADED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace POPULATION_REPORT_AVAILABLE {
     export const key = 'AlertType.POPULATION_REPORT_AVAILABLE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_ORDER_FINISHED {
     export const key = 'AlertType.PRODUCTION_ORDER_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RELEASE_NOTES {
     export const key = 'AlertType.RELEASE_NOTES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_EXPERT_DROPPED {
     export const key = 'AlertType.SITE_EXPERT_DROPPED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_FLIGHT_ENDED {
     export const key = 'AlertType.SHIP_FLIGHT_ENDED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIPYARD_PROJECT_FINISHED {
     export const key = 'AlertType.SHIPYARD_PROJECT_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TUTORIAL_TASK_FINISHED {
     export const key = 'AlertType.TUTORIAL_TASK_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_EXPIRED {
     export const key = 'AlertType.USER_LICENSE_EXPIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_ABOUT_TO_EXPIRE {
     export const key = 'AlertType.USER_LICENSE_ABOUT_TO_EXPIRE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_STEAM_REVIEW {
     export const key = 'AlertType.USER_STEAM_REVIEW';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_CONVERSION_REMINDER_LICENSE {
     export const key = 'AlertType.USER_CONVERSION_REMINDER_LICENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_GIFT_RECEIVED {
     export const key = 'AlertType.USER_LICENSE_GIFT_RECEIVED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_STORE_LOCKED_INSUFFICIENT_FUNDS {
     export const key = 'AlertType.WAREHOUSE_STORE_LOCKED_INSUFFICIENT_FUNDS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_STORE_UNLOCKED {
     export const key = 'AlertType.WAREHOUSE_STORE_UNLOCKED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_UNSATISFIED {
     export const key = 'AlertType.WORKFORCE_UNSATISFIED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_OUT_OF_SUPPLIES {
     export const key = 'AlertType.WORKFORCE_OUT_OF_SUPPLIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_LOW_SUPPLIES {
     export const key = 'AlertType.WORKFORCE_LOW_SUPPLIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Notifications {
   export namespace context {
     export namespace notifications {
       export const key = 'Notifications.context.notifications';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inGameConfig {
       export const key = 'Notifications.context.inGameConfig';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace config {
       export const key = 'Notifications.context.config';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -17317,408 +17317,408 @@ export namespace NotificationConfigPanel {
   export namespace enabled {
     export namespace enabled {
       export const key = 'NotificationConfigPanel.enabled.enabled';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace disabled {
       export const key = 'NotificationConfigPanel.enabled.disabled';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _default {
       export const key = 'NotificationConfigPanel.enabled.default';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace frequency {
     export namespace _default {
       export const key = 'NotificationConfigPanel.frequency.default';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _1m {
       export const key = 'NotificationConfigPanel.frequency.1m';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _15m {
       export const key = 'NotificationConfigPanel.frequency.15m';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _1h {
       export const key = 'NotificationConfigPanel.frequency.1h';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _4h {
       export const key = 'NotificationConfigPanel.frequency.4h';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _8h {
       export const key = 'NotificationConfigPanel.frequency.8h';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _12 {
       export const key = 'NotificationConfigPanel.frequency.12';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _24h {
       export const key = 'NotificationConfigPanel.frequency.24h';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'NotificationConfigPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace table {
     export namespace _type {
       export const key = 'NotificationConfigPanel.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace _default {
         export const key = 'NotificationConfigPanel.table.type.default';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace enabled {
       export const key = 'NotificationConfigPanel.table.enabled';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace frequency {
       export const key = 'NotificationConfigPanel.table.frequency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace InGameNotificationConfigPanel {
   export namespace title {
     export const key = 'InGameNotificationConfigPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace table {
     export namespace _type {
       export const key = 'InGameNotificationConfigPanel.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace enabled {
       export const key = 'InGameNotificationConfigPanel.table.enabled';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ConditionType {
   export namespace CONDITION_COMEX_PURCHASE_PICKUP {
     export const key = 'ConditionType.CONDITION_COMEX_PURCHASE_PICKUP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PAYMENT {
     export const key = 'ConditionType.CONDITION_PAYMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_DELIVERY {
     export const key = 'ConditionType.CONDITION_DELIVERY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PROVISION {
     export const key = 'ConditionType.CONDITION_PROVISION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PICKUP {
     export const key = 'ConditionType.CONDITION_PICKUP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PROVISION_SHIPMENT {
     export const key = 'ConditionType.CONDITION_PROVISION_SHIPMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PICKUP_SHIPMENT {
     export const key = 'ConditionType.CONDITION_PICKUP_SHIPMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_DELIVERY_SHIPMENT {
     export const key = 'ConditionType.CONDITION_DELIVERY_SHIPMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_EXPLORATION {
     export const key = 'ConditionType.CONDITION_EXPLORATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_HEADQUARTERS_UPGRADE {
     export const key = 'ConditionType.CONDITION_HEADQUARTERS_UPGRADE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_REPUTATION {
     export const key = 'ConditionType.CONDITION_REPUTATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_REPAIR_SHIP {
     export const key = 'ConditionType.CONDITION_REPAIR_SHIP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_CONTRIBUTION {
     export const key = 'ConditionType.CONDITION_CONTRIBUTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_CONSTRUCT_SHIP {
     export const key = 'ConditionType.CONDITION_CONSTRUCT_SHIP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_POWER {
     export const key = 'ConditionType.CONDITION_POWER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_BASE_CONSTRUCTION {
     export const key = 'ConditionType.CONDITION_BASE_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PRODUCTION_RUN {
     export const key = 'ConditionType.CONDITION_PRODUCTION_RUN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PRODUCTION_ORDER_COMPLETED {
     export const key = 'ConditionType.CONDITION_PRODUCTION_ORDER_COMPLETED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_START_FLIGHT {
     export const key = 'ConditionType.CONDITION_START_FLIGHT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_FINISH_FLIGHT {
     export const key = 'ConditionType.CONDITION_FINISH_FLIGHT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_PLACE_ORDER {
     export const key = 'ConditionType.CONDITION_PLACE_ORDER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_LOAN_PAYOUT {
     export const key = 'ConditionType.CONDITION_LOAN_PAYOUT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_LOAN_INSTALLMENT {
     export const key = 'ConditionType.CONDITION_LOAN_INSTALLMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_WORKFORCE_PROGRAM_PAYMENT {
     export const key = 'ConditionType.CONDITION_WORKFORCE_PROGRAM_PAYMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_WORKFORCE_PROGRAM_START {
     export const key = 'ConditionType.CONDITION_WORKFORCE_PROGRAM_START';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_CONSTRUCTION_FINISH {
     export const key = 'ConditionType.INFRASTRUCTURE_CONSTRUCTION_FINISH';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_INFRASTRUCTURE_CONSTRUCTION_START {
     export const key = 'ConditionType.CONDITION_INFRASTRUCTURE_CONSTRUCTION_START';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_UPGRADE_FINISH {
     export const key = 'ConditionType.INFRASTRUCTURE_UPGRADE_FINISH';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_INFRASTRUCTURE_UPGRADE_START {
     export const key = 'ConditionType.CONDITION_INFRASTRUCTURE_UPGRADE_START';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_INFRASTRUCTURE_UPKEEP {
     export const key = 'ConditionType.CONDITION_INFRASTRUCTURE_UPKEEP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONDITION_GATEWAY_FUEL {
     export const key = 'ConditionType.CONDITION_GATEWAY_FUEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MotionStatus {
   export namespace draft {
     export const key = 'MotionStatus.draft';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace voting {
     export const key = 'MotionStatus.voting';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace passed {
     export const key = 'MotionStatus.passed';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace failed {
     export const key = 'MotionStatus.failed';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CoGCProgram {
   export namespace WORKFORCE_PIONEERS {
     export const key = 'CoGCProgram.WORKFORCE_PIONEERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_PIONEERS_SHORT {
     export const key = 'CoGCProgram.WORKFORCE_PIONEERS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_PIONEERS_DESC {
     export const key = 'CoGCProgram.WORKFORCE_PIONEERS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SETTLERS {
     export const key = 'CoGCProgram.WORKFORCE_SETTLERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SETTLERS_SHORT {
     export const key = 'CoGCProgram.WORKFORCE_SETTLERS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SETTLERS_DESC {
     export const key = 'CoGCProgram.WORKFORCE_SETTLERS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_TECHNICIANS {
     export const key = 'CoGCProgram.WORKFORCE_TECHNICIANS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_TECHNICIANS_SHORT {
     export const key = 'CoGCProgram.WORKFORCE_TECHNICIANS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_TECHNICIANS_DESC {
     export const key = 'CoGCProgram.WORKFORCE_TECHNICIANS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_ENGINEERS {
     export const key = 'CoGCProgram.WORKFORCE_ENGINEERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_ENGINEERS_SHORT {
     export const key = 'CoGCProgram.WORKFORCE_ENGINEERS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_ENGINEERS_DESC {
     export const key = 'CoGCProgram.WORKFORCE_ENGINEERS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SCIENTISTS {
     export const key = 'CoGCProgram.WORKFORCE_SCIENTISTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SCIENTISTS_SHORT {
     export const key = 'CoGCProgram.WORKFORCE_SCIENTISTS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_SCIENTISTS_DESC {
     export const key = 'CoGCProgram.WORKFORCE_SCIENTISTS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_AGRICULTURE {
     export const key = 'CoGCProgram.ADVERTISING_AGRICULTURE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_AGRICULTURE_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_AGRICULTURE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_AGRICULTURE_DESC {
     export const key = 'CoGCProgram.ADVERTISING_AGRICULTURE_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CHEMISTRY {
     export const key = 'CoGCProgram.ADVERTISING_CHEMISTRY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CHEMISTRY_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_CHEMISTRY_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CHEMISTRY_DESC {
     export const key = 'CoGCProgram.ADVERTISING_CHEMISTRY_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CONSTRUCTION {
     export const key = 'CoGCProgram.ADVERTISING_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CONSTRUCTION_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_CONSTRUCTION_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_CONSTRUCTION_DESC {
     export const key = 'CoGCProgram.ADVERTISING_CONSTRUCTION_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_ELECTRONICS {
     export const key = 'CoGCProgram.ADVERTISING_ELECTRONICS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_ELECTRONICS_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_ELECTRONICS_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_ELECTRONICS_DESC {
     export const key = 'CoGCProgram.ADVERTISING_ELECTRONICS_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FOOD_INDUSTRIES {
     export const key = 'CoGCProgram.ADVERTISING_FOOD_INDUSTRIES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FOOD_INDUSTRIES_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_FOOD_INDUSTRIES_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FOOD_INDUSTRIES_DESC {
     export const key = 'CoGCProgram.ADVERTISING_FOOD_INDUSTRIES_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FUEL_REFINING {
     export const key = 'CoGCProgram.ADVERTISING_FUEL_REFINING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FUEL_REFINING_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_FUEL_REFINING_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_FUEL_REFINING_DESC {
     export const key = 'CoGCProgram.ADVERTISING_FUEL_REFINING_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_MANUFACTURING {
     export const key = 'CoGCProgram.ADVERTISING_MANUFACTURING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_MANUFACTURING_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_MANUFACTURING_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_MANUFACTURING_DESC {
     export const key = 'CoGCProgram.ADVERTISING_MANUFACTURING_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_METALLURGY {
     export const key = 'CoGCProgram.ADVERTISING_METALLURGY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_METALLURGY_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_METALLURGY_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_METALLURGY_DESC {
     export const key = 'CoGCProgram.ADVERTISING_METALLURGY_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_RESOURCE_EXTRACTION {
     export const key = 'CoGCProgram.ADVERTISING_RESOURCE_EXTRACTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_RESOURCE_EXTRACTION_SHORT {
     export const key = 'CoGCProgram.ADVERTISING_RESOURCE_EXTRACTION_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADVERTISING_RESOURCE_EXTRACTION_DESC {
     export const key = 'CoGCProgram.ADVERTISING_RESOURCE_EXTRACTION_DESC';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Alert {
   export namespace WELCOME {
     export const key = 'Alert.WELCOME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ADMIN_CENTER_RUN_SUCCEEDED {
     export const key = 'Alert.ADMIN_CENTER_RUN_SUCCEEDED';
@@ -18084,7 +18084,7 @@ export namespace Alert {
   }
   export namespace RELEASE_NOTES {
     export const key = 'Alert.RELEASE_NOTES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SITE_EXPERT_DROPPED {
     export const key = 'Alert.SITE_EXPERT_DROPPED';
@@ -18108,23 +18108,23 @@ export namespace Alert {
   }
   export namespace TUTORIAL_TASK_FINISHED {
     export const key = 'Alert.TUTORIAL_TASK_FINISHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_EXPIRED {
     export const key = 'Alert.USER_LICENSE_EXPIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_ABOUT_TO_EXPIRE {
     export const key = 'Alert.USER_LICENSE_ABOUT_TO_EXPIRE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_STEAM_REVIEW {
     export const key = 'Alert.USER_STEAM_REVIEW';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_CONVERSION_REMINDER_LICENSE {
     export const key = 'Alert.USER_CONVERSION_REMINDER_LICENSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace USER_LICENSE_GIFT_RECEIVED {
     export const key = 'Alert.USER_LICENSE_GIFT_RECEIVED';
@@ -18168,76 +18168,76 @@ export namespace NonActiveContextNotifications {
   export namespace action {
     export namespace _switch {
       export const key = 'NonActiveContextNotifications.action.switch';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace context {
       export const key = 'NonActiveContextNotifications.table.context';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unseen {
       export const key = 'NonActiveContextNotifications.table.unseen';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unread {
       export const key = 'NonActiveContextNotifications.table.unread';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace command {
       export const key = 'NonActiveContextNotifications.table.command';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace NotificationsPanel {
   export namespace title {
     export const key = 'NotificationsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace link {
     export namespace markAllAsRead {
       export const key = 'NotificationsPanel.link.markAllAsRead';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace markAllAsSeen {
       export const key = 'NotificationsPanel.link.markAllAsSeen';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace otherContexts {
       export const key = 'NotificationsPanel.section.otherContexts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace NamingForm {
   export namespace name {
     export const key = 'NamingForm.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace submit {
     export const key = 'NamingForm.submit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace disabled {
       export const key = 'NamingForm.submit.disabled';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace naturalId {
     export const key = 'NamingForm.naturalId';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace label {
     export namespace note {
       export const key = 'NamingForm.label.note';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace note {
     export const key = 'NamingForm.note';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace NamePlanetPanel {
@@ -18250,11 +18250,11 @@ export namespace NamePlanetPanel {
     }
     export namespace notes {
       export const key = 'NamePlanetPanel.action.notes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'NamePlanetPanel.action.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18264,21 +18264,21 @@ export namespace NamePlanetPanel {
     };
     export namespace loading {
       export const key = 'NamePlanetPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'NamePlanetPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace success {
     export const key = 'NamePlanetPanel.success';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace naturalId {
       export const key = 'NamePlanetPanel.error.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18286,48 +18286,48 @@ export namespace EnvironmentTable {
   export namespace row {
     export namespace gravity {
       export const key = 'EnvironmentTable.row.gravity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace temperature {
       export const key = 'EnvironmentTable.row.temperature';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pressure {
       export const key = 'EnvironmentTable.row.pressure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace PlanetType {
   export namespace noSurface {
     export const key = 'PlanetType.noSurface';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace surface {
     export const key = 'PlanetType.surface';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ResourcesTable {
   export namespace tooltip {
     export namespace _yield {
       export const key = 'ResourcesTable.tooltip.yield';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ResourceType {
   export namespace mineral {
     export const key = 'ResourceType.mineral';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace liquid {
     export const key = 'ResourceType.liquid';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace gaseous {
     export const key = 'ResourceType.gaseous';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace AvailableSites {
@@ -18345,58 +18345,58 @@ export namespace PlanetInformation {
     export namespace faction {
       export namespace info {
         export const key = 'PlanetInformation.label.faction.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace workforce {
       export namespace info {
         export const key = 'PlanetInformation.label.workforce.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace naming {
       export namespace info {
         export const key = 'PlanetInformation.label.naming.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace government {
       export namespace info {
         export const key = 'PlanetInformation.label.government.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _type {
       export const key = 'PlanetInformation.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'PlanetInformation.label.type.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fertility {
       export const key = 'PlanetInformation.label.fertility';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'PlanetInformation.label.fertility.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace resources {
       export const key = 'PlanetInformation.label.resources';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'PlanetInformation.label.resources.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace plots {
       export const key = 'PlanetInformation.label.plots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'PlanetInformation.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace named {
@@ -18409,7 +18409,7 @@ export namespace PlanetInformation {
   export namespace naming {
     export namespace name {
       export const key = 'PlanetInformation.naming.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace unnamed {
@@ -18421,38 +18421,38 @@ export namespace PlanetInformation {
   export namespace info {
     export namespace plots {
       export const key = 'PlanetInformation.info.plots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fertility {
       export const key = 'PlanetInformation.info.fertility';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace resources {
       export const key = 'PlanetInformation.info.resources';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'PlanetInformation.info.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace noData {
     export const key = 'PlanetInformation.noData';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _type {
     export namespace planet {
       export const key = 'PlanetInformation.type.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace station {
       export const key = 'PlanetInformation.type.station';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace ghostPlots {
     export const key = 'PlanetInformation.ghostPlots';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace plots {
     export const key = 'PlanetInformation.plots';
@@ -18466,27 +18466,27 @@ export namespace PlanetInfoPanel {
   export namespace label {
     export namespace naturalId {
       export const key = 'PlanetInfoPanel.label.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'PlanetInfoPanel.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace naming {
       export const key = 'PlanetInfoPanel.label.naming';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace faction {
       export const key = 'PlanetInfoPanel.label.faction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace population {
       export const key = 'PlanetInfoPanel.label.population';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace government {
       export const key = 'PlanetInfoPanel.label.government';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace content {
         export const key = 'PlanetInfoPanel.label.government.content';
         export type parameter = {
@@ -18497,70 +18497,70 @@ export namespace PlanetInfoPanel {
     export namespace data {
       export namespace _type {
         export const key = 'PlanetInfoPanel.label.data.type';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace radius {
         export const key = 'PlanetInfoPanel.label.data.radius';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace plots {
         export const key = 'PlanetInfoPanel.label.data.plots';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace environment {
         export const key = 'PlanetInfoPanel.label.data.environment';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace fertility {
         export const key = 'PlanetInfoPanel.label.data.fertility';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace resources {
         export const key = 'PlanetInfoPanel.label.data.resources';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace projects {
         export const key = 'PlanetInfoPanel.label.data.projects';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace infrastructure {
         export const key = 'PlanetInfoPanel.label.data.infrastructure';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace planet {
       export const key = 'PlanetInfoPanel.label.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace fleet {
       export const key = 'PlanetInfoPanel.context.fleet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'PlanetInfoPanel.context.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemMap {
       export const key = 'PlanetInfoPanel.context.systemMap';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemInformation {
       export const key = 'PlanetInfoPanel.context.systemInformation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'PlanetInfoPanel.context.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace localrules {
       export const key = 'PlanetInfoPanel.context.localrules';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace populationreport {
       export const key = 'PlanetInfoPanel.context.populationreport';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18570,21 +18570,21 @@ export namespace PlanetInfoPanel {
     };
     export namespace loading {
       export const key = 'PlanetInfoPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'PlanetInfoPanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace list {
       export const key = 'PlanetInfoPanel.title.list';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PlanetInfoPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18592,11 +18592,11 @@ export namespace PlanetaryProjectsPanel {
   export namespace context {
     export namespace planet {
       export const key = 'PlanetaryProjectsPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'PlanetaryProjectsPanel.context.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18606,17 +18606,17 @@ export namespace PlanetaryProjectsPanel {
     };
     export namespace loading {
       export const key = 'PlanetaryProjectsPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'PlanetaryProjectsPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PlanetaryProjectsPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18624,81 +18624,81 @@ export namespace PlanetaryProjectPanel {
   export namespace contribute {
     export namespace error {
       export const key = 'PlanetaryProjectPanel.contribute.error';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace contribute {
       export const key = 'PlanetaryProjectPanel.section.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'PlanetaryProjectPanel.section.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export namespace operational {
       export const key = 'PlanetaryProjectPanel.status.operational';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inConstruction {
       export const key = 'PlanetaryProjectPanel.status.inConstruction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace open {
       export namespace adm {
         export const key = 'PlanetaryProjectPanel.button.open.adm';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace cogc {
         export const key = 'PlanetaryProjectPanel.button.open.cogc';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace locm {
         export const key = 'PlanetaryProjectPanel.button.open.locm';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace pop {
         export const key = 'PlanetaryProjectPanel.button.open.pop';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace shy {
         export const key = 'PlanetaryProjectPanel.button.open.shy';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace war {
         export const key = 'PlanetaryProjectPanel.button.open.war';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace contribution {
       export const key = 'PlanetaryProjectPanel.button.contribution';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace project {
     export const key = 'PlanetaryProjectPanel.project';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace label {
     export namespace status {
       export const key = 'PlanetaryProjectPanel.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace constructionDate {
       export const key = 'PlanetaryProjectPanel.label.constructionDate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace billOfMaterial {
       export const key = 'PlanetaryProjectPanel.label.billOfMaterial';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace project {
       export const key = 'PlanetaryProjectPanel.label.project';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18708,69 +18708,69 @@ export namespace PlanetaryProjectPanel {
     };
     export namespace loading {
       export const key = 'PlanetaryProjectPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'PlanetaryProjectPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PlanetaryProjectPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace contribution {
     export const key = 'PlanetaryProjectPanel.contribution';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace PlanetaryProjectEntry {
   export namespace details {
     export const key = 'PlanetaryProjectEntry.details';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace contribute {
     export const key = 'PlanetaryProjectEntry.contribute';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace PopulationInfrastructure {
   export namespace projects {
     export namespace current {
       export const key = 'PopulationInfrastructure.projects.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'PopulationInfrastructure.projects.current.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace name {
       export const key = 'PopulationInfrastructure.projects.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace built {
       export const key = 'PopulationInfrastructure.projects.built';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'PopulationInfrastructure.projects.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace progress {
       export const key = 'PopulationInfrastructure.projects.progress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cmds {
       export const key = 'PopulationInfrastructure.projects.cmds';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace buttons {
     export namespace details {
       export const key = 'PopulationInfrastructure.buttons.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18778,7 +18778,7 @@ export namespace PopulationInfrastructureContainer {
   export namespace error {
     export namespace noreport {
       export const key = 'PopulationInfrastructureContainer.error.noreport';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18786,15 +18786,15 @@ export namespace PopulationInfrastructurePanel {
   export namespace context {
     export namespace planet {
       export const key = 'PopulationInfrastructurePanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace localRules {
       export const key = 'PopulationInfrastructurePanel.context.localRules';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace report {
       export const key = 'PopulationInfrastructurePanel.context.report';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18804,17 +18804,17 @@ export namespace PopulationInfrastructurePanel {
     };
     export namespace loading {
       export const key = 'PopulationInfrastructurePanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'PopulationInfrastructurePanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PopulationInfrastructurePanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18822,45 +18822,45 @@ export namespace PopulationInfrastructureProject {
   export namespace form {
     export namespace name {
       export const key = 'PopulationInfrastructureProject.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'PopulationInfrastructureProject.form.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace built {
       export const key = 'PopulationInfrastructureProject.form.built';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace current {
       export const key = 'PopulationInfrastructureProject.form.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgradeCosts {
       export const key = 'PopulationInfrastructureProject.form.upgradeCosts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgradeStatus {
       export const key = 'PopulationInfrastructureProject.form.upgradeStatus';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace maxupgrade {
       export const key = 'PopulationInfrastructureProject.form.maxupgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace upkeep {
       export const key = 'PopulationInfrastructureProject.section.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upgrade {
       export const key = 'PopulationInfrastructureProject.section.upgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'PopulationInfrastructureProject.section.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18868,7 +18868,7 @@ export namespace PopulationInfrastructureProjectContainer {
   export namespace error {
     export namespace noproject {
       export const key = 'PopulationInfrastructureProjectContainer.error.noproject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18876,24 +18876,24 @@ export namespace PopulationInfrastructureProjectPanel {
   export namespace context {
     export namespace planet {
       export const key = 'PopulationInfrastructureProjectPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace populationinfrastructure {
       export const key = 'PopulationInfrastructureProjectPanel.context.populationinfrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace report {
       export const key = 'PopulationInfrastructureProjectPanel.context.report';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace contribute {
       export const key = 'PopulationInfrastructureProjectPanel.action.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'PopulationInfrastructureProjectPanel.action.contribute.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -18905,17 +18905,17 @@ export namespace PopulationInfrastructureProjectPanel {
     };
     export namespace loading {
       export const key = 'PopulationInfrastructureProjectPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'PopulationInfrastructureProjectPanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PopulationInfrastructureProjectPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18923,53 +18923,53 @@ export namespace PopulationChartContainer {
   export namespace error {
     export namespace noData {
       export const key = 'PopulationChartContainer.error.noData';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace PopulationReportInfo {
   export namespace POPULATION {
     export const key = 'PopulationReportInfo.POPULATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CHANGE {
     export const key = 'PopulationReportInfo.CHANGE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace MIGRATION {
     export const key = 'PopulationReportInfo.MIGRATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EDUCATION {
     export const key = 'PopulationReportInfo.EDUCATION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace HAPPINESS {
     export const key = 'PopulationReportInfo.HAPPINESS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace UNEMPLOYMENT {
     export const key = 'PopulationReportInfo.UNEMPLOYMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace OPEN_JOBS {
     export const key = 'PopulationReportInfo.OPEN_JOBS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace NEED_FULFILLMENT {
     export const key = 'PopulationReportInfo.NEED_FULFILLMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXPLORERS_GRACE {
     export const key = 'PopulationReportInfo.EXPLORERS_GRACE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace PopulationReportContainer {
   export namespace error {
     export namespace noreport {
       export const key = 'PopulationReportContainer.error.noreport';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -18977,11 +18977,11 @@ export namespace PopulationReportPanel {
   export namespace context {
     export namespace planet {
       export const key = 'PopulationReportPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace populationInfrastructure {
       export const key = 'PopulationReportPanel.context.populationInfrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -18991,51 +18991,51 @@ export namespace PopulationReportPanel {
     };
     export namespace loading {
       export const key = 'PopulationReportPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'PopulationReportPanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'PopulationReportPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace UsersOnlinePanel {
   export namespace title {
     export const key = 'UsersOnlinePanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace username {
     export const key = 'UsersOnlinePanel.username';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Production {
   export namespace context {
     export namespace overview {
       export const key = 'Production.context.overview';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace base {
       export const key = 'Production.context.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace site {
       export const key = 'Production.context.site';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace queue {
       export const key = 'Production.context.queue';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace createOrder {
       export const key = 'Production.context.createOrder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19062,37 +19062,37 @@ export namespace InputsOutputsView {
   }
   export namespace inputs {
     export const key = 'InputsOutputsView.inputs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace outputs {
     export const key = 'InputsOutputsView.outputs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace EfficiencyFactor {
   export namespace COGC_PROGRAM {
     export const key = 'EfficiencyFactor.COGC_PROGRAM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FERTILITY {
     export const key = 'EfficiencyFactor.FERTILITY';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXPERTS {
     export const key = 'EfficiencyFactor.EXPERTS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CORPORATION_HQ {
     export const key = 'EfficiencyFactor.CORPORATION_HQ';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PRODUCTION_LINE_CONDITION {
     export const key = 'EfficiencyFactor.PRODUCTION_LINE_CONDITION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace COMPANY_HEADQUARTERS {
     export const key = 'EfficiencyFactor.COMPANY_HEADQUARTERS';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ProductionLine {
@@ -19107,10 +19107,10 @@ export namespace ProductionLine {
   export namespace label {
     export namespace recurring {
       export const key = 'ProductionLine.label.recurring';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'ProductionLine.label.recurring.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -19118,52 +19118,52 @@ export namespace ProductionLine {
     export namespace templates {
       export namespace empty {
         export const key = 'ProductionLine.error.templates.empty';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace form {
     export namespace location {
       export const key = 'ProductionLine.form.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace productionLine {
       export const key = 'ProductionLine.form.productionLine';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace efficiency {
       export namespace factors {
         export const key = 'ProductionLine.form.efficiency.factors';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace total {
         export const key = 'ProductionLine.form.efficiency.total';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace product {
       export const key = 'ProductionLine.form.product';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recipe {
       export const key = 'ProductionLine.form.recipe';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace factor {
       export const key = 'ProductionLine.form.factor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recurring {
       export const key = 'ProductionLine.form.recurring';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace duration {
       export const key = 'ProductionLine.form.duration';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace note {
       export const key = 'ProductionLine.form.note';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reducedDuration {
       export const key = 'ProductionLine.form.reducedDuration';
@@ -19174,11 +19174,11 @@ export namespace ProductionLine {
     }
     export namespace productionfee {
       export const key = 'ProductionLine.form.productionfee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace submit {
       export const key = 'ProductionLine.form.submit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace productionfee {
@@ -19199,60 +19199,60 @@ export namespace ProductionLinePanel {
     };
     export namespace loading {
       export const key = 'ProductionLinePanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace productionLineId {
       export const key = 'ProductionLinePanel.error.productionLineId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ProductionLines {
   export namespace empty {
     export const key = 'ProductionLines.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace link {
     export namespace overview {
       export const key = 'ProductionLines.link.overview';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace location {
     export const key = 'ProductionLines.location';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace lines {
     export const key = 'ProductionLines.lines';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace OrderStatus {
   export namespace halted {
     export const key = 'OrderStatus.halted';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace capacity {
     export const key = 'OrderStatus.capacity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace funds {
     export const key = 'OrderStatus.funds';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace progress {
     export const key = 'OrderStatus.progress';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace recurring {
     export const key = 'OrderStatus.recurring';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace input {
     export const key = 'OrderStatus.input';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace OrderSlot {
@@ -19266,19 +19266,19 @@ export namespace OrderSlot {
 export namespace SiteProductionLines {
   export namespace empty {
     export const key = 'SiteProductionLines.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace createOrder {
     export const key = 'SiteProductionLines.createOrder';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace view {
     export const key = 'SiteProductionLines.view';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace queueDivider {
     export const key = 'SiteProductionLines.queueDivider';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ProductionPanel {
@@ -19289,17 +19289,17 @@ export namespace ProductionPanel {
     };
     export namespace loading {
       export const key = 'ProductionPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sites {
       export const key = 'ProductionPanel.title.sites';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace siteId {
       export const key = 'ProductionPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19307,23 +19307,23 @@ export namespace ProductionQueuePanel {
   export namespace action {
     export namespace inputmaterials {
       export const key = 'ProductionQueuePanel.action.inputmaterials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace outputmaterials {
       export const key = 'ProductionQueuePanel.action.outputmaterials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fees {
       export const key = 'ProductionQueuePanel.action.fees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace confirmation {
       export const key = 'ProductionQueuePanel.action.confirmation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'ProductionQueuePanel.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -19334,17 +19334,17 @@ export namespace ProductionQueuePanel {
     };
     export namespace loading {
       export const key = 'ProductionQueuePanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace cancelled {
     export const key = 'ProductionQueuePanel.cancelled';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace productionLineId {
       export const key = 'ProductionQueuePanel.error.productionLineId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19352,35 +19352,35 @@ export namespace ProductionQueue {
   export namespace table {
     export namespace moveUp {
       export const key = 'ProductionQueue.table.moveUp';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace moveDown {
       export const key = 'ProductionQueue.table.moveDown';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cancel {
       export const key = 'ProductionQueue.table.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fee {
       export const key = 'ProductionQueue.table.fee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace input {
       export const key = 'ProductionQueue.table.input';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace output {
       export const key = 'ProductionQueue.table.output';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace completion {
       export const key = 'ProductionQueue.table.completion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ProductionQueue.table.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace materialAvailability {
@@ -19399,12 +19399,12 @@ export namespace ProductionQueue {
   }
   export namespace createOrder {
     export const key = 'ProductionQueue.createOrder';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace figures {
     export namespace capacity {
       export const key = 'ProductionQueue.figures.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace amount {
         export const key = 'ProductionQueue.figures.capacity.amount';
         export type parameter = {
@@ -19415,7 +19415,7 @@ export namespace ProductionQueue {
     }
     export namespace slots {
       export const key = 'ProductionQueue.figures.slots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace amount {
         export const key = 'ProductionQueue.figures.slots.amount';
         export type parameter = {
@@ -19426,21 +19426,21 @@ export namespace ProductionQueue {
     }
     export namespace efficiency {
       export const key = 'ProductionQueue.figures.efficiency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace productionLineCondition {
       export const key = 'ProductionQueue.figures.productionLineCondition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace orders {
     export namespace active {
       export const key = 'ProductionQueue.orders.active';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace queued {
       export const key = 'ProductionQueue.orders.queued';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19448,157 +19448,157 @@ export namespace AdminCenter {
   export namespace context {
     export namespace planet {
       export const key = 'AdminCenter.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace admincenter {
       export const key = 'AdminCenter.context.admincenter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace government {
       export const key = 'AdminCenter.context.government';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace localrules {
       export const key = 'AdminCenter.context.localrules';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace current {
     export namespace parliamentSize {
       export const key = 'AdminCenter.current.parliamentSize';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'AdminCenter.current.parliamentSize.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace term {
       export const key = 'AdminCenter.current.term';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace start {
       export const key = 'AdminCenter.current.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace end {
       export const key = 'AdminCenter.current.end';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace governor {
       export const key = 'AdminCenter.current.governor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace membersOfParliament {
       export const key = 'AdminCenter.current.membersOfParliament';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace previous {
     export namespace naturalId {
       export const key = 'AdminCenter.previous.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ended {
       export const key = 'AdminCenter.previous.ended';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace governor {
       export namespace name {
         export const key = 'AdminCenter.previous.governor.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace membersOfParliament {
       export const key = 'AdminCenter.previous.membersOfParliament';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace upcoming {
     export namespace action {
       export namespace run {
         export const key = 'AdminCenter.upcoming.action.run';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace withdraw {
         export const key = 'AdminCenter.upcoming.action.withdraw';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace vote {
         export const key = 'AdminCenter.upcoming.action.vote';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace withdrawVote {
         export const key = 'AdminCenter.upcoming.action.withdrawVote';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace electionStart {
       export const key = 'AdminCenter.upcoming.electionStart';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace electionEnd {
       export const key = 'AdminCenter.upcoming.electionEnd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace parliamentSize {
       export const key = 'AdminCenter.upcoming.parliamentSize';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace candidate {
       export namespace name {
         export const key = 'AdminCenter.upcoming.candidate.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace corporation {
         export const key = 'AdminCenter.upcoming.candidate.corporation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace country {
         export const key = 'AdminCenter.upcoming.candidate.country';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace command {
         export const key = 'AdminCenter.upcoming.candidate.command';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace address {
     export const key = 'AdminCenter.address';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace currency {
     export const key = 'AdminCenter.currency';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace section {
     export namespace currentTerm {
       export const key = 'AdminCenter.section.currentTerm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upcomingTerm {
       export const key = 'AdminCenter.section.upcomingTerm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace previousTerms {
       export const key = 'AdminCenter.section.previousTerms';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace currentTerm {
     export namespace noterm {
       export const key = 'AdminCenter.currentTerm.noterm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace notFound {
       export const key = 'AdminCenter.error.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace noadm {
       export const key = 'AdminCenter.error.noadm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace id {
       export const key = 'AdminCenter.error.id';
@@ -19614,7 +19614,7 @@ export namespace AdminCenter {
     };
     export namespace loading {
       export const key = 'AdminCenter.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19622,23 +19622,23 @@ export namespace Government {
   export namespace term {
     export namespace start {
       export const key = 'Government.term.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace end {
       export const key = 'Government.term.end';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace parliament {
       export const key = 'Government.term.parliament';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace governor {
       export const key = 'Government.term.governor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace membersOfParliament {
       export const key = 'Government.term.membersOfParliament';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace votes {
@@ -19651,61 +19651,61 @@ export namespace Government {
     }
     export namespace total {
       export const key = 'Government.votes.total';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace government {
       export const key = 'Government.header.government';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace votes {
       export const key = 'Government.header.votes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace motions {
       export const key = 'Government.header.motions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace votes {
       export namespace user {
         export const key = 'Government.table.votes.user';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace corporation {
         export const key = 'Government.table.votes.corporation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace country {
         export const key = 'Government.table.votes.country';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace votes {
         export const key = 'Government.table.votes.votes';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace motions {
       export namespace motionId {
         export const key = 'Government.table.motions.motionId';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace description {
         export const key = 'Government.table.motions.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace status {
         export const key = 'Government.table.motions.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace error {
     export namespace noAdminCenter {
       export const key = 'Government.error.noAdminCenter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19713,7 +19713,7 @@ export namespace GovernmentContainer {
   export namespace error {
     export namespace noTerm {
       export const key = 'GovernmentContainer.error.noTerm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace terms {
@@ -19731,14 +19731,14 @@ export namespace GovernmentContainer {
     }
     export namespace current {
       export const key = 'GovernmentContainer.terms.current';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace GovernmentPanel {
   export namespace title {
     export const key = 'GovernmentPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace withPlanet {
       export const key = 'GovernmentPanel.title.withPlanet';
       export type parameter = {
@@ -19759,27 +19759,27 @@ export namespace PopulationInfrastructureComponent {
   export namespace table {
     export namespace infrastructure {
       export const key = 'PopulationInfrastructureComponent.table.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace target {
       export const key = 'PopulationInfrastructureComponent.table.target';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace active {
       export const key = 'PopulationInfrastructureComponent.table.active';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace setting {
     export namespace max {
       export const key = 'PopulationInfrastructureComponent.setting.max';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace infrastructure {
       export const key = 'PopulationInfrastructureComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19900,92 +19900,92 @@ export namespace ComponentDescription {
 export namespace ComponentType {
   export namespace PAYOUT {
     export const key = 'ComponentType.PAYOUT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONTRIBUTION {
     export const key = 'ComponentType.CONTRIBUTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FEE_PRODUCTION {
     export const key = 'ComponentType.FEE_PRODUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FEE_WAREHOUSE {
     export const key = 'ComponentType.FEE_WAREHOUSE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FEE_LOCAL_MARKET {
     export const key = 'ComponentType.FEE_LOCAL_MARKET';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FEE_SITE_ESTABLISHMENT {
     export const key = 'ComponentType.FEE_SITE_ESTABLISHMENT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace POPULATION_INFRASTRUCTURE_LEVEL {
     export const key = 'ComponentType.POPULATION_INFRASTRUCTURE_LEVEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WORKFORCE_PROGRAM {
     export const key = 'ComponentType.WORKFORCE_PROGRAM';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_CONSTRUCTION {
     export const key = 'ComponentType.INFRASTRUCTURE_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_NAME {
     export const key = 'ComponentType.INFRASTRUCTURE_NAME';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_UPGRADE {
     export const key = 'ComponentType.INFRASTRUCTURE_UPGRADE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace INFRASTRUCTURE_UPKEEP {
     export const key = 'ComponentType.INFRASTRUCTURE_UPKEEP';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_LINK {
     export const key = 'ComponentType.GATEWAY_LINK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_UNLINK {
     export const key = 'ComponentType.GATEWAY_UNLINK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_FUEL {
     export const key = 'ComponentType.GATEWAY_FUEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace GATEWAY_PRICING {
     export const key = 'ComponentType.GATEWAY_PRICING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MotionComponentsTable {
   export namespace action {
     export namespace _delete {
       export const key = 'MotionComponentsTable.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace edit {
       export const key = 'MotionComponentsTable.action.edit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace _type {
       export const key = 'MotionComponentsTable.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'MotionComponentsTable.table.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace Cmds {
       export const key = 'MotionComponentsTable.table.Cmds';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -19993,11 +19993,11 @@ export namespace ParliamentRole {
   export namespace role {
     export namespace governor {
       export const key = 'ParliamentRole.role.governor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace memberOfParliament {
       export const key = 'ParliamentRole.role.memberOfParliament';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20005,123 +20005,123 @@ export namespace Motion {
   export namespace VoteStatus {
     export namespace yes {
       export const key = 'Motion.VoteStatus.yes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace no {
       export const key = 'Motion.VoteStatus.no';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace abstain {
       export const key = 'Motion.VoteStatus.abstain';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace none {
       export const key = 'Motion.VoteStatus.none';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace votingend {
       export const key = 'Motion.label.votingend';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace votingstart {
       export const key = 'Motion.label.votingstart';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace noVotesYet {
       export const key = 'Motion.label.noVotesYet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace VoteSection {
     export namespace table {
       export namespace role {
         export const key = 'Motion.VoteSection.table.role';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace voter {
         export const key = 'Motion.VoteSection.table.voter';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace status {
         export const key = 'Motion.VoteSection.table.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace commands {
         export const key = 'Motion.VoteSection.table.commands';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace header {
     export namespace details {
       export const key = 'Motion.header.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace components {
       export const key = 'Motion.header.components';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace votes {
       export const key = 'Motion.header.votes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
     export namespace naturalId {
       export const key = 'Motion.form.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'Motion.form.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace creator {
       export const key = 'Motion.form.creator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'Motion.form.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'Motion.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace Commands {
     export namespace command {
       export namespace yes {
         export const key = 'Motion.Commands.command.yes';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace no {
         export const key = 'Motion.Commands.command.no';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace abstain {
         export const key = 'Motion.Commands.command.abstain';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace action {
     export namespace deleteMotion {
       export const key = 'Motion.action.deleteMotion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace startVoting {
       export const key = 'Motion.action.startVoting';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace save {
       export const key = 'Motion.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace addComponent {
       export const key = 'Motion.action.addComponent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20157,27 +20157,27 @@ export namespace ConstructInfrastructureComponent {
   export namespace label {
     export namespace address {
       export const key = 'ConstructInfrastructureComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'ConstructInfrastructureComponent.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'ConstructInfrastructureComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payment {
       export const key = 'ConstructInfrastructureComponent.label.payment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deadline {
       export const key = 'ConstructInfrastructureComponent.label.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace constructor {
       export const key = 'ConstructInfrastructureComponent.label.constructor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20185,15 +20185,15 @@ export namespace ContributionComponent {
   export namespace label {
     export namespace contributor {
       export const key = 'ContributionComponent.label.contributor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'ContributionComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'ContributionComponent.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20201,11 +20201,11 @@ export namespace FeeLocalMarketComponent {
   export namespace label {
     export namespace base {
       export const key = 'FeeLocalMarketComponent.label.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'FeeLocalMarketComponent.label.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20213,7 +20213,7 @@ export namespace FeeSiteEstablishmentComponent {
   export namespace label {
     export namespace amount {
       export const key = 'FeeSiteEstablishmentComponent.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20221,7 +20221,7 @@ export namespace FeeWarehouseComponent {
   export namespace label {
     export namespace amount {
       export const key = 'FeeWarehouseComponent.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20229,54 +20229,54 @@ export namespace GatewayFuelComponent {
   export namespace label {
     export namespace address {
       export const key = 'GatewayFuelComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'GatewayFuelComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentUpkeepPhase {
       export const key = 'GatewayFuelComponent.label.currentUpkeepPhase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeepPhaseEnd {
       export const key = 'GatewayFuelComponent.label.upkeepPhaseEnd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace initialPeriod {
       export const key = 'GatewayFuelComponent.label.initialPeriod';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeepPhases {
       export const key = 'GatewayFuelComponent.label.upkeepPhases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace serviceLevel {
       export const key = 'GatewayFuelComponent.label.serviceLevel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'GatewayFuelComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payment {
       export const key = 'GatewayFuelComponent.label.payment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractor {
       export const key = 'GatewayFuelComponent.label.contractor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace GatewayLinkRange {
   export namespace sufficient {
     export const key = 'GatewayLinkRange.sufficient';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace insufficient {
     export const key = 'GatewayLinkRange.insufficient';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace range {
     export const key = 'GatewayLinkRange.range';
@@ -20290,31 +20290,31 @@ export namespace GatewayLinkComponent {
   export namespace label {
     export namespace originAddress {
       export const key = 'GatewayLinkComponent.label.originAddress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace originGateway {
       export const key = 'GatewayLinkComponent.label.originGateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destinationAddress {
       export const key = 'GatewayLinkComponent.label.destinationAddress';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destinationGateway {
       export const key = 'GatewayLinkComponent.label.destinationGateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace distance {
       export const key = 'GatewayLinkComponent.label.distance';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace originRange {
       export const key = 'GatewayLinkComponent.label.originRange';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destinationRange {
       export const key = 'GatewayLinkComponent.label.destinationRange';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20322,23 +20322,23 @@ export namespace GatewayPricingComponent {
   export namespace label {
     export namespace address {
       export const key = 'GatewayPricingComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'GatewayPricingComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace usageFee {
       export const key = 'GatewayPricingComponent.label.usageFee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'GatewayPricingComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'GatewayPricingComponent.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20346,15 +20346,15 @@ export namespace GatewayUnlinkComponent {
   export namespace label {
     export namespace address {
       export const key = 'GatewayUnlinkComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace gateway {
       export const key = 'GatewayUnlinkComponent.label.gateway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destination {
       export const key = 'GatewayUnlinkComponent.label.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20362,15 +20362,15 @@ export namespace InfrastructureNameComponent {
   export namespace label {
     export namespace location {
       export const key = 'InfrastructureNameComponent.label.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'InfrastructureNameComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'InfrastructureNameComponent.label.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20378,25 +20378,25 @@ export namespace PayoutComponent {
   export namespace label {
     export namespace recipient {
       export const key = 'PayoutComponent.label.recipient';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'PayoutComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'PayoutComponent.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace cancel {
       export const key = 'PayoutComponent.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace save {
       export const key = 'PayoutComponent.action.save';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20405,26 +20405,26 @@ export namespace GatewayParametersInput {
     export namespace capacity {
       export namespace label {
         export const key = 'GatewayParametersInput.select.capacity.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace volume {
       export namespace label {
         export const key = 'GatewayParametersInput.select.volume.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace distance {
       export namespace label {
         export const key = 'GatewayParametersInput.select.distance.label';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace totalUpgrades {
     export namespace label {
       export const key = 'GatewayParametersInput.totalUpgrades.label';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace parameterSum {
@@ -20438,41 +20438,41 @@ export namespace UpgradeInfrastructureComponent {
   export namespace label {
     export namespace address {
       export const key = 'UpgradeInfrastructureComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'UpgradeInfrastructureComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace parameters {
       export const key = 'UpgradeInfrastructureComponent.label.parameters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'UpgradeInfrastructureComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payment {
       export const key = 'UpgradeInfrastructureComponent.label.payment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace deadline {
       export const key = 'UpgradeInfrastructureComponent.label.deadline';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace constructor {
       export const key = 'UpgradeInfrastructureComponent.label.constructor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'UpgradeInfrastructureComponent.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace ongoingUpgrade {
       export const key = 'UpgradeInfrastructureComponent.error.ongoingUpgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20480,43 +20480,43 @@ export namespace UpkeepInfrastructureComponent {
   export namespace label {
     export namespace address {
       export const key = 'UpkeepInfrastructureComponent.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'UpkeepInfrastructureComponent.label.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currentUpkeepPhase {
       export const key = 'UpkeepInfrastructureComponent.label.currentUpkeepPhase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeepPhaseEnd {
       export const key = 'UpkeepInfrastructureComponent.label.upkeepPhaseEnd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace initialPeriod {
       export const key = 'UpkeepInfrastructureComponent.label.initialPeriod';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeepPhases {
       export const key = 'UpkeepInfrastructureComponent.label.upkeepPhases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace serviceLevel {
       export const key = 'UpkeepInfrastructureComponent.label.serviceLevel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'UpkeepInfrastructureComponent.label.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace payment {
       export const key = 'UpkeepInfrastructureComponent.label.payment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contractor {
       export const key = 'UpkeepInfrastructureComponent.label.contractor';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20524,67 +20524,67 @@ export namespace MotionComponentName {
   export namespace _type {
     export namespace PAYOUT {
       export const key = 'MotionComponentName.type.PAYOUT';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace CONTRIBUTION {
       export const key = 'MotionComponentName.type.CONTRIBUTION';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace FEE_PRODUCTION {
       export const key = 'MotionComponentName.type.FEE_PRODUCTION';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace FEE_WAREHOUSE {
       export const key = 'MotionComponentName.type.FEE_WAREHOUSE';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace FEE_SITE_ESTABLISHMENT {
       export const key = 'MotionComponentName.type.FEE_SITE_ESTABLISHMENT';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace FEE_LOCAL_MARKET {
       export const key = 'MotionComponentName.type.FEE_LOCAL_MARKET';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace POPULATION_INFRASTRUCTURE_LEVEL {
       export const key = 'MotionComponentName.type.POPULATION_INFRASTRUCTURE_LEVEL';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace WORKFORCE_PROGRAM {
       export const key = 'MotionComponentName.type.WORKFORCE_PROGRAM';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace INFRASTRUCTURE_CONSTRUCTION {
       export const key = 'MotionComponentName.type.INFRASTRUCTURE_CONSTRUCTION';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace INFRASTRUCTURE_NAME {
       export const key = 'MotionComponentName.type.INFRASTRUCTURE_NAME';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace INFRASTRUCTURE_UPGRADE {
       export const key = 'MotionComponentName.type.INFRASTRUCTURE_UPGRADE';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace INFRASTRUCTURE_UPKEEP {
       export const key = 'MotionComponentName.type.INFRASTRUCTURE_UPKEEP';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace GATEWAY_LINK {
       export const key = 'MotionComponentName.type.GATEWAY_LINK';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace GATEWAY_UNLINK {
       export const key = 'MotionComponentName.type.GATEWAY_UNLINK';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace GATEWAY_FUEL {
       export const key = 'MotionComponentName.type.GATEWAY_FUEL';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace GATEWAY_PRICING {
       export const key = 'MotionComponentName.type.GATEWAY_PRICING';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20592,29 +20592,29 @@ export namespace Motions {
   export namespace action {
     export namespace _new {
       export const key = 'Motions.action.new';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace id {
       export const key = 'Motions.table.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'Motions.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'Motions.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'Motions.table.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace creator {
       export const key = 'Motions.table.creator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20622,42 +20622,42 @@ export namespace MotionsPanel {
   export namespace action {
     export namespace deleteMotion {
       export const key = 'MotionsPanel.action.deleteMotion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'MotionsPanel.action.deleteMotion.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace deleteComponent {
       export const key = 'MotionsPanel.action.deleteComponent';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace confirmation {
         export const key = 'MotionsPanel.action.deleteComponent.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace title {
     export const key = 'MotionsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace motion {
       export const key = 'MotionsPanel.title.motion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CoGCStatus {
   export namespace PLANNED {
     export const key = 'CoGCStatus.PLANNED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ACTIVE {
     export const key = 'CoGCStatus.ACTIVE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ON_STRIKE {
     export const key = 'CoGCStatus.ON_STRIKE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CoGC {
@@ -20665,15 +20665,15 @@ export namespace CoGC {
     export namespace status {
       export namespace previous {
         export const key = 'CoGC.programs.status.previous';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace upcoming {
         export const key = 'CoGC.programs.status.upcoming';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace current {
         export const key = 'CoGC.programs.status.current';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace time {
@@ -20698,79 +20698,79 @@ export namespace CoGC {
     }
     export namespace command {
       export const key = 'CoGC.programs.command';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace table {
       export namespace status {
         export const key = 'CoGC.programs.table.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace program {
         export const key = 'CoGC.programs.table.program';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace schedule {
         export const key = 'CoGC.programs.table.schedule';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace command {
         export const key = 'CoGC.programs.table.command';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace upkeep {
     export namespace dueDate {
       export const key = 'CoGC.upkeep.dueDate';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace now {
         export const key = 'CoGC.upkeep.dueDate.now';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace description {
       export const key = 'CoGC.upkeep.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace completion {
       export const key = 'CoGC.upkeep.completion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace billOfMaterial {
       export const key = 'CoGC.upkeep.billOfMaterial';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'CoGC.upkeep.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contribute {
       export const key = 'CoGC.upkeep.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export const key = 'CoGC.status';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace constructed {
     export const key = 'CoGC.constructed';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace section {
     export namespace programs {
       export const key = 'CoGC.section.programs';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace upkeep {
       export const key = 'CoGC.section.upkeep';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace id {
       export const key = 'CoGC.error.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20778,19 +20778,19 @@ export namespace CoGCPanel {
   export namespace context {
     export namespace planet {
       export const key = 'CoGCPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cogc {
       export const key = 'CoGCPanel.context.cogc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cogcu {
       export const key = 'CoGCPanel.context.cogcu';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cogcpex {
       export const key = 'CoGCPanel.context.cogcpex';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -20800,17 +20800,17 @@ export namespace CoGCPanel {
     };
     export namespace loading {
       export const key = 'CoGCPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'CoGCPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'CoGCPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20818,34 +20818,34 @@ export namespace CoGCUpkeep {
   export namespace contribute {
     export namespace error {
       export const key = 'CoGCUpkeep.contribute.error';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace contribute {
       export const key = 'CoGCUpkeep.section.contribute';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contributions {
       export const key = 'CoGCUpkeep.section.contributions';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace dueDate {
     export const key = 'CoGCUpkeep.dueDate';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace now {
       export const key = 'CoGCUpkeep.dueDate.now';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace status {
     export const key = 'CoGCUpkeep.status';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace billOfMaterial {
     export const key = 'CoGCUpkeep.billOfMaterial';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CoGCUpkeepPanel {
@@ -20856,17 +20856,17 @@ export namespace CoGCUpkeepPanel {
     };
     export namespace loading {
       export const key = 'CoGCUpkeepPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'CoGCUpkeepPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'CoGCUpkeepPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20882,11 +20882,11 @@ export namespace CoGCVotingDetails {
   export namespace button {
     export namespace voted {
       export const key = 'CoGCVotingDetails.button.voted';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace vote {
       export const key = 'CoGCVotingDetails.button.vote';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
@@ -20898,37 +20898,37 @@ export namespace CoGCVotingDetails {
     }
     export namespace noBase {
       export const key = 'CoGCVotingDetails.label.noBase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace Voters {
       export const key = 'CoGCVotingDetails.section.Voters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace rank {
       export const key = 'CoGCVotingDetails.table.rank';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CoGCVotingDetails.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace influence {
       export const key = 'CoGCVotingDetails.table.influence';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'CoGCVotingDetails.table.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace completion {
       export const key = 'CoGCVotingDetails.error.completion';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20936,7 +20936,7 @@ export namespace CoGCVotingDetailsContainer {
   export namespace error {
     export namespace program {
       export const key = 'CoGCVotingDetailsContainer.error.program';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20948,17 +20948,17 @@ export namespace CoGCVotingDetailsPanel {
     };
     export namespace loading {
       export const key = 'CoGCVotingDetailsPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'CoGCVotingDetailsPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'CoGCVotingDetailsPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20966,23 +20966,23 @@ export namespace CoGCVoting {
   export namespace table {
     export namespace details {
       export const key = 'CoGCVoting.table.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace rank {
       export const key = 'CoGCVoting.table.rank';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'CoGCVoting.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace influence {
       export const key = 'CoGCVoting.table.influence';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'CoGCVoting.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -20994,17 +20994,17 @@ export namespace CoGCVotingPanel {
     };
     export namespace loading {
       export const key = 'CoGCVotingPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'CoGCVotingPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace planetId {
       export const key = 'CoGCVotingPanel.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21012,50 +21012,50 @@ export namespace BlacklistedUsers {
   export namespace table {
     export namespace user {
       export const key = 'BlacklistedUsers.table.user';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace time {
       export const key = 'BlacklistedUsers.table.time';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'BlacklistedUsers.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'BlacklistedUsers.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace BlackListedUsers {
   export namespace actions {
     export namespace deblacklist {
       export const key = 'BlackListedUsers.actions.deblacklist';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace AdStatus {
   export namespace OPEN {
     export const key = 'AdStatus.OPEN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ACCEPTED {
     export const key = 'AdStatus.ACCEPTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace EXPIRED {
     export const key = 'AdStatus.EXPIRED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FULFILLED {
     export const key = 'AdStatus.FULFILLED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BREACHED {
     export const key = 'AdStatus.BREACHED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CommodityAd {
@@ -21072,11 +21072,11 @@ export namespace CommodityAd {
     };
     export namespace delivery {
       export const key = 'CommodityAd.text.delivery';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace collection {
       export const key = 'CommodityAd.text.collection';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace advice {
       export const key = 'CommodityAd.text.advice';
@@ -21127,71 +21127,71 @@ export namespace LocalMarketAds {
     export namespace header {
       export namespace ad {
         export const key = 'LocalMarketAds.table.header.ad';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace market {
         export const key = 'LocalMarketAds.table.header.market';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace status {
         export const key = 'LocalMarketAds.table.header.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace partner {
         export const key = 'LocalMarketAds.table.header.partner';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace contract {
         export const key = 'LocalMarketAds.table.header.contract';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace commands {
         export const key = 'LocalMarketAds.table.header.commands';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace error {
     export namespace invalidAdType {
       export const key = 'LocalMarketAds.error.invalidAdType';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace command {
     export namespace _delete {
       export const key = 'LocalMarketAds.command.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace header {
     export namespace own {
       export const key = 'LocalMarketAds.header.own';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace accepted {
       export const key = 'LocalMarketAds.header.accepted';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export namespace loading {
       export const key = 'LocalMarketAds.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace deleteFulfilled {
     export const key = 'LocalMarketAds.deleteFulfilled';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LocalMarketAdsPanel {
   export namespace action {
     export namespace _delete {
       export const key = 'LocalMarketAdsPanel.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace description {
         export const key = 'LocalMarketAdsPanel.action.delete.description';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -21200,77 +21200,77 @@ export namespace LocalMarketPost {
   export namespace info {
     export namespace provisioningStore {
       export const key = 'LocalMarketPost.info.provisioningStore';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
     export namespace deliverytime {
       export const key = 'LocalMarketPost.form.deliverytime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace postBuyingAd {
       export const key = 'LocalMarketPost.form.postBuyingAd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pricePerUnit {
       export const key = 'LocalMarketPost.form.pricePerUnit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace collectiontime {
       export const key = 'LocalMarketPost.form.collectiontime';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace postSellingAd {
       export const key = 'LocalMarketPost.form.postSellingAd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace postShippingAd {
       export const key = 'LocalMarketPost.form.postShippingAd';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace origin {
       export const key = 'LocalMarketPost.form.origin';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace destination {
       export const key = 'LocalMarketPost.form.destination';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace autoProvision {
       export const key = 'LocalMarketPost.form.autoProvision';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'LocalMarketPost.form.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commodity {
       export const key = 'LocalMarketPost.form.commodity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'LocalMarketPost.form.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'LocalMarketPost.form.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace price {
       export const key = 'LocalMarketPost.form.price';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace visibility {
       export const key = 'LocalMarketPost.form.visibility';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fees {
       export const key = 'LocalMarketPost.form.fees';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace minimumrating {
       export const key = 'LocalMarketPost.form.minimumrating';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21280,17 +21280,17 @@ export namespace LocalMarketPost {
     };
     export namespace loading {
       export const key = 'LocalMarketPost.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace nobase {
       export const key = 'LocalMarketPost.error.nobase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nomarket {
       export const key = 'LocalMarketPost.error.nomarket';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21298,7 +21298,7 @@ export namespace LocalMarketPostContainer {
   export namespace error {
     export namespace localMarketId {
       export const key = 'LocalMarketPostContainer.error.localMarketId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21306,35 +21306,35 @@ export namespace LocalMarketAd {
   export namespace button {
     export namespace contract {
       export const key = 'LocalMarketAd.button.contract';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace banner {
     export namespace contract {
       export const key = 'LocalMarketAd.banner.contract';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace form {
     export namespace status {
       export const key = 'LocalMarketAd.form.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'LocalMarketAd.form.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ad {
       export const key = 'LocalMarketAd.form.ad';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ticker {
       export const key = 'LocalMarketAd.form.ticker';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace location {
       export const key = 'LocalMarketAd.form.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'LocalMarketAd.form.address';
@@ -21344,37 +21344,37 @@ export namespace LocalMarketAd {
     }
     export namespace requiredRating {
       export const key = 'LocalMarketAd.form.requiredRating';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace creator {
       export const key = 'LocalMarketAd.form.creator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace expiry {
       export const key = 'LocalMarketAd.form.expiry';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace expired {
       export const key = 'LocalMarketAd.form.expired';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace accept {
       export const key = 'LocalMarketAd.form.accept';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace id {
       export const key = 'LocalMarketAd.error.id';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace nomarket {
       export const key = 'LocalMarketAd.error.nomarket';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ads {
       export const key = 'LocalMarketAd.error.ads';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21384,22 +21384,22 @@ export namespace LocalMarketAd {
     };
     export namespace loading {
       export const key = 'LocalMarketAd.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace ProjectStatus {
   export namespace CREATED {
     export const key = 'ProjectStatus.CREATED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STARTED {
     export const key = 'ProjectStatus.STARTED';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BUILT {
     export const key = 'ProjectStatus.BUILT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ShipyardProjects {
@@ -21407,33 +21407,33 @@ export namespace ShipyardProjects {
     export namespace header {
       export namespace created {
         export const key = 'ShipyardProjects.projects.header.created';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace blueprint {
         export const key = 'ShipyardProjects.projects.header.blueprint';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace shipyard {
         export const key = 'ShipyardProjects.projects.header.shipyard';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace status {
         export const key = 'ShipyardProjects.projects.header.status';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace cmds {
         export const key = 'ShipyardProjects.projects.header.cmds';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace actions {
       export namespace view {
         export const key = 'ShipyardProjects.projects.actions.view';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace _delete {
         export const key = 'ShipyardProjects.projects.actions.delete';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -21442,51 +21442,51 @@ export namespace ShipyardProject {
   export namespace label {
     export namespace shipyard {
       export const key = 'ShipyardProject.label.shipyard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace blueprint {
       export const key = 'ShipyardProject.label.blueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace originBlueprint {
       export const key = 'ShipyardProject.label.originBlueprint';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ShipToUpgrade {
       export const key = 'ShipyardProject.label.ShipToUpgrade';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace status {
       export const key = 'ShipyardProject.label.status';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace created {
       export const key = 'ShipyardProject.label.created';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace start {
       export const key = 'ShipyardProject.label.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace end {
       export const key = 'ShipyardProject.label.end';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ship {
       export const key = 'ShipyardProject.label.ship';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace start {
       export const key = 'ShipyardProject.action.start';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace materials {
       export const key = 'ShipyardProject.section.materials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21496,21 +21496,21 @@ export namespace ShipyardProject {
     };
     export namespace loading {
       export const key = 'ShipyardProject.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace project {
       export const key = 'ShipyardProject.title.project';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace projects {
       export const key = 'ShipyardProject.title.projects';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace noProject {
       export const key = 'ShipyardProject.error.noProject';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21518,23 +21518,23 @@ export namespace Shipyards {
   export namespace button {
     export namespace details {
       export const key = 'Shipyards.button.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace table {
     export namespace location {
       export const key = 'Shipyards.table.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace operator {
       export const key = 'Shipyards.table.operator';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace nodata {
       export const key = 'Shipyards.error.nodata';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21543,11 +21543,11 @@ export namespace ShipyardPanel {
     export namespace action {
       export namespace confirmation {
         export const key = 'ShipyardPanel.create.action.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace submit {
         export const key = 'ShipyardPanel.create.action.submit';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -21555,20 +21555,20 @@ export namespace ShipyardPanel {
     export namespace action {
       export namespace confirmation {
         export const key = 'ShipyardPanel.createUpgrade.action.confirmation';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace submit {
         export const key = 'ShipyardPanel.createUpgrade.action.submit';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace title {
     export const key = 'ShipyardPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace all {
       export const key = 'ShipyardPanel.title.all';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
@@ -21585,7 +21585,7 @@ export namespace BuildingRepairAssistantPanel {
     export namespace minimum {
       export namespace info {
         export const key = 'BuildingRepairAssistantPanel.label.minimum.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -21593,115 +21593,115 @@ export namespace BuildingRepairAssistantPanel {
 export namespace BuildingRepairAssistant {
   export namespace timeoffset {
     export const key = 'BuildingRepairAssistant.timeoffset';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace info {
       export const key = 'BuildingRepairAssistant.timeoffset.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace now {
       export const key = 'BuildingRepairAssistant.timeoffset.now';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _24 {
       export const key = 'BuildingRepairAssistant.timeoffset.24';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _48 {
       export const key = 'BuildingRepairAssistant.timeoffset.48';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace bases {
       export const key = 'BuildingRepairAssistant.context.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace base {
       export const key = 'BuildingRepairAssistant.context.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'BuildingRepairAssistant.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace base {
     export const key = 'BuildingRepairAssistant.base';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace condition {
     export namespace minimum {
       export const key = 'BuildingRepairAssistant.condition.minimum';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace selected {
       export const key = 'BuildingRepairAssistant.condition.selected';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace buildings {
     export const key = 'BuildingRepairAssistant.buildings';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace materials {
     export const key = 'BuildingRepairAssistant.materials';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace button {
     export const key = 'BuildingRepairAssistant.button';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace SectionList {
   export namespace section {
     export namespace repairMaterials {
       export const key = 'SectionList.section.repairMaterials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SectionList.section.repairMaterials.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace established {
       export const key = 'SectionList.section.established';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace lastRepair {
       export const key = 'SectionList.section.lastRepair';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace reclaimableMaterials {
       export const key = 'SectionList.section.reclaimableMaterials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace bookValue {
       export const key = 'SectionList.section.bookValue';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace condition {
       export const key = 'SectionList.section.condition';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace repair {
     export const key = 'SectionList.repair';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace demolish {
     export const key = 'SectionList.demolish';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace infrastructure {
     export const key = 'SectionList.infrastructure';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace resources {
     export const key = 'SectionList.resources';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace production {
     export const key = 'SectionList.production';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace SelectionList {
@@ -21720,27 +21720,27 @@ export namespace SitePanel {
   export namespace context {
     export namespace buildingRepairAssistant {
       export const key = 'SitePanel.context.buildingRepairAssistant';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace bases {
       export const key = 'SitePanel.context.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'SitePanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'SitePanel.context.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace headquarters {
       export const key = 'SitePanel.context.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace representationCenter {
       export const key = 'SitePanel.context.representationCenter';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21750,7 +21750,7 @@ export namespace SitePanel {
     };
     export namespace sites {
       export const key = 'SitePanel.title.sites';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21764,7 +21764,7 @@ export namespace SectionListPanel {
     }
     export namespace demolish {
       export const key = 'SectionListPanel.action.demolish';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21774,50 +21774,50 @@ export namespace SectionListPanel {
     };
     export namespace loading {
       export const key = 'SectionListPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace siteId {
       export const key = 'SectionListPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace SectionType {
   export namespace INFRASTRUCTURE {
     export const key = 'SectionType.INFRASTRUCTURE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace RESOURCES {
     export const key = 'SectionType.RESOURCES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace PIONEER {
     export const key = 'SectionType.PIONEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SETTLER {
     export const key = 'SectionType.SETTLER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace TECHNICIAN {
     export const key = 'SectionType.TECHNICIAN';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace ENGINEER {
     export const key = 'SectionType.ENGINEER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SCIENTIST {
     export const key = 'SectionType.SCIENTIST';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace BillOfMaterials {
   export namespace inStock {
     export const key = 'BillOfMaterials.inStock';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace missing {
     export const key = 'BillOfMaterials.missing';
@@ -21829,7 +21829,7 @@ export namespace BillOfMaterials {
 export namespace AreaCost {
   export namespace error {
     export const key = 'AreaCost.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cost {
     export const key = 'AreaCost.cost';
@@ -21843,7 +21843,7 @@ export namespace AreaCost {
 export namespace SiteBuildOption {
   export namespace workforce {
     export const key = 'SiteBuildOption.workforce';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace capacity {
       export const key = 'SiteBuildOption.workforce.capacity';
       export type parameter = {
@@ -21854,38 +21854,38 @@ export namespace SiteBuildOption {
   }
   export namespace fertile {
     export const key = 'SiteBuildOption.fertile';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace yes {
       export const key = 'SiteBuildOption.fertile.yes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace no {
       export const key = 'SiteBuildOption.fertile.no';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace expertise {
     export const key = 'SiteBuildOption.expertise';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace build {
     export const key = 'SiteBuildOption.build';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace materials {
     export const key = 'SiteBuildOption.materials';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace area {
     export const key = 'SiteBuildOption.area';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace SiteBuildOptionsContainer {
   export namespace error {
     export namespace planet {
       export const key = 'SiteBuildOptionsContainer.error.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21893,15 +21893,15 @@ export namespace SiteBuildSectionPanel {
   export namespace context {
     export namespace bases {
       export const key = 'SiteBuildSectionPanel.context.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace base {
       export const key = 'SiteBuildSectionPanel.context.base';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'SiteBuildSectionPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -21911,13 +21911,13 @@ export namespace SiteBuildSectionPanel {
     };
     export namespace loading {
       export const key = 'SiteBuildSectionPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace siteId {
       export const key = 'SiteBuildSectionPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -21925,84 +21925,84 @@ export namespace SiteConstruction {
   export namespace label {
     export namespace location {
       export const key = 'SiteConstruction.label.location';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.location.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace store {
       export const key = 'SiteConstruction.label.store';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.store.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace billOfMaterials {
       export const key = 'SiteConstruction.label.billOfMaterials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.billOfMaterials.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace basePermits {
       export const key = 'SiteConstruction.label.basePermits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.basePermits.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace limit {
       export const key = 'SiteConstruction.label.limit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.limit.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace plots {
       export const key = 'SiteConstruction.label.plots';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.plots.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace establishmentFee {
       export const key = 'SiteConstruction.label.establishmentFee';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.establishmentFee.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace plotSelection {
       export const key = 'SiteConstruction.label.plotSelection';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteConstruction.label.plotSelection.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace description {
       export const key = 'SiteConstruction.label.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'SiteConstruction.label.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace build {
       export const key = 'SiteConstruction.label.build';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace description {
     export const key = 'SiteConstruction.description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace basePermits {
     export const key = 'SiteConstruction.basePermits';
@@ -22022,11 +22022,11 @@ export namespace SiteConstructionPanel {
   export namespace context {
     export namespace planet {
       export const key = 'SiteConstructionPanel.context.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace bases {
       export const key = 'SiteConstructionPanel.context.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -22036,11 +22036,11 @@ export namespace SiteConstructionPanel {
     };
     export namespace loading {
       export const key = 'SiteConstructionPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unknownLocation {
       export const key = 'SiteConstructionPanel.title.unknownLocation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22048,7 +22048,7 @@ export namespace Base_construction {
   export namespace error {
     export namespace planetId {
       export const key = 'Base construction.error.planetId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22056,27 +22056,27 @@ export namespace SiteWorkforces {
   export namespace table {
     export namespace currentWorkforce {
       export const key = 'SiteWorkforces.table.currentWorkforce';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'SiteWorkforces.table.currentWorkforce.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace level {
       export const key = 'SiteWorkforces.table.level';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace required {
       export const key = 'SiteWorkforces.table.required';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace capacity {
       export const key = 'SiteWorkforces.table.capacity';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace satisfaction {
       export const key = 'SiteWorkforces.table.satisfaction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace population {
@@ -22091,11 +22091,11 @@ export namespace SiteStats {
   export namespace label {
     export namespace area {
       export const key = 'SiteStats.label.area';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace developedArea {
       export const key = 'SiteStats.label.developedArea';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace developedArea {
@@ -22111,50 +22111,50 @@ export namespace Site {
   export namespace buttons {
     export namespace headquarters {
       export const key = 'Site.buttons.headquarters';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sections {
       export const key = 'Site.buttons.sections';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace construct {
       export const key = 'Site.buttons.construct';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace workforces {
       export const key = 'Site.buttons.workforces';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace experts {
       export const key = 'Site.buttons.experts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace production {
       export const key = 'Site.buttons.production';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'Site.buttons.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace overview {
     export const key = 'Site.overview';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace workforces {
     export const key = 'Site.workforces';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Sites {
   export namespace table {
     export namespace permits {
       export const key = 'Sites.table.permits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'Sites.table.permits.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace value {
         export const key = 'Sites.table.permits.value';
@@ -22166,7 +22166,7 @@ export namespace Sites {
     }
     export namespace area {
       export const key = 'Sites.table.area';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace value {
         export const key = 'Sites.table.area.value';
         export type parameter = {
@@ -22177,136 +22177,136 @@ export namespace Sites {
     }
     export namespace addPermit {
       export const key = 'Sites.table.addPermit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace removePermit {
       export const key = 'Sites.table.removePermit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace view {
       export const key = 'Sites.table.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace planet {
       export const key = 'Sites.table.planet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace changePermits {
       export const key = 'Sites.table.changePermits';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace empty {
     export const key = 'Sites.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace buildBase {
       export const key = 'Sites.action.buildBase';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace StoreTypeLabel {
   export namespace STORE {
     export const key = 'StoreTypeLabel.STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STORE_SHORT {
     export const key = 'StoreTypeLabel.STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_STORE {
     export const key = 'StoreTypeLabel.SHIP_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace SHIP_STORE_SHORT {
     export const key = 'StoreTypeLabel.SHIP_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STL_FUEL_STORE {
     export const key = 'StoreTypeLabel.STL_FUEL_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace STL_FUEL_STORE_SHORT {
     export const key = 'StoreTypeLabel.STL_FUEL_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FTL_FUEL_STORE {
     export const key = 'StoreTypeLabel.FTL_FUEL_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace FTL_FUEL_STORE_SHORT {
     export const key = 'StoreTypeLabel.FTL_FUEL_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_STORE {
     export const key = 'StoreTypeLabel.WAREHOUSE_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace WAREHOUSE_STORE_SHORT {
     export const key = 'StoreTypeLabel.WAREHOUSE_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONSTRUCTION_STORE {
     export const key = 'StoreTypeLabel.CONSTRUCTION_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace CONSTRUCTION_STORE_SHORT {
     export const key = 'StoreTypeLabel.CONSTRUCTION_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace UPKEEP_STORE {
     export const key = 'StoreTypeLabel.UPKEEP_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace UPKEEP_STORE_SHORT {
     export const key = 'StoreTypeLabel.UPKEEP_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace VORTEX_FUEL_STORE {
     export const key = 'StoreTypeLabel.VORTEX_FUEL_STORE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace VORTEX_FUEL_STORE_SHORT {
     export const key = 'StoreTypeLabel.VORTEX_FUEL_STORE_SHORT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InventoriesPanel {
   export namespace table {
     export namespace view {
       export const key = 'InventoriesPanel.table.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'InventoriesPanel.table.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace address {
       export const key = 'InventoriesPanel.table.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'InventoriesPanel.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace owner {
       export const key = 'InventoriesPanel.table.owner';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace weight {
       export const key = 'InventoriesPanel.table.weight';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace volume {
       export const key = 'InventoriesPanel.table.volume';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'InventoriesPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace inventory {
       export const key = 'InventoriesPanel.title.inventory';
       export type parameter = {
@@ -22316,16 +22316,16 @@ export namespace InventoriesPanel {
   }
   export namespace noInventoryFound {
     export const key = 'InventoriesPanel.noInventoryFound';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace context {
     export namespace unpack {
       export const key = 'InventoriesPanel.context.unpack';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'InventoriesPanel.context.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22333,27 +22333,27 @@ export namespace MaterialTransfer {
   export namespace label {
     export namespace amountSlider {
       export const key = 'MaterialTransfer.label.amountSlider';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace amount {
       export const key = 'MaterialTransfer.label.amount';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace storageFrom {
       export const key = 'MaterialTransfer.label.storageFrom';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace storageTo {
       export const key = 'MaterialTransfer.label.storageTo';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace material {
       export const key = 'MaterialTransfer.label.material';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace transferResult {
       export const key = 'MaterialTransfer.label.transferResult';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace transferResult {
@@ -22368,31 +22368,31 @@ export namespace MaterialTransfer {
     }
     export namespace transferInvalid {
       export const key = 'MaterialTransfer.transferResult.transferInvalid';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace transferButton {
     export const key = 'MaterialTransfer.transferButton';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace header {
     export namespace details {
       export const key = 'MaterialTransfer.header.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace result {
       export const key = 'MaterialTransfer.header.result';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'MaterialTransfer.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace noStoragesFound {
       export const key = 'MaterialTransfer.error.noStoragesFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22400,7 +22400,7 @@ export namespace StoreTransfer {
   export namespace context {
     export namespace inventories {
       export const key = 'StoreTransfer.context.inventories';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22408,71 +22408,71 @@ export namespace Unpack {
   export namespace action {
     export namespace unpack1 {
       export const key = 'Unpack.action.unpack1';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unpack5 {
       export const key = 'Unpack.action.unpack5';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unpack10 {
       export const key = 'Unpack.action.unpack10';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace all {
       export const key = 'Unpack.action.all';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace unpackAll {
       export const key = 'Unpack.action.unpackAll';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace label {
     export namespace address {
       export const key = 'Unpack.label.address';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _type {
       export const key = 'Unpack.label.type';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace pioneer {
       export const key = 'Unpack.label.pioneer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace settler {
       export const key = 'Unpack.label.settler';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace technician {
       export const key = 'Unpack.label.technician';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace engineer {
       export const key = 'Unpack.label.engineer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace scientists {
       export const key = 'Unpack.label.scientists';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace UnpackPanel {
   export namespace title {
     export const key = 'UnpackPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace store {
       export const key = 'UnpackPanel.error.store';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace inventory {
       export const key = 'UnpackPanel.context.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22486,11 +22486,11 @@ export namespace NameSystemPanel {
     }
     export namespace notes {
       export const key = 'NameSystemPanel.action.notes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'NameSystemPanel.action.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -22500,21 +22500,21 @@ export namespace NameSystemPanel {
     };
     export namespace loading {
       export const key = 'NameSystemPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notFound {
       export const key = 'NameSystemPanel.title.notFound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace success {
     export const key = 'NameSystemPanel.success';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace error {
     export namespace naturalId {
       export const key = 'NameSystemPanel.error.naturalId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -22522,11 +22522,11 @@ export namespace SystemInformation {
   export namespace info {
     export namespace faction {
       export const key = 'SystemInformation.info.faction';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace naming {
       export const key = 'SystemInformation.info.naming';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace named {
@@ -22539,7 +22539,7 @@ export namespace SystemInformation {
   export namespace naming {
     export namespace name {
       export const key = 'SystemInformation.naming.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace unnamed {
@@ -22552,94 +22552,94 @@ export namespace SystemInformation {
 export namespace SystemInfoPanel {
   export namespace naturalId {
     export const key = 'SystemInfoPanel.naturalId';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace name {
     export const key = 'SystemInfoPanel.name';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace naming {
     export const key = 'SystemInfoPanel.naming';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace starType {
     export const key = 'SystemInfoPanel.starType';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace meteoroidDensity {
     export const key = 'SystemInfoPanel.meteoroidDensity';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace faction {
     export const key = 'SystemInfoPanel.faction';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace header {
     export namespace planets {
       export const key = 'SystemInfoPanel.header.planets';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stations {
       export const key = 'SystemInfoPanel.header.stations';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace planet {
     export namespace name {
       export const key = 'SystemInfoPanel.planet.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace surface {
       export const key = 'SystemInfoPanel.planet.surface';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace population {
       export const key = 'SystemInfoPanel.planet.population';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace cogc {
       export const key = 'SystemInfoPanel.planet.cogc';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fertility {
       export const key = 'SystemInfoPanel.planet.fertility';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace environment {
       export const key = 'SystemInfoPanel.planet.environment';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace resources {
       export const key = 'SystemInfoPanel.planet.resources';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace station {
     export namespace name {
       export const key = 'SystemInfoPanel.station.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'SystemInfoPanel.station.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace fleet {
       export const key = 'SystemInfoPanel.context.fleet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'SystemInfoPanel.context.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace systemMap {
       export const key = 'SystemInfoPanel.context.systemMap';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace infrastructure {
       export const key = 'SystemInfoPanel.context.infrastructure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -22649,78 +22649,78 @@ export namespace SystemInfoPanel {
     };
     export namespace loading {
       export const key = 'SystemInfoPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace notfound {
       export const key = 'SystemInfoPanel.title.notfound';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace list {
       export const key = 'SystemInfoPanel.title.list';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace systemId {
       export const key = 'SystemInfoPanel.error.systemId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace CommandsPanel {
   export namespace title {
     export const key = 'CommandsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace command {
     export const key = 'CommandsPanel.command';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace description {
     export const key = 'CommandsPanel.description';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace mandatoryParameters {
     export const key = 'CommandsPanel.mandatoryParameters';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace optionalParameters {
     export const key = 'CommandsPanel.optionalParameters';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CreateScreenForm {
   export namespace form {
     export namespace name {
       export const key = 'CreateScreenForm.form.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace description {
       export const key = 'CreateScreenForm.form.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace button {
     export namespace create {
       export const key = 'CreateScreenForm.button.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace BadgesPanel {
   export namespace title {
     export const key = 'BadgesPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace DeleteCompanyPanel {
   export namespace title {
     export const key = 'DeleteCompanyPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace submit {
     export const key = 'DeleteCompanyPanel.submit';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace cooldown {
     export const key = 'DeleteCompanyPanel.cooldown';
@@ -22742,60 +22742,60 @@ export namespace DeleteCompanyPanel {
   }
   export namespace confirm {
     export const key = 'DeleteCompanyPanel.confirm';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace warning {
     export const key = 'DeleteCompanyPanel.warning';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace warning2 {
     export const key = 'DeleteCompanyPanel.warning2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace warning3 {
     export const key = 'DeleteCompanyPanel.warning3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace noCompany {
     export const key = 'DeleteCompanyPanel.noCompany';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace LicenseGiftingForm {
   export namespace label {
     export namespace note {
       export const key = 'LicenseGiftingForm.label.note';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace days {
       export const key = 'LicenseGiftingForm.label.days';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace recipient {
       export const key = 'LicenseGiftingForm.label.recipient';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace note {
     export const key = 'LicenseGiftingForm.note';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace gift {
       export const key = 'LicenseGiftingForm.action.gift';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace LicenseGiftingPanel {
   export namespace title {
     export const key = 'LicenseGiftingPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace context {
     export namespace license {
       export const key = 'LicenseGiftingPanel.context.license';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
@@ -22808,120 +22808,120 @@ export namespace LicenseGiftingPanel {
     }
     export namespace gift {
       export const key = 'LicenseGiftingPanel.action.gift';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace SteamReviewPanel {
   export namespace title {
     export const key = 'SteamReviewPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace heading {
     export const key = 'SteamReviewPanel.heading';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text1 {
     export const key = 'SteamReviewPanel.text1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text2 {
     export const key = 'SteamReviewPanel.text2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace steamClient {
       export const key = 'SteamReviewPanel.action.steamClient';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace steamWebsite {
       export const key = 'SteamReviewPanel.action.steamWebsite';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace steamClient {
     export const key = 'SteamReviewPanel.steamClient';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace steamWebsite {
     export const key = 'SteamReviewPanel.steamWebsite';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TaskName {
   export namespace BASIC_INTRO {
     export const key = 'TaskName.BASIC_INTRO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_VIDEO {
     export const key = 'TaskName.BASIC_INTRO_VIDEO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_HANDBOOK {
     export const key = 'TaskName.BASIC_INTRO_HANDBOOK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_HANDBOOK_PACKAGE {
     export const key = 'TaskName.BASIC_INTRO_HANDBOOK_PACKAGE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_HELP_CHANNEL {
     export const key = 'TaskName.BASIC_INTRO_HELP_CHANNEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_GUIDELINES {
     export const key = 'TaskName.BASIC_INTRO_GUIDELINES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_BUILDING {
     export const key = 'TaskName.BASIC_BASE_BUILDING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INVENTORY_TRANSFER {
     export const key = 'TaskName.BASIC_INVENTORY_TRANSFER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_CONSTRUCTION {
     export const key = 'TaskName.BASIC_BASE_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_PRODUCTION {
     export const key = 'TaskName.BASIC_BASE_PRODUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_EXPERT {
     export const key = 'TaskName.BASIC_BASE_EXPERT';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_COMEX {
     export const key = 'TaskName.BASIC_COMEX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_WORKFORCE {
     export const key = 'TaskName.BASIC_BASE_WORKFORCE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_COMMUNITY_DISCORD {
     export const key = 'TaskName.BASIC_COMMUNITY_DISCORD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_LICENSE_PRO {
     export const key = 'TaskName.BASIC_LICENSE_PRO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TaskDescription {
   export namespace BASIC_INTRO {
     export const key = 'TaskDescription.BASIC_INTRO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_VIDEO {
     export const key = 'TaskDescription.BASIC_INTRO_VIDEO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_HANDBOOK {
     export const key = 'TaskDescription.BASIC_INTRO_HANDBOOK';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_HANDBOOK_PACKAGE {
     export const key = 'TaskDescription.BASIC_INTRO_HANDBOOK_PACKAGE';
@@ -22931,89 +22931,89 @@ export namespace TaskDescription {
   }
   export namespace BASIC_INTRO_HELP_CHANNEL {
     export const key = 'TaskDescription.BASIC_INTRO_HELP_CHANNEL';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INTRO_GUIDELINES {
     export const key = 'TaskDescription.BASIC_INTRO_GUIDELINES';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_BUILDING {
     export const key = 'TaskDescription.BASIC_BASE_BUILDING';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_INVENTORY_TRANSFER {
     export const key = 'TaskDescription.BASIC_INVENTORY_TRANSFER';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_CONSTRUCTION {
     export const key = 'TaskDescription.BASIC_BASE_CONSTRUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_PRODUCTION {
     export const key = 'TaskDescription.BASIC_BASE_PRODUCTION';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_COMEX {
     export const key = 'TaskDescription.BASIC_COMEX';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_BASE_WORKFORCE {
     export const key = 'TaskDescription.BASIC_BASE_WORKFORCE';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_COMMUNITY_DISCORD {
     export const key = 'TaskDescription.BASIC_COMMUNITY_DISCORD';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace BASIC_LICENSE_PRO {
     export const key = 'TaskDescription.BASIC_LICENSE_PRO';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Help {
   export namespace enabled {
     export const key = 'Help.enabled';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace disabled {
     export const key = 'Help.disabled';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text {
     export namespace welcome {
       export const key = 'Help.text.welcome';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace welcome2 {
       export const key = 'Help.text.welcome2';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace trading {
       export const key = 'Help.text.trading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace settings {
     export namespace help {
       export const key = 'Help.settings.help';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contexthelp {
       export const key = 'Help.settings.contexthelp';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace HelpPanel {
   export namespace title {
     export const key = 'HelpPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace UserLicenseTile {
   export namespace details {
     export const key = 'UserLicenseTile.details';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace FREE {
       export const key = 'UserLicenseTile.details.FREE';
       export type parameter = {
@@ -23022,56 +23022,56 @@ export namespace UserLicenseTile {
     }
     export namespace BASIC {
       export const key = 'UserLicenseTile.details.BASIC';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace PRO {
       export const key = 'UserLicenseTile.details.PRO';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace context {
     export namespace gifting {
       export const key = 'UserLicenseTile.context.gifting';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'UserLicenseTile.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace license {
     export const key = 'UserLicenseTile.license';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace gift {
       export const key = 'UserLicenseTile.license.gift';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace manage {
       export const key = 'UserLicenseTile.license.manage';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace expiry {
     export const key = 'UserLicenseTile.expiry';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ExternalURLPanel {
   export namespace title {
     export const key = 'ExternalURLPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace info {
     export const key = 'ExternalURLPanel.info';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace link {
     export const key = 'ExternalURLPanel.link';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace hint {
     export const key = 'ExternalURLPanel.hint';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace TransmissionsPanel {
@@ -23079,183 +23079,183 @@ export namespace TransmissionsPanel {
     export namespace t01 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t01.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t02 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t02.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_1 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-1.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_2 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-2.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_3 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-3.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_4 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-4.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_5 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-5.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t03_6 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t03-6.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t04 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t04.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t05 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t05.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t06 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t06.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t07 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t07.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t08 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t08.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t09 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t09.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace t10 {
       export namespace name {
         export const key = 'TransmissionsPanel.table.t10.name';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace _number {
       export const key = 'TransmissionsPanel.table.number';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace name {
       export const key = 'TransmissionsPanel.table.name';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commands {
       export const key = 'TransmissionsPanel.table.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace profession {
       export const key = 'TransmissionsPanel.table.profession';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace command {
       export namespace view {
         export const key = 'TransmissionsPanel.table.command.view';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace title {
     export const key = 'TransmissionsPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CategoryName {
   export namespace water {
     export const key = 'CategoryName.water';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace food {
     export const key = 'CategoryName.food';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace health {
     export const key = 'CategoryName.health';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace clothing {
     export const key = 'CategoryName.clothing';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace tools {
     export const key = 'CategoryName.tools';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Workforces {
   export namespace essential {
     export const key = 'Workforces.essential';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace info {
       export const key = 'Workforces.essential.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace yes {
       export const key = 'Workforces.essential.yes';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace total {
     export const key = 'Workforces.total';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace info {
       export const key = 'Workforces.total.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace days {
     export const key = 'Workforces.days';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace info {
       export const key = 'Workforces.days.info';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace needs {
     export const key = 'Workforces.needs';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace category {
     export const key = 'Workforces.category';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace size {
     export const key = 'Workforces.size';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace sizeCapacity {
     export const key = 'Workforces.sizeCapacity';
@@ -23266,11 +23266,11 @@ export namespace Workforces {
   }
   export namespace required {
     export const key = 'Workforces.required';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace totalSatisfaction {
     export const key = 'Workforces.totalSatisfaction';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace unitsPerInterval {
     export const key = 'Workforces.unitsPerInterval';
@@ -23293,13 +23293,13 @@ export namespace WorkforcesPanel {
     };
     export namespace loading {
       export const key = 'WorkforcesPanel.title.loading';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace error {
     export namespace siteId {
       export const key = 'WorkforcesPanel.error.siteId';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23307,14 +23307,14 @@ export namespace PanelSelector {
   export namespace input {
     export namespace placeholder {
       export const key = 'PanelSelector.input.placeholder';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace Tile {
   export namespace illegalCommand {
     export const key = 'Tile.illegalCommand';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Buffer {
@@ -23328,7 +23328,7 @@ export namespace Buffer {
 export namespace Button {
   export namespace title {
     export const key = 'Button.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace ServerNotification {
@@ -23349,7 +23349,7 @@ export namespace ServerNotification {
   export namespace action {
     export namespace close {
       export const key = 'ServerNotification.action.close';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23362,7 +23362,7 @@ export namespace HeaderDropdown {
       };
       export namespace alt {
         export const key = 'HeaderDropdown.action.logout.alt';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace login {
@@ -23372,7 +23372,7 @@ export namespace HeaderDropdown {
       };
       export namespace alt {
         export const key = 'HeaderDropdown.action.login.alt';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace audio {
@@ -23405,7 +23405,7 @@ export namespace Logo {
     };
     export namespace alt {
       export const key = 'Logo.title.alt';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23413,101 +23413,101 @@ export namespace game {
   export namespace loading {
     export namespace categories {
       export const key = 'game.loading.categories';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace channels {
       export const key = 'game.loading.channels';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace company {
       export const key = 'game.loading.company';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contracts {
       export const key = 'game.loading.contracts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace corporation {
       export const key = 'game.loading.corporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace countries {
       export const key = 'game.loading.countries';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sectors {
       export const key = 'game.loading.sectors';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace ships {
       export const key = 'game.loading.ships';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace simulation {
       export const key = 'game.loading.simulation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace sites {
       export const key = 'game.loading.sites';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stars {
       export const key = 'game.loading.stars';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stores {
       export const key = 'game.loading.stores';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace uidata {
       export const key = 'game.loading.uidata';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace LoadingState {
   export namespace welcome {
     export const key = 'LoadingState.welcome';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace standby {
     export const key = 'LoadingState.standby';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InvalidCardPanel {
   export namespace title {
     export const key = 'InvalidCardPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace info {
     export const key = 'InvalidCardPanel.info';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InvalidCommandPanel {
   export namespace title {
     export const key = 'InvalidCommandPanel.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace info {
     export const key = 'InvalidCommandPanel.info';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace InvalidStack {
   export namespace info {
     export const key = 'InvalidStack.info';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace stacks {
       export const key = 'InvalidStack.action.stacks';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace back {
       export const key = 'InvalidStack.action.back';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23515,79 +23515,79 @@ export namespace Stack {
   export namespace newcard {
     export namespace title {
       export const key = 'Stack.newcard.title';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace action {
       export namespace cancel {
         export const key = 'Stack.newcard.action.cancel';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
       export namespace create {
         export const key = 'Stack.newcard.action.create';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
   export namespace empty {
     export const key = 'Stack.empty';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace title {
     export namespace newCard {
       export const key = 'Stack.title.newCard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace stopEditing {
       export const key = 'Stack.action.stopEditing';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stacks {
       export const key = 'Stack.action.stacks';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace back {
       export const key = 'Stack.action.back';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace edit {
       export const key = 'Stack.action.edit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace newCard {
       export const key = 'Stack.action.newCard';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace Stacks {
   export namespace title {
     export const key = 'Stacks.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace label {
     export namespace stackName {
       export const key = 'Stacks.label.stackName';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace action {
     export namespace cancel {
       export const key = 'Stacks.action.cancel';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace create {
       export const key = 'Stacks.action.create';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace stopEditing {
       export const key = 'Stacks.action.stopEditing';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace edit {
       export const key = 'Stacks.action.edit';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace name {
@@ -23599,41 +23599,41 @@ export namespace Stacks {
   export namespace _delete {
     export namespace question {
       export const key = 'Stacks.delete.question';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace details {
       export const key = 'Stacks.delete.details';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace confirm {
       export const key = 'Stacks.delete.confirm';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace newStack {
     export const key = 'Stacks.newStack';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace MobileMainState {
   export namespace notfound {
     export const key = 'MobileMainState.notfound';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace CompanyCreation {
   export namespace SelectionCategory {
     export namespace PROFILE {
       export const key = 'CompanyCreation.SelectionCategory.PROFILE';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace COUNTRY {
       export const key = 'CompanyCreation.SelectionCategory.COUNTRY';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace LOCATION {
       export const key = 'CompanyCreation.SelectionCategory.LOCATION';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23641,15 +23641,15 @@ export namespace LanguageSelector {
   export namespace header {
     export namespace community {
       export const key = 'LanguageSelector.header.community';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace info {
         export const key = 'LanguageSelector.header.community.info';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace official {
       export const key = 'LanguageSelector.header.official';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23657,51 +23657,51 @@ export namespace Faction {
   export namespace AI {
     export namespace description {
       export const key = 'Faction.AI.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'Faction.AI.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace CI {
     export namespace description {
       export const key = 'Faction.CI.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'Faction.CI.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace EC {
     export namespace description {
       export const key = 'Faction.EC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'Faction.EC.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace NC {
     export namespace description {
       export const key = 'Faction.NC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'Faction.NC.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace IC {
     export namespace description {
       export const key = 'Faction.IC.description';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace currency {
       export const key = 'Faction.IC.currency';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23709,60 +23709,60 @@ export namespace Hints {
   export namespace fertility {
     export namespace victualler {
       export const key = 'Hints.fertility.victualler';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace carbonfarmer {
       export const key = 'Hints.fertility.carbonfarmer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace comex {
     export namespace comexfaraway {
       export const key = 'Hints.comex.comexfaraway';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace plots {
     export namespace low {
       export const key = 'Hints.plots.low';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace none {
       export const key = 'Hints.plots.none';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace currency {
     export namespace nomatch {
       export const key = 'Hints.currency.nomatch';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace Recommendation {
   export namespace _1 {
     export const key = 'Recommendation.1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _2 {
     export const key = 'Recommendation.2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _3 {
     export const key = 'Recommendation.3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _4 {
     export const key = 'Recommendation.4';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace _5 {
     export const key = 'Recommendation.5';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace suitability {
     export const key = 'Recommendation.suitability';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace stars {
     export const key = 'Recommendation.stars';
@@ -23775,21 +23775,21 @@ export namespace Recommendation {
 export namespace WithCompany {
   export namespace error {
     export const key = 'WithCompany.error';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace NoTestServerAccess {
   export namespace title {
     export const key = 'NoTestServerAccess.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text1 {
     export const key = 'NoTestServerAccess.text1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace accountManagement {
     export const key = 'NoTestServerAccess.accountManagement';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace text2 {
     export const key = 'NoTestServerAccess.text2';
@@ -23799,188 +23799,188 @@ export namespace NoTestServerAccess {
   }
   export namespace text3 {
     export const key = 'NoTestServerAccess.text3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Frame {
   export namespace unauthenticated {
     export const key = 'Frame.unauthenticated';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace loginRequired {
     export const key = 'Frame.loginRequired';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
     export namespace dismiss {
       export const key = 'Frame.loginRequired.dismiss';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace toggle {
     export namespace header {
       export namespace tooltip {
         export const key = 'Frame.toggle.header.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace sidebar {
       export const key = 'Frame.toggle.sidebar';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.sidebar.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace footer {
       export namespace tooltip {
         export const key = 'Frame.toggle.footer.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace bases {
       export const key = 'Frame.toggle.bases';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.bases.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace contracts {
       export const key = 'Frame.toggle.contracts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.contracts.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace communication {
       export namespace tooltip {
         export const key = 'Frame.toggle.communication.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace corporation {
       export const key = 'Frame.toggle.corporation';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.corporation.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace cx {
       export namespace tooltip {
         export const key = 'Frame.toggle.cx.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace financials {
       export const key = 'Frame.toggle.financials';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.financials.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace fleet {
       export const key = 'Frame.toggle.fleet';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.fleet.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace inventories {
       export namespace tooltip {
         export const key = 'Frame.toggle.inventories.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace universemap {
       export namespace tooltip {
         export const key = 'Frame.toggle.universemap.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace production {
       export const key = 'Frame.toggle.production';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.production.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace leaderboards {
       export const key = 'Frame.toggle.leaderboards';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.leaderboards.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace commands {
       export const key = 'Frame.toggle.commands';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace tooltip {
         export const key = 'Frame.toggle.commands.tooltip';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace screens {
       export const key = 'Frame.toggle.screens';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace buffers {
       export const key = 'Frame.toggle.buffers';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace communications {
       export const key = 'Frame.toggle.communications';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace commodityexchanges {
       export const key = 'Frame.toggle.commodityexchanges';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace inventory {
       export const key = 'Frame.toggle.inventory';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace map {
       export const key = 'Frame.toggle.map';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
     export const key = 'Frame.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }
 export namespace Connecting {
   export namespace server {
     export namespace connectionFailure {
       export const key = 'Connecting.server.connectionFailure';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace disconnected {
       export const key = 'Connecting.server.disconnected';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace connecting {
       export const key = 'Connecting.server.connecting';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace client {
     export namespace reconnecting {
       export const key = 'Connecting.client.reconnecting';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace disconnected {
       export const key = 'Connecting.client.disconnected';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace connecting {
       export const key = 'Connecting.client.connecting';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23988,7 +23988,7 @@ export namespace PendingContractsTable {
   export namespace action {
     export namespace view {
       export const key = 'PendingContractsTable.action.view';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -23996,15 +23996,15 @@ export namespace Sidebar {
   export namespace header {
     export namespace rating {
       export const key = 'Sidebar.header.rating';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace balances {
       export const key = 'Sidebar.header.balances';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace contracts {
       export const key = 'Sidebar.header.contracts';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace title {
@@ -24020,7 +24020,7 @@ export namespace Dock {
   export namespace controls {
     export namespace newBuffer {
       export const key = 'Dock.controls.newBuffer';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -24028,18 +24028,18 @@ export namespace Window {
   export namespace action {
     export namespace minimize {
       export const key = 'Window.action.minimize';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace alt {
         export const key = 'Window.action.minimize.alt';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
     export namespace close {
       export const key = 'Window.action.close';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
       export namespace alt {
         export const key = 'Window.action.close.alt';
-        export type parameter = object;
+        export type parameter = Record<string, never>;
       }
     }
   }
@@ -24052,14 +24052,14 @@ export namespace AlertsHeadItem {
     };
     export namespace tooltip {
       export const key = 'AlertsHeadItem.notifications.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
 export namespace HelpHeadItem {
   export namespace loading {
     export const key = 'HelpHeadItem.loading';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace helpProgress {
     export const key = 'HelpHeadItem.helpProgress';
@@ -24083,7 +24083,7 @@ export namespace LicenseHeadItem {
     };
     export namespace tooltip {
       export const key = 'LicenseHeadItem.level.tooltip';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace expiry2d {
@@ -24108,28 +24108,28 @@ export namespace ScreenControls {
   }
   export namespace title {
     export const key = 'ScreenControls.title';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace copy {
       export const key = 'ScreenControls.action.copy';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace _delete {
       export const key = 'ScreenControls.action.delete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace undoDelete {
       export const key = 'ScreenControls.action.undoDelete';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace add {
       export const key = 'ScreenControls.action.add';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace fullscreen {
       export const key = 'ScreenControls.action.fullscreen';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -24137,13 +24137,13 @@ export namespace MenuHeadItem {
   export namespace action {
     export namespace logout {
       export const key = 'MenuHeadItem.action.logout';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
   export namespace section {
     export namespace settings {
       export const key = 'MenuHeadItem.section.settings';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -24151,7 +24151,7 @@ export namespace Head {
   export namespace item {
     export namespace audio {
       export const key = 'Head.item.audio';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
     export namespace menu {
       export const key = 'Head.item.menu';
@@ -24170,12 +24170,12 @@ export namespace UsersOnlineCount {
 export namespace Impersonation {
   export namespace text {
     export const key = 'Impersonation.text';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export namespace stop {
       export const key = 'Impersonation.action.stop';
-      export type parameter = object;
+      export type parameter = Record<string, never>;
     }
   }
 }
@@ -24194,30 +24194,30 @@ export namespace Overlay {
   }
   export namespace feature1 {
     export const key = 'Overlay.feature1';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace feature2 {
     export const key = 'Overlay.feature2';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace feature3 {
     export const key = 'Overlay.feature3';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace feature4 {
     export const key = 'Overlay.feature4';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace feature5 {
     export const key = 'Overlay.feature5';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace action {
     export const key = 'Overlay.action';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
   export namespace footer {
     export const key = 'Overlay.footer';
-    export type parameter = object;
+    export type parameter = Record<string, never>;
   }
 }

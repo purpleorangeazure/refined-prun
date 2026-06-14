@@ -71,8 +71,9 @@ export type Node = {
 
 const typeMap: TypeMap = new Map();
 
-export function generateTypes(localization: Map<string, MessageFormatElement[]>) {
-  for (const [id, ast] of localization) {
+export function generateTypes(localization: Map<string, IntlMessageFormat>) {
+  for (const [id, imf] of localization) {
+    const ast = imf.getAst();
     const path = id.split('.');
     const last = path[path.length - 1];
     try {
@@ -179,7 +180,7 @@ function extractParams(ast: MessageFormatElement[]): Set<string> {
 function generateType(params: Set<string>): string {
   const fields = [...params].map(p => `  ${p}: string;`).join('\n');
   if (!fields) {
-    return 'object';
+    return 'Record<string, never>';
   }
 
   return `{\n${fields}\n}`;
