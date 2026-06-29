@@ -3,6 +3,16 @@ import { getParameterShips } from '@src/features/XIT/REP/entries';
 import { lookupLocalization } from '@src/infrastructure/prun-ui/i18n';
 import { alertsStore } from '@src/infrastructure/prun-api/data/alerts';
 
+// Definitely needs work:
+// Contract Condition Fulfilled
+// Ship Arrived
+// Population infrastructure upgraded
+
+const alertQueue = new Map<
+  string,
+  { title: string; body: string | undefined; push: NodeJS.Timeout }
+>();
+
 async function processAlert(alert: PrunApi.Alert) {
   if (document.hasFocus()) {
     console.log('Ignoring alert because the window is already focused.');
@@ -309,11 +319,23 @@ async function processAlert(alert: PrunApi.Alert) {
       console.error(`Unhandled alert type: ${alertType}`, data);
       break;
   }
-  new Notification(title, {
-    tag: alertId,
-    body: body,
-    icon: 'https://press.simulogics.games/prosperousuniverse/logos/prun-logo-transparent.png',
-  });
+  const queued = alertQueue.get(alertId);
+  if (queued) {
+    queued.body = body;
+  } else {
+    const notificationData = {
+      title,
+      body,
+      push: setTimeout(() => {
+        new Notification(notificationData.title, {
+          tag: alertId,
+          body: notificationData.body,
+          icon: 'https://press.simulogics.games/prosperousuniverse/logos/prun-logo-transparent.png',
+        });
+      }, 500),
+    };
+    alertQueue.set(alertId, notificationData);
+  }
 }
 
 async function init() {
@@ -327,9 +349,11 @@ async function init() {
   }
   watch(
     alertsStore.all,
-    alerts => {
+    (alerts, oldAlerts) => {
       for (const alert of alerts ?? []) {
-        processAlert(alert);
+        if (!oldAlerts?.some(x => x === alert)) {
+          processAlert(alert);
+        }
       }
     },
     { deep: true },
