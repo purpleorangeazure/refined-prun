@@ -99,9 +99,21 @@ declare namespace PrunApi {
     | { key: 'motionName'; value: string }
     | { key: 'trades'; value: number }
     | { key: 'partner'; value: ContractPartner }
+    | { key: 'condition'; value: string }
     | { key: 'contract'; value: string }
+    | { key: 'corporation'; value: { id: string; name: string; code: string } }
+    | { key: 'invitee'; value: { id: string; name: string; code: string } }
+    | { key: 'company'; value: { id: string; name: string; code: string } }
     | { key: 'ticker'; value: string }
     | { key: 'level'; value: number }
-    | { key: 'type'; value: string }
-    | { key: string; value: unknown };
+    | { key: 'state'; value: string }
+    | { key: 'infrastructure'; value: string }
+    | { key: 'pair'; value: { base: PrunApi.Currency; quote: PrunApi.Currency } }
+    | { key: 'destinationGateway'; value: { name: string } }
+    | { key: 'originGateway'; value: { name: string } }
+    | { key: 'originGatewayAddress'; value: { address: Address } }
+    | { key: 'gateway'; value: { id: string } }
+    | { key: 'otherGateway'; value: { id: string } }
+    | { key: 'project'; value: string }
+    | { key: 'type'; value: string };
 }
