@@ -55,7 +55,7 @@ function emitLocalizationTree(tree: LocalizationTree, indent: number = 0) {
 }
 
 // This is to create an "example" template that one can check to match in-game text with localization keys.
-function emitStatic(ast: MessageFormatElement[]) {
+export function emitStatic(ast: MessageFormatElement[]) {
   const nodeStrings: string[] = [];
   for (const node of ast) {
     switch (node.type) {
@@ -118,6 +118,18 @@ function emitStatic(ast: MessageFormatElement[]) {
 }
 
 function emitFormatOptions(ast: MessageFormatElement[]): `void` | `{${string}}` {
+  const options = extractFormatOptions(ast);
+  if (options.size == 0) {
+    return `void`;
+  }
+  return `{ ${options
+    .entries()
+    .map(x => `${x[0]}: ${x[1].join(' | ')}`)
+    .toArray()
+    .join('; ')} }`;
+}
+
+export function extractFormatOptions(ast: MessageFormatElement[]): Map<string, string[]> {
   const options: Map<string, string[]> = new Map();
   function visit(nodes: MessageFormatElement[]) {
     for (const n of nodes) {
@@ -157,12 +169,5 @@ function emitFormatOptions(ast: MessageFormatElement[]): `void` | `{${string}}` 
     }
   }
   visit(ast);
-  if (options.size == 0) {
-    return `void`;
-  }
-  return `{ ${options
-    .entries()
-    .map(x => `${x[0]}: ${x[1].join(' | ')}`)
-    .toArray()
-    .join('; ')} }`;
+  return options;
 }

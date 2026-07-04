@@ -1,8 +1,12 @@
-import { TYPE } from '@formatjs/icu-messageformat-parser';
 import { addMissingLocalizationEntries, generateLocalizationTree } from './localization-tree';
 import { createLocalizationProxy } from './localization-proxy';
 import { materialsStore } from '@src/infrastructure/prun-api/data/materials';
 import Cookies from 'js-cookie';
+import {
+  emitStatic,
+  extractFormatOptions,
+} from '@src/infrastructure/prun-ui/i18n/localization-type-generator';
+import IntlMessageFormat from 'intl-messageformat';
 
 export const prunLocale = (Cookies.get('pu-locale') ?? 'en') as
   | 'en'
@@ -55,25 +59,56 @@ export function getMaterialByName(name?: string | null) {
   return name ? materialsByName.get(name) : undefined;
 }
 
-export function applyLocalizationPatch(
-  localization: LiteralLocalizationLeaf,
+// Replace a localization by providing a patch function.
+// The patch function provides the original ICU message as an argument.
+// See https://formatjs.github.io/docs/core-concepts/icu-syntax for syntax.
+// When replacing a localization, the new format MUST NOT have new options, but may have fewer.
+// Please note that the following localizations are bugged and are missing their options:
+// L.GroupChannelMembershipPanel.title
+// L.PublicChannelMembershipPanel.title.default
+// L.Warehouse.error.id
+// L.chat.messages.renamed
+// L.chat.messages.renamed.auto
+export function applyLocalizationPatch<T>(
+  localization: ParametrizedLocalizationLeaf<T>,
   patch:
     | ((value: string) => string)
     | Partial<Record<typeof prunLocale | 'default', (value: string) => string>>,
 ) {
   const ast = localization.getFormat()?.getAst();
-  const text = localization();
-  if (ast === undefined || text === undefined) {
+  if (ast === undefined) {
     return;
   }
+  const initialOptions = extractFormatOptions(ast);
+  const text = emitStatic(ast);
   const applyPatch: ((value: string) => string) | undefined =
     typeof patch === 'function' ? patch : (patch[prunLocale] ?? patch['default']);
   if (applyPatch === undefined) {
     return;
   }
   const newText = applyPatch(text);
-  ast.length = 1;
-  ast[0] = { type: TYPE.literal, value: newText };
+  const newAst = new IntlMessageFormat(newText).getAst();
+  const resultOptions = extractFormatOptions(newAst);
+  for (const [option, values] of resultOptions.entries()) {
+    const initialValues = initialOptions.get(option);
+    if (!initialValues) {
+      console.error(
+        `Failed to patch localization ${text}: option ${option} does not exist for the initial localization.`,
+      );
+      return;
+    }
+    if (
+      values.length > initialValues.length ||
+      !values.every(x => initialValues.includes(x)) ||
+      !initialValues.every(x => values.includes(x))
+    ) {
+      console.error(
+        `Failed to patch localization ${text}: new signature of option ${option} (${JSON.stringify(values)}) does not match initial signature (${JSON.stringify(initialValues)})`,
+      );
+      return;
+    }
+  }
+  ast.splice(0, ast.length, ...newAst);
 }
 
 // Indexes a localization subtree with a runtime key, returning the child leaf or subtree.
