@@ -47,10 +47,7 @@ export function createLocalizationProxy(node: any, path: string) {
     },
     getOwnPropertyDescriptor(_target, key) {
       if (node && Reflect.has(node, key)) {
-        return {
-          enumerable: true,
-          configurable: true,
-        };
+        return Reflect.getOwnPropertyDescriptor(node, key);
       }
       return undefined;
     },
