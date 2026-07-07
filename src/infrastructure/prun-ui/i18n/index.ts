@@ -36,21 +36,6 @@ export function loadPrunI18N() {
   localizationTree = generateLocalizationTree(i18n);
   L = createLocalizationProxy(localizationTree, 'L') as unknown as PrunLocalization;
   loadMaterialNameMap();
-  function traverse(node: LocalizationTree) {
-    for (const [key, value] of Object.entries(node)) {
-      if (key !== 'getFormat') {
-        if (Object.hasOwn(value, 'getFormat')) {
-          applyLocalizationPatch(
-            value as ParametrizedLocalizationLeaf<unknown>,
-            text => text,
-            true,
-          );
-        }
-      }
-      traverse(value);
-    }
-  }
-  traverse(L);
 }
 
 const materialsByName = new Map<string, PrunApi.Material>();
