@@ -36,6 +36,21 @@ export function loadPrunI18N() {
   localizationTree = generateLocalizationTree(i18n);
   L = createLocalizationProxy(localizationTree, 'L') as unknown as PrunLocalization;
   loadMaterialNameMap();
+  function traverse(node: LocalizationTree) {
+    for (const [key, value] of Object.entries(node)) {
+      if (key !== 'getFormat') {
+        if (Object.hasOwn(value, 'getFormat')) {
+          applyLocalizationPatch(
+            value as ParametrizedLocalizationLeaf<unknown>,
+            text => text,
+            true,
+          );
+        }
+      }
+      traverse(value);
+    }
+  }
+  traverse(L);
 }
 
 const materialsByName = new Map<string, PrunApi.Material>();
@@ -63,17 +78,20 @@ export function getMaterialByName(name?: string | null) {
 // The patch function provides the original ICU message as an argument.
 // See https://formatjs.github.io/docs/core-concepts/icu-syntax for syntax.
 // When replacing a localization, the new format MUST NOT have new options, but may have fewer.
-// Please note that the following localizations are bugged and are missing their options:
+// Please note that the following localizations are bugged and are missing their options
+// by default. Fixed in prun-bugs.ts:
 // L.GroupChannelMembershipPanel.title
 // L.PublicChannelMembershipPanel.title.default
 // L.Warehouse.error.id
 // L.chat.messages.renamed
 // L.chat.messages.renamed.auto
+// The 'force' parameter is for these cases specifically and should otherwise not be used.
 export function applyLocalizationPatch<T>(
   localization: ParametrizedLocalizationLeaf<T>,
   patch:
     | ((value: string) => string)
     | Partial<Record<typeof prunLocale | 'default', (value: string) => string>>,
+  force: boolean = false,
 ) {
   const ast = localization.getFormat()?.getAst();
   if (ast === undefined) {
@@ -91,16 +109,18 @@ export function applyLocalizationPatch<T>(
   const resultOptions = extractFormatOptions(newAst);
   for (const [option, values] of resultOptions.entries()) {
     const initialValues = initialOptions.get(option);
-    if (!initialValues) {
+    if (!force && !initialValues) {
       console.error(
         `Failed to patch localization ${text}: option ${option} does not exist for the initial localization.`,
       );
       return;
     }
     if (
-      values.length > initialValues.length ||
-      !values.every(x => initialValues.includes(x)) ||
-      !initialValues.every(x => values.includes(x))
+      !force &&
+      initialValues &&
+      (values.length > initialValues.length ||
+        !values.every(x => initialValues.includes(x)) ||
+        !initialValues.every(x => values.includes(x)))
     ) {
       console.error(
         `Failed to patch localization ${text}: new signature of option ${option} (${JSON.stringify(values)}) does not match initial signature (${JSON.stringify(initialValues)})`,
