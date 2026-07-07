@@ -112,9 +112,14 @@ export function emitStatic(ast: MessageFormatElement[]) {
         break;
     }
   }
-  // Some of the English localization keys had NBSP, which eslint did not like.
-  // I replace all of these with regular spaces here.
-  return nodeStrings.join('').replaceAll('\u00A0', ' ');
+  return (
+    nodeStrings
+      .join('')
+      // Replace NBSP with normal space.
+      .replaceAll('\u00A0', ' ')
+      // Replace program apostrophes that function as escapes for ICU Message Syntax with human apostrophes.
+      .replaceAll('\u0027', '\u2019')
+  );
 }
 
 function emitFormatOptions(ast: MessageFormatElement[]): `void` | `{${string}}` {
