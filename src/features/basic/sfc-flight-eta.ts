@@ -1,12 +1,11 @@
 import { refTextContent } from '@src/utils/reactive-dom';
 import { shipsStore } from '@src/infrastructure/prun-api/data/ships';
-import { flightsStore } from '@src/infrastructure/prun-api/data/flights';
+import { flightsStore, getFlightSegment } from '@src/infrastructure/prun-api/data/flights';
 import { formatEta } from '@src/utils/format';
 import { timestampEachMinute } from '@src/utils/dayjs';
 import { createReactiveSpan } from '@src/utils/reactive-element';
 import { keepLast } from '@src/utils/keep-last';
 import { refPrunId } from '@src/infrastructure/prun-ui/attributes';
-import { flightPlansStore } from '@src/infrastructure/prun-api/data/flight-plans';
 
 function onTileReady(tile: PrunTile) {
   const ship = computed(() => shipsStore.getByRegistration(tile.parameter));
@@ -41,34 +40,7 @@ function getFlightSegmentArrival(
   index: string | null,
   planId: string | null,
 ) {
-  if (!ship || index === null) {
-    return undefined;
-  }
-
-  let segments: PrunApi.FlightSegment[];
-
-  if (ship.flightId) {
-    const flight = flightsStore.getById(ship.flightId);
-    if (!flight) {
-      return undefined;
-    }
-
-    segments = flight.segments;
-  } else {
-    const plan = flightPlansStore.getById(planId);
-    if (!plan) {
-      return undefined;
-    }
-
-    segments = plan.segments;
-  }
-
-  const segmentId = index !== '' ? parseInt(index, 10) : segments.length - 1;
-  if (isFinite(segmentId) && segmentId < segments.length) {
-    return segments[segmentId].arrival.timestamp;
-  }
-
-  return undefined;
+  return getFlightSegment(ship, index, planId)?.arrival.timestamp;
 }
 
 function init() {
