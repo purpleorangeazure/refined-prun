@@ -71,7 +71,7 @@ export function getMaterialByName(name?: string | null) {
 // L.chat.messages.renamed
 // L.chat.messages.renamed.auto
 // The 'force' parameter is for these cases specifically and should otherwise not be used.
-export function applyLocalizationPatch<T>(
+export function applyLocalizationPatch<T extends Record<string, unknown> | undefined>(
   localization: ParametrizedLocalizationLeaf<T>,
   patch:
     | ((value: string) => string)
@@ -103,9 +103,7 @@ export function applyLocalizationPatch<T>(
     if (
       !force &&
       initialValues &&
-      (values.length > initialValues.length ||
-        !values.every(x => initialValues.includes(x)) ||
-        !initialValues.every(x => values.includes(x)))
+      (values.length < initialValues.length || !initialValues.every(x => values.includes(x)))
     ) {
       console.error(
         `Failed to patch localization ${text}: new signature of option ${option} (${JSON.stringify(values)}) does not match initial signature (${JSON.stringify(initialValues)})`,
