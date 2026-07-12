@@ -7,7 +7,7 @@ declare namespace PrunApi {
     billOfMaterial: MaterialQuantities;
     status: string;
     selections: BlueprintSelection[];
-    performance: { [key: string]: number };
+    performance: { [key: string]: number | Material };
     buildTime: number;
   }
 
