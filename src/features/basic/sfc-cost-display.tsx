@@ -28,7 +28,6 @@ function onTileReady(tile: PrunTile) {
 
 async function addSummaryPrice(tile: PrunTile, overallPrice: Ref<number | undefined>) {
   subscribe($$(tile.anchor, C.FormComponent.containerPassive), async x => {
-    console.log(x, overallPrice.value);
     const label = await $(x, 'label');
     if (label.textContent !== L.ShipFlightControl.label.status()) {
       return;
