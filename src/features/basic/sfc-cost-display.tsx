@@ -5,7 +5,6 @@ import { createReactiveSpan } from '@src/utils/reactive-element';
 import { refPrunId } from '@src/infrastructure/prun-ui/attributes';
 import { blueprintsStore } from '@src/infrastructure/prun-api/data/blueprints';
 import { materialsStore } from '@src/infrastructure/prun-api/data/materials';
-import Material = PrunApi.Material;
 import PrunButton from '@src/components/PrunButton.vue';
 import { showBuffer } from '@src/infrastructure/prun-ui/buffers';
 import { getPrice } from '@src/infrastructure/fio/cx';
@@ -14,12 +13,37 @@ import { sumBy } from '@src/utils/sum-by';
 import { flightPlansStore } from '@src/infrastructure/prun-api/data/flight-plans';
 import { calculateRepairCosts } from '@src/core/ship-repair';
 import PrunLink from '@src/components/PrunLink.vue';
+import Material = PrunApi.Material;
 
 function onTileReady(tile: PrunTile) {
   const ship = computed(() => shipsStore.getByRegistration(tile.parameter));
   const blueprint = computed(() => blueprintsStore.getByNaturalId(ship.value?.blueprintNaturalId));
+  const overallPrice = ref<number | undefined>();
+  void addSummaryPrice(tile, overallPrice);
   void prepareBlueprintFetchButton(tile, ship, blueprint);
-  subscribe($$(tile.anchor, C.MissionPlan.table), x => onTableReady(x, ship, blueprint));
+  subscribe($$(tile.anchor, C.MissionPlan.table), x =>
+    onTableReady(x, ship, blueprint, overallPrice),
+  );
+}
+
+async function addSummaryPrice(tile: PrunTile, overallPrice: Ref<number | undefined>) {
+  subscribe($$(tile.anchor, C.FormComponent.containerPassive), async x => {
+    console.log(x, overallPrice.value);
+    const label = await $(x, 'label');
+    if (label.textContent !== L.ShipFlightControl.label.status()) {
+      return;
+    }
+    const value = await $(x, C.StaticInput.static);
+    const priceSpan = createReactiveSpan(
+      value,
+      computed(() =>
+        overallPrice.value !== undefined
+          ? `${formatCurrency(overallPrice.value, fixed0)} - `
+          : undefined,
+      ),
+    );
+    value.appendChild(priceSpan);
+  });
 }
 
 async function prepareBlueprintFetchButton(
@@ -30,7 +54,7 @@ async function prepareBlueprintFetchButton(
   const cmdRow = await $(tile.anchor, C.FormComponent.containerCommand);
   const inputContainer = await $(cmdRow, C.FormComponent.input);
   createFragmentApp(() => (
-    <span>
+    <>
       {blueprint.value === undefined && (
         <PrunButton
           neutral
@@ -42,8 +66,8 @@ async function prepareBlueprintFetchButton(
           }>
           CALCULATE COSTS
         </PrunButton>
-      )}
-    </span>
+      )}{' '}
+    </>
   )).prependTo(inputContainer);
 }
 
@@ -51,6 +75,7 @@ async function onTableReady(
   table: HTMLElement,
   ship: Ref<PrunApi.Ship | undefined>,
   blueprint: Ref<PrunApi.Blueprint | undefined>,
+  overallPrice: Ref<number | undefined>,
 ) {
   const planId = refPrunId(table);
   const flightOrPlan = computed(() => getFlightOrPlan(ship.value, planId.value));
@@ -61,9 +86,6 @@ async function onTableReady(
   const headers = Array.from(headerRow.firstElementChild.children);
   const segmentColumnIndex = headers.findIndex(x =>
     x.textContent.includes(L.FlightPlan.index() ?? '#'),
-  );
-  const destinationColumnIndex = headers.findIndex(x =>
-    x.textContent.includes(L.FlightPlan.destination() ?? 'Destination'),
   );
   const damageColumnIndex = headers.findIndex(x =>
     x.textContent.includes(L.FlightPlan.damage() ?? 'Damage'),
@@ -93,73 +115,90 @@ async function onTableReady(
       ? calculateRepairCosts(blueprint.value, damage.value)
       : undefined,
   );
+  const stlPricing = createMaterialPrice(stlCost);
+  const ftlPricing = createMaterialPrice(ftlCost);
+  const repairPricing = createRepairPricing(repairCosts);
 
-  subscribe($$(table, 'tr'), row => {
-    const segmentIndex = refTextContent(row.children[segmentColumnIndex]);
-    if (segmentIndex.value !== '') {
-      return;
-    }
-    const destinationCell = row.children[destinationColumnIndex];
-    const damageCell = row.children[damageColumnIndex];
-    const fuelCell = row.children[fuelColumnIndex];
-
-    const stlSpan = fuelCell.firstElementChild?.firstElementChild;
-    const stlPricing = createMaterialPrice(stlCost);
-    if (stlSpan) {
-      const costSpan = createReactiveSpan(
-        stlSpan,
-        computed(() =>
-          stlPricing.totalPrice.value !== 0
-            ? ` ${formatCurrency(stlPricing.totalPrice.value, fixed0)}`
-            : undefined,
-        ),
-      );
-      stlSpan.appendChild(costSpan);
-    }
-
-    const ftlSpan = fuelCell.firstElementChild?.lastElementChild;
-    const ftlPricing = createMaterialPrice(ftlCost);
-    if (ftlSpan) {
-      const costSpan = createReactiveSpan(
-        ftlSpan,
-        computed(() =>
-          ftlPricing.totalPrice.value !== 0
-            ? ` ${formatCurrency(ftlPricing.totalPrice.value, fixed0)}`
-            : undefined,
-        ),
-      );
-      ftlSpan.appendChild(costSpan);
-    }
-
-    const damageSpan = damageCell;
-    const repairPricing = createRepairPricing(repairCosts);
-    createFragmentApp(() => (
-      <>
-        {blueprint.value !== undefined && damage.value !== undefined && (
-          <PrunLink command={`XIT BPRC ${blueprint.value.naturalId} ${damage.value * 100}`}>
-            {formatCurrency(repairPricing.totalPrice.value, fixed0)}
-          </PrunLink>
-        )}
-      </>
-    )).appendTo(damageSpan);
-
-    const overallPrice = computed(
+  watch(
+    computed(
       () =>
         (stlPricing.totalPrice.value ?? 0) +
         (ftlPricing.totalPrice.value ?? 0) +
         (repairPricing.totalPrice.value ?? 0),
-    );
+    ),
+    x => (overallPrice.value = x),
+  );
 
-    const overallSpan = createReactiveSpan(
-      destinationCell,
+  subscribe($$(table, 'tr'), row => {
+    processSummaryRow(
+      row,
+      segmentColumnIndex,
+      damageColumnIndex,
+      fuelColumnIndex,
+      damage,
+      blueprint,
+      stlPricing,
+      ftlPricing,
+      repairPricing,
+    );
+  });
+}
+
+function processSummaryRow(
+  row: HTMLTableRowElement,
+  segmentColumnIndex: number,
+  damageColumnIndex: number,
+  fuelColumnIndex: number,
+  damage: Ref<number | undefined>,
+  blueprint: Ref<PrunApi.Blueprint | undefined>,
+  stlPricing: ReturnType<typeof createMaterialPrice>,
+  ftlPricing: ReturnType<typeof createMaterialPrice>,
+  repairPricing: ReturnType<typeof createRepairPricing>,
+) {
+  const segmentIndex = refTextContent(row.children[segmentColumnIndex]);
+  if (segmentIndex.value !== '') {
+    return;
+  }
+  const damageCell = row.children[damageColumnIndex];
+  const fuelCell = row.children[fuelColumnIndex];
+
+  const stlSpan = fuelCell.firstElementChild?.firstElementChild;
+
+  if (stlSpan) {
+    const costSpan = createReactiveSpan(
+      stlSpan,
       computed(() =>
-        ftlPricing.totalPrice.value !== 0
-          ? `${formatCurrency(overallPrice.value, fixed0)} `
+        stlPricing.totalPrice.value !== 0
+          ? ` ${formatCurrency(stlPricing.totalPrice.value, fixed0)}`
           : undefined,
       ),
     );
-    destinationCell.prepend(overallSpan);
-  });
+    stlSpan.appendChild(costSpan);
+  }
+
+  const ftlSpan = fuelCell.firstElementChild?.lastElementChild;
+
+  if (ftlSpan) {
+    const costSpan = createReactiveSpan(
+      ftlSpan,
+      computed(() =>
+        ftlPricing.totalPrice.value !== 0
+          ? ` ${formatCurrency(ftlPricing.totalPrice.value, fixed0)}`
+          : undefined,
+      ),
+    );
+    ftlSpan.appendChild(costSpan);
+  }
+
+  createFragmentApp(() => (
+    <>
+      {blueprint.value !== undefined && damage.value !== undefined && (
+        <PrunLink command={`XIT BPRC ${blueprint.value.naturalId} ${damage.value * 100}`}>
+          {formatCurrency(repairPricing.totalPrice.value, fixed0)}
+        </PrunLink>
+      )}
+    </>
+  )).appendTo(damageCell);
 }
 
 function getFlightOrPlan(ship: PrunApi.Ship | undefined, planId: string | null) {
