@@ -59,7 +59,7 @@ const repairCosts = computed(() =>
       <NumericInput
         :model-value="threshold"
         @input="
-          damage =
+          threshold =
             $event.target.value === ''
               ? 0
               : isNaN(+$event.target.value)
