@@ -32,7 +32,9 @@ const blueprint = computed(() =>
 );
 
 const repairCosts = computed(() =>
-  blueprint.value !== undefined ? calculateRepairCosts(blueprint.value, damage.value / 100) : [],
+  blueprint.value !== undefined
+    ? calculateRepairCosts(blueprint.value, damage.value / 100, threshold.value / 100)
+    : [],
 );
 // The NumericInputs warn about non-NaN strings when you try to use a formula.
 // I'm not sure how to get around this.
@@ -59,7 +61,7 @@ const repairCosts = computed(() =>
       <NumericInput
         :model-value="threshold"
         @input="
-          damage =
+          threshold =
             $event.target.value === ''
               ? 0
               : isNaN(+$event.target.value)
