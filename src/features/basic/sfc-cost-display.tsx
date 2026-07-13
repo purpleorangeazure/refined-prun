@@ -12,16 +12,18 @@ import { getPrice } from '@src/infrastructure/fio/cx';
 import { fixed02, formatCurrency } from '@src/utils/format';
 import { sumBy } from '@src/utils/sum-by';
 import { flightPlansStore } from '@src/infrastructure/prun-api/data/flight-plans';
+import { calculateRepairCosts } from '@src/core/ship-repair';
 
 function onTileReady(tile: PrunTile) {
   const ship = computed(() => shipsStore.getByRegistration(tile.parameter));
   const blueprint = computed(() => blueprintsStore.getByNaturalId(ship.value?.blueprintNaturalId));
-  void prepareBlueprintFetchButton(tile, blueprint);
+  void prepareBlueprintFetchButton(tile, ship, blueprint);
   subscribe($$(tile.anchor, C.MissionPlan.table), x => onTableReady(x, ship, blueprint));
 }
 
 async function prepareBlueprintFetchButton(
   tile: PrunTile,
+  ship: Ref<PrunApi.Ship | undefined>,
   blueprint: Ref<PrunApi.Blueprint | undefined>,
 ) {
   const cmdRow = await $(tile.anchor, C.FormComponent.containerCommand);
@@ -29,7 +31,14 @@ async function prepareBlueprintFetchButton(
   createFragmentApp(() => (
     <span>
       {blueprint.value === undefined && (
-        <PrunButton neutral onClick={() => showBuffer('BLU', { autoClose: true, force: true })}>
+        <PrunButton
+          neutral
+          onClick={() =>
+            showBuffer(`BLU ${ship.value?.blueprintNaturalId ?? ''}`, {
+              autoClose: true,
+              force: true,
+            })
+          }>
           CALCULATE COSTS
         </PrunButton>
       )}
@@ -165,75 +174,6 @@ function onRowReady(
     );
     span.appendChild(costSpan);
   }
-}
-
-// All numbers derived from "PrUn Ship Repair Calc" Sheet by RNGZero.
-const RecommendedRepairThreshold = 0.8;
-
-const ShieldFactors = {
-  HEAT_SHIELD_BASIC: 0.05,
-  HEAT_SHIELD_ADVANCED: 0.15,
-  WHIPPLE_SHIELD_BASIC: 0.05,
-  WHIPPLE_SHIELD_ADVANCED: 0.15,
-  RADIATION_SHIELD_BASIC: 0.05,
-  RADIATION_SHIELD_ADVANCED: 0.1,
-  RADIATION_SHIELD_SPECIALIZED: 0.15,
-};
-
-const DroneRepairAmount = {
-  REPAIR_DRONES_SMALL: 2,
-  REPAIR_DRONES_LARGE: 4,
-};
-
-const UniversalDamageFactor = 0.75;
-const ShieldingDamageFactor = 0.662;
-
-function calculateRepairCosts(
-  blueprint: PrunApi.Blueprint,
-  damage: number,
-): PrunApi.MaterialAmount[] {
-  const damageOfRecommended = damage / (1 - RecommendedRepairThreshold);
-  const plating = blueprint.selections.find(x => x.type === 'HULL_TYPE')!;
-  const shielding = {
-    heat: blueprint.selections.find(x => x.type === 'HEAT_SHIELD')!,
-    whipple: blueprint.selections.find(x => x.type === 'WHIPPLE_SHIELD')!,
-    radiation: blueprint.selections.find(x => x.type === 'RADIATION_SHIELD')!,
-  };
-  const drones = blueprint.selections.find(x => x.type === 'REPAIR_DRONES')!;
-  const shieldingFactor =
-    1 -
-    (ShieldFactors[shielding.heat.option] ?? 0) +
-    (ShieldFactors[shielding.whipple.option] ?? 0) +
-    (ShieldFactors[shielding.radiation.option] ?? 0);
-
-  const plateCost = {
-    material: materialsStore.getByName(plating.optionMaterialName),
-    amount: plating.amount * damage * UniversalDamageFactor * shieldingFactor,
-  };
-
-  const shieldingCosts = Object.values(shielding).map(x => ({
-    material: materialsStore.getByName(x.optionMaterialName),
-    amount: x.amount * damage * UniversalDamageFactor * ShieldingDamageFactor,
-  }));
-
-  const droneCost = {
-    material: materialsStore.getByTicker('DRF'),
-    amount: DroneRepairAmount[drones.option] ?? 0,
-  };
-
-  return [
-    {
-      material: materialsStore.getByTicker('MFK'),
-      amount: 12 * damageOfRecommended,
-    },
-    {
-      material: materialsStore.getByTicker('FLP'),
-      amount: 8 * damageOfRecommended,
-    },
-    plateCost,
-    ...shieldingCosts,
-    droneCost,
-  ].filter(x => x.material !== undefined) as PrunApi.MaterialAmount[];
 }
 
 function init() {
