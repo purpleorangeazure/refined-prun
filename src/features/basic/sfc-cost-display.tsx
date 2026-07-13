@@ -1,6 +1,6 @@
 import { refTextContent } from '@src/utils/reactive-dom';
 import { shipsStore } from '@src/infrastructure/prun-api/data/ships';
-import { flightsStore, getFlightSegment } from '@src/infrastructure/prun-api/data/flights';
+import { flightsStore } from '@src/infrastructure/prun-api/data/flights';
 import { createReactiveSpan } from '@src/utils/reactive-element';
 import { refPrunId } from '@src/infrastructure/prun-ui/attributes';
 import { blueprintsStore } from '@src/infrastructure/prun-api/data/blueprints';
@@ -9,10 +9,11 @@ import Material = PrunApi.Material;
 import PrunButton from '@src/components/PrunButton.vue';
 import { showBuffer } from '@src/infrastructure/prun-ui/buffers';
 import { getPrice } from '@src/infrastructure/fio/cx';
-import { fixed02, formatCurrency } from '@src/utils/format';
+import { fixed0, formatCurrency } from '@src/utils/format';
 import { sumBy } from '@src/utils/sum-by';
 import { flightPlansStore } from '@src/infrastructure/prun-api/data/flight-plans';
 import { calculateRepairCosts } from '@src/core/ship-repair';
+import PrunLink from '@src/components/PrunLink.vue';
 
 function onTileReady(tile: PrunTile) {
   const ship = computed(() => shipsStore.getByRegistration(tile.parameter));
@@ -52,6 +53,11 @@ async function onTableReady(
   blueprint: Ref<PrunApi.Blueprint | undefined>,
 ) {
   const planId = refPrunId(table);
+  const flightOrPlan = computed(() =>
+    ship.value?.flightId !== undefined
+      ? (flightsStore.getById(ship.value.flightId) ?? flightPlansStore.getById(planId.value))
+      : flightPlansStore.getById(planId.value),
+  );
   const headerRow = await $(table, 'thead');
   if (!headerRow.firstElementChild) {
     return;
@@ -60,56 +66,25 @@ async function onTableReady(
   const segmentColumnIndex = headers.findIndex(x =>
     x.textContent.includes(L.FlightPlan.index() ?? '#'),
   );
+  const destinationColumnIndex = headers.findIndex(x =>
+    x.textContent.includes(L.FlightPlan.destination() ?? 'Destination'),
+  );
   const damageColumnIndex = headers.findIndex(x =>
     x.textContent.includes(L.FlightPlan.damage() ?? 'Damage'),
   );
   const fuelColumnIndex = headers.findIndex(x =>
     x.textContent.includes(L.FlightPlan.consumption() ?? 'Consumption'),
   );
-  subscribe($$(table, 'tr'), x =>
-    onRowReady(x, ship, planId, blueprint, segmentColumnIndex, damageColumnIndex, fuelColumnIndex),
-  );
-}
-
-function onRowReady(
-  row: HTMLElement,
-  ship: Ref<PrunApi.Ship | undefined>,
-  planId: Ref<string | null>,
-  blueprint: Ref<PrunApi.Blueprint | undefined>,
-  segmentColumnIndex: number,
-  damageColumnIndex: number,
-  fuelColumnIndex: number,
-) {
-  const segmentIndex = refTextContent(row.children[segmentColumnIndex]);
-  const damageCell = row.children[damageColumnIndex];
-  const fuelCell = row.children[fuelColumnIndex];
-  const flightOrPlan = computed(() =>
-    ship.value?.flightId !== undefined
-      ? (flightsStore.getById(ship.value.flightId) ?? flightPlansStore.getById(planId.value))
-      : flightPlansStore.getById(planId.value),
-  );
   const stlFuelConsumption = computed(() =>
-    segmentIndex.value !== ''
-      ? (getFlightSegment(ship.value, segmentIndex.value, planId.value)?.stlFuelConsumption ??
-        undefined)
-      : sumBy(flightOrPlan.value?.segments, x => x.stlFuelConsumption ?? 0),
+    sumBy(flightOrPlan.value?.segments, x => x.stlFuelConsumption ?? 0),
   );
   const ftlFuelConsumption = computed(() =>
-    segmentIndex.value !== ''
-      ? (getFlightSegment(ship.value, segmentIndex.value, planId.value)?.ftlFuelConsumption ??
-        undefined)
-      : sumBy(flightOrPlan.value?.segments, x => x.ftlFuelConsumption ?? 0),
+    sumBy(flightOrPlan.value?.segments, x => x.ftlFuelConsumption ?? 0),
   );
-  const damage = computed(() =>
-    segmentIndex.value !== ''
-      ? getFlightSegment(ship.value, segmentIndex.value, planId.value)?.damage
-      : sumBy(flightOrPlan.value?.segments, x => x.damage),
-  );
-  const stlFuel = materialsStore.getByTicker('SF');
-  const ftlFuel = computed(
-    () => blueprint.value?.performance['ftlFuelMaterial'] as Material | undefined,
-  );
+  const damage = computed(() => sumBy(flightOrPlan.value?.segments, x => x.damage));
+
   const stlCost = computed<PrunApi.MaterialAmount | undefined>(() => {
+    const stlFuel = materialsStore.getByTicker('SF');
     if (stlFuel !== undefined && stlFuelConsumption.value !== undefined) {
       return {
         material: stlFuel,
@@ -119,47 +94,67 @@ function onRowReady(
     return undefined;
   });
   const ftlCost = computed<PrunApi.MaterialAmount | undefined>(() => {
-    if (ftlFuel.value !== undefined && ftlFuelConsumption.value !== undefined) {
+    const ftlFuel = blueprint.value?.performance['ftlFuelMaterial'] as Material | undefined;
+    if (ftlFuel !== undefined && ftlFuelConsumption.value !== undefined) {
       return {
-        material: ftlFuel.value,
+        material: ftlFuel,
         amount: ftlFuelConsumption.value,
       };
     }
     return undefined;
   });
+
   const repairCosts = computed(() =>
     damage.value !== undefined && blueprint.value !== undefined
       ? calculateRepairCosts(blueprint.value, damage.value)
       : undefined,
   );
 
-  if (stlCost.value !== undefined) {
-    const span = fuelCell.firstElementChild?.firstElementChild;
-    const unitPrice = computed(() => getPrice(stlCost.value?.material.ticker));
-    const totalPrice = computed(() => (stlCost.value?.amount ?? 0) * (unitPrice.value ?? 0));
-    if (span) {
-      const costSpan = createReactiveSpan(
-        span,
-        computed(() => formatCurrency(totalPrice.value, fixed02)),
-      );
-      span.appendChild(costSpan);
+  subscribe($$(table, 'tr'), row => {
+    const segmentIndex = refTextContent(row.children[segmentColumnIndex]);
+    if (segmentIndex.value !== '') {
+      return;
     }
-  }
-  if (ftlCost.value !== undefined) {
-    const span = fuelCell.firstElementChild?.lastElementChild;
-    const unitPrice = computed(() => getPrice(ftlCost.value?.material.ticker));
-    const totalPrice = computed(() => (ftlCost.value?.amount ?? 0) * (unitPrice.value ?? 0));
-    if (span) {
+    const destinationCell = row.children[destinationColumnIndex];
+    const damageCell = row.children[damageColumnIndex];
+    const fuelCell = row.children[fuelColumnIndex];
+
+    const stlSpan = fuelCell.firstElementChild?.firstElementChild;
+    const stlUnitPrice = computed(() => getPrice(stlCost.value?.material.ticker));
+    const stlTotalPrice = computed(() =>
+      stlCost.value !== undefined && stlUnitPrice.value !== undefined
+        ? stlCost.value?.amount * stlUnitPrice.value
+        : undefined,
+    );
+    if (stlSpan) {
       const costSpan = createReactiveSpan(
-        span,
-        computed(() => formatCurrency(totalPrice.value, fixed02)),
+        stlSpan,
+        computed(() =>
+          stlTotalPrice.value !== 0 ? ` ${formatCurrency(stlTotalPrice.value, fixed0)}` : undefined,
+        ),
       );
-      span.appendChild(costSpan);
+      stlSpan.appendChild(costSpan);
     }
-  }
-  if (repairCosts.value !== undefined) {
-    const span = damageCell;
-    const prices = computed(() =>
+
+    const ftlSpan = fuelCell.firstElementChild?.lastElementChild;
+    const ftlUnitPrice = computed(() => getPrice(ftlCost.value?.material.ticker));
+    const ftlTotalPrice = computed(() =>
+      ftlCost.value !== undefined && ftlUnitPrice.value !== undefined
+        ? ftlCost.value?.amount * ftlUnitPrice.value
+        : undefined,
+    );
+    if (ftlSpan) {
+      const costSpan = createReactiveSpan(
+        ftlSpan,
+        computed(() =>
+          ftlTotalPrice.value !== 0 ? ` ${formatCurrency(ftlTotalPrice.value, fixed0)}` : undefined,
+        ),
+      );
+      ftlSpan.appendChild(costSpan);
+    }
+
+    const damageSpan = damageCell;
+    const repairPrices = computed(() =>
       repairCosts.value?.map(x => ({
         material: x.material,
         amount: x.amount,
@@ -167,16 +162,36 @@ function onRowReady(
         totalPrice: (getPrice(x.material.ticker) ?? 0) * x.amount,
       })),
     );
-    const totalPrice = computed(() => sumBy(prices.value, x => x.totalPrice));
-    const costSpan = createReactiveSpan(
-      span,
-      computed(() => formatCurrency(totalPrice.value, fixed02)),
+    const repairTotalPrice = computed(() => sumBy(repairPrices.value, x => x.totalPrice));
+    createFragmentApp(() => (
+      <>
+        {blueprint.value !== undefined && damage.value !== undefined && (
+          <PrunLink command={`XIT BPRC ${blueprint.value.naturalId} ${damage.value * 100}`}>
+            {formatCurrency(repairTotalPrice.value, fixed0)}
+          </PrunLink>
+        )}
+      </>
+    )).appendTo(damageSpan);
+
+    const overallPrice = computed(
+      () => (stlTotalPrice.value ?? 0) + (ftlTotalPrice.value ?? 0) + (repairTotalPrice.value ?? 0),
     );
-    span.appendChild(costSpan);
-  }
+
+    const overallSpan = createReactiveSpan(
+      destinationCell,
+      computed(() =>
+        ftlTotalPrice.value !== 0 ? `${formatCurrency(overallPrice.value, fixed0)} ` : undefined,
+      ),
+    );
+    destinationCell.prepend(overallSpan);
+  });
 }
 
 function init() {
+  applyLocalizationPatch(L.FuelConsumption.label, () => '{amount, number} {label} {percentage}');
+  applyLocalizationPatch(L.FuelUnits.stl, () => 'SF');
+  applyLocalizationPatch(L.FuelUnits.ftl, () => 'FF');
+  applyLocalizationPatch(L.FuelUnits.vortex, () => 'VF');
   tiles.observe('SFC', onTileReady);
 }
 
