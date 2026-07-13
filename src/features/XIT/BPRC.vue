@@ -32,12 +32,7 @@ const blueprint = computed(() =>
 );
 
 const repairCosts = computed(() =>
-  blueprint.value !== undefined
-    ? calculateRepairCosts(blueprint.value, damage.value / 100).map(x => ({
-        ...x,
-        amount: Math.ceil(x.amount),
-      }))
-    : [],
+  blueprint.value !== undefined ? calculateRepairCosts(blueprint.value, damage.value / 100) : [],
 );
 // The NumericInputs warn about non-NaN strings when you try to use a formula.
 // I'm not sure how to get around this.
@@ -73,7 +68,7 @@ const repairCosts = computed(() =>
         " />
     </Active>
   </form>
-  <MaterialPurchaseTable :materials="repairCosts" />
+  <MaterialPurchaseTable :precise-materials="true" :materials="repairCosts" />
 </template>
 
 <style module></style>

@@ -6,9 +6,10 @@ import { sortMaterialAmounts } from '@src/core/sort-materials';
 import { showBuffer } from '@src/infrastructure/prun-ui/buffers';
 import PrunButton from '@src/components/PrunButton.vue';
 
-const { collapsedByDefault, collapsible, materials } = defineProps<{
+const { collapsedByDefault, collapsible, preciseMaterials, materials } = defineProps<{
   collapsedByDefault?: boolean;
   collapsible?: boolean;
+  preciseMaterials?: boolean;
   materials: PrunApi.MaterialAmount[];
 }>();
 
@@ -23,6 +24,8 @@ function calculateWeight(amount: PrunApi.MaterialAmount) {
 function calculateVolume(amount: PrunApi.MaterialAmount) {
   return (amount.material?.volume ?? 0) * amount.amount;
 }
+
+const materialAmountFormat = preciseMaterials ? fixed2 : fixed0;
 </script>
 
 <template>
@@ -55,7 +58,7 @@ function calculateVolume(amount: PrunApi.MaterialAmount) {
         <td :class="$style.materialCell">
           <MaterialIcon size="inline-table" ticker="MCG" />
         </td>
-        <td>{{ fixed0(100000) }}</td>
+        <td>{{ materialAmountFormat(100000) }}</td>
         <td>{{ formatCurrency(1000000) }}</td>
         <td>{{ fixed2(1000.01) }}t</td>
         <td>{{ fixed2(1000.01) }}m³</td>
@@ -69,7 +72,7 @@ function calculateVolume(amount: PrunApi.MaterialAmount) {
         <td :class="$style.materialCell">
           <MaterialIcon size="inline-table" :ticker="material.material.ticker" />
         </td>
-        <td>{{ fixed0(material.amount) }}</td>
+        <td>{{ materialAmountFormat(material.amount) }}</td>
         <td>{{ formatCurrency(calcMaterialAmountPrice(material)) }}</td>
         <td>{{ fixed2(calculateWeight(material)) }}t</td>
         <td>{{ fixed2(calculateVolume(material)) }}m³</td>
