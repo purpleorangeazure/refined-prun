@@ -1,7 +1,6 @@
 import { getPrunId } from '@src/infrastructure/prun-ui/attributes';
 import { localAdsStore } from '@src/infrastructure/prun-api/data/local-ads';
 import { extractPlanetName } from '@src/util';
-import { applyLocalizationPatch } from '@src/infrastructure/prun-ui/i18n';
 
 function onTileReady(tile: PrunTile) {
   subscribe($$(tile.anchor, C.CommodityAd.container), async container => {
@@ -72,18 +71,7 @@ function cleanContractType(text: HTMLElement, ad: PrunApi.LocalAd) {
 }
 
 function init() {
-  // Tiles.observe('LM', onTileReady);
-  applyLocalizationPatch(L.CommodityShippingAd.text.perspectiveSender, {
-    en: () =>
-      '{action} {amount} {commodity} @ {price} from {origin} to {destination} in {adviceTime}',
-  });
-  applyLocalizationPatch(L.CommodityShippingAd.text.perspectiveShipper, {
-    en: () =>
-      '{action} {weight}t / {volume}m³ @ {price} from {origin} to {destination} in {adviceTime}',
-  });
-  applyLocalizationPatch(L.CommodityAd.text, {
-    en: () => '{action} {amount} {commodity} ({ticker}) @ {price} {advice} in {adviceTime}',
-  });
+  tiles.observe('LM', onTileReady);
 }
 
 features.add(import.meta.url, init, 'LM: Hides redundant information from ads.');
