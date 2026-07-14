@@ -11,12 +11,12 @@ const ShieldFactors = {
   RADIATION_SHIELD_BASIC: 0.05,
   RADIATION_SHIELD_ADVANCED: 0.1,
   RADIATION_SHIELD_SPECIALIZED: 0.15,
-};
+} as const;
 
 const DroneRepairAmount = {
   REPAIR_DRONES_SMALL: 2,
   REPAIR_DRONES_LARGE: 4,
-};
+} as const;
 
 const UniversalDamageFactor = 0.75;
 const ShieldingDamageFactor = 0.662;
@@ -35,7 +35,7 @@ export function calculateRepairCosts(
     radiation: blueprint.selections.find(x => x.type === 'RADIATION_SHIELD')!,
   };
   const drones = blueprint.selections.find(x => x.type === 'REPAIR_DRONES')!;
-  const shieldingFactor =
+  const shieldingFactor: number =
     1 -
     (ShieldFactors[shielding.heat.option] ?? 0) +
     (ShieldFactors[shielding.whipple.option] ?? 0) +

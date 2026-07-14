@@ -45,7 +45,7 @@ const repairCosts = computed(() =>
     <Active label="Blueprint">
       <SelectInput v-model="blueprintNaturalId" :options="blueprintOptions" />
     </Active>
-    <Active label="Damage">
+    <Active label="Damage (%)">
       <NumericInput
         :model-value="damage"
         @input="
@@ -57,7 +57,7 @@ const repairCosts = computed(() =>
                 : +$event.target.value
         " />
     </Active>
-    <Active label="Repair threshold">
+    <Active label="Repair threshold (%)">
       <NumericInput
         :model-value="threshold"
         @input="
@@ -70,7 +70,7 @@ const repairCosts = computed(() =>
         " />
     </Active>
   </form>
-  <MaterialPurchaseTable :precise-materials="true" :materials="repairCosts" />
+  <MaterialPurchaseTable :precise-amounts="true" :materials="repairCosts" />
 </template>
 
 <style module></style>

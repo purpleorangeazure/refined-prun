@@ -6,10 +6,10 @@ import { sortMaterialAmounts } from '@src/core/sort-materials';
 import { showBuffer } from '@src/infrastructure/prun-ui/buffers';
 import PrunButton from '@src/components/PrunButton.vue';
 
-const { collapsedByDefault, collapsible, preciseMaterials, materials } = defineProps<{
+const { collapsedByDefault, collapsible, preciseAmounts, materials } = defineProps<{
   collapsedByDefault?: boolean;
   collapsible?: boolean;
-  preciseMaterials?: boolean;
+  preciseAmounts?: boolean;
   materials: PrunApi.MaterialAmount[];
 }>();
 
@@ -25,7 +25,7 @@ function calculateVolume(amount: PrunApi.MaterialAmount) {
   return (amount.material?.volume ?? 0) * amount.amount;
 }
 
-const materialAmountFormat = preciseMaterials ? fixed2 : fixed0;
+const materialAmountFormat = preciseAmounts ? fixed2 : fixed0;
 </script>
 
 <template>
