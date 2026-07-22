@@ -45,6 +45,33 @@ export function focusElement(input: HTMLElement) {
   input.dispatchEvent(event);
 }
 
+export async function selectMaterialInMaterialSelector(baseElement: Element, ticker: string) {
+  let container = baseElement;
+  if (!container.classList.contains(C.MaterialSelector.container)) {
+    container = await $(baseElement, C.MaterialSelector.container);
+  }
+  const input = await $(container, 'input');
+
+  const suggestionsContainer = await $(container, C.MaterialSelector.suggestionsContainer);
+  focusElement(input);
+  changeInputValue(input, ticker);
+
+  const suggestionsList = await $(container, C.MaterialSelector.suggestionsList);
+  suggestionsContainer.style.display = 'none';
+  const match = _$$(suggestionsList, C.MaterialSelector.suggestionEntry).find(
+    x => _$(x, C.ColoredIcon.label)?.textContent === ticker,
+  );
+
+  if (!match) {
+    suggestionsContainer.style.display = '';
+    return false;
+  }
+
+  await clickElement(match);
+  suggestionsContainer.style.display = '';
+  return true;
+}
+
 // A function to compare two planets (to be used in .sort() functions)
 export function comparePlanets(idOrNameA: string, idOrNameB: string) {
   const planetA = planetsStore.find(idOrNameA);
@@ -92,7 +119,7 @@ export function comparePlanets(idOrNameA: string, idOrNameB: string) {
   if (isPlanetANamed && !isPlanetBNamed) {
     return -1;
   }
-  if (isPlanetANamed && !isPlanetBNamed) {
+  if (isPlanetBNamed && !isPlanetANamed) {
     return 1;
   }
 
