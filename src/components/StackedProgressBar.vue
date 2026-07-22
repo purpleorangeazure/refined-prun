@@ -5,6 +5,7 @@ const { danger, good, warning, max, sections } = defineProps<{
   warning?: boolean;
   max: number;
   sections: {
+    label?: string;
     value: number;
     class: string;
   }[];
@@ -34,6 +35,9 @@ const progressClass = computed(() => ({
     <div
       v-for="(section, index) in sections"
       :key="index"
+      :data-tooltip="
+        `${section.label ?? ''}\n${section.value} (${(section.value / max) * 100}%)`.trim()
+      "
       :class="[$style.stackedProgressSection, section.class]"
       :style="{ width: (section.value / max) * 100 + '%' }" />
   </div>
