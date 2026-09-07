@@ -60,6 +60,89 @@ function fixZOrder() {
   applyCssRule(`.${C.ScrollView.track}`, $style.scrollTrack);
 }
 
+function prepareTooltips() {
+  if (document.getElementById('rp-tooltip')) {
+    return;
+  }
+  const tooltip = document.createElement('div');
+  tooltip.id = 'rp-tooltip';
+  tooltip.popover = 'auto';
+  tooltip.classList.add($style.popoverTooltip, C.fonts.fontRegular);
+  document.documentElement.appendChild(tooltip);
+  let activeTarget: Element | null = null;
+  function showTooltip(target: Element) {
+    const text = target.getAttribute('data-tooltip');
+    if (!text) {
+      return;
+    }
+    activeTarget = target;
+    tooltip.textContent = text;
+    const rect = target.getBoundingClientRect();
+    let left = rect.left + rect.width / 2;
+    let top = rect.bottom - 10;
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${top}px`;
+    tooltip.style.transform = 'translateX(-50%)';
+    tooltip.showPopover();
+    // Prevent window from clipping the tooltip:
+    const tooltipRect = tooltip.getBoundingClientRect();
+    left = Math.min(left, window.innerWidth - tooltipRect.width);
+    if (top + tooltipRect.height > window.innerHeight) {
+      top = rect.top - tooltipRect.height;
+    }
+    top = Math.min(top, window.innerHeight - tooltipRect.height);
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${top}px`;
+  }
+  function hideTooltip(target: Element) {
+    if (target !== activeTarget) {
+      return;
+    }
+    activeTarget = null;
+    tooltip.hidePopover();
+  }
+  document.addEventListener('pointerover', e => {
+    if (!(e.target instanceof Element)) {
+      return;
+    }
+    const target = e.target.closest('[data-tooltip]');
+    if (!target || activeTarget === target) {
+      return;
+    }
+    showTooltip(target);
+  });
+  document.addEventListener('pointerout', e => {
+    if (!(e.target instanceof Element)) {
+      return;
+    }
+    const target = e.target.closest('[data-tooltip]');
+    if (!target || (e.relatedTarget instanceof Node && target.contains(e.relatedTarget))) {
+      return;
+    }
+    hideTooltip(target);
+  });
+  document.addEventListener('focusin', e => {
+    if (!(e.target instanceof Element)) {
+      return;
+    }
+    const target = e.target.closest('[data-tooltip]');
+    if (!target || activeTarget === target) {
+      return;
+    }
+    showTooltip(target);
+  });
+  document.addEventListener('focusout', e => {
+    if (!(e.target instanceof Element)) {
+      return;
+    }
+    const target = e.target.closest('[data-tooltip]');
+    if (!target || (e.relatedTarget instanceof Node && target.contains(e.relatedTarget))) {
+      return;
+    }
+    hideTooltip(target);
+  });
+}
+
 function fixSliders() {
   applyCssRule('.rc-slider-dot', $style.rcSliderDotFixes);
   applyCssRule('.rc-slider-handle', $style.rcSliderHandleFixes);
@@ -137,6 +220,10 @@ function init() {
   applyCssRule('[data-tooltip-position="bottom"]', $style.tooltipBottom);
   applyCssRule('[data-tooltip-position="right"]', $style.tooltipRight);
 
+  // Fix tooltip clipping
+  applyCssRule('[data-tooltip]', $style.hideTooltip);
+
+  prepareTooltips();
   tiles.observe('POPID', disableInvalidPopidSliders);
 }
 
