@@ -75,23 +75,100 @@ function prepareTooltips() {
     if (!text) {
       return;
     }
+
     activeTarget = target;
     tooltip.textContent = text;
-    const rect = target.getBoundingClientRect();
-    let left = rect.left + rect.width / 2;
-    let top = rect.bottom - 10;
-    tooltip.style.left = `${left}px`;
-    tooltip.style.top = `${top}px`;
+    // Reset the tooltip position to maintain deterministic behavior.
+    tooltip.style.left = '0px';
+    tooltip.style.top = '0px';
     tooltip.showPopover();
-    // Prevent window from clipping the tooltip:
+
+    const targetRect = target.getBoundingClientRect();
     const tooltipRect = tooltip.getBoundingClientRect();
-    left = Math.min(left, window.innerWidth - tooltipRect.width);
-    if (top + tooltipRect.height > window.innerHeight) {
-      top = rect.top - tooltipRect.height;
-    }
-    top = Math.min(top, window.innerHeight - tooltipRect.height);
+    // Gap between tooltip and target.
+    const gap = 8;
+    // Minimum gap between tooltip and edge of screen.
+    const padding = 4;
+    const preferred = target.getAttribute('data-tooltip-position') ?? 'bottom';
+
+    // Try the requested side first, then its opposite, then perpendicular sides.
+    const sides: string[] = {
+      top: ['top', 'bottom', 'right', 'left'],
+      right: ['right', 'left', 'bottom', 'top'],
+      bottom: ['bottom', 'top', 'right', 'left'],
+      left: ['left', 'right', 'top', 'bottom'],
+    }[preferred] ?? ['bottom', 'top', 'right', 'left'];
+
+    const position = (side: string) => {
+      switch (side) {
+        case 'top':
+          return {
+            left: targetRect.left + (targetRect.width - tooltipRect.width) / 2,
+            top: targetRect.top - tooltipRect.height - gap,
+          };
+
+        case 'right':
+          return {
+            left: targetRect.right + gap,
+            top: targetRect.top + (targetRect.height - tooltipRect.height) / 2,
+          };
+
+        case 'left':
+          return {
+            left: targetRect.left - tooltipRect.width - gap,
+            top: targetRect.top + (targetRect.height - tooltipRect.height) / 2,
+          };
+
+        case 'bottom':
+        default:
+          return {
+            left: targetRect.left + (targetRect.width - tooltipRect.width) / 2,
+            top: targetRect.bottom + gap,
+          };
+      }
+    };
+
+    const fits = (p: { left: number; top: number }) =>
+      p.left >= padding &&
+      p.top >= padding &&
+      p.left + tooltipRect.width <= window.innerWidth - padding &&
+      p.top + tooltipRect.height <= window.innerHeight - padding;
+
+    // Recursively find the first side that fits.
+    const findSide = (remaining: string[]): string => {
+      const side = remaining[0];
+
+      if (fits(position(side)) || remaining.length === 1) {
+        return side;
+      }
+
+      return findSide(remaining.slice(1));
+    };
+
+    const side = findSide(sides);
+    let { left, top } = position(side);
+
+    // If nothing fits, keep the chosen side but clamp the tooltip.
+    left = Math.max(padding, Math.min(left, window.innerWidth - tooltipRect.width - padding));
+
+    top = Math.max(padding, Math.min(top, window.innerHeight - tooltipRect.height - padding));
+
     tooltip.style.left = `${left}px`;
     tooltip.style.top = `${top}px`;
+    tooltip.dataset.rpTooltipSide = side;
+    const arrowPadding = 8;
+
+    const arrowOffset =
+      side === 'top' || side === 'bottom'
+        ? targetRect.left + targetRect.width / 2 - left
+        : targetRect.top + targetRect.height / 2 - top;
+
+    const clampedArrowOffset =
+      side === 'top' || side === 'bottom'
+        ? Math.max(arrowPadding, Math.min(arrowOffset, tooltipRect.width - arrowPadding))
+        : Math.max(arrowPadding, Math.min(arrowOffset, tooltipRect.height - arrowPadding));
+
+    tooltip.style.setProperty('--rp-tooltip-arrow-offset', `${clampedArrowOffset}px`);
   }
   function hideTooltip(target: Element) {
     if (target !== activeTarget) {
