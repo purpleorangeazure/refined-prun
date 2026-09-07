@@ -111,6 +111,9 @@ async function visualizeContribution(
       ? $style.contributionSection
       : $style.negativeContributionSection,
   );
+  const contributionLabel = computed(() =>
+    clampedContributionValue.value >= 0 ? 'Contribution' : 'Withdrawal',
+  );
   const adjReserveValue = computed(() =>
     clampedContributionValue.value >= 0
       ? clampedReserveValue.value
@@ -124,10 +127,12 @@ async function visualizeContribution(
       max: progressBarMax,
       sections: [
         {
+          label: 'Reserve',
           value: adjReserveValue,
           class: $style.reserveSection,
         },
         {
+          label: contributionLabel,
           value: adjContributionValue,
           class: contributionStyle,
         },
