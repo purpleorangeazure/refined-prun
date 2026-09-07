@@ -82,7 +82,6 @@ function prepareTooltips() {
     let top = rect.bottom - 10;
     tooltip.style.left = `${left}px`;
     tooltip.style.top = `${top}px`;
-    tooltip.style.transform = 'translateX(-50%)';
     tooltip.showPopover();
     // Prevent window from clipping the tooltip:
     const tooltipRect = tooltip.getBoundingClientRect();
