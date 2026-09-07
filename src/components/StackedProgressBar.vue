@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { fixed0, fixed02 } from '@src/utils/format';
+
 const { danger, good, warning, max, sections } = defineProps<{
   danger?: boolean;
   good?: boolean;
@@ -33,10 +35,10 @@ const progressClass = computed(() => ({
     :aria-valuenow="value"
     :aria-valuemax="max">
     <div
-      v-for="(section, index) in sections"
+      v-for="(section, index) in sections.filter(x => x.value > 0)"
       :key="index"
       :data-tooltip="
-        `${section.label ?? ''}\n${section.value} (${(section.value / max) * 100}%)`.trim()
+        `${section.label ? `${section.label}: ` : ''}${fixed02(section.value)} (${fixed0((section.value / max) * 100)}%)`.trim()
       "
       :class="[$style.stackedProgressSection, section.class]"
       :style="{ width: (section.value / max) * 100 + '%' }" />
