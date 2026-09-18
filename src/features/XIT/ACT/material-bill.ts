@@ -1,7 +1,6 @@
 // Prices are per unit in the currency of the action's target exchange.
 import { materialsStore } from '@src/infrastructure/prun-api/data/materials';
-
-export type MaterialBill = Record<string, { quantity: number; price?: number }>;
+import MaterialBill = UserData.MaterialBill;
 
 export function materialBillFromQuantities(quantities: Record<string, number>): MaterialBill {
   const materials: MaterialBill = {};

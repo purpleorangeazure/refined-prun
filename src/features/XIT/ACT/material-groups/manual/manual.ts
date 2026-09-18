@@ -1,8 +1,6 @@
 import { act } from '@src/features/XIT/ACT/act-registry';
-import { fixed0 } from '@src/utils/format';
+import { fixed0, fixed2 } from '@src/utils/format';
 import Edit from '@src/features/XIT/ACT/material-groups/manual/Edit.vue';
-
-import { materialBillFromQuantities } from '@src/features/XIT/ACT/material-bill';
 
 act.addMaterialGroup({
   type: 'Manual',
@@ -14,7 +12,10 @@ act.addMaterialGroup({
     }
 
     return Object.keys(materials)
-      .map(ticker => `${fixed0(materials[ticker])} ${ticker}`)
+      .map(
+        ticker =>
+          `${fixed0(materials[ticker].quantity)} ${ticker} ${materials[ticker].price !== undefined ? ` @ ${fixed2(materials[ticker].price)}` : ''}`,
+      )
       .join(', ');
   },
   editComponent: Edit,
@@ -23,6 +24,6 @@ act.addMaterialGroup({
       log.error('Missing materials.');
       return undefined;
     }
-    return materialBillFromQuantities(data.materials);
+    return data.materials;
   },
 });

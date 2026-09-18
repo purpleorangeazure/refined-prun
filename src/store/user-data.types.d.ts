@@ -57,6 +57,8 @@ declare namespace UserData {
 
   type MaterialGroupType = 'Manual' | 'Resupply' | 'Repair' | 'Paste';
 
+  type MaterialBill = Record<string, { quantity: number; price?: number }>;
+
   interface MaterialGroupData {
     type: MaterialGroupType;
     name?: string;
@@ -64,7 +66,7 @@ declare namespace UserData {
     advanceDays?: number | string;
     planet?: string;
     useBaseInv?: boolean;
-    materials?: Record<string, number>;
+    materials?: MaterialBill;
     exclusions?: string[];
     consumablesOnly?: boolean;
     materialFilter?: 'All' | 'Workforce' | 'Production';

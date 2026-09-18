@@ -13,11 +13,15 @@ const materials = ref(getMaterials());
 
 function getMaterials() {
   const materials = group.materials ?? {};
-  return Object.keys(materials).map(x => [x, materials[x]]) as [string, number][];
+  return Object.keys(materials).map(x => [x, materials[x].quantity, materials[x].price]) as [
+    string,
+    number,
+    number?,
+  ][];
 }
 
 function onAddClick() {
-  materials.value.push(['', 0]);
+  materials.value.push(['', 0, undefined]);
 }
 
 function validate() {
@@ -26,12 +30,15 @@ function validate() {
 
 function save() {
   group.materials = {};
-  for (let [ticker, amount] of materials.value) {
+  for (let [ticker, amount, price] of materials.value) {
     const material = materialsStore.getByTicker(ticker);
     if (!material || amount === 0 || !isFinite(amount)) {
       continue;
     }
-    group.materials[material.ticker] = amount;
+    group.materials[material.ticker] = {
+      quantity: amount,
+      price: price,
+    };
   }
 }
 
@@ -45,6 +52,9 @@ defineExpose({ validate, save });
     </Active>
     <Active :label="`Material Amount #${i + 1}`">
       <NumberInput v-model="pair[1]" />
+    </Active>
+    <Active :label="`Material Price #${i + 1}`">
+      <NumberInput v-model="pair[2]" />
     </Active>
   </template>
   <Commands>

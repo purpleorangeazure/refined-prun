@@ -1,5 +1,5 @@
 import { Logger } from '@src/features/XIT/ACT/runner/logger';
-import { MaterialBill } from '@src/features/XIT/ACT/material-bill';
+import MaterialBill = UserData.MaterialBill;
 
 export interface ActionPackageConfig {
   materialGroups: Record<string, unknown>[];
