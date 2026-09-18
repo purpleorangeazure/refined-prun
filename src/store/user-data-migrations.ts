@@ -17,6 +17,26 @@ function isCheckpoint(entry: MigrationEntry): entry is Checkpoint {
 // The date is for reference only, and it does not affect migration order.
 const migrations: MigrationEntry[] = [
   [
+    '0.0.0 Change ACT material groups to bills',
+    userData => {
+      for (const actionPackage of userData.actionPackages) {
+        for (const materialGroup of actionPackage.groups) {
+          if (materialGroup.materials === undefined) {
+            continue;
+          }
+          for (const [ticker, value] of Object.entries(materialGroup.materials)) {
+            if (typeof value === 'number') {
+              materialGroup.materials[ticker] = {
+                quantity: value,
+                price: undefined,
+              };
+            }
+          }
+        }
+      }
+    },
+  ],
+  [
     '15.09.2026 Add govburn data',
     userData => {
       userData.govburn ??= { planets: {}, config: { planets: {} } };

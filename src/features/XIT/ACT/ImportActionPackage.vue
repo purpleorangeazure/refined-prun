@@ -36,6 +36,7 @@ function onImportClick() {
   }
   try {
     const json = JSON.parse(text.value);
+    migrateJson(json);
     if (!validateJson(json)) {
       error.value = true;
       return;
@@ -61,6 +62,20 @@ function onUploadClick() {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function validateJson(json: any) {
   return isPresent(json.global?.name);
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function migrateJson(json: any) {
+  for (const materialGroup of json.groups) {
+    for (const [ticker, value] of Object.entries(materialGroup.materials)) {
+      if (typeof value === 'number') {
+        materialGroup.materials[ticker] = {
+          quantity: value,
+          price: undefined,
+        };
+      }
+    }
+  }
 }
 </script>
 
