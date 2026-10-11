@@ -28,8 +28,8 @@ const editFormComponent = computed(() => act.getActionInfo(type.value)?.editComp
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const editForm = useTemplateRef<any>('editForm');
 
-function onSaveClick() {
-  let isValid = editForm.value.validate();
+async function onSaveClick() {
+  let isValid = await editForm.value.validate();
   nameError.value = name.value.length === 0;
   isValid &&= !nameError.value;
   if (!isValid) {
