@@ -33,7 +33,7 @@ type CsvRow = {
   price: number;
 };
 
-export function parseCSVToOrders(csv: string): CsvRow[] {
+export function parseCSVToOrders(csv: string): CsvRow[] | undefined {
   const headers = csv.substring(0, csv.indexOf('\n')).toLowerCase().split(',');
   if (
     !headers.includes('location') ||
@@ -43,7 +43,7 @@ export function parseCSVToOrders(csv: string): CsvRow[] {
     !headers.includes('price') ||
     !headers.includes('quantity')
   ) {
-    throw 'Missing CSV headers';
+    return undefined;
   }
   return parse(csv, {
     columns: header => header.map(x => x.toLowerCase()),
@@ -132,12 +132,19 @@ export function constructExchangeFromOrders(orders: CsvRow[]): PrivateExchange {
   return exchange;
 }
 
-export function pxFromCSV(csv: string): PrivateExchange {
-  return constructExchangeFromOrders(parseCSVToOrders(csv));
+export function pxFromCSV(csv: string): PrivateExchange | undefined {
+  const orders = parseCSVToOrders(csv);
+  if (orders == undefined) {
+    return undefined;
+  }
+  return constructExchangeFromOrders(orders);
 }
 
 export const OrderModes = [
-  configurableValue,
+  {
+    label: configurableValue,
+    value: configurableValue,
+  },
   {
     label: 'Full',
     value: 'full',
@@ -151,6 +158,17 @@ export const OrderModes = [
     value: 'backorder',
   },
 ];
+
+export const cxCodeContLocationMap: {
+  [k: string]: string;
+} = {
+  'Hortus Station': 'IC1',
+  'Antares Station': 'AI1',
+  'Benten Station': 'CI1',
+  'Arclight Station': 'CI2',
+  'Moria Station': 'NC1',
+  'Hubur Station': 'NC2',
+} as const;
 
 export function contLocationIsCX(location: string) {
   return [
@@ -199,7 +217,6 @@ export function fillFromPxCx({
   amount: number;
   priceLimit: number;
 }): FilledByExchange | undefined {
-  console.log(exchange, location, cx, ticker, amount, priceLimit);
   if (!exchange && !cx) {
     return undefined;
   }

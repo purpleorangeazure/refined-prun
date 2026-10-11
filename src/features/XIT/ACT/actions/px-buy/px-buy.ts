@@ -5,6 +5,7 @@ import { Config } from '@src/features/XIT/ACT/actions/px-buy/config';
 import { CXPO_BUY } from '@src/features/XIT/ACT/action-steps/CXPO_BUY';
 import {
   contLocationIsCX,
+  cxCodeContLocationMap,
   fillFromPxCx,
   normalizeLocationName,
   type PrivateExchange,
@@ -14,12 +15,13 @@ import { AssertFn, configurableValue } from '@src/features/XIT/ACT/shared-types'
 import { userData } from '@src/store/user-data';
 import { resolveLocation } from '@src/features/XIT/ACT/actions/cont-locations';
 import { CONT_TRADE } from '@src/features/XIT/ACT/action-steps/CONT_TRADE';
+import { fixed0 } from '@src/utils/format';
 
 act.addAction<Config>({
   type: 'PX Buy',
   shortDescription: 'Buy materials from a private exchange',
   description: (action, config) => {
-    if (!action.group || !action.contLocation) {
+    if (!action.group || !action.contLocation || !action.exchangeUrl) {
       return '--';
     }
 
@@ -27,7 +29,7 @@ act.addAction<Config>({
       action.contLocation === configurableValue
         ? (config?.contLocation ?? 'configured exchange')
         : action.contLocation;
-    return 'Buying group ' + action.group + ' from ' + contLocation;
+    return `Buying group ${action.group} from ${contLocation} using ${action.exchangeUrl}`;
   },
   editComponent: Edit,
   configureComponent: Configure,
@@ -77,19 +79,9 @@ act.addAction<Config>({
     assert(location, 'Invalid location');
     const locationIsCX = contLocationIsCX(location);
 
-    const cxNameMap: {
-      [k: string]: string;
-    } = {
-      'Hortus Station': 'IC1',
-      'Antares Station': 'AI1',
-      'Benten Station': 'CI1',
-      'Arclight Station': 'CI2',
-      'Moria Station': 'NC1',
-      'Hubur Station': 'NC2',
-    } as const;
-    const cx = locationIsCX ? cxNameMap[location] : undefined;
+    const cx = locationIsCX ? cxCodeContLocationMap[location] : undefined;
 
-    let exchange: PrivateExchange | undefined = undefined;
+    let exchange: PrivateExchange | undefined;
 
     try {
       const response = await fetch(exchangeUrl);
@@ -167,9 +159,10 @@ act.addAction<Config>({
         priceLimit,
       });
       if (filled) {
-        log.info(`Able to fulfill ${filled.amount} ${ticker}`);
         if (filled.amount < amount && orderMode === 'full') {
-          log.warning(`Skipping ${ticker} due to insufficient stock.`);
+          log.warning(
+            `Skipping ${ticker} due to insufficient stock: ${fixed0(filled.amount)} available of ${fixed0(amount)} requested.`,
+          );
           continue;
         }
         if (fallbackToCX && cx) {

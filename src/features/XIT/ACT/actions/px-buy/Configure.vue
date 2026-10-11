@@ -43,10 +43,11 @@ config.skip ??= false;
     </Active>
     <Active
       label="Order Mode"
-      tooltip="The method for placing orders.\nFull: Only purchase if the full quantity is available.\nPartial: Only purchase the quantity available.\nBackorder: Place an order for the full quantity, even if it is not available. (No effect on PX)">
+      :tooltip="`The method for placing orders.\nFull: Only purchase if the full quantity is available.\nPartial: Only purchase the quantity available.\nBackorder: Place an order for the full quantity, even if it is not available.`"
+      :class="$style.multilineTooltip">
       <SelectInput
         v-model="config.orderMode"
-        :options="OrderModes.filter(x => x !== configurableValue)" />
+        :options="OrderModes.filter(x => x.value !== configurableValue)" />
     </Active>
     <Active
       v-if="config.contLocation && contLocationIsCX(config.contLocation) && !config.skip"
@@ -62,3 +63,8 @@ config.skip ??= false;
     </Passive>
   </form>
 </template>
+<style module>
+.multilineTooltip {
+  white-space: pre;
+}
+</style>

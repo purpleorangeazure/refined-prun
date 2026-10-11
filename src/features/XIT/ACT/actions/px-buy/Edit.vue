@@ -81,16 +81,15 @@ async function validatePX(): Promise<boolean> {
   }
   try {
     const res = await fetch(parsedUrl);
-    try {
-      const text = await res.text();
-      const orders = parseCSVToOrders(text);
-      pxState.value = 'VALID';
-      fetchedOrders.value = orders.length;
-      return true;
-    } catch {
+    const text = await res.text();
+    const orders = parseCSVToOrders(text);
+    if (orders === undefined) {
       pxState.value = 'INVALID';
       return false;
     }
+    pxState.value = 'VALID';
+    fetchedOrders.value = orders.length;
+    return true;
   } catch {
     pxState.value = 'INVALID';
     return false;
@@ -154,9 +153,6 @@ defineExpose({ validate, save, validatePX });
   <Commands label="Price Limits">
     <PrunButton primary @click="onEditPriceLimitsClick">EDIT</PrunButton>
   </Commands>
-  <Active label="Location">
-    <SelectInput v-model="contLocation" :options="locationOptions" />
-  </Active>
   <Active
     label="Exchange URL"
     tooltip="Link to the CSV of private exchange offers formatted as [Username, Ticker, Quantity, Price]."
@@ -173,6 +169,9 @@ defineExpose({ validate, save, validatePX });
       >{{ pxState == 'VALID' && fetchedOrders ? `${fetchedOrders} Orders` : 'TEST' }}</PrunButton
     ></Commands
   >
+  <Active label="Location">
+    <SelectInput v-model="contLocation" :options="locationOptions" />
+  </Active>
   <Active
     label="Use Inventory"
     tooltip="Whether to use stock when calculating how much needs to be bought.">
@@ -183,7 +182,8 @@ defineExpose({ validate, save, validatePX });
   </Active>
   <Active
     label="Order Mode"
-    tooltip="The method for placing orders.\nFull: Only purchase if the full quantity is available.\nPartial: Only purchase the quantity available.\nBackorder: Place an order for the full quantity, even if it is not available.">
+    :tooltip="`The method for placing orders.\nFull: Only purchase if the full quantity is available.\nPartial: Only purchase the quantity available.\nBackorder: Place an order for the full quantity, even if it is not available.`"
+    :class="$style.multilineTooltip">
     <SelectInput v-model="orderMode" :options="OrderModes" />
   </Active>
   <Active
@@ -199,3 +199,8 @@ defineExpose({ validate, save, validatePX });
     <NumericInput v-model="daysToFulfill" :min="minContractDays" :max="maxContractDays" :step="1" />
   </Active>
 </template>
+<style module>
+.multilineTooltip {
+  white-space: pre;
+}
+</style>
