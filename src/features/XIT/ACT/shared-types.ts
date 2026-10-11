@@ -36,7 +36,12 @@ export interface ActionStepGenerateContext<TConfig>
   emitStep: (step: ActionStep) => void;
   state: {
     WAR: {
-      [exchange: string]: {
+      [location: string]: {
+        [mat: string]: number;
+      };
+    };
+    BS: {
+      [location: string]: {
         [mat: string]: number;
       };
     };

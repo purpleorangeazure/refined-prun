@@ -157,6 +157,7 @@ export class StepGenerator {
 
 function generateState() {
   const war = {} as Record<string, Record<string, number>>;
+  const bs = {} as Record<string, Record<string, number>>;
   for (const ticker of ['AI1', 'CI1', 'CI2', 'IC1', 'NC1', 'NC2']) {
     war[ticker] = {};
     const naturalId = exchangesStore.getNaturalIdFromCode(ticker);
@@ -174,6 +175,7 @@ function generateState() {
   }
   return {
     WAR: war,
+    BS: bs,
     reservedAgentIds: new Set<string>(),
   };
 }
