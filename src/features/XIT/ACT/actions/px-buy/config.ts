@@ -1,7 +1,6 @@
 export interface Config {
-  exchangeName?: string;
-  exchangeUrl?: string;
-  ignoreStock?: boolean;
-  fallbackCx?: string;
+  fallbackToCX?: boolean;
+  contLocation?: string;
   skip?: boolean;
+  orderMode: UserData.ActionData['orderMode'];
 }

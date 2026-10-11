@@ -70,7 +70,14 @@ declare namespace UserData {
     materialFilter?: 'All' | 'Workforce' | 'Production';
   }
 
-  type ActionType = 'CX Buy' | 'MTRA' | 'Refuel' | 'CONT Ship' | 'CONT Trade' | 'GovBurn Data';
+  type ActionType =
+    | 'CX Buy'
+    | 'PX Buy'
+    | 'MTRA'
+    | 'Refuel'
+    | 'CONT Ship'
+    | 'CONT Trade'
+    | 'GovBurn Data';
 
   interface ActionData {
     type: ActionType;
@@ -118,6 +125,13 @@ declare namespace UserData {
     // CONT Trade specific.
     contTradeType?: 'BUYING' | 'SELLING';
     contLocation?: string;
+
+    // PX Buy specific.
+    exchangeUrl?: string;
+    fallbackToCX?: boolean;
+    useInv?: boolean;
+    ignoreStock?: boolean;
+    orderMode?: 'Configure on Execution' | 'full' | 'partial' | 'backorder';
   }
 
   interface TaskList {

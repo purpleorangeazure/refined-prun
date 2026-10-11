@@ -3,6 +3,7 @@ import './actions/cont-trade/cont-trade';
 import './actions/cx-buy/cx-buy';
 import './actions/mtra/mtra';
 import './actions/refuel/refuel';
+import './actions/px-buy/px-buy';
 
 import './material-groups/manual/manual';
 import './material-groups/paste/paste';

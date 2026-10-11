@@ -3,44 +3,34 @@ import Active from '@src/components/forms/Active.vue';
 import SelectInput from '@src/components/forms/SelectInput.vue';
 import RadioItem from '@src/components/forms/RadioItem.vue';
 import { Config } from '@src/features/XIT/ACT/actions/px-buy/config';
-import TextInput from '@src/components/forms/TextInput.vue';
-import { parse } from 'csv-parse/sync';
-import PrunButton from '@src/components/PrunButton.vue';
+import { configurableValue } from '@src/features/XIT/ACT/shared-types';
+import {
+  displayLocationValue,
+  useContLocations,
+} from '@src/features/XIT/ACT/actions/cont-locations';
+import Passive from '@src/components/forms/Passive.vue';
+import { contLocationIsCX, OrderModes } from '@src/features/XIT/ACT/actions/px-buy/utils';
 
 const { data, config } = defineProps<{ data: UserData.ActionData; config: Config }>();
 
-const fallbackOptions = [{ label: 'OFF', value: '' }, 'AI1', 'CI1', 'IC1', 'NC1', 'CI2', 'NC2'];
+const locations = useContLocations();
+
+if (data.contLocation === configurableValue && !config.contLocation && locations.value.length > 0) {
+  config.contLocation = locations.value[0];
+}
+
+watchEffect(() => {
+  if (data.contLocation === configurableValue) {
+    if (config.contLocation && !locations.value.includes(config.contLocation)) {
+      config.contLocation = undefined;
+    }
+    if (!config.contLocation && locations.value.length === 1) {
+      config.contLocation = locations.value[0];
+    }
+  }
+});
 
 config.skip ??= false;
-config.exchangeName ??= '';
-config.exchangeUrl ??= '';
-config.ignoreStock ??= false;
-config.fallbackCx ??= '';
-
-const pxState = ref<'UNKNOWN' | 'VALIDATING' | 'INVALID' | 'VALID'>('UNKNOWN');
-
-const testPx = async (url: string): Promise<undefined | number> => {
-  pxState.value = 'VALIDATING';
-  const res = await fetch(url);
-  try {
-    const text = await res.text();
-    const rows = parse(text, {
-      columns: false,
-      skipRecordsWithError: true,
-      skipEmptyLines: true,
-      skipRecordsWithEmptyValues: true,
-    });
-    if (rows.every(x => x.length == 4)) {
-      pxState.value = 'VALID';
-      return rows.length;
-    }
-  } catch {
-    pxState.value = 'INVALID';
-    return undefined;
-  }
-  pxState.value = 'INVALID';
-  return undefined;
-};
 </script>
 
 <template>
@@ -52,32 +42,23 @@ const testPx = async (url: string): Promise<undefined | number> => {
       <RadioItem v-model="config.skip">skip px buy</RadioItem>
     </Active>
     <Active
-      v-if="!config.skip"
-      label="Private Exchange Name"
-      tooltip="A custom name to identify the PX.">
-      <TextInput v-model="config.exchangeName" />
+      label="Order Mode"
+      tooltip="The method for placing orders.\nFull: Only purchase if the full quantity is available.\nPartial: Only purchase the quantity available.\nBackorder: Place an order for the full quantity, even if it is not available. (No effect on PX)">
+      <SelectInput
+        v-model="config.orderMode"
+        :options="OrderModes.filter(x => x !== configurableValue)" />
     </Active>
     <Active
-      v-if="!config.skip"
-      label="Private Exchange URL"
-      tooltip="A csv file that contains PX sell offers as [Username, Ticker, Quantity, Price]."
-      :error="pxState === 'INVALID'">
-      <TextInput v-model="config.exchangeUrl" @change="pxState = 'UNKNOWN'" />
-      <PrunButton :disabled="!config.exchangeUrl" @click="testPx(config.exchangeUrl!)"
-        >TEST</PrunButton
-      >
+      v-if="config.contLocation && contLocationIsCX(config.contLocation) && !config.skip"
+      label="Fallback to CX"
+      tooltip="Whether to use the CX when the PX is insufficient.">
+      <RadioItem v-model="config.fallbackToCX">fallback to cx</RadioItem>
     </Active>
-    <Active
-      v-if="!config.skip"
-      label="Ignore PX Stock"
-      tooltip="Whether to send purchase contracts regardless of a merchant's posted stock.">
-      <RadioItem v-model="config.ignoreStock">ignore px stock</RadioItem>
+    <Active v-if="data.contLocation === configurableValue && !config.skip" label="Location">
+      <SelectInput v-model="config.contLocation" :options="locations" />
     </Active>
-    <Active
-      v-if="!config.skip"
-      label="Fallback CX"
-      tooltip="CX to use for purchasing materials not available on the PX">
-      <SelectInput v-model="config.fallbackCx" :options="fallbackOptions" />
-    </Active>
+    <Passive v-else-if="!config.skip" label="Location">
+      <span>{{ displayLocationValue(data.contLocation) }}</span>
+    </Passive>
   </form>
 </template>
